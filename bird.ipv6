@@ -7146,6 +7146,25 @@ roa table roa {
   roa 2404:3c00:a000::/36 max 44 as 23944; # apnic
   roa 2404:3c00:b000::/36 max 44 as 23944; # apnic
   roa 2404:3c00:c000::/36 max 44 as 23944; # apnic
+  roa 2401:ee00::/32 max 32 as 23951; # apnic
+  roa 2401:ee00:e0::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:101::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:102::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:103::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:104::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:120::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:130::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:132::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:200::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:201::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:230::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:300::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:400::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:500::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:700::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:b2b::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:1040::/48 max 48 as 23951; # apnic
+  roa 2401:ee00:2010::/48 max 48 as 23951; # apnic
   roa 2405:ec00::/32 max 32 as 23955; # apnic
   roa 2405:ec00:2::/48 max 48 as 23955; # apnic
   roa 2405:ec00:3::/48 max 48 as 23955; # apnic
@@ -17173,6 +17192,7 @@ roa table roa {
   roa 2a02:d58:200a::/48 max 48 as 64520; # ripe
   roa 2607:fd78:902::/48 max 48 as 65001; # arin
   roa 2001:e68:2001:1::/64 max 64 as 65530; # apnic
+  roa 2605:9cc0:383::/48 max 48 as 65530; # arin
   roa 2605:9cc0:384::/48 max 48 as 65530; # arin
   roa 2001:718:ffff::/48 max 48 as 65533; # ripe
   roa 2001:67c:2b5c::/48 max 48 as 65535; # ripe
@@ -19257,7 +19277,6 @@ roa table roa {
   roa 2001:df1:c700::/48 max 48 as 136786; # apnic
   roa 2001:df1:c701::/48 max 48 as 136786; # apnic
   roa 2001:df0:3b00::/48 max 48 as 136807; # apnic
-  roa 2001:df2:2100::/48 max 48 as 136821; # apnic
   roa 2001:df0:f500::/48 max 48 as 136825; # apnic
   roa 2001:df2:6f00::/48 max 48 as 136835; # apnic
   roa 2401:bfc0::/32 max 32 as 136840; # apnic
