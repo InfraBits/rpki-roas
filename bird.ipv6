@@ -1262,6 +1262,7 @@ roa table roa {
   roa 2402:7800:ff40::/44 max 44 as 4826; # apnic
   roa 2402:7800:ffe0::/48 max 48 as 4826; # apnic
   roa 2403:d600::/32 max 32 as 4826; # apnic
+  roa 2404:600::/32 max 48 as 4833; # apnic
   roa 2404:7ac0:500::/40 max 40 as 4842; # apnic
   roa 2404:7ac0:660::/44 max 44 as 4842; # apnic
   roa 2406:840:f990::/44 max 48 as 4842; # apnic
@@ -17193,7 +17194,7 @@ roa table roa {
   roa 2a02:d58:200a::/48 max 48 as 64520; # ripe
   roa 2607:fd78:902::/48 max 48 as 65001; # arin
   roa 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  roa 2605:9cc0:383::/48 max 48 as 65530; # arin
+  roa 2605:9cc0:384::/48 max 48 as 65530; # arin
   roa 2001:718:ffff::/48 max 48 as 65533; # ripe
   roa 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   roa 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -18854,6 +18855,7 @@ roa table roa {
   roa 2405:2cc0:600d::/48 max 48 as 136079; # apnic
   roa 2405:2cc0:600e::/48 max 48 as 136079; # apnic
   roa 2405:2cc0:600f::/48 max 48 as 136079; # apnic
+  roa 2405:2cc0:6010::/48 max 48 as 136079; # apnic
   roa 2400:d940:10::/48 max 48 as 136088; # apnic
   roa 2400:d940:20::/48 max 48 as 136088; # apnic
   roa 2400:d940:30::/48 max 48 as 136088; # apnic
@@ -19472,6 +19474,7 @@ roa table roa {
   roa 2001:df3:ff00::/48 max 48 as 137301; # apnic
   roa 2402:6ac0::/33 max 33 as 137306; # apnic
   roa 2001:df4:8b00::/48 max 48 as 137325; # apnic
+  roa 2001:df4:b100::/48 max 48 as 137331; # apnic
   roa 2001:df4:f300::/48 max 48 as 137349; # apnic
   roa 2001:df5:2500::/48 max 48 as 137356; # apnic
   roa 2001:df5:7b00::/48 max 48 as 137368; # apnic
@@ -20287,6 +20290,8 @@ roa table roa {
   roa 2001:df2:c880::/48 max 48 as 140416; # apnic
   roa 2001:df2:c980::/48 max 48 as 140421; # apnic
   roa 2001:df4:2680::/48 max 48 as 140440; # apnic
+  roa 2001:df3:fd80::/48 max 48 as 140442; # apnic
+  roa 2001:df4:3680::/48 max 48 as 140456; # apnic
   roa 2406:44c0::/32 max 48 as 140462; # apnic
   roa 2001:df4:4980::/48 max 48 as 140463; # apnic
   roa 2404:f4c0:f540::/44 max 48 as 140498; # apnic
