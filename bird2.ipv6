@@ -5823,6 +5823,7 @@ protocol static roas6 {
   route 2407:5000:88::/48 max 48 as 17494; # apnic
   route 2400:1a00::/32 max 48 as 17501; # apnic
   route 2407:6200::/32 max 48 as 17501; # apnic
+  route 2001:df3:b980::/48 max 48 as 17538; # apnic
   route 2001:fc0::/32 max 32 as 17547; # apnic
   route 2001:fc0:480f::/48 max 48 as 17547; # apnic
   route 2401:3d00::/28 max 28 as 17547; # apnic
@@ -7424,6 +7425,7 @@ protocol static roas6 {
   route 2402:1200::/32 max 32 as 24523; # apnic
   route 2402:1200::/32 max 48 as 24523; # apnic
   route 2405:6c40::/32 max 48 as 24527; # apnic
+  route 2403:2e00::/32 max 48 as 24532; # apnic
   route 2400:9700::/32 max 32 as 24550; # apnic
   route 2400:9700:5::/48 max 48 as 24550; # apnic
   route 2400:9700:100::/44 max 44 as 24550; # apnic
@@ -17074,7 +17076,6 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  route 2605:9cc0:383::/48 max 48 as 65530; # arin
   route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
@@ -17299,6 +17300,7 @@ protocol static roas6 {
   route 2406:4b00::/32 max 32 as 132602; # apnic
   route 2001:df0:3000::/48 max 48 as 132615; # apnic
   route 2405:85c0::/32 max 32 as 132622; # apnic
+  route 2405:3dc0::/32 max 48 as 132642; # apnic
   route 2403:ba00:2000::/40 max 40 as 132651; # apnic
   route 2406:eb00::/32 max 48 as 132653; # apnic
   route 2001:df3:2c80::/48 max 48 as 132670; # apnic
@@ -19347,6 +19349,8 @@ protocol static roas6 {
   route 2401:f9c0:2700::/40 max 40 as 137268; # apnic
   route 2001:df3:ad00::/48 max 48 as 137275; # apnic
   route 2001:df3:ff00::/48 max 48 as 137301; # apnic
+  route 2001:df4:8b00::/48 max 48 as 137325; # apnic
+  route 2001:df4:f300::/48 max 48 as 137349; # apnic
   route 2001:df5:2500::/48 max 48 as 137356; # apnic
   route 2001:df5:7b00::/48 max 48 as 137368; # apnic
   route 2001:df5:bf00::/48 max 48 as 137372; # apnic
