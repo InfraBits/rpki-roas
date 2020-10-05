@@ -12190,7 +12190,6 @@ protocol static roas6 {
   route 2001:df2:7d00::/48 max 48 as 45780; # apnic
   route 2001:44c8:2000::/36 max 48 as 45781; # apnic
   route 2001:44c8:3000::/36 max 48 as 45781; # apnic
-  route 2001:df0:cb::/48 max 48 as 45786; # apnic
   route 2404:138:1301::/48 max 48 as 45787; # apnic
   route 2001:df7:6000::/48 max 48 as 45820; # apnic
   route 2401:f040::/32 max 32 as 45828; # apnic
@@ -17207,6 +17206,7 @@ protocol static roas6 {
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
   route 2605:9cc0:357::/48 max 48 as 65530; # arin
+  route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -18121,7 +18121,6 @@ protocol static roas6 {
   route 2405:8180::/32 max 48 as 135478; # apnic
   route 2405:8180::/48 max 48 as 135478; # apnic
   route 2001:df5:9600::/48 max 48 as 135480; # apnic
-  route 2407:9c80::/32 max 48 as 135484; # apnic
   route 2001:df5:fb00::/48 max 48 as 135495; # apnic
   route 2400:f8c0::/32 max 36 as 135517; # apnic
   route 2405:ac80::/32 max 36 as 135524; # apnic
@@ -23906,6 +23905,7 @@ protocol static roas6 {
   route 2a09:4c2:4e::/48 max 48 as 212805; # ripe
   route 2a10:4740::/29 max 29 as 212806; # ripe
   route 2a10:4740:40::/42 max 42 as 212806; # ripe
+  route 2a10:2680::/29 max 29 as 212813; # ripe
   route 2a0e:8f02:f00a::/48 max 48 as 212816; # ripe
   route 2a0b:b87:ffbb::/48 max 48 as 212831; # ripe
   route 2a0c:b641:5f0::/44 max 48 as 212832; # ripe
@@ -24877,6 +24877,7 @@ protocol static roas6 {
   route 2801:80:22e0::/48 max 64 as 267086; # lacnic
   route 2804:4890::/32 max 32 as 267129; # lacnic
   route 2804:4974::/32 max 48 as 267185; # lacnic
+  route 2804:4a34::/32 max 48 as 267224; # lacnic
   route 2804:4a64::/32 max 48 as 267237; # lacnic
   route 2804:4af0::/32 max 48 as 267273; # lacnic
   route 2804:4b00::/32 max 34 as 267277; # lacnic
