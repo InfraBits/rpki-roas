@@ -9839,11 +9839,6 @@ protocol static roas6 {
   route 2405:4000:a00::/40 max 40 as 38082; # apnic
   route 2405:4000:aaa::/48 max 48 as 38082; # apnic
   route 2402:6c40::/32 max 32 as 38084; # apnic
-  route 2405:a540::/32 max 48 as 38156; # apnic
-  route 2405:a540:1001::/48 max 48 as 38156; # apnic
-  route 2405:a540:1002::/48 max 48 as 38156; # apnic
-  route 2405:a540:1003::/48 max 48 as 38156; # apnic
-  route 2405:a540:1008::/48 max 48 as 38156; # apnic
   route 2402:9800::/32 max 32 as 38158; # apnic
   route 2405:1400::/34 max 34 as 38176; # apnic
   route 2405:1400:4000::/34 max 34 as 38176; # apnic
@@ -14945,9 +14940,6 @@ protocol static roas6 {
   route 2401:0:6f00::/40 max 40 as 58470; # apnic
   route 2404:3100::/32 max 32 as 58470; # apnic
   route 2402:df80::/32 max 32 as 58473; # apnic
-  route 2405:1e40::/32 max 48 as 58475; # apnic
-  route 2405:1e40::/48 max 48 as 58475; # apnic
-  route 2405:1e40:1::/48 max 48 as 58475; # apnic
   route 2406:b700::/32 max 32 as 58504; # apnic
   route 2001:df0:27a::/48 max 48 as 58511; # apnic
   route 2400:8280::/32 max 48 as 58511; # apnic
@@ -17091,7 +17083,6 @@ protocol static roas6 {
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
   route 2605:9cc0:383::/48 max 48 as 65530; # arin
-  route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -19181,7 +19172,6 @@ protocol static roas6 {
   route 2001:df0:f500::/48 max 48 as 136825; # apnic
   route 2405:bc0::/32 max 48 as 136842; # apnic
   route 2001:df2:9100::/48 max 48 as 136843; # apnic
-  route 2402:2a40::/32 max 32 as 136873; # apnic
   route 2001:df4:c500::/48 max 48 as 136900; # apnic
   route 2001:df1:4080::/48 max 48 as 136902; # apnic
   route 2001:df2:1f00::/48 max 48 as 136902; # apnic
@@ -19849,7 +19839,6 @@ protocol static roas6 {
   route 2001:df1:9980::/48 max 48 as 138770; # apnic
   route 2404:6d40::/32 max 32 as 138810; # apnic
   route 2001:df0:a80::/48 max 48 as 138816; # apnic
-  route 2001:df0:b280::/48 max 48 as 138873; # apnic
   route 2001:df0:e180::/48 max 48 as 138880; # apnic
   route 2405:c40::/32 max 32 as 138887; # apnic
   route 2001:df0:f80::/48 max 48 as 138904; # apnic
