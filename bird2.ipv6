@@ -1633,6 +1633,7 @@ protocol static roas6 {
   route 2404:4740::/32 max 32 as 6939; # apnic
   route 2404:bb40::/32 max 32 as 6939; # apnic
   route 2405:8700:3000::/48 max 48 as 6939; # apnic
+  route 2406:60c0::/32 max 32 as 6939; # apnic
   route 2600:7000::/24 max 48 as 6939; # arin
   route 2604:4f00::/32 max 48 as 6939; # arin
   route 2a00:9b40:100::/40 max 40 as 6939; # ripe
@@ -17067,6 +17068,8 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
+  route 2605:9cc0:383::/48 max 48 as 65530; # arin
+  route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -19145,126 +19148,617 @@ protocol static roas6 {
   route 2001:df4:4500::/48 max 48 as 137108; # apnic
   route 2001:df4:1580::/48 max 48 as 137146; # apnic
   route 2001:df4:7700::/46 max 48 as 137176; # apnic
+  route 2406:60c0::/36 max 36 as 137182; # apnic
   route 2406:60c0::/39 max 40 as 137182; # apnic
+  route 2406:60c0::/41 max 47 as 137182; # apnic
+  route 2406:60c0:80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:100::/41 max 47 as 137182; # apnic
+  route 2406:60c0:180::/41 max 47 as 137182; # apnic
   route 2406:60c0:200::/39 max 40 as 137182; # apnic
+  route 2406:60c0:200::/41 max 47 as 137182; # apnic
+  route 2406:60c0:280::/41 max 47 as 137182; # apnic
+  route 2406:60c0:300::/41 max 47 as 137182; # apnic
+  route 2406:60c0:380::/41 max 47 as 137182; # apnic
   route 2406:60c0:400::/39 max 40 as 137182; # apnic
+  route 2406:60c0:400::/41 max 47 as 137182; # apnic
+  route 2406:60c0:480::/41 max 47 as 137182; # apnic
+  route 2406:60c0:500::/41 max 47 as 137182; # apnic
+  route 2406:60c0:580::/41 max 47 as 137182; # apnic
   route 2406:60c0:600::/39 max 40 as 137182; # apnic
+  route 2406:60c0:600::/41 max 47 as 137182; # apnic
+  route 2406:60c0:680::/41 max 47 as 137182; # apnic
+  route 2406:60c0:700::/41 max 47 as 137182; # apnic
+  route 2406:60c0:780::/41 max 47 as 137182; # apnic
   route 2406:60c0:800::/39 max 40 as 137182; # apnic
+  route 2406:60c0:800::/41 max 47 as 137182; # apnic
+  route 2406:60c0:880::/41 max 47 as 137182; # apnic
+  route 2406:60c0:900::/41 max 47 as 137182; # apnic
+  route 2406:60c0:980::/41 max 47 as 137182; # apnic
   route 2406:60c0:a00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:a00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b80::/41 max 47 as 137182; # apnic
   route 2406:60c0:c00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:c00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d80::/41 max 47 as 137182; # apnic
   route 2406:60c0:e00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:e00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:f00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:f80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1000::/36 max 36 as 137182; # apnic
   route 2406:60c0:1000::/39 max 40 as 137182; # apnic
+  route 2406:60c0:1000::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1080::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1100::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1180::/41 max 47 as 137182; # apnic
   route 2406:60c0:1200::/39 max 40 as 137182; # apnic
+  route 2406:60c0:1200::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1280::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1300::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1380::/41 max 47 as 137182; # apnic
   route 2406:60c0:1400::/39 max 40 as 137182; # apnic
+  route 2406:60c0:1400::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1480::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1500::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1580::/41 max 47 as 137182; # apnic
   route 2406:60c0:1600::/39 max 40 as 137182; # apnic
+  route 2406:60c0:1600::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1680::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1700::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1780::/41 max 47 as 137182; # apnic
   route 2406:60c0:1800::/39 max 40 as 137182; # apnic
+  route 2406:60c0:1800::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1880::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1900::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1980::/41 max 47 as 137182; # apnic
   route 2406:60c0:1a00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:1a00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1a80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1b00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1b80::/41 max 47 as 137182; # apnic
   route 2406:60c0:1c00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:1c00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1c80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1d00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1d80::/41 max 47 as 137182; # apnic
   route 2406:60c0:1e00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:1e00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1e80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1f00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:1f80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2000::/36 max 36 as 137182; # apnic
   route 2406:60c0:2000::/39 max 40 as 137182; # apnic
+  route 2406:60c0:2000::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2080::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2100::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2180::/41 max 47 as 137182; # apnic
   route 2406:60c0:2200::/39 max 40 as 137182; # apnic
+  route 2406:60c0:2200::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2280::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2300::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2380::/41 max 47 as 137182; # apnic
   route 2406:60c0:2400::/39 max 40 as 137182; # apnic
+  route 2406:60c0:2400::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2480::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2500::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2580::/41 max 47 as 137182; # apnic
   route 2406:60c0:2600::/39 max 40 as 137182; # apnic
+  route 2406:60c0:2600::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2680::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2700::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2780::/41 max 47 as 137182; # apnic
   route 2406:60c0:2800::/39 max 40 as 137182; # apnic
+  route 2406:60c0:2800::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2880::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2900::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2980::/41 max 47 as 137182; # apnic
   route 2406:60c0:2a00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:2a00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2a80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2b00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2b80::/41 max 47 as 137182; # apnic
   route 2406:60c0:2c00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:2c00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2c80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2d00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2d80::/41 max 47 as 137182; # apnic
   route 2406:60c0:2e00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:2e00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2e80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2f00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:2f80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3000::/36 max 36 as 137182; # apnic
   route 2406:60c0:3000::/39 max 40 as 137182; # apnic
+  route 2406:60c0:3000::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3080::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3100::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3180::/41 max 47 as 137182; # apnic
   route 2406:60c0:3200::/39 max 40 as 137182; # apnic
+  route 2406:60c0:3200::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3280::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3300::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3380::/41 max 47 as 137182; # apnic
   route 2406:60c0:3400::/39 max 40 as 137182; # apnic
+  route 2406:60c0:3400::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3480::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3500::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3580::/41 max 47 as 137182; # apnic
   route 2406:60c0:3600::/39 max 40 as 137182; # apnic
+  route 2406:60c0:3600::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3680::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3700::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3780::/41 max 47 as 137182; # apnic
   route 2406:60c0:3800::/39 max 40 as 137182; # apnic
+  route 2406:60c0:3800::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3880::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3900::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3980::/41 max 47 as 137182; # apnic
   route 2406:60c0:3a00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:3a00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3a80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3b00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3b80::/41 max 47 as 137182; # apnic
   route 2406:60c0:3c00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:3c00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3c80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3d00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3d80::/41 max 47 as 137182; # apnic
   route 2406:60c0:3e00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:3e00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3e80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3f00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:3f80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4000::/36 max 36 as 137182; # apnic
   route 2406:60c0:4000::/39 max 40 as 137182; # apnic
+  route 2406:60c0:4000::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4080::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4100::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4180::/41 max 47 as 137182; # apnic
   route 2406:60c0:4200::/39 max 40 as 137182; # apnic
+  route 2406:60c0:4200::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4280::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4300::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4380::/41 max 47 as 137182; # apnic
   route 2406:60c0:4400::/39 max 40 as 137182; # apnic
+  route 2406:60c0:4400::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4480::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4500::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4580::/41 max 47 as 137182; # apnic
   route 2406:60c0:4600::/39 max 40 as 137182; # apnic
+  route 2406:60c0:4600::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4680::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4700::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4780::/41 max 47 as 137182; # apnic
   route 2406:60c0:4800::/39 max 40 as 137182; # apnic
+  route 2406:60c0:4800::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4880::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4900::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4980::/41 max 47 as 137182; # apnic
   route 2406:60c0:4a00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:4a00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4a80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4b00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4b80::/41 max 47 as 137182; # apnic
   route 2406:60c0:4c00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:4c00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4c80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4d00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4d80::/41 max 47 as 137182; # apnic
   route 2406:60c0:4e00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:4e00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4e80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4f00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:4f80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5000::/36 max 36 as 137182; # apnic
   route 2406:60c0:5000::/39 max 40 as 137182; # apnic
+  route 2406:60c0:5000::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5080::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5100::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5180::/41 max 47 as 137182; # apnic
   route 2406:60c0:5200::/39 max 40 as 137182; # apnic
+  route 2406:60c0:5200::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5280::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5300::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5380::/41 max 47 as 137182; # apnic
   route 2406:60c0:5400::/39 max 40 as 137182; # apnic
+  route 2406:60c0:5400::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5480::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5500::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5580::/41 max 47 as 137182; # apnic
   route 2406:60c0:5600::/39 max 40 as 137182; # apnic
+  route 2406:60c0:5600::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5680::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5700::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5780::/41 max 47 as 137182; # apnic
   route 2406:60c0:5800::/39 max 40 as 137182; # apnic
+  route 2406:60c0:5800::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5880::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5900::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5980::/41 max 47 as 137182; # apnic
   route 2406:60c0:5a00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:5a00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5a80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5b00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5b80::/41 max 47 as 137182; # apnic
   route 2406:60c0:5c00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:5c00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5c80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5d00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5d80::/41 max 47 as 137182; # apnic
   route 2406:60c0:5e00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:5e00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5e80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5f00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:5f80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6000::/36 max 36 as 137182; # apnic
   route 2406:60c0:6000::/39 max 40 as 137182; # apnic
+  route 2406:60c0:6000::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6080::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6100::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6180::/41 max 47 as 137182; # apnic
   route 2406:60c0:6200::/39 max 40 as 137182; # apnic
+  route 2406:60c0:6200::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6280::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6300::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6380::/41 max 47 as 137182; # apnic
   route 2406:60c0:6400::/39 max 40 as 137182; # apnic
+  route 2406:60c0:6400::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6480::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6500::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6580::/41 max 47 as 137182; # apnic
   route 2406:60c0:6600::/39 max 40 as 137182; # apnic
+  route 2406:60c0:6600::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6680::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6700::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6780::/41 max 47 as 137182; # apnic
   route 2406:60c0:6800::/39 max 40 as 137182; # apnic
+  route 2406:60c0:6800::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6880::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6900::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6980::/41 max 47 as 137182; # apnic
   route 2406:60c0:6a00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:6a00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6a80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6b00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6b80::/41 max 47 as 137182; # apnic
   route 2406:60c0:6c00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:6c00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6c80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6d00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6d80::/41 max 47 as 137182; # apnic
   route 2406:60c0:6e00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:6e00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6e80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6f00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:6f80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7000::/36 max 36 as 137182; # apnic
   route 2406:60c0:7000::/39 max 40 as 137182; # apnic
+  route 2406:60c0:7000::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7080::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7100::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7180::/41 max 47 as 137182; # apnic
   route 2406:60c0:7200::/39 max 40 as 137182; # apnic
+  route 2406:60c0:7200::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7280::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7300::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7380::/41 max 47 as 137182; # apnic
   route 2406:60c0:7400::/39 max 40 as 137182; # apnic
+  route 2406:60c0:7400::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7480::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7500::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7580::/41 max 47 as 137182; # apnic
   route 2406:60c0:7600::/39 max 40 as 137182; # apnic
+  route 2406:60c0:7600::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7680::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7700::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7780::/41 max 47 as 137182; # apnic
   route 2406:60c0:7800::/39 max 40 as 137182; # apnic
+  route 2406:60c0:7800::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7880::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7900::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7980::/41 max 47 as 137182; # apnic
   route 2406:60c0:7a00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:7a00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7a80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7b00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7b80::/41 max 47 as 137182; # apnic
   route 2406:60c0:7c00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:7c00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7c80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7d00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7d80::/41 max 47 as 137182; # apnic
   route 2406:60c0:7e00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:7e00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7e80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7f00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:7f80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8000::/36 max 36 as 137182; # apnic
   route 2406:60c0:8000::/39 max 40 as 137182; # apnic
+  route 2406:60c0:8000::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8080::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8100::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8180::/41 max 47 as 137182; # apnic
   route 2406:60c0:8200::/39 max 40 as 137182; # apnic
+  route 2406:60c0:8200::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8280::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8300::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8380::/41 max 47 as 137182; # apnic
   route 2406:60c0:8400::/39 max 40 as 137182; # apnic
+  route 2406:60c0:8400::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8480::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8500::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8580::/41 max 47 as 137182; # apnic
   route 2406:60c0:8600::/39 max 40 as 137182; # apnic
+  route 2406:60c0:8600::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8680::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8700::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8780::/41 max 47 as 137182; # apnic
   route 2406:60c0:8800::/39 max 40 as 137182; # apnic
+  route 2406:60c0:8800::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8880::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8900::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8980::/41 max 47 as 137182; # apnic
   route 2406:60c0:8a00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:8a00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8a80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8b00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8b80::/41 max 47 as 137182; # apnic
   route 2406:60c0:8c00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:8c00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8c80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8d00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8d80::/41 max 47 as 137182; # apnic
   route 2406:60c0:8e00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:8e00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8e80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8f00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:8f80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9000::/36 max 36 as 137182; # apnic
   route 2406:60c0:9000::/39 max 40 as 137182; # apnic
+  route 2406:60c0:9000::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9080::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9100::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9180::/41 max 47 as 137182; # apnic
   route 2406:60c0:9200::/39 max 40 as 137182; # apnic
+  route 2406:60c0:9200::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9280::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9300::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9380::/41 max 47 as 137182; # apnic
   route 2406:60c0:9400::/39 max 40 as 137182; # apnic
+  route 2406:60c0:9400::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9480::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9500::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9580::/41 max 47 as 137182; # apnic
   route 2406:60c0:9600::/39 max 40 as 137182; # apnic
+  route 2406:60c0:9600::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9680::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9700::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9780::/41 max 47 as 137182; # apnic
   route 2406:60c0:9800::/39 max 40 as 137182; # apnic
+  route 2406:60c0:9800::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9880::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9900::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9980::/41 max 47 as 137182; # apnic
   route 2406:60c0:9a00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:9a00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9a80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9b00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9b80::/41 max 47 as 137182; # apnic
   route 2406:60c0:9c00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:9c00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9c80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9d00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9d80::/41 max 47 as 137182; # apnic
   route 2406:60c0:9e00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:9e00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9e80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9f00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:9f80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a000::/36 max 36 as 137182; # apnic
   route 2406:60c0:a000::/39 max 40 as 137182; # apnic
+  route 2406:60c0:a000::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a080::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a100::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a180::/41 max 47 as 137182; # apnic
   route 2406:60c0:a200::/39 max 40 as 137182; # apnic
+  route 2406:60c0:a200::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a280::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a300::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a380::/41 max 47 as 137182; # apnic
   route 2406:60c0:a400::/39 max 40 as 137182; # apnic
+  route 2406:60c0:a400::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a480::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a500::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a580::/41 max 47 as 137182; # apnic
   route 2406:60c0:a600::/39 max 40 as 137182; # apnic
+  route 2406:60c0:a600::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a680::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a700::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a780::/41 max 47 as 137182; # apnic
   route 2406:60c0:a800::/39 max 40 as 137182; # apnic
+  route 2406:60c0:a800::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a880::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a900::/41 max 47 as 137182; # apnic
+  route 2406:60c0:a980::/41 max 47 as 137182; # apnic
   route 2406:60c0:aa00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:aa00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:aa80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:ab00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:ab80::/41 max 47 as 137182; # apnic
   route 2406:60c0:ac00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:ac00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:ac80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:ad00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:ad80::/41 max 47 as 137182; # apnic
   route 2406:60c0:ae00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:ae00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:ae80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:af00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:af80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b000::/36 max 36 as 137182; # apnic
   route 2406:60c0:b000::/39 max 40 as 137182; # apnic
+  route 2406:60c0:b000::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b080::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b100::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b180::/41 max 47 as 137182; # apnic
   route 2406:60c0:b200::/39 max 40 as 137182; # apnic
+  route 2406:60c0:b200::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b280::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b300::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b380::/41 max 47 as 137182; # apnic
   route 2406:60c0:b400::/39 max 40 as 137182; # apnic
+  route 2406:60c0:b400::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b480::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b500::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b580::/41 max 47 as 137182; # apnic
   route 2406:60c0:b600::/39 max 40 as 137182; # apnic
+  route 2406:60c0:b600::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b680::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b700::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b780::/41 max 47 as 137182; # apnic
   route 2406:60c0:b800::/39 max 40 as 137182; # apnic
+  route 2406:60c0:b800::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b880::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b900::/41 max 47 as 137182; # apnic
+  route 2406:60c0:b980::/41 max 47 as 137182; # apnic
   route 2406:60c0:ba00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:ba00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:ba80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:bb00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:bb80::/41 max 47 as 137182; # apnic
   route 2406:60c0:bc00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:bc00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:bc80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:bd00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:bd80::/41 max 47 as 137182; # apnic
   route 2406:60c0:be00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:be00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:be80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:bf00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:bf80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c000::/36 max 36 as 137182; # apnic
   route 2406:60c0:c000::/39 max 40 as 137182; # apnic
+  route 2406:60c0:c000::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c080::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c100::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c180::/41 max 47 as 137182; # apnic
   route 2406:60c0:c200::/39 max 40 as 137182; # apnic
+  route 2406:60c0:c200::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c280::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c300::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c380::/41 max 47 as 137182; # apnic
   route 2406:60c0:c400::/39 max 40 as 137182; # apnic
+  route 2406:60c0:c400::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c480::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c500::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c580::/41 max 47 as 137182; # apnic
   route 2406:60c0:c600::/39 max 40 as 137182; # apnic
+  route 2406:60c0:c600::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c680::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c700::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c780::/41 max 47 as 137182; # apnic
   route 2406:60c0:c800::/39 max 40 as 137182; # apnic
+  route 2406:60c0:c800::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c880::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c900::/41 max 47 as 137182; # apnic
+  route 2406:60c0:c980::/41 max 47 as 137182; # apnic
   route 2406:60c0:ca00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:ca00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:ca80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:cb00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:cb80::/41 max 47 as 137182; # apnic
   route 2406:60c0:cc00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:cc00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:cc80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:cd00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:cd80::/41 max 47 as 137182; # apnic
   route 2406:60c0:ce00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:ce00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:ce80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:cf00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:cf80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d000::/36 max 36 as 137182; # apnic
   route 2406:60c0:d000::/39 max 40 as 137182; # apnic
+  route 2406:60c0:d000::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d080::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d100::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d180::/41 max 47 as 137182; # apnic
   route 2406:60c0:d200::/39 max 40 as 137182; # apnic
+  route 2406:60c0:d200::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d280::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d300::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d380::/41 max 47 as 137182; # apnic
   route 2406:60c0:d400::/39 max 40 as 137182; # apnic
+  route 2406:60c0:d400::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d480::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d500::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d580::/41 max 47 as 137182; # apnic
   route 2406:60c0:d600::/39 max 40 as 137182; # apnic
+  route 2406:60c0:d600::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d680::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d700::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d780::/41 max 47 as 137182; # apnic
   route 2406:60c0:d800::/39 max 40 as 137182; # apnic
+  route 2406:60c0:d800::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d880::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d900::/41 max 47 as 137182; # apnic
+  route 2406:60c0:d980::/41 max 47 as 137182; # apnic
   route 2406:60c0:da00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:da00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:da80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:db00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:db80::/41 max 47 as 137182; # apnic
   route 2406:60c0:dc00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:dc00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:dc80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:dd00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:dd80::/41 max 47 as 137182; # apnic
   route 2406:60c0:de00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:de00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:de80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:df00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:df80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e000::/36 max 36 as 137182; # apnic
   route 2406:60c0:e000::/39 max 40 as 137182; # apnic
+  route 2406:60c0:e000::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e080::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e100::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e180::/41 max 47 as 137182; # apnic
   route 2406:60c0:e200::/39 max 40 as 137182; # apnic
+  route 2406:60c0:e200::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e280::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e300::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e380::/41 max 47 as 137182; # apnic
   route 2406:60c0:e400::/39 max 40 as 137182; # apnic
+  route 2406:60c0:e400::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e480::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e500::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e580::/41 max 47 as 137182; # apnic
   route 2406:60c0:e600::/39 max 40 as 137182; # apnic
+  route 2406:60c0:e600::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e680::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e700::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e780::/41 max 47 as 137182; # apnic
   route 2406:60c0:e800::/39 max 40 as 137182; # apnic
+  route 2406:60c0:e800::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e880::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e900::/41 max 47 as 137182; # apnic
+  route 2406:60c0:e980::/41 max 47 as 137182; # apnic
   route 2406:60c0:ea00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:ea00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:ea80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:eb00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:eb80::/41 max 47 as 137182; # apnic
   route 2406:60c0:ec00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:ec00::/41 max 47 as 137182; # apnic
+  route 2406:60c0:ec80::/41 max 47 as 137182; # apnic
+  route 2406:60c0:ed00::/41 max 47 as 137182; # apnic
   route 2406:60c0:ee00::/39 max 40 as 137182; # apnic
+  route 2406:60c0:f000::/36 max 36 as 137182; # apnic
   route 2406:60c0:f000::/39 max 40 as 137182; # apnic
   route 2406:60c0:f200::/39 max 40 as 137182; # apnic
   route 2406:60c0:f400::/39 max 40 as 137182; # apnic
