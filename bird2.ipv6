@@ -15355,6 +15355,7 @@ protocol static roas6 {
   route 2400:5880:8000::/33 max 33 as 58983; # apnic
   route 2400:ebc0::/32 max 32 as 59022; # apnic
   route 2402:9fc0::/48 max 48 as 59024; # apnic
+  route 2402:1440::/32 max 48 as 59033; # apnic
   route 2403:1b80::/48 max 48 as 59083; # apnic
   route 2401:af80:9011::/48 max 48 as 59103; # apnic
   route 2401:af80:9011::/56 max 56 as 59103; # apnic
@@ -16583,7 +16584,7 @@ protocol static roas6 {
   route 2001:deb::/48 max 48 as 63528; # apnic
   route 2400:de80::/32 max 32 as 63603; # apnic
   route 2404:e880::/32 max 32 as 63603; # apnic
-  route 2402:1440::/32 max 32 as 63689; # apnic
+  route 2402:1440::/32 max 48 as 63689; # apnic
   route 2001:df2:ce00::/48 max 48 as 63747; # apnic
   route 2405:53c0::/48 max 48 as 63747; # apnic
   route 2402:b7c0::/32 max 48 as 63774; # apnic
@@ -17326,7 +17327,6 @@ protocol static roas6 {
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
   route 2605:9cc0:358::/48 max 48 as 65530; # arin
-  route 2605:9cc0:383::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -17468,6 +17468,7 @@ protocol static roas6 {
   route 2404:69c0::/32 max 32 as 132129; # apnic
   route 2401:e500::/32 max 32 as 132137; # apnic
   route 2402:9e80:17::/48 max 48 as 132139; # apnic
+  route 2402:1440::/32 max 48 as 132168; # apnic
   route 2001:df0:5280::/48 max 48 as 132169; # apnic
   route 2404:99c0::/32 max 32 as 132196; # apnic
   route 2001:fd8:160::/48 max 48 as 132199; # apnic
@@ -20152,6 +20153,7 @@ protocol static roas6 {
   route 2403:20c0:2::/48 max 48 as 137945; # apnic
   route 2403:20c0:3::/48 max 48 as 137945; # apnic
   route 2403:20c0:4::/48 max 48 as 137945; # apnic
+  route 2001:df5:c100::/48 max 48 as 137950; # apnic
   route 2403:2e40::/32 max 32 as 137959; # apnic
   route 2403:2e40:1::/48 max 48 as 137959; # apnic
   route 2403:2e40:10::/48 max 48 as 137959; # apnic
