@@ -16285,6 +16285,7 @@ roa table roa {
   roa 2804:1bc4::/32 max 48 as 61748; # lacnic
   roa 2804:192c::/32 max 48 as 61776; # lacnic
   roa 2804:1964::/32 max 48 as 61792; # lacnic
+  roa 2804:1998::/32 max 48 as 61805; # lacnic
   roa 2804:19b4::/32 max 48 as 61813; # lacnic
   roa 2804:1a48::/32 max 48 as 61850; # lacnic
   roa 2804:1a5c::/32 max 48 as 61856; # lacnic
