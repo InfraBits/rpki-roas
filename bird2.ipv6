@@ -5971,7 +5971,6 @@ protocol static roas6 {
   route 2403:ec00:34::/48 max 48 as 17806; # apnic
   route 2403:ec00:35::/48 max 48 as 17806; # apnic
   route 2403:ec00:36::/48 max 48 as 17806; # apnic
-  route 2401:ab00::/32 max 36 as 17809; # apnic
   route 2a0e:9300::/48 max 48 as 17818; # ripe
   route 2406:6400::/32 max 36 as 17821; # apnic
   route 2401:d540::/32 max 32 as 17828; # apnic
@@ -9031,7 +9030,6 @@ protocol static roas6 {
   route 2a01:1e8::/32 max 32 as 33843; # ripe
   route 2a07:2900::/32 max 32 as 33845; # ripe
   route 2a00:4980::/29 max 48 as 33848; # ripe
-  route 2403:ce40::/32 max 32 as 33851; # apnic
   route 2a00:1a90::/32 max 34 as 33854; # ripe
   route 2a00:1a90:8000::/48 max 48 as 33854; # ripe
   route 2a04:6600::/29 max 48 as 33856; # ripe
@@ -14412,6 +14410,9 @@ protocol static roas6 {
   route 2001:fb0:1075::/48 max 48 as 55498; # apnic
   route 2404:138:1302::/48 max 48 as 55524; # apnic
   route 2001:df0:a5::/48 max 48 as 55552; # apnic
+  route 2001:13c7:7001::/48 max 48 as 55555; # lacnic
+  route 2001:13c7:7002::/48 max 48 as 55555; # lacnic
+  route 2001:13c7:7003::/48 max 48 as 55555; # lacnic
   route 2406:2600::/32 max 32 as 55569; # apnic
   route 2406:2600::/32 max 48 as 55569; # apnic
   route 2406:2600::/48 max 48 as 55569; # apnic
@@ -17533,6 +17534,8 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
+  route 2605:9cc0:358::/48 max 48 as 65530; # arin
+  route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -27313,7 +27316,4 @@ protocol static roas6 {
   route 2602:fcfc:100::/48 max 48 as 398868; # arin
   route 2001:470:2f::/48 max 48 as 398872; # arin
   route 2001:470:158::/48 max 48 as 398922; # arin
-  route 2001:13c7:7001::/48 max 48 as 999999; # lacnic
-  route 2001:13c7:7002::/48 max 48 as 999999; # lacnic
-  route 2001:13c7:7003::/48 max 48 as 999999; # lacnic
 }
