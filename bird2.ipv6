@@ -4247,7 +4247,6 @@ protocol static roas6 {
   route 2001:470:b8::/48 max 48 as 14228; # arin
   route 2800:2b0::/32 max 32 as 14232; # lacnic
   route 2803:d780::/32 max 32 as 14259; # lacnic
-  route 2803:e180::/32 max 32 as 14259; # lacnic
   route 2607:d00::/32 max 32 as 14325; # arin
   route 2001:470:e0::/48 max 48 as 14333; # arin
   route 2602:ff99::/36 max 48 as 14333; # arin
