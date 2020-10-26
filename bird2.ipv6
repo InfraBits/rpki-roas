@@ -13549,6 +13549,7 @@ protocol static roas6 {
   route 2a04:5205::/32 max 32 as 50113; # ripe
   route 2a04:5206::/32 max 32 as 50113; # ripe
   route 2a04:5207::/32 max 32 as 50113; # ripe
+  route 2a0e:d602::/32 max 32 as 50113; # ripe
   route 2001:67c:344::/48 max 48 as 50156; # ripe
   route 2a03:e00::/32 max 32 as 50163; # ripe
   route 2a00:f680::/32 max 32 as 50171; # ripe
@@ -16800,6 +16801,7 @@ protocol static roas6 {
   route 2a0d:4d00:80::/48 max 48 as 62406; # ripe
   route 2a0d:4d00:82::/48 max 48 as 62406; # ripe
   route 2a0d:4d00:83::/48 max 48 as 62406; # ripe
+  route 2a0e:d604::/48 max 48 as 62410; # ripe
   route 2a0d:5fc0::/29 max 29 as 62412; # ripe
   route 2a0f:f940::/29 max 128 as 62412; # ripe
   route 2a00:c560::/29 max 29 as 62416; # ripe
@@ -17705,6 +17707,7 @@ protocol static roas6 {
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
   route 2605:9cc0:357::/48 max 48 as 65530; # arin
   route 2605:9cc0:358::/48 max 48 as 65530; # arin
+  route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -22640,6 +22643,7 @@ protocol static roas6 {
   route 2a0c:3800:400::/48 max 48 as 202410; # ripe
   route 2a0c:c9c0::/29 max 64 as 202414; # ripe
   route 2a02:6c8:8000::/33 max 33 as 202425; # ripe
+  route 2a0e:d601:7220::/48 max 48 as 202436; # ripe
   route 2a05:8280::/32 max 32 as 202448; # ripe
   route 2a09:cd40::/32 max 32 as 202448; # ripe
   route 2a09:cd41::/32 max 32 as 202448; # ripe
@@ -26241,8 +26245,6 @@ protocol static roas6 {
   route 2804:5da0::/32 max 48 as 268983; # lacnic
   route 2804:5ea4::/32 max 48 as 269047; # lacnic
   route 2804:5ebc::/32 max 32 as 269053; # lacnic
-  route 2804:5f10::/32 max 34 as 269074; # lacnic
-  route 2804:5f10:8000::/36 max 36 as 269074; # lacnic
   route 2804:5f14::/32 max 32 as 269075; # lacnic
   route 2804:5f14::/33 max 33 as 269075; # lacnic
   route 2804:5f34::/32 max 34 as 269083; # lacnic
