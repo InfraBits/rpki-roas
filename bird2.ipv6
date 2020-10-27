@@ -4396,7 +4396,7 @@ protocol static roas6 {
   route 2605:c940::/32 max 48 as 14618; # arin
   route 2605:c940:104::/47 max 48 as 14618; # arin
   route 2605:e240:a::/48 max 48 as 14618; # arin
-  route 2606:2c0::/56 max 64 as 14618; # arin
+  route 2606:2c0::/48 max 56 as 14618; # arin
   route 2606:6c00:ff::/48 max 48 as 14618; # arin
   route 2607:fb90:c150::/48 max 48 as 14618; # arin
   route 2620:44:4000::/48 max 64 as 14618; # arin
@@ -5544,7 +5544,7 @@ protocol static roas6 {
   route 2605:c940:104::/47 max 48 as 16509; # arin
   route 2605:e240:7::/48 max 48 as 16509; # arin
   route 2605:e240:b::/48 max 48 as 16509; # arin
-  route 2606:2c0::/56 max 64 as 16509; # arin
+  route 2606:2c0::/48 max 56 as 16509; # arin
   route 2606:6c00:ff::/48 max 48 as 16509; # arin
   route 2607:fb90:c150::/48 max 48 as 16509; # arin
   route 2620:44:4000::/48 max 64 as 16509; # arin
@@ -5863,6 +5863,100 @@ protocol static roas6 {
   route 2001:b401::/32 max 64 as 17421; # apnic
   route 2001:df4:3500::/48 max 48 as 17439; # apnic
   route 2406:69c0::/32 max 36 as 17439; # apnic
+  route 2404:8000::/32 max 32 as 17451; # apnic
+  route 2404:8000::/48 max 48 as 17451; # apnic
+  route 2404:8000:1::/48 max 48 as 17451; # apnic
+  route 2404:8000:2::/48 max 48 as 17451; # apnic
+  route 2404:8000:3::/48 max 48 as 17451; # apnic
+  route 2404:8000:4::/48 max 48 as 17451; # apnic
+  route 2404:8000:5::/48 max 48 as 17451; # apnic
+  route 2404:8000:6::/48 max 48 as 17451; # apnic
+  route 2404:8000:7::/48 max 48 as 17451; # apnic
+  route 2404:8000:8::/48 max 48 as 17451; # apnic
+  route 2404:8000:9::/48 max 48 as 17451; # apnic
+  route 2404:8000:a::/48 max 48 as 17451; # apnic
+  route 2404:8000:b::/48 max 48 as 17451; # apnic
+  route 2404:8000:c::/48 max 48 as 17451; # apnic
+  route 2404:8000:d::/48 max 48 as 17451; # apnic
+  route 2404:8000:e::/48 max 48 as 17451; # apnic
+  route 2404:8000:f::/48 max 48 as 17451; # apnic
+  route 2404:8000:10::/48 max 48 as 17451; # apnic
+  route 2404:8000:11::/48 max 48 as 17451; # apnic
+  route 2404:8000:12::/48 max 48 as 17451; # apnic
+  route 2404:8000:13::/48 max 48 as 17451; # apnic
+  route 2404:8000:14::/48 max 48 as 17451; # apnic
+  route 2404:8000:15::/48 max 48 as 17451; # apnic
+  route 2404:8000:20::/48 max 48 as 17451; # apnic
+  route 2404:8000:21::/48 max 48 as 17451; # apnic
+  route 2404:8000:22::/48 max 48 as 17451; # apnic
+  route 2404:8000:23::/48 max 48 as 17451; # apnic
+  route 2404:8000:24::/48 max 48 as 17451; # apnic
+  route 2404:8000:25::/48 max 48 as 17451; # apnic
+  route 2404:8000:30::/48 max 48 as 17451; # apnic
+  route 2404:8000:70::/48 max 48 as 17451; # apnic
+  route 2404:8000:71::/48 max 48 as 17451; # apnic
+  route 2404:8000:72::/48 max 48 as 17451; # apnic
+  route 2404:8000:78::/48 max 48 as 17451; # apnic
+  route 2404:8000:80::/48 max 48 as 17451; # apnic
+  route 2404:8000:81::/48 max 48 as 17451; # apnic
+  route 2404:8000:82::/48 max 48 as 17451; # apnic
+  route 2404:8000:83::/48 max 48 as 17451; # apnic
+  route 2404:8000:84::/48 max 48 as 17451; # apnic
+  route 2404:8000:8b::/48 max 48 as 17451; # apnic
+  route 2404:8000:8c::/48 max 48 as 17451; # apnic
+  route 2404:8000:93::/48 max 48 as 17451; # apnic
+  route 2404:8000:a2::/48 max 48 as 17451; # apnic
+  route 2404:8000:a7::/48 max 48 as 17451; # apnic
+  route 2404:8000:a8::/48 max 48 as 17451; # apnic
+  route 2404:8000:a9::/48 max 48 as 17451; # apnic
+  route 2404:8000:aa::/48 max 48 as 17451; # apnic
+  route 2404:8000:ab::/48 max 48 as 17451; # apnic
+  route 2404:8000:ac::/48 max 48 as 17451; # apnic
+  route 2404:8000:ad::/48 max 48 as 17451; # apnic
+  route 2404:8000:ae::/48 max 48 as 17451; # apnic
+  route 2404:8000:af::/48 max 48 as 17451; # apnic
+  route 2404:8000:b2::/48 max 48 as 17451; # apnic
+  route 2404:8000:b5::/48 max 48 as 17451; # apnic
+  route 2404:8000:b6::/48 max 48 as 17451; # apnic
+  route 2404:8000:b8::/48 max 48 as 17451; # apnic
+  route 2404:8000:b9::/48 max 48 as 17451; # apnic
+  route 2404:8000:bf::/48 max 48 as 17451; # apnic
+  route 2404:8000:c0::/48 max 48 as 17451; # apnic
+  route 2404:8000:c5::/48 max 48 as 17451; # apnic
+  route 2404:8000:d2::/48 max 48 as 17451; # apnic
+  route 2404:8000:d4::/48 max 48 as 17451; # apnic
+  route 2404:8000:d6::/48 max 48 as 17451; # apnic
+  route 2404:8000:e1::/48 max 48 as 17451; # apnic
+  route 2404:8000:1000::/48 max 48 as 17451; # apnic
+  route 2404:8000:1001::/48 max 48 as 17451; # apnic
+  route 2404:8000:1002::/48 max 48 as 17451; # apnic
+  route 2404:8000:1003::/48 max 48 as 17451; # apnic
+  route 2404:8000:1004::/48 max 48 as 17451; # apnic
+  route 2404:8000:1005::/48 max 48 as 17451; # apnic
+  route 2404:8000:1006::/48 max 48 as 17451; # apnic
+  route 2404:8000:1007::/48 max 48 as 17451; # apnic
+  route 2404:8000:1008::/48 max 48 as 17451; # apnic
+  route 2404:8000:1009::/48 max 48 as 17451; # apnic
+  route 2404:8000:100a::/48 max 48 as 17451; # apnic
+  route 2404:8000:100b::/48 max 48 as 17451; # apnic
+  route 2404:8000:100d::/48 max 48 as 17451; # apnic
+  route 2404:8000:100e::/48 max 48 as 17451; # apnic
+  route 2404:8000:100f::/48 max 48 as 17451; # apnic
+  route 2404:8000:1010::/48 max 48 as 17451; # apnic
+  route 2404:8000:1011::/48 max 48 as 17451; # apnic
+  route 2404:8000:1012::/48 max 48 as 17451; # apnic
+  route 2404:8000:1013::/48 max 48 as 17451; # apnic
+  route 2404:8000:1014::/48 max 48 as 17451; # apnic
+  route 2404:8000:1015::/48 max 48 as 17451; # apnic
+  route 2404:8000:1017::/48 max 48 as 17451; # apnic
+  route 2404:8000:1018::/48 max 48 as 17451; # apnic
+  route 2404:8000:1019::/48 max 48 as 17451; # apnic
+  route 2404:8000:1020::/48 max 48 as 17451; # apnic
+  route 2404:8000:1021::/48 max 48 as 17451; # apnic
+  route 2404:8000:1023::/48 max 48 as 17451; # apnic
+  route 2404:8000:10ba::/48 max 48 as 17451; # apnic
+  route 2404:8000:b4b1::/48 max 48 as 17451; # apnic
+  route 2404:8000:ba71::/48 max 48 as 17451; # apnic
   route 2406:8800::/32 max 32 as 17465; # apnic
   route 2406:8800::/36 max 36 as 17465; # apnic
   route 2406:8800:10::/44 max 44 as 17465; # apnic
@@ -26320,10 +26414,6 @@ protocol static roas6 {
   route 2804:4e8c::/32 max 48 as 268268; # lacnic
   route 2804:4f0c::/32 max 34 as 268300; # lacnic
   route 2804:4f38::/32 max 32 as 268312; # lacnic
-  route 2804:4fac::/32 max 32 as 268342; # lacnic
-  route 2804:4fac:2000::/35 max 35 as 268342; # lacnic
-  route 2804:4fac:4000::/34 max 34 as 268342; # lacnic
-  route 2804:4fac:8000::/33 max 33 as 268342; # lacnic
   route 2804:4fc8::/32 max 32 as 268349; # lacnic
   route 2804:5018::/32 max 48 as 268369; # lacnic
   route 2804:5068::/32 max 48 as 268387; # lacnic
