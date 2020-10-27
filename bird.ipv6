@@ -8674,6 +8674,7 @@ roa table roa {
   roa 2001:500:6e::/48 max 48 as 30133; # arin
   roa 2001:500:6f::/48 max 48 as 30133; # arin
   roa 2001:500:70::/48 max 48 as 30133; # arin
+  roa 2001:500:72::/48 max 48 as 30133; # arin
   roa 2001:500:74::/48 max 48 as 30133; # arin
   roa 2001:500:76::/48 max 48 as 30133; # arin
   roa 2001:500:77::/48 max 48 as 30133; # arin
