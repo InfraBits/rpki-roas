@@ -12803,7 +12803,6 @@ protocol static roas6 {
   route 2401:fd00::/32 max 32 as 45945; # apnic
   route 2406:1d00::/32 max 32 as 45950; # apnic
   route 2406:1d00:4::/48 max 48 as 45950; # apnic
-  route 2400:fd00::/32 max 32 as 45951; # apnic
   route 2402:b400::/32 max 32 as 45960; # apnic
   route 2402:b400:4180::/45 max 45 as 45960; # apnic
   route 2402:b400:41c0::/45 max 45 as 45960; # apnic
@@ -17950,8 +17949,8 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  route 2605:9cc0:357::/48 max 48 as 65530; # arin
   route 2605:9cc0:358::/48 max 48 as 65530; # arin
+  route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -18134,7 +18133,6 @@ protocol static roas6 {
   route 2001:fd8:3350::/44 max 44 as 132199; # apnic
   route 2001:fd8:3360::/44 max 44 as 132199; # apnic
   route 2001:fd8:ff00::/40 max 40 as 132199; # apnic
-  route 2406:5c80::/32 max 32 as 132210; # apnic
   route 2407:f700::/32 max 48 as 132215; # apnic
   route 2404:6bc0::/32 max 36 as 132216; # apnic
   route 2001:df0:410::/48 max 48 as 132228; # apnic
@@ -18416,7 +18414,6 @@ protocol static roas6 {
   route 2407:5280:1000::/36 max 36 as 133557; # apnic
   route 2407:5280:2000::/36 max 36 as 133557; # apnic
   route 2407:6080::/32 max 32 as 133583; # apnic
-  route 2401:3180::/32 max 32 as 133585; # apnic
   route 2401:2cc0::/32 max 36 as 133605; # apnic
   route 2001:df1:3c00::/48 max 48 as 133659; # apnic
   route 2406:99c0::/32 max 32 as 133692; # apnic
@@ -20831,7 +20828,6 @@ protocol static roas6 {
   route 2405:3fc0::/32 max 32 as 139401; # apnic
   route 2405:6a40::/32 max 32 as 139425; # apnic
   route 2001:df2:4b80::/48 max 48 as 139457; # apnic
-  route 2001:df1:980::/48 max 48 as 139461; # apnic
   route 2405:9e40::/32 max 32 as 139468; # apnic
   route 2405:22c0::/32 max 32 as 139470; # apnic
   route 2405:22c0::/36 max 36 as 139470; # apnic
