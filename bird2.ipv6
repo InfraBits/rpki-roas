@@ -217,6 +217,7 @@ protocol static roas6 {
   route 2001:568:203::/48 max 48 as 852; # arin
   route 2001:568:837::/48 max 48 as 852; # arin
   route 2001:568:fff4::/48 max 48 as 852; # arin
+  route 2001:569::/33 max 33 as 852; # arin
   route 2001:569:6f09::/48 max 48 as 852; # arin
   route 2001:569:6f10::/44 max 44 as 852; # arin
   route 2001:569:6f20::/44 max 44 as 852; # arin
@@ -225,7 +226,10 @@ protocol static roas6 {
   route 2001:569:6fd0::/44 max 44 as 852; # arin
   route 2001:569:6fe0::/44 max 44 as 852; # arin
   route 2001:569:6ff0::/44 max 44 as 852; # arin
+  route 2001:569:8000::/34 max 34 as 852; # arin
+  route 2001:569:c000::/34 max 34 as 852; # arin
   route 2001:569:c007::/48 max 48 as 852; # arin
+  route 2001:56a::/33 max 33 as 852; # arin
   route 2001:56a:3::/48 max 48 as 852; # arin
   route 2001:56a:6f10::/44 max 44 as 852; # arin
   route 2001:56a:6f20::/44 max 44 as 852; # arin
@@ -233,9 +237,11 @@ protocol static roas6 {
   route 2001:56a:6f70::/44 max 44 as 852; # arin
   route 2001:56a:6fe0::/44 max 44 as 852; # arin
   route 2001:56a:6ff0::/44 max 44 as 852; # arin
+  route 2001:56a:8000::/33 max 33 as 852; # arin
   route 2001:56a:810c::/48 max 48 as 852; # arin
   route 2001:56a:dfe0::/44 max 44 as 852; # arin
   route 2001:56a:dff0::/44 max 44 as 852; # arin
+  route 2001:56b::/34 max 34 as 852; # arin
   route 2001:56b:4::/48 max 48 as 852; # arin
   route 2001:56b:3f10::/44 max 44 as 852; # arin
   route 2001:56b:3f20::/44 max 44 as 852; # arin
@@ -259,6 +265,7 @@ protocol static roas6 {
   route 2001:56b:a000::/35 max 35 as 852; # arin
   route 2001:56b:c000::/35 max 35 as 852; # arin
   route 2001:56b:c007::/48 max 48 as 852; # arin
+  route 2001:56b:e000::/35 max 35 as 852; # arin
   route 2607:fe88:1000::/36 max 36 as 852; # arin
   route 2607:fe88:2000::/36 max 36 as 852; # arin
   route 2607:fe88:3000::/36 max 36 as 852; # arin
@@ -18394,7 +18401,6 @@ protocol static roas6 {
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
   route 2605:9cc0:358::/48 max 48 as 65530; # arin
-  route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
