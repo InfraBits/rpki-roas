@@ -6489,38 +6489,6 @@ protocol static roas6 {
   route 2620:e6:c000::/48 max 48 as 18140; # arin
   route 2406:9740::/32 max 32 as 18178; # apnic
   route 2404:db00::/32 max 32 as 18179; # apnic
-  route 2404:178:1::/48 max 48 as 18180; # apnic
-  route 2404:178:2::/48 max 48 as 18180; # apnic
-  route 2404:178:3::/48 max 48 as 18180; # apnic
-  route 2404:178:4::/48 max 48 as 18180; # apnic
-  route 2404:178:5::/48 max 48 as 18180; # apnic
-  route 2404:178:6::/48 max 48 as 18180; # apnic
-  route 2404:178:7::/48 max 48 as 18180; # apnic
-  route 2404:178:8::/48 max 48 as 18180; # apnic
-  route 2404:178:9::/48 max 48 as 18180; # apnic
-  route 2404:178:10::/48 max 48 as 18180; # apnic
-  route 2404:178:11::/48 max 48 as 18180; # apnic
-  route 2404:178:12::/48 max 48 as 18180; # apnic
-  route 2404:178:13::/48 max 48 as 18180; # apnic
-  route 2404:178:14::/48 max 48 as 18180; # apnic
-  route 2404:178:15::/48 max 48 as 18180; # apnic
-  route 2404:178:16::/48 max 48 as 18180; # apnic
-  route 2404:178:17::/48 max 48 as 18180; # apnic
-  route 2404:178:18::/48 max 48 as 18180; # apnic
-  route 2404:178:19::/48 max 48 as 18180; # apnic
-  route 2404:178:20::/48 max 48 as 18180; # apnic
-  route 2404:178:21::/48 max 48 as 18180; # apnic
-  route 2404:178:22::/48 max 48 as 18180; # apnic
-  route 2404:178:23::/48 max 48 as 18180; # apnic
-  route 2404:178:24::/48 max 48 as 18180; # apnic
-  route 2404:178:25::/48 max 48 as 18180; # apnic
-  route 2404:178:26::/48 max 48 as 18180; # apnic
-  route 2404:178:27::/48 max 48 as 18180; # apnic
-  route 2404:178:28::/48 max 48 as 18180; # apnic
-  route 2404:178:29::/48 max 48 as 18180; # apnic
-  route 2404:178:30::/48 max 48 as 18180; # apnic
-  route 2404:178:31::/48 max 48 as 18180; # apnic
-  route 2404:178:32::/48 max 48 as 18180; # apnic
   route 2404:80::/28 max 48 as 18182; # apnic
   route 2001:4500::/32 max 64 as 18183; # apnic
   route 2402:f200::/32 max 32 as 18196; # apnic
