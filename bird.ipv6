@@ -733,6 +733,7 @@ roa table roa {
   roa 2a03:5400::/32 max 32 as 3491; # ripe
   roa 2c0f:f3c0::/32 max 32 as 3491; # afrinic
   roa 2c0f:f3d0::/32 max 32 as 3491; # afrinic
+  roa 2001:13b0::/31 max 64 as 3549; # lacnic
   roa 2001:13b0::/32 max 64 as 3549; # lacnic
   roa 2001:13b1::/33 max 64 as 3549; # lacnic
   roa 2801:0:440::/48 max 48 as 3549; # lacnic
