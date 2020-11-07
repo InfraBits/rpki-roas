@@ -10303,7 +10303,6 @@ protocol static roas6 {
   route 2001:43f8:110::/48 max 48 as 37181; # afrinic
   route 2c0f:fb18::/32 max 34 as 37199; # afrinic
   route 2c0f:ffb8::/32 max 32 as 37211; # afrinic
-  route 2c0f:ea60::/32 max 32 as 37215; # afrinic
   route 2c0f:fe78::/32 max 32 as 37239; # afrinic
   route 2c0f:fa90::/32 max 32 as 37271; # afrinic
   route 2c0f:fa90:f00::/40 max 40 as 37271; # afrinic
