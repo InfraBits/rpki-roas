@@ -4679,7 +4679,6 @@ roa table roa {
   roa 2605:7500::/32 max 48 as 14750; # arin
   roa 2800:b20::/30 max 30 as 14754; # lacnic
   roa 2803:f340::/32 max 32 as 14754; # lacnic
-  roa 2804:8::/30 max 48 as 14840; # lacnic
   roa 2604:5680::/32 max 48 as 14860; # arin
   roa 2001:df2:e500::/48 max 48 as 14907; # apnic
   roa 2620:0:860::/48 max 48 as 14907; # arin
@@ -18586,6 +18585,7 @@ roa table roa {
   roa 2a02:d58:200a::/48 max 48 as 64520; # ripe
   roa 2607:fd78:902::/48 max 48 as 65001; # arin
   roa 2001:e68:2001:1::/64 max 64 as 65530; # apnic
+  roa 2605:9cc0:384::/48 max 48 as 65530; # arin
   roa 2001:718:ffff::/48 max 48 as 65533; # ripe
   roa 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   roa 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -22851,6 +22851,9 @@ roa table roa {
   roa 2a03:4260::/29 max 29 as 201476; # ripe
   roa 2a03:4260::/32 max 32 as 201476; # ripe
   roa 2a05:3f80::/29 max 29 as 201494; # ripe
+  roa 2a05:3f80:41::/48 max 48 as 201494; # ripe
+  roa 2a05:3f80:42::/48 max 48 as 201494; # ripe
+  roa 2a05:3f80:43::/48 max 48 as 201494; # ripe
   roa 2a03:a6c0::/32 max 32 as 201502; # ripe
   roa 2a05:3950::/31 max 31 as 201503; # ripe
   roa 2a05:3950:8000::/48 max 48 as 201503; # ripe
