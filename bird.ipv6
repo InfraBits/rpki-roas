@@ -28257,5 +28257,4 @@ roa table roa {
   roa 2001:470:158::/48 max 48 as 398922; # arin
   roa 2602:808:4000::/44 max 64 as 398960; # arin
   roa 2607:7c80:53::/48 max 48 as 398987; # arin
-  roa 2803:2620::/32 max 32 as 7995572; # lacnic
 }
