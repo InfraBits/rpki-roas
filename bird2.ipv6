@@ -1,6 +1,7 @@
 roa6 table t_roa6;
 protocol static roas6 {
   roa6 { table t_roa6; };
+  route 2001:3a0:f006::/48 max 128 as 0; # apnic
   route 2001:504:16::/63 max 64 as 0; # arin
   route 2001:504:26::/48 max 64 as 0; # arin
   route 2001:504:26::/64 max 64 as 0; # arin
@@ -10654,7 +10655,6 @@ protocol static roas6 {
   route 2404:f380:3::/48 max 48 as 38614; # apnic
   route 2402:2800::/32 max 32 as 38625; # apnic
   route 2400:dcc0::/32 max 48 as 38631; # apnic
-  route 2001:3a0:f006::/48 max 48 as 38644; # apnic
   route 2401:f100::/32 max 64 as 38651; # apnic
   route 2400:5800::/32 max 32 as 38712; # apnic
   route 2400:5800:4::/48 max 48 as 38712; # apnic
