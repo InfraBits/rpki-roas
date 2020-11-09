@@ -10841,7 +10841,6 @@ protocol static roas6 {
   route 2a0a:c0c0::/29 max 29 as 39106; # ripe
   route 2a0f:72c0::/29 max 29 as 39106; # ripe
   route 2001:7f8:64::/48 max 48 as 39107; # ripe
-  route 2a09:e00::/29 max 29 as 39117; # ripe
   route 2a09:4a00::/29 max 29 as 39117; # ripe
   route 2a0a:f8c0::/29 max 29 as 39117; # ripe
   route 2a01:9a80::/32 max 32 as 39120; # ripe
