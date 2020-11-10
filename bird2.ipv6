@@ -8450,6 +8450,8 @@ protocol static roas6 {
   route 2602:ff93::/36 max 36 as 26968; # arin
   route 2602:ff93:1000::/36 max 36 as 26968; # arin
   route 2602:ff93:2000::/36 max 36 as 26968; # arin
+  route 2602:ff93:3000::/36 max 36 as 26968; # arin
+  route 2602:ff93:4000::/36 max 36 as 26968; # arin
   route 2602:ff93:5000::/36 max 36 as 26968; # arin
   route 2607:fda0::/32 max 32 as 27008; # arin
   route 2620:71:4000::/48 max 48 as 27218; # arin
