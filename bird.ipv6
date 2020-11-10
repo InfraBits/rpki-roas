@@ -4250,10 +4250,13 @@ roa table roa {
   roa 2606:4700:30::/44 max 44 as 13335; # arin
   roa 2606:4700:31::/48 max 48 as 13335; # arin
   roa 2606:4700:50::/44 max 44 as 13335; # arin
+  roa 2606:4700:54::/48 max 48 as 13335; # arin
+  roa 2606:4700:5c::/48 max 48 as 13335; # arin
   roa 2606:4700:60::/44 max 44 as 13335; # arin
   roa 2606:4700:70::/44 max 44 as 13335; # arin
   roa 2606:4700:80::/44 max 44 as 13335; # arin
   roa 2606:4700:90::/44 max 44 as 13335; # arin
+  roa 2606:4700:a0::/44 max 44 as 13335; # arin
   roa 2606:4700:a0::/48 max 48 as 13335; # arin
   roa 2606:4700:a8::/48 max 48 as 13335; # arin
   roa 2606:4700:b0::/48 max 48 as 13335; # arin
