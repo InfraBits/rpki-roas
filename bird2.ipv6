@@ -21837,6 +21837,7 @@ protocol static roas6 {
   route 2001:df5:4880::/48 max 48 as 141403; # apnic
   route 2001:df5:4b80::/48 max 48 as 141404; # apnic
   route 2001:df5:4f80::/48 max 48 as 141411; # apnic
+  route 2001:df5:5480::/48 max 48 as 141412; # apnic
   route 2a02:c50:db8::/48 max 48 as 196610; # ripe
   route 2001:7fb:fd03::/48 max 48 as 196615; # ripe
   route 2001:7fb:fd04::/48 max 48 as 196615; # ripe
