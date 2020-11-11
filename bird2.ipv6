@@ -5259,9 +5259,6 @@ protocol static roas6 {
   route 2600:1f1e:400::/38 max 48 as 16509; # arin
   route 2600:1f1e:800::/38 max 48 as 16509; # arin
   route 2600:1f1e:c00::/38 max 48 as 16509; # arin
-  route 2600:1f1f::/36 max 48 as 16509; # arin
-  route 2600:1f1f::/37 max 48 as 16509; # arin
-  route 2600:1f1f:800::/37 max 48 as 16509; # arin
   route 2600:1fa0:1040::/46 max 48 as 16509; # arin
   route 2600:1fa0:1044::/46 max 48 as 16509; # arin
   route 2600:1fa0:1048::/46 max 48 as 16509; # arin
