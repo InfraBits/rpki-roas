@@ -4685,6 +4685,7 @@ roa table roa {
   roa 2602:fd69::/36 max 48 as 14731; # arin
   roa 2620:11f:9000::/44 max 48 as 14746; # arin
   roa 2605:7500::/32 max 48 as 14750; # arin
+  roa 2800:98::/32 max 32 as 14754; # lacnic
   roa 2800:b20::/30 max 30 as 14754; # lacnic
   roa 2803:f340::/32 max 32 as 14754; # lacnic
   roa 2804:8::/30 max 48 as 14840; # lacnic
