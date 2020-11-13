@@ -8683,8 +8683,8 @@ roa table roa {
   roa 2800:700::/32 max 32 as 28000; # lacnic
   roa 2801:1b8::/44 max 48 as 28000; # lacnic
   roa 2001:13c7:7002::/48 max 48 as 28001; # lacnic
-  roa 2001:13c7:7010::/46 max 47 as 28001; # lacnic
-  roa 2001:13c7:7012::/47 max 47 as 28001; # lacnic
+  roa 2001:13c7:7010::/46 max 48 as 28001; # lacnic
+  roa 2001:13c7:7012::/47 max 48 as 28001; # lacnic
   roa 2001:13c7:7003::/48 max 48 as 28002; # lacnic
   roa 2803:b840::/32 max 32 as 28005; # lacnic
   roa 2800:370::/32 max 48 as 28006; # lacnic
