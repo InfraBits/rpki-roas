@@ -6861,7 +6861,6 @@ roa table roa {
   roa 2001:470:7e::/48 max 48 as 19854; # arin
   roa 2001:470:b6::/48 max 48 as 19863; # arin
   roa 2607:f828::/32 max 40 as 19871; # arin
-  roa 2800:6d0::/32 max 32 as 19889; # lacnic
   roa 2001:67c:1088::/48 max 48 as 19905; # ripe
   roa 2001:67c:27dc::/48 max 48 as 19905; # ripe
   roa 2001:a70:100::/48 max 48 as 19905; # ripe
