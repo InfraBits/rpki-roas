@@ -16232,7 +16232,6 @@ protocol static roas6 {
   route 2001:df0:273::/48 max 48 as 58477; # apnic
   route 2001:df0:c80::/48 max 48 as 58499; # apnic
   route 2406:b700::/32 max 32 as 58504; # apnic
-  route 2404:59c0::/32 max 32 as 58507; # apnic
   route 2001:df0:27a::/48 max 48 as 58511; # apnic
   route 2400:8280::/32 max 48 as 58511; # apnic
   route 2001:df0:295::/48 max 56 as 58516; # apnic
