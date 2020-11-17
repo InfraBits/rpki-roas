@@ -589,14 +589,6 @@ protocol static roas6 {
   route 2a0c:59c0::/29 max 48 as 3214; # ripe
   route 2a0c:ed40::/29 max 48 as 3214; # ripe
   route 2a0d:1fc0::/29 max 48 as 3214; # ripe
-  route 2a0d:1fc0::/32 max 32 as 3214; # ripe
-  route 2a0d:1fc1::/32 max 32 as 3214; # ripe
-  route 2a0d:1fc2::/32 max 32 as 3214; # ripe
-  route 2a0d:1fc3::/32 max 32 as 3214; # ripe
-  route 2a0d:1fc4::/32 max 32 as 3214; # ripe
-  route 2a0d:1fc5::/32 max 32 as 3214; # ripe
-  route 2a0d:1fc6::/32 max 32 as 3214; # ripe
-  route 2a0d:1fc7::/32 max 32 as 3214; # ripe
   route 2a0d:3640::/29 max 48 as 3214; # ripe
   route 2a0d:4340::/29 max 48 as 3214; # ripe
   route 2a0d:4bc0::/29 max 48 as 3214; # ripe
