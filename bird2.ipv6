@@ -26296,6 +26296,23 @@ protocol static roas6 {
   route 2804:2374::/32 max 34 as 264163; # lacnic
   route 2804:2418::/32 max 34 as 264201; # lacnic
   route 2804:2448::/32 max 48 as 264212; # lacnic
+  route 2804:24cc::/32 max 32 as 264242; # lacnic
+  route 2804:24cc::/48 max 48 as 264242; # lacnic
+  route 2804:24cc:1::/48 max 48 as 264242; # lacnic
+  route 2804:24cc:8000::/48 max 48 as 264242; # lacnic
+  route 2804:24cc:8001::/48 max 48 as 264242; # lacnic
+  route 2804:24cc:8002::/48 max 48 as 264242; # lacnic
+  route 2804:24cc:8100::/40 max 40 as 264242; # lacnic
+  route 2804:24cc:8200::/40 max 40 as 264242; # lacnic
+  route 2804:24cc:8300::/40 max 40 as 264242; # lacnic
+  route 2804:24cc:8400::/40 max 40 as 264242; # lacnic
+  route 2804:24cc:8500::/40 max 40 as 264242; # lacnic
+  route 2804:24cc:8600::/40 max 40 as 264242; # lacnic
+  route 2804:24cc:8700::/40 max 40 as 264242; # lacnic
+  route 2804:24cc:8800::/40 max 40 as 264242; # lacnic
+  route 2804:24cc:9000::/40 max 40 as 264242; # lacnic
+  route 2804:24cc:9100::/40 max 40 as 264242; # lacnic
+  route 2804:24cc:9200::/40 max 40 as 264242; # lacnic
   route 2804:2500::/32 max 48 as 264253; # lacnic
   route 2804:2540::/32 max 32 as 264268; # lacnic
   route 2804:2564::/32 max 48 as 264278; # lacnic
@@ -26328,6 +26345,7 @@ protocol static roas6 {
   route 2804:2018:6100::/43 max 43 as 264464; # lacnic
   route 2804:2020::/32 max 32 as 264470; # lacnic
   route 2804:2038::/32 max 48 as 264478; # lacnic
+  route 2804:203c::/32 max 32 as 264479; # lacnic
   route 2804:2050::/32 max 32 as 264485; # lacnic
   route 2804:2050:1abc::/48 max 48 as 264485; # lacnic
   route 2804:2050:2abc::/48 max 48 as 264485; # lacnic
@@ -26803,6 +26821,7 @@ protocol static roas6 {
   route 2804:43b0::/32 max 48 as 267584; # lacnic
   route 2804:43b4::/32 max 34 as 267585; # lacnic
   route 2804:43d4::/32 max 32 as 267593; # lacnic
+  route 2804:4428::/32 max 35 as 267606; # lacnic
   route 2804:4410::/32 max 32 as 267619; # lacnic
   route 2804:4410::/33 max 33 as 267619; # lacnic
   route 2804:4410::/34 max 34 as 267619; # lacnic
