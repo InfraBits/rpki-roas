@@ -10857,7 +10857,6 @@ protocol static roas6 {
   route 2a0a:c0c0::/29 max 29 as 39106; # ripe
   route 2a0f:72c0::/29 max 29 as 39106; # ripe
   route 2001:7f8:64::/48 max 48 as 39107; # ripe
-  route 2a09:4a00::/29 max 29 as 39117; # ripe
   route 2a0a:f8c0::/29 max 29 as 39117; # ripe
   route 2a01:9a80::/32 max 32 as 39120; # ripe
   route 2a01:a8::/32 max 32 as 39122; # ripe
@@ -18666,7 +18665,7 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  route 2605:9cc0:358::/48 max 48 as 65530; # arin
+  route 2605:9cc0:357::/48 max 48 as 65530; # arin
   route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
@@ -22639,6 +22638,10 @@ protocol static roas6 {
   route 2001:67c:18e0::/48 max 48 as 199971; # ripe
   route 2a0d:b80::/32 max 32 as 199971; # ripe
   route 2a01:4ba0::/29 max 29 as 199987; # ripe
+  route 2a01:4ba0::/48 max 48 as 199987; # ripe
+  route 2a01:4ba0:1::/48 max 48 as 199987; # ripe
+  route 2a01:4ba0:2::/48 max 48 as 199987; # ripe
+  route 2a01:4ba0:3::/48 max 48 as 199987; # ripe
   route 2a04:6d80::/32 max 32 as 199993; # ripe
   route 2a04:6d81::/32 max 32 as 199993; # ripe
   route 2a04:6d82::/32 max 32 as 199993; # ripe
@@ -25468,6 +25471,14 @@ protocol static roas6 {
   route 2a0d:b4c0::/29 max 29 as 210101; # ripe
   route 2001:67c:768::/48 max 48 as 210103; # ripe
   route 2a0c:b641:90::/44 max 48 as 210103; # ripe
+  route 2a05:88c0::/32 max 32 as 210107; # ripe
+  route 2a05:88c1::/32 max 32 as 210107; # ripe
+  route 2a05:88c2::/32 max 32 as 210107; # ripe
+  route 2a05:88c3::/32 max 32 as 210107; # ripe
+  route 2a05:88c4::/32 max 32 as 210107; # ripe
+  route 2a05:88c5::/32 max 32 as 210107; # ripe
+  route 2a05:88c6::/32 max 32 as 210107; # ripe
+  route 2a05:88c7::/32 max 32 as 210107; # ripe
   route 2a07:d840::/32 max 32 as 210107; # ripe
   route 2a07:d841::/32 max 32 as 210107; # ripe
   route 2a07:d842::/32 max 32 as 210107; # ripe
