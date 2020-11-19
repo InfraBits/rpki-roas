@@ -4605,7 +4605,6 @@ protocol static roas6 {
   route 2602:806:7000::/44 max 48 as 14618; # arin
   route 2602:808:4001::/48 max 64 as 14618; # arin
   route 2602:808:4002::/48 max 64 as 14618; # arin
-  route 2602:808:7000::/44 max 44 as 14618; # arin
   route 2602:fd12::/48 max 48 as 14618; # arin
   route 2602:fd40:ca1::/48 max 48 as 14618; # arin
   route 2602:fd40:ca2::/48 max 48 as 14618; # arin
@@ -5775,7 +5774,6 @@ protocol static roas6 {
   route 2602:806:7000::/44 max 48 as 16509; # arin
   route 2602:808:4001::/48 max 64 as 16509; # arin
   route 2602:808:4002::/48 max 64 as 16509; # arin
-  route 2602:808:7000::/44 max 44 as 16509; # arin
   route 2602:fd12::/48 max 48 as 16509; # arin
   route 2602:fd40:ca1::/48 max 48 as 16509; # arin
   route 2602:fd40:ca2::/48 max 48 as 16509; # arin
