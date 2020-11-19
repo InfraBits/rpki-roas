@@ -26586,6 +26586,7 @@ roa table roa {
   roa 2803:a7e0::/32 max 48 as 270100; # lacnic
   roa 2803:e7e0::/32 max 32 as 270102; # lacnic
   roa 2801:17a::/44 max 48 as 270105; # lacnic
+  roa 2803:73e0::/32 max 32 as 270106; # lacnic
   roa 2801:c4:2a::/48 max 48 as 270127; # lacnic
   roa 2803:fba0::/32 max 32 as 271776; # lacnic
   roa 2803:d7e0::/32 max 48 as 271778; # lacnic
