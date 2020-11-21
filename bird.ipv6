@@ -3116,6 +3116,7 @@ roa table roa {
   roa 2405:84c0:9210::/44 max 44 as 9886; # apnic
   roa 2405:84c0:9300::/44 max 44 as 9886; # apnic
   roa 2405:84c0:9410::/44 max 48 as 9886; # apnic
+  roa 2405:84c0:9450::/44 max 48 as 9886; # apnic
   roa 2405:84c0:9700::/44 max 44 as 9886; # apnic
   roa 2405:84c0:9900::/40 max 44 as 9886; # apnic
   roa 2405:84c0:9a00::/40 max 40 as 9886; # apnic
