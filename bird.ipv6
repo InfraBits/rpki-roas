@@ -17244,6 +17244,35 @@ roa table roa {
   roa 2400:d680:3dd::/48 max 48 as 59282; # apnic
   roa 2400:d680:3de::/48 max 48 as 59282; # apnic
   roa 2400:d680:3df::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3e0::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3e1::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3e2::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3e3::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3e4::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3e5::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3e6::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3e7::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3e8::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3e9::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3ea::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3eb::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3ec::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3ed::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3ef::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3f0::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3f1::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3f2::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3f3::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3f4::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3f5::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3f6::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3f7::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3f8::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3f9::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3fa::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3fb::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3fc::/48 max 48 as 59282; # apnic
+  roa 2400:d680:3fd::/48 max 48 as 59282; # apnic
   roa 2400:d680:3fe::/48 max 48 as 59282; # apnic
   roa 2400:d680:3ff::/48 max 48 as 59282; # apnic
   roa 2001:df1:fe00::/48 max 48 as 59290; # apnic
