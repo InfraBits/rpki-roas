@@ -3463,6 +3463,7 @@ protocol static roas6 {
   route 2404:2e00:f::/48 max 48 as 10226; # apnic
   route 2605:8400::/32 max 32 as 10242; # arin
   route 2800:950::/32 max 32 as 10299; # lacnic
+  route 2001:43f8:1140:1::/64 max 128 as 10310; # afrinic
   route 2800:2000::/20 max 20 as 10318; # lacnic
   route 2a07:8143::/36 max 36 as 10429; # ripe
   route 2a01:5380::/32 max 32 as 10474; # ripe
