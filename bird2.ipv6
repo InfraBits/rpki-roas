@@ -30099,6 +30099,7 @@ protocol static roas6 {
   route 2602:fcf4::/36 max 36 as 398738; # arin
   route 2602:fd10:800::/40 max 48 as 398795; # arin
   route 2602:fd1e::/36 max 40 as 398797; # arin
+  route 2620:138:3000::/40 max 48 as 398849; # arin
   route 2602:fcfc:1::/48 max 48 as 398868; # arin
   route 2602:fcfc:100::/48 max 48 as 398868; # arin
   route 2001:470:2f::/48 max 48 as 398872; # arin
