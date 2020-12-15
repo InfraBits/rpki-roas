@@ -4723,7 +4723,11 @@ roa table roa {
   roa 2605:84c0:cc1::/48 max 48 as 14618; # arin
   roa 2605:84c0:cc2::/48 max 48 as 14618; # arin
   roa 2605:9cc0:300::/41 max 48 as 14618; # arin
+  roa 2605:9cc0:330::/48 max 48 as 14618; # arin
   roa 2605:9cc0:387::/48 max 48 as 14618; # arin
+  roa 2605:9cc0:38a::/48 max 48 as 14618; # arin
+  roa 2605:9cc0:38b::/48 max 48 as 14618; # arin
+  roa 2605:9cc0:38c::/48 max 48 as 14618; # arin
   roa 2605:9cc0:ffff::/48 max 48 as 14618; # arin
   roa 2605:c940::/32 max 48 as 14618; # arin
   roa 2605:e240:a::/48 max 48 as 14618; # arin
@@ -5910,7 +5914,11 @@ roa table roa {
   roa 2605:84c0:cc1::/48 max 48 as 16509; # arin
   roa 2605:84c0:cc2::/48 max 48 as 16509; # arin
   roa 2605:9cc0:300::/41 max 48 as 16509; # arin
+  roa 2605:9cc0:330::/48 max 48 as 16509; # arin
   roa 2605:9cc0:387::/48 max 48 as 16509; # arin
+  roa 2605:9cc0:38a::/48 max 48 as 16509; # arin
+  roa 2605:9cc0:38b::/48 max 48 as 16509; # arin
+  roa 2605:9cc0:38c::/48 max 48 as 16509; # arin
   roa 2605:9cc0:ffff::/48 max 48 as 16509; # arin
   roa 2605:c940::/32 max 48 as 16509; # arin
   roa 2605:e240:7::/48 max 48 as 16509; # arin
