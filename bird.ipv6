@@ -49,7 +49,12 @@ roa table roa {
   roa 2001:7f8:a0::/48 max 48 as 0; # ripe
   roa 2001:7f8:af::/48 max 128 as 0; # ripe
   roa 2001:7f8:b6::/64 max 64 as 0; # ripe
+  roa 2001:7f8:bd::/48 max 48 as 0; # ripe
   roa 2001:7f8:bf::/48 max 48 as 0; # ripe
+  roa 2001:7f8:c0::/48 max 48 as 0; # ripe
+  roa 2001:7f8:c1::/48 max 48 as 0; # ripe
+  roa 2001:7f8:c3::/48 max 48 as 0; # ripe
+  roa 2001:7f8:c7::/48 max 48 as 0; # ripe
   roa 2001:7f8:cc::/48 max 128 as 0; # ripe
   roa 2001:7f8:d5::/48 max 48 as 0; # ripe
   roa 2001:7f8:f5::/48 max 48 as 0; # ripe
