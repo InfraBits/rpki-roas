@@ -21951,6 +21951,7 @@ roa table roa {
   roa 2400:ac40::/32 max 32 as 136255; # apnic
   roa 2400:ac40:100::/64 max 64 as 136255; # apnic
   roa 2400:ac40:100:4::/64 max 64 as 136255; # apnic
+  roa 2400:ac40:100:9::/64 max 64 as 136255; # apnic
   roa 2400:ac40:100:a::/64 max 64 as 136255; # apnic
   roa 2400:ac40:100:f::/64 max 64 as 136255; # apnic
   roa 2400:ac40:180::/64 max 64 as 136255; # apnic
@@ -22129,6 +22130,30 @@ roa table roa {
   roa 2400:ac40:90d::/48 max 48 as 136255; # apnic
   roa 2400:ac40:90e::/48 max 48 as 136255; # apnic
   roa 2400:ac40:90f::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:920::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:921::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:922::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:923::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:924::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:925::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:926::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:927::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:928::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:929::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:92a::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:92b::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:92c::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:92d::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:92e::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:92f::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:933::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:934::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:935::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:936::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:937::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:938::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:939::/48 max 48 as 136255; # apnic
+  roa 2400:ac40:93a::/48 max 48 as 136255; # apnic
   roa 2400:ad40::/32 max 32 as 136262; # apnic
   roa 2400:afc0::/32 max 32 as 136267; # apnic
   roa 2400:afc0:196::/48 max 48 as 136267; # apnic
