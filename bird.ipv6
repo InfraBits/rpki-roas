@@ -11898,6 +11898,7 @@ roa table roa {
   roa 2a00:6f60::/32 max 32 as 44923; # ripe
   roa 2402:d00:3:300::/56 max 56 as 44933; # apnic
   roa 2a02:6600:2003::/48 max 48 as 44933; # ripe
+  roa 2a00:b880::/32 max 32 as 44943; # ripe
   roa 2a00:1cf8::/29 max 48 as 44944; # ripe
   roa 2a02:158::/32 max 64 as 44946; # ripe
   roa 2a02:158:aa00::/39 max 39 as 44946; # ripe
