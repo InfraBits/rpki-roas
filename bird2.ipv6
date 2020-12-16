@@ -24152,6 +24152,7 @@ protocol static roas6 {
   route 2a04:5b81:1000::/40 max 48 as 202265; # ripe
   route 2a04:5b81:1fff::/48 max 48 as 202265; # ripe
   route 2a04:5b81:2010::/48 max 48 as 202265; # ripe
+  route 2a04:5b81:2050::/44 max 48 as 202265; # ripe
   route 2a04:5b82::/32 max 32 as 202265; # ripe
   route 2a04:5b82:8::/48 max 48 as 202265; # ripe
   route 2a04:5b84:1::/48 max 48 as 202265; # ripe
