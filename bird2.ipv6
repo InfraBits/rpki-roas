@@ -25652,12 +25652,14 @@ protocol static roas6 {
   route 2a0e:b107:540::/48 max 48 as 207537; # ripe
   route 2a0e:b107:541::/48 max 48 as 207537; # ripe
   route 2001:678:bf0::/48 max 48 as 207540; # ripe
+  route 2a0e:b107:ee0::/44 max 48 as 207550; # ripe
   route 2a10:2f00:111::/48 max 48 as 207550; # ripe
   route 2a0f:d840::/29 max 29 as 207558; # ripe
   route 2a0e:b107:197::/48 max 48 as 207559; # ripe
   route 2001:678:be8::/48 max 48 as 207563; # ripe
   route 2001:4da8:c010::/44 max 48 as 207564; # ripe
   route 2a09:4c2:1f::/48 max 48 as 207564; # ripe
+  route 2a0e:b107:ed0::/44 max 48 as 207564; # ripe
   route 2a10:2f00:112::/48 max 48 as 207564; # ripe
   route 2a0e:b107:410::/44 max 48 as 207567; # ripe
   route 2a0e:97c7:140::/48 max 48 as 207574; # ripe
