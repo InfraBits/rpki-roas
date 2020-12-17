@@ -3063,6 +3063,7 @@ roa table roa {
   roa 2400:adc5::/41 max 48 as 9541; # apnic
   roa 2400:adc7::/32 max 40 as 9541; # apnic
   roa 2400:adc7::/41 max 48 as 9541; # apnic
+  roa 2400:adcc::/32 max 40 as 9541; # apnic
   roa 2400:adcc::/41 max 48 as 9541; # apnic
   roa 2001:df3:f80::/48 max 48 as 9542; # apnic
   roa 2a06:2340:1000::/44 max 44 as 9558; # ripe
