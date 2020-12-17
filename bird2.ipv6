@@ -24170,6 +24170,7 @@ protocol static roas6 {
   route 2a0a:b707:1004::/48 max 48 as 202314; # ripe
   route 2a0a:b707:1010::/44 max 48 as 202314; # ripe
   route 2a0a:b707:1012::/48 max 48 as 202314; # ripe
+  route 2a0d:1a41:cafe::/48 max 48 as 202314; # ripe
   route 2a0d:1a45:666::/48 max 48 as 202314; # ripe
   route 2a07:eb80::/32 max 32 as 202326; # ripe
   route 2a0c:9040::/30 max 30 as 202328; # ripe
