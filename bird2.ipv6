@@ -3054,7 +3054,7 @@ protocol static roas6 {
   route 2001:dec:8000::/48 max 48 as 9541; # apnic
   route 2001:4538::/32 max 32 as 9541; # apnic
   route 2001:4538:41::/48 max 48 as 9541; # apnic
-  route 2400:adc0::/27 max 32 as 9541; # apnic
+  route 2400:adc0::/27 max 35 as 9541; # apnic
   route 2400:adc0::/48 max 48 as 9541; # apnic
   route 2400:adc0:1::/48 max 48 as 9541; # apnic
   route 2400:adc0:2::/48 max 48 as 9541; # apnic
