@@ -193,12 +193,6 @@ protocol static roas6 {
   route 2001:1218:6018::/48 max 48 as 278; # lacnic
   route 2001:1218:6019::/48 max 48 as 278; # lacnic
   route 2001:67c:1514::/48 max 48 as 286; # ripe
-  route 2001:680::/32 max 32 as 286; # ripe
-  route 2001:680:12::/48 max 48 as 286; # ripe
-  route 2001:680:16::/48 max 48 as 286; # ripe
-  route 2001:680:19::/48 max 48 as 286; # ripe
-  route 2001:680:20::/48 max 48 as 286; # ripe
-  route 2a00:1750::/32 max 32 as 286; # ripe
   route 2620:106:6008::/48 max 64 as 377; # arin
   route 2001:bf8::/32 max 32 as 378; # ripe
   route 2001:1458::/32 max 32 as 513; # ripe
@@ -668,13 +662,7 @@ protocol static roas6 {
   route 2001:668::/29 max 29 as 3257; # ripe
   route 2001:668::/32 max 32 as 3257; # ripe
   route 2001:678:dc::/48 max 48 as 3257; # ripe
-  route 2001:680::/32 max 32 as 3257; # ripe
-  route 2001:680:12::/48 max 48 as 3257; # ripe
-  route 2001:680:16::/48 max 48 as 3257; # ripe
-  route 2001:680:19::/48 max 48 as 3257; # ripe
-  route 2001:680:20::/48 max 48 as 3257; # ripe
   route 2405:5e00::/32 max 32 as 3257; # apnic
-  route 2a00:1750::/32 max 32 as 3257; # ripe
   route 2a02:798::/32 max 32 as 3257; # ripe
   route 2a02:300::/32 max 32 as 3261; # ripe
   route 2a03:c600::/32 max 32 as 3262; # ripe
@@ -2728,7 +2716,6 @@ protocol static roas6 {
   route 2a03:9900::/32 max 32 as 8990; # ripe
   route 2a03:9900:1::/48 max 48 as 8990; # ripe
   route 2a03:9900:2::/48 max 48 as 8990; # ripe
-  route 2a02:2d8::/32 max 32 as 9002; # ripe
   route 2001:678:8b4::/48 max 64 as 9009; # ripe
   route 2605:3b80:1::/48 max 48 as 9009; # arin
   route 2605:3b80:cad::/48 max 48 as 9009; # arin
@@ -23710,7 +23697,6 @@ protocol static roas6 {
   route 2a0f:5f40::/29 max 29 as 200019; # ripe
   route 2a04:7c00::/29 max 29 as 200023; # ripe
   route 2a0e:7180::/29 max 29 as 200023; # ripe
-  route 2a00:f120::/32 max 32 as 200026; # ripe
   route 2a01:a360::/32 max 32 as 200030; # ripe
   route 2a00:cdc0:11::/48 max 128 as 200032; # ripe
   route 2a00:eb8::/32 max 32 as 200044; # ripe
