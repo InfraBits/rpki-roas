@@ -5009,7 +5009,6 @@ roa table roa {
   roa 2a05:9040::/29 max 29 as 15576; # ripe
   roa 2a06:5100::/29 max 29 as 15576; # ripe
   roa 2a06:6400::/29 max 29 as 15576; # ripe
-  roa 2a07:90c0::/29 max 29 as 15576; # ripe
   roa 2a09:900::/47 max 47 as 15576; # ripe
   roa 2a09:900:2::/47 max 47 as 15576; # ripe
   roa 2a09:900:100::/40 max 40 as 15576; # ripe
