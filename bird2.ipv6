@@ -1936,7 +1936,6 @@ protocol static roas6 {
   route 2402:ce01::/32 max 32 as 7700; # apnic
   route 2405:aa00::/32 max 32 as 7712; # apnic
   route 2801:10:6000::/48 max 48 as 7727; # lacnic
-  route 2803:100::/32 max 32 as 7727; # lacnic
   route 2001:4948::/32 max 32 as 7782; # arin
   route 2602:233::/32 max 32 as 7782; # arin
   route 2001:470:f3::/48 max 48 as 7784; # arin
