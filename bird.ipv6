@@ -3519,6 +3519,14 @@ roa table roa {
   roa 2001:12f8:8::/47 max 48 as 11431; # lacnic
   roa 2001:12f8:a::/47 max 48 as 11431; # lacnic
   roa 2001:12f8:c::/47 max 48 as 11431; # lacnic
+  roa 2804:138::/32 max 32 as 11432; # lacnic
+  roa 2804:138::/34 max 34 as 11432; # lacnic
+  roa 2804:138::/36 max 36 as 11432; # lacnic
+  roa 2804:138:1000::/36 max 36 as 11432; # lacnic
+  roa 2804:138:2000::/36 max 36 as 11432; # lacnic
+  roa 2804:138:3000::/36 max 36 as 11432; # lacnic
+  roa 2804:138:4000::/34 max 34 as 11432; # lacnic
+  roa 2804:138:8000::/35 max 35 as 11432; # lacnic
   roa 2602:803:7000::/44 max 44 as 11478; # arin
   roa 2602:803:b000::/44 max 44 as 11478; # arin
   roa 2607:3380::/40 max 40 as 11478; # arin
