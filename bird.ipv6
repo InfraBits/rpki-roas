@@ -10049,7 +10049,6 @@ roa table roa {
   roa 2c0f:fa90::/32 max 32 as 37271; # afrinic
   roa 2c0f:fa90:f00::/40 max 40 as 37271; # afrinic
   roa 2001:43f8:1d0::/48 max 48 as 37288; # afrinic
-  roa 2001:43f8:92::/48 max 48 as 37301; # afrinic
   roa 2c0f:f3a8::/32 max 40 as 37308; # afrinic
   roa 2c0f:f3a8::/40 max 40 as 37308; # afrinic
   roa 2c0f:f1a0::/32 max 48 as 37314; # afrinic
