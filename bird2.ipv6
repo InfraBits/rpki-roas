@@ -26733,11 +26733,13 @@ protocol static roas6 {
   route 2a10:4646:8::/48 max 48 as 212185; # ripe
   route 2a10:2f00:15f::/48 max 48 as 212194; # ripe
   route 2a0c:b641:d0::/44 max 48 as 212196; # ripe
+  route 2a0e:b107:ec0::/44 max 48 as 212196; # ripe
   route 2a0e:b107:ec0::/48 max 48 as 212196; # ripe
   route 2a0e:b107:ec1::/48 max 48 as 212196; # ripe
   route 2a0e:b107:ec2::/48 max 48 as 212196; # ripe
   route 2a0e:b107:ec3::/48 max 48 as 212196; # ripe
   route 2a0e:b107:ec4::/48 max 48 as 212196; # ripe
+  route 2a0e:b107:ecf::/48 max 48 as 212196; # ripe
   route 2a0c:b641:c0::/44 max 48 as 212201; # ripe
   route 2a0e:fd45:d70::/48 max 48 as 212213; # ripe
   route 2a04:2b00:14cc::/48 max 48 as 212222; # ripe
