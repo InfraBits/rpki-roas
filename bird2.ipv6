@@ -20207,6 +20207,12 @@ protocol static roas6 {
   route 2400:4fc0:7::/48 max 48 as 134146; # apnic
   route 2400:4fc0:8::/48 max 48 as 134146; # apnic
   route 2400:4fc0:9::/48 max 48 as 134146; # apnic
+  route 2400:4fc0:a::/48 max 48 as 134146; # apnic
+  route 2400:4fc0:b::/48 max 48 as 134146; # apnic
+  route 2400:4fc0:c::/48 max 48 as 134146; # apnic
+  route 2400:4fc0:d::/48 max 48 as 134146; # apnic
+  route 2400:4fc0:e::/48 max 48 as 134146; # apnic
+  route 2400:4fc0:f::/48 max 48 as 134146; # apnic
   route 2400:4fc0:10::/48 max 48 as 134146; # apnic
   route 2401:c7c0:21a::/48 max 48 as 134148; # apnic
   route 2403:2540::/32 max 32 as 134152; # apnic
