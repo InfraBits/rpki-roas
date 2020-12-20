@@ -15020,7 +15020,10 @@ roa table roa {
   roa 2401:c5c0:12::/48 max 48 as 55492; # apnic
   roa 2401:c5c0:13::/48 max 48 as 55492; # apnic
   roa 2401:c5c0:14::/48 max 48 as 55492; # apnic
+  roa 2401:c5c0:15::/48 max 48 as 55492; # apnic
   roa 2401:c5c0:16::/48 max 48 as 55492; # apnic
+  roa 2401:c5c0:100::/48 max 48 as 55492; # apnic
+  roa 2401:c5c0:200::/48 max 48 as 55492; # apnic
   roa 2001:fb0:1075::/48 max 48 as 55498; # apnic
   roa 2404:138:1302::/48 max 48 as 55524; # apnic
   roa 2001:df0:a5::/48 max 48 as 55552; # apnic
