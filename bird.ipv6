@@ -9204,6 +9204,7 @@ roa table roa {
   roa 2604:7b80::/32 max 64 as 32808; # arin
   roa 2607:f0f8::/32 max 32 as 32809; # arin
   roa 2001:470:fa::/48 max 48 as 32913; # arin
+  roa 2606:1880::/32 max 48 as 32931; # arin
   roa 2a0b:2280::/29 max 48 as 32931; # ripe
   roa 2803:6080::/29 max 32 as 32934; # lacnic
   roa 2a03:2880::/32 max 48 as 32934; # ripe
