@@ -233,6 +233,7 @@ protocol static roas6 {
   route 2a0c:1100::/32 max 32 as 781; # ripe
   route 2001:630::/32 max 48 as 786; # ripe
   route 2001:770::/32 max 48 as 786; # ripe
+  route 2604:fdc0::/32 max 32 as 800; # arin
   route 2604:1e80::/32 max 32 as 803; # arin
   route 2604:1e80::/32 max 48 as 803; # arin
   route 2607:f4a8::/32 max 32 as 803; # arin
