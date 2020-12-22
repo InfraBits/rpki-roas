@@ -12,6 +12,7 @@ protocol static roas6 {
   route 2001:504:61::/48 max 48 as 0; # arin
   route 2001:504:90::/48 max 48 as 0; # arin
   route 2001:504:91::/48 max 48 as 0; # arin
+  route 2001:504:102::/48 max 48 as 0; # arin
   route 2001:780::/29 max 29 as 0; # ripe
   route 2001:7f8::/48 max 48 as 0; # ripe
   route 2001:7f8:b:100::/64 max 64 as 0; # ripe
