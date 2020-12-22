@@ -19687,6 +19687,7 @@ roa table roa {
   roa 2602:feda:af3::/48 max 48 as 131477; # arin
   roa 2a09:4bc7:d020::/44 max 44 as 131477; # ripe
   roa 2a0b:4340:500::/40 max 48 as 131477; # ripe
+  roa 2406:d140::/32 max 32 as 131484; # apnic
   roa 2400:4e80::/32 max 124 as 131584; # apnic
   roa 2401:a040::/32 max 48 as 131586; # apnic
   roa 2400:d580::/32 max 48 as 131587; # apnic
