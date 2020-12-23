@@ -15787,7 +15787,6 @@ protocol static roas6 {
   route 2001:67c:88::/48 max 48 as 57436; # ripe
   route 2a03:c080::/32 max 32 as 57458; # ripe
   route 2a03:1040::/32 max 32 as 57468; # ripe
-  route 2a07:3a80::/29 max 29 as 57468; # ripe
   route 2a07:4d40::/29 max 29 as 57468; # ripe
   route 2a00:126f::/32 max 32 as 57472; # ripe
   route 2001:67c:11a0::/48 max 48 as 57479; # ripe
