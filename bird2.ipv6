@@ -8780,6 +8780,7 @@ protocol static roas6 {
   route 2a0f:5180::/29 max 48 as 29802; # ripe
   route 2a0f:5180::/32 max 32 as 29802; # ripe
   route 2001:470:c1::/48 max 48 as 29844; # arin
+  route 2605::/32 max 48 as 29848; # arin
   route 2607:fc98::/32 max 48 as 29854; # arin
   route 2620:109:3000::/44 max 48 as 29888; # arin
   route 2620:5a:8000::/48 max 48 as 29903; # arin
