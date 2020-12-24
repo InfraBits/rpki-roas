@@ -1581,6 +1581,7 @@ protocol static roas6 {
   route 2001:5a0::/32 max 32 as 6453; # arin
   route 2001:42c8::/32 max 32 as 6453; # afrinic
   route 2405:2000::/32 max 32 as 6453; # apnic
+  route 2804:49f4::/32 max 32 as 6453; # lacnic
   route 2a01:3e0::/32 max 32 as 6453; # ripe
   route 2620:0:cf0::/48 max 64 as 6456; # arin
   route 2a00:16f8::/32 max 48 as 6461; # ripe
