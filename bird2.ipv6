@@ -1820,7 +1820,6 @@ protocol static roas6 {
   route 2a00:a900:7afe::/48 max 48 as 6939; # ripe
   route 2a06:1c80::/32 max 32 as 6939; # ripe
   route 2a0b:32c0::/29 max 29 as 6939; # ripe
-  route 2a0d:d640::/29 max 29 as 6939; # ripe
   route 2001:43f8:30::/48 max 48 as 6968; # afrinic
   route 2001:43f8:100::/48 max 48 as 6968; # afrinic
   route 2001:43f8:790::/48 max 48 as 6968; # afrinic
