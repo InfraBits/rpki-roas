@@ -6630,7 +6630,6 @@ protocol static roas6 {
   route 2602:fd10:20::/44 max 48 as 20473; # arin
   route 2602:fd10:ccc::/48 max 48 as 20473; # arin
   route 2602:fd75::/36 max 36 as 20473; # arin
-  route 2602:fed2:7117::/48 max 48 as 20473; # arin
   route 2602:fed2:711e::/48 max 48 as 20473; # arin
   route 2602:ffc5:108::/48 max 48 as 20473; # arin
   route 2620:8b:a000::/48 max 48 as 20473; # arin
