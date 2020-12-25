@@ -9490,6 +9490,7 @@ protocol static roas6 {
   route 2a07:6fc0::/29 max 48 as 34549; # ripe
   route 2a0f:b80::/29 max 32 as 34549; # ripe
   route 2001:678:c4c::/48 max 48 as 34553; # ripe
+  route 2602:809:3000::/48 max 48 as 34553; # arin
   route 2a09:11c0:130::/44 max 48 as 34553; # ripe
   route 2a0e:8f00:fe00::/40 max 48 as 34553; # ripe
   route 2a0e:b107:280::/44 max 48 as 34553; # ripe
