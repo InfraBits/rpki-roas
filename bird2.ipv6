@@ -26891,6 +26891,7 @@ protocol static roas6 {
   route 2602:fcff:30::/44 max 48 as 212105; # arin
   route 2a0c:b641:f0::/44 max 48 as 212108; # ripe
   route 2a0e:8f02:f017::/48 max 48 as 212112; # ripe
+  route 2a0e:b107:dcd::/48 max 48 as 212121; # ripe
   route 2a0c:b641:100::/44 max 48 as 212127; # ripe
   route 2a0e:b107:ef0::/44 max 48 as 212129; # ripe
   route 2a10:2f00:160::/48 max 48 as 212129; # ripe
