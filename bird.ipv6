@@ -10578,6 +10578,7 @@ roa table roa {
   roa 2600:9000:5306::/48 max 48 as 38895; # arin
   roa 2600:9000:5307::/48 max 48 as 38895; # arin
   roa 2402:8600::/32 max 32 as 38896; # apnic
+  roa 2405:9800:c91f::/48 max 48 as 38899; # apnic
   roa 2404:300::/32 max 32 as 38901; # apnic
   roa 2402:f100::/36 max 36 as 38902; # apnic
   roa 2402:f100::/38 max 38 as 38902; # apnic
