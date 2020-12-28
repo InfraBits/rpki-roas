@@ -5063,6 +5063,7 @@ roa table roa {
   roa 2a01:6f8::/32 max 32 as 15580; # ripe
   roa 2a07:2904::/32 max 32 as 15585; # ripe
   roa 2001:750::/32 max 32 as 15589; # ripe
+  roa 2a02:d300::/29 max 29 as 15595; # ripe
   roa 2001:67c:2a7c::/48 max 128 as 15598; # ripe
   roa 2a01:138::/32 max 128 as 15598; # ripe
   roa 2001:67c:98::/48 max 48 as 15600; # ripe
