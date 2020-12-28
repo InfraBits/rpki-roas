@@ -1483,9 +1483,6 @@ roa table roa {
   roa 2a00:a200::/32 max 32 as 5520; # ripe
   roa 2a02:ad0::/29 max 29 as 5521; # ripe
   roa 2001:67c:23b8::/48 max 48 as 5524; # ripe
-  roa 2a00:c080::/32 max 32 as 5524; # ripe
-  roa 2a03:4f00::/32 max 32 as 5524; # ripe
-  roa 2a03:5700::/32 max 32 as 5524; # ripe
   roa 2a03:8100::/32 max 32 as 5524; # ripe
   roa 2a02:500::/29 max 29 as 5538; # ripe
   roa 2a02:500::/32 max 32 as 5538; # ripe
@@ -9023,7 +9020,7 @@ roa table roa {
   roa 2001:1638::/32 max 48 as 31400; # ripe
   roa 2a00:5080::/32 max 32 as 31400; # ripe
   roa 2a01:4d0::/32 max 32 as 31400; # ripe
-  roa 2a01:7e0:aa00::/40 max 64 as 31400; # ripe
+  roa 2a01:7e0:aa00::/40 max 40 as 31400; # ripe
   roa 2a09:7900::/29 max 29 as 31400; # ripe
   roa 2001:67c:2c08::/48 max 48 as 31424; # ripe
   roa 2001:4168::/32 max 32 as 31424; # ripe
@@ -11749,7 +11746,9 @@ roa table roa {
   roa 2a02:6d00::/32 max 32 as 44053; # ripe
   roa 2a02:3c0::/29 max 29 as 44065; # ripe
   roa 2a00:5fc0::/32 max 32 as 44066; # ripe
-  roa 2a01:7e0::/32 max 128 as 44066; # ripe
+  roa 2a01:7e0::/32 max 32 as 44066; # ripe
+  roa 2a01:7e0:2f::/48 max 48 as 44066; # ripe
+  roa 2a01:7e0:1fc::/48 max 48 as 44066; # ripe
   roa 2a02:fb00::/29 max 29 as 44066; # ripe
   roa 2a0a:7bc0::/32 max 32 as 44066; # ripe
   roa 2a0a:7bc7::/32 max 32 as 44066; # ripe
@@ -17682,7 +17681,6 @@ roa table roa {
   roa 2a02:4f60::/32 max 32 as 60198; # ripe
   roa 2a00:6900:10::/48 max 48 as 60199; # ripe
   roa 2a00:61a0::/32 max 32 as 60205; # ripe
-  roa 2a01:7e1::/32 max 128 as 60211; # ripe
   roa 2001:67c:18d0::/48 max 48 as 60216; # ripe
   roa 2001:67c:1bc0::/48 max 48 as 60216; # ripe
   roa 2a00:1728:a::/48 max 48 as 60230; # ripe
@@ -21916,6 +21914,8 @@ roa table roa {
   roa 2406:24c0::/32 max 40 as 136634; # apnic
   roa 2406:24c0::/48 max 48 as 136634; # apnic
   roa 2406:24c0:1::/48 max 48 as 136634; # apnic
+  roa 2406:24c0:2::/48 max 48 as 136634; # apnic
+  roa 2406:24c0:3::/48 max 48 as 136634; # apnic
   roa 2406:24c0:4::/48 max 48 as 136634; # apnic
   roa 2406:24c0:5::/48 max 48 as 136634; # apnic
   roa 2406:24c0:9::/48 max 48 as 136634; # apnic
@@ -26389,7 +26389,6 @@ roa table roa {
   roa 2a09:a840::/29 max 29 as 208861; # ripe
   roa 2a09:c300::/29 max 29 as 208861; # ripe
   roa 2a09:da00::/29 max 29 as 208861; # ripe
-  roa 2a09:fb80::/29 max 29 as 208861; # ripe
   roa 2a0a:d5c0::/29 max 29 as 208861; # ripe
   roa 2a0b:ec80::/29 max 29 as 208861; # ripe
   roa 2a0c:ab00::/29 max 36 as 208861; # ripe
