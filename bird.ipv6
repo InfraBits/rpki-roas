@@ -14205,7 +14205,10 @@ roa table roa {
   roa 2a02:2698:8800::/38 max 48 as 51035; # ripe
   roa 2001:67c:200::/48 max 48 as 51038; # ripe
   roa 2a00:ed40::/32 max 48 as 51043; # ripe
-  roa 2a0f:600::/29 max 128 as 51044; # ripe
+  roa 2a0f:600::/32 max 64 as 51044; # ripe
+  roa 2a0f:601::/32 max 32 as 51044; # ripe
+  roa 2a0f:602::/32 max 32 as 51044; # ripe
+  roa 2a0f:603::/32 max 32 as 51044; # ripe
   roa 2a01:4f80::/29 max 32 as 51053; # ripe
   roa 2a00:5f00::/32 max 32 as 51055; # ripe
   roa 2a02:1618::/32 max 48 as 51056; # ripe
