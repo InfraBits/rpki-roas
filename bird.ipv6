@@ -17670,6 +17670,7 @@ roa table roa {
   roa 2a04:dd00::/29 max 29 as 60117; # ripe
   roa 2a04:dd00::/32 max 32 as 60117; # ripe
   roa 2a04:dd01::/32 max 32 as 60117; # ripe
+  roa 2a04:dd02::/32 max 32 as 60117; # ripe
   roa 2a05:9340::/29 max 29 as 60117; # ripe
   roa 2a05:9340::/32 max 32 as 60117; # ripe
   roa 2a05:9341::/32 max 32 as 60117; # ripe
