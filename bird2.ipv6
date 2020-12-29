@@ -13940,6 +13940,7 @@ protocol static roas6 {
   route 2a09:9740::/48 max 48 as 50007; # ripe
   route 2a09:98c0::/48 max 48 as 50007; # ripe
   route 2a09:9940::/48 max 48 as 50007; # ripe
+  route 2a09:f180::/48 max 48 as 50007; # ripe
   route 2a02:2908::/29 max 29 as 50010; # ripe
   route 2a02:2908:a::53/128 max 128 as 50010; # ripe
   route 2a02:2908:b::53/128 max 128 as 50010; # ripe
