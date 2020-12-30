@@ -27185,6 +27185,7 @@ roa table roa {
   roa 2a0e:b102:100::/44 max 48 as 212895; # ripe
   roa 2a0e:b102:120::/44 max 48 as 212895; # ripe
   roa 2a0c:8740::/29 max 29 as 212903; # ripe
+  roa 2a10:2f00:141::/48 max 48 as 212904; # ripe
   roa 2a0c:d200::/48 max 48 as 212905; # ripe
   roa 2a0f:9100::/32 max 32 as 212906; # ripe
   roa 2a0e:ec00:1312::/48 max 48 as 212910; # ripe
