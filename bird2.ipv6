@@ -14928,7 +14928,6 @@ protocol static roas6 {
   route 2602:ffd1:2::/48 max 48 as 54540; # arin
   route 2602:ffd1:3::/48 max 48 as 54540; # arin
   route 2803:1920::/32 max 32 as 54540; # lacnic
-  route 2620:76:6000::/48 max 48 as 54544; # arin
   route 2403:18c0::/32 max 32 as 54574; # apnic
   route 2403:18c0::/46 max 46 as 54574; # apnic
   route 2403:18c0::/47 max 47 as 54574; # apnic
@@ -14951,8 +14950,6 @@ protocol static roas6 {
   route 2001:470:46::/48 max 48 as 54839; # arin
   route 2604:4140::/32 max 32 as 54841; # arin
   route 2605:f440::/32 max 32 as 54874; # arin
-  route 2605:f440:53::/48 max 48 as 54874; # arin
-  route 2605:f440:5353::/48 max 48 as 54874; # arin
   route 2001:470:9c::/48 max 48 as 54972; # arin
   route 2001:67c:235c::/48 max 48 as 54990; # ripe
   route 2001:538::/32 max 48 as 55002; # arin
@@ -29925,23 +29922,6 @@ protocol static roas6 {
   route 2a04:5781:3001::/48 max 48 as 397918; # ripe
   route 2605:3dc0::/32 max 48 as 397952; # arin
   route 2605:6840::/32 max 48 as 398041; # arin
-  route 2602:801:a000::/44 max 44 as 398085; # arin
-  route 2602:801:a000::/48 max 48 as 398085; # arin
-  route 2602:801:a001::/48 max 48 as 398085; # arin
-  route 2602:801:a002::/48 max 48 as 398085; # arin
-  route 2602:801:a003::/48 max 48 as 398085; # arin
-  route 2602:801:a004::/48 max 48 as 398085; # arin
-  route 2602:801:a005::/48 max 48 as 398085; # arin
-  route 2602:801:a006::/48 max 48 as 398085; # arin
-  route 2602:801:a007::/48 max 48 as 398085; # arin
-  route 2602:801:a008::/48 max 48 as 398085; # arin
-  route 2602:801:a009::/48 max 48 as 398085; # arin
-  route 2602:801:a00a::/48 max 48 as 398085; # arin
-  route 2602:801:a00b::/48 max 48 as 398085; # arin
-  route 2602:801:a00c::/48 max 48 as 398085; # arin
-  route 2602:801:a00d::/48 max 48 as 398085; # arin
-  route 2602:801:a00e::/48 max 48 as 398085; # arin
-  route 2602:801:a00f::/48 max 48 as 398085; # arin
   route 2607:f208:d000::/43 max 43 as 398101; # arin
   route 2607:f208:df00::/48 max 48 as 398101; # arin
   route 2607:f208:8::/48 max 48 as 398107; # arin
