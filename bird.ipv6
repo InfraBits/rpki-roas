@@ -18813,6 +18813,7 @@ roa table roa {
   roa 2a0b:bc0::/29 max 48 as 62455; # ripe
   roa 2001:504:14::/48 max 48 as 62484; # arin
   roa 2602:feb2::/36 max 48 as 62492; # arin
+  roa 2602:ff3a::/36 max 36 as 62512; # arin
   roa 2602:fd50::/48 max 48 as 62513; # arin
   roa 2602:fd50:1::/48 max 48 as 62513; # arin
   roa 2602:fd50:100::/40 max 48 as 62513; # arin
