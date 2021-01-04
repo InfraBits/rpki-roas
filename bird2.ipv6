@@ -25287,7 +25287,6 @@ protocol static roas6 {
   route 2a0c:1a00::/32 max 32 as 205389; # ripe
   route 2a0b:ecc0::/29 max 48 as 205390; # ripe
   route 2a0a:c840::/29 max 32 as 205394; # ripe
-  route 2a0a:e080::/29 max 29 as 205399; # ripe
   route 2a0b:e8c0::/29 max 29 as 205399; # ripe
   route 2a02:8d0::/32 max 32 as 205402; # ripe
   route 2a02:8d1::/32 max 32 as 205402; # ripe
