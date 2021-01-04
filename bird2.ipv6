@@ -1063,6 +1063,14 @@ protocol static roas6 {
   route 2404:c800::/32 max 32 as 4760; # apnic
   route 2403:640::/32 max 32 as 4764; # apnic
   route 2403:5800::/32 max 36 as 4764; # apnic
+  route 2403:5800:1::/48 max 48 as 4764; # apnic
+  route 2403:5800:3::/48 max 48 as 4764; # apnic
+  route 2403:5800:3001::/48 max 48 as 4764; # apnic
+  route 2403:5800:3002::/48 max 48 as 4764; # apnic
+  route 2403:5800:3200::/40 max 40 as 4764; # apnic
+  route 2403:5800:3300::/40 max 40 as 4764; # apnic
+  route 2403:5800:4001::/48 max 48 as 4764; # apnic
+  route 2403:5800:4200::/40 max 40 as 4764; # apnic
   route 2403:5800:9001::/48 max 48 as 4764; # apnic
   route 2403:5800:9200::/40 max 40 as 4764; # apnic
   route 2403:e240::/32 max 32 as 4767; # apnic
