@@ -9204,6 +9204,7 @@ roa table roa {
   roa 2a01:bc80:9::/48 max 48 as 32590; # ripe
   roa 2a01:bc80:a::/48 max 48 as 32590; # ripe
   roa 2a01:bc80:b::/48 max 48 as 32590; # ripe
+  roa 2a01:bc80:c::/48 max 48 as 32590; # ripe
   roa 2001:470:91::/48 max 48 as 32621; # arin
   roa 2604:4000:6000::/48 max 48 as 32636; # arin
   roa 2c0f:fbf0::/28 max 48 as 32653; # afrinic

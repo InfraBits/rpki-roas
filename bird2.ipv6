@@ -9206,6 +9206,7 @@ protocol static roas6 {
   route 2a01:bc80:9::/48 max 48 as 32590; # ripe
   route 2a01:bc80:a::/48 max 48 as 32590; # ripe
   route 2a01:bc80:b::/48 max 48 as 32590; # ripe
+  route 2a01:bc80:c::/48 max 48 as 32590; # ripe
   route 2001:470:91::/48 max 48 as 32621; # arin
   route 2604:4000:6000::/48 max 48 as 32636; # arin
   route 2c0f:fbf0::/28 max 48 as 32653; # afrinic
