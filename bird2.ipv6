@@ -3618,6 +3618,7 @@ protocol static roas6 {
   route 2620:7:4000::/48 max 48 as 11925; # arin
   route 2001:1358::/32 max 32 as 11960; # lacnic
   route 2001:13c8::/32 max 128 as 11960; # lacnic
+  route 2607:8380::/32 max 32 as 11961; # arin
   route 2001:418:1407::/48 max 64 as 12008; # arin
   route 2001:418:1408::/48 max 64 as 12008; # arin
   route 2001:418:1409::/48 max 64 as 12008; # arin
