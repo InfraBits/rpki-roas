@@ -68,6 +68,7 @@ roa table roa {
   roa 2001:7f8:101:7::/64 max 64 as 0; # ripe
   roa 2001:7f8:102::/48 max 48 as 0; # ripe
   roa 2001:7f8:105::/48 max 48 as 0; # ripe
+  roa 2001:7f8:106::/48 max 48 as 0; # ripe
   roa 2001:7fa:0:1::/64 max 64 as 0; # apnic
   roa 2001:7fa:0:3::/64 max 128 as 0; # apnic
   roa 2001:7fa:7::/48 max 128 as 0; # apnic
