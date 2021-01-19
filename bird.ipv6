@@ -5015,7 +5015,7 @@ roa table roa {
   roa 2800:9a7:3000::/36 max 44 as 14522; # lacnic
   roa 2803:a660::/32 max 48 as 14522; # lacnic
   roa 2604:c0c0::/32 max 36 as 14525; # arin
-  roa 2a03:9e00::/32 max 32 as 14537; # ripe
+  roa 2a03:9e00::/32 max 48 as 14537; # ripe
   roa 2a0f:9400:7350::/44 max 48 as 14570; # ripe
   roa 2001:470:33::/48 max 48 as 14613; # arin
   roa 2001:4f8:b::/48 max 48 as 14618; # arin
