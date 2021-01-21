@@ -3150,9 +3150,36 @@ protocol static roas6 {
   route 2400:adc2::/40 max 40 as 9541; # apnic
   route 2400:adc2:100::/48 max 48 as 9541; # apnic
   route 2400:adc3::/32 max 40 as 9541; # apnic
+  route 2400:adc3:100::/48 max 48 as 9541; # apnic
+  route 2400:adc3:101::/48 max 48 as 9541; # apnic
+  route 2400:adc3:102::/48 max 48 as 9541; # apnic
+  route 2400:adc3:103::/48 max 48 as 9541; # apnic
+  route 2400:adc3:104::/48 max 48 as 9541; # apnic
+  route 2400:adc3:105::/48 max 48 as 9541; # apnic
+  route 2400:adc3:106::/48 max 48 as 9541; # apnic
+  route 2400:adc3:107::/48 max 48 as 9541; # apnic
+  route 2400:adc3:108::/48 max 48 as 9541; # apnic
+  route 2400:adc3:109::/48 max 48 as 9541; # apnic
+  route 2400:adc3:10a::/48 max 48 as 9541; # apnic
+  route 2400:adc3:10b::/48 max 48 as 9541; # apnic
+  route 2400:adc3:10c::/48 max 48 as 9541; # apnic
+  route 2400:adc3:10d::/48 max 48 as 9541; # apnic
+  route 2400:adc3:10e::/48 max 48 as 9541; # apnic
+  route 2400:adc3:10f::/48 max 48 as 9541; # apnic
   route 2400:adc5::/32 max 40 as 9541; # apnic
   route 2400:adc7::/32 max 40 as 9541; # apnic
   route 2400:adcc::/32 max 40 as 9541; # apnic
+  route 2400:adce::/40 max 40 as 9541; # apnic
+  route 2400:adce:5000::/40 max 40 as 9541; # apnic
+  route 2400:adda::/32 max 32 as 9541; # apnic
+  route 2400:adda:1f00::/40 max 40 as 9541; # apnic
+  route 2400:addb::/40 max 40 as 9541; # apnic
+  route 2400:addb:100::/40 max 40 as 9541; # apnic
+  route 2400:addc::/40 max 40 as 9541; # apnic
+  route 2400:addc:100::/40 max 40 as 9541; # apnic
+  route 2400:addd:800::/40 max 40 as 9541; # apnic
+  route 2400:addd:1000::/40 max 40 as 9541; # apnic
+  route 2400:addd:1100::/40 max 40 as 9541; # apnic
   route 2a06:2340:1000::/44 max 44 as 9558; # ripe
   route 2a0d:9e40:1000::/36 max 36 as 9558; # ripe
   route 2001:e48::/32 max 32 as 9583; # apnic
@@ -20445,7 +20472,6 @@ protocol static roas6 {
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
   route 2605:9cc0:357::/48 max 48 as 65530; # arin
-  route 2605:9cc0:382::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
