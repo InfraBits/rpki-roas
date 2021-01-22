@@ -3148,6 +3148,7 @@ protocol static roas6 {
   route 2400:adc0:c130::/48 max 48 as 9541; # apnic
   route 2400:adc1::/32 max 40 as 9541; # apnic
   route 2400:adc2::/40 max 40 as 9541; # apnic
+  route 2400:adc2:100::/40 max 40 as 9541; # apnic
   route 2400:adc2:100::/48 max 48 as 9541; # apnic
   route 2400:adc3::/32 max 40 as 9541; # apnic
   route 2400:adc3:100::/48 max 48 as 9541; # apnic
