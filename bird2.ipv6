@@ -9574,6 +9574,7 @@ protocol static roas6 {
   route 2a03:5f80::/46 max 46 as 31500; # ripe
   route 2a03:5f80:2:10::/64 max 64 as 31500; # ripe
   route 2a04:4720::/30 max 30 as 31511; # ripe
+  route 2001:67c:4a0::/48 max 48 as 31518; # ripe
   route 2001:678:2::/48 max 48 as 31529; # ripe
   route 2001:678:e::/48 max 48 as 31529; # ripe
   route 2a02:568:0:2::/64 max 64 as 31529; # ripe
@@ -15035,6 +15036,7 @@ protocol static roas6 {
   route 2a0d:9d00::/29 max 29 as 50954; # ripe
   route 2a02:24e0::/32 max 32 as 50957; # ripe
   route 2a02:27ac::/32 max 32 as 50979; # ripe
+  route 2403:1b80::/32 max 48 as 50983; # apnic
   route 2a02:1610::/32 max 32 as 50986; # ripe
   route 2a02:250:2::/48 max 48 as 51013; # ripe
   route 2a01:58a0::/32 max 32 as 51018; # ripe
@@ -18394,6 +18396,8 @@ protocol static roas6 {
   route 2a03:780::/32 max 32 as 59702; # ripe
   route 2a01:8640::/48 max 48 as 59711; # ripe
   route 2a01:8640:2::/48 max 48 as 59711; # ripe
+  route 2a01:8640:f::/48 max 48 as 59711; # ripe
+  route 2a10:1fc0:1::/48 max 48 as 59711; # ripe
   route 2001:7f8:70::/48 max 48 as 59712; # ripe
   route 2a02:2698:3800::/38 max 48 as 59713; # ripe
   route 2a02:cdc0::/29 max 48 as 59715; # ripe
@@ -20561,6 +20565,7 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
+  route 2605:9cc0:357::/48 max 48 as 65530; # arin
   route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
@@ -21011,6 +21016,7 @@ protocol static roas6 {
   route 2401:b80:2000:2017::/64 max 64 as 133334; # apnic
   route 2401:b80:3000::/36 max 36 as 133334; # apnic
   route 2401:f9c0:2600::/40 max 40 as 133398; # apnic
+  route 2a10:1fc0::/48 max 48 as 133398; # ripe
   route 2401:a280::/32 max 32 as 133405; # apnic
   route 2001:df3:a800::/48 max 48 as 133408; # apnic
   route 2403:21c0::/32 max 32 as 133410; # apnic
