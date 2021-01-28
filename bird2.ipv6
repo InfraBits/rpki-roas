@@ -6170,6 +6170,18 @@ protocol static roas6 {
   route 2001:b400::/32 max 64 as 17421; # apnic
   route 2001:b401::/32 max 64 as 17421; # apnic
   route 2001:df4:3500::/48 max 48 as 17439; # apnic
+  route 2401:8800::/40 max 40 as 17439; # apnic
+  route 2401:8800::/48 max 48 as 17439; # apnic
+  route 2401:8800:200::/40 max 40 as 17439; # apnic
+  route 2401:8800:400::/40 max 40 as 17439; # apnic
+  route 2401:8800:600::/40 max 40 as 17439; # apnic
+  route 2401:8800:800::/40 max 40 as 17439; # apnic
+  route 2401:8800:a00::/40 max 40 as 17439; # apnic
+  route 2401:8800:a00::/48 max 48 as 17439; # apnic
+  route 2401:8800:a03::/48 max 48 as 17439; # apnic
+  route 2401:8800:c00::/40 max 40 as 17439; # apnic
+  route 2401:8800:c05::/48 max 48 as 17439; # apnic
+  route 2401:8800:e00::/40 max 40 as 17439; # apnic
   route 2406:69c0::/32 max 36 as 17439; # apnic
   route 2404:8000::/32 max 32 as 17451; # apnic
   route 2404:8000::/48 max 48 as 17451; # apnic
