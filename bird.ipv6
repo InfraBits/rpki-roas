@@ -3063,6 +3063,7 @@ roa table roa {
   roa 2001:470:134::/48 max 48 as 9312; # arin
   roa 2001:470:136::/48 max 48 as 9312; # arin
   roa 2403:2c80::/32 max 32 as 9312; # apnic
+  roa 2403:2c80:88::/48 max 48 as 9312; # apnic
   roa 2403:5180:66::/48 max 48 as 9312; # apnic
   roa 2403:5180:6666::/48 max 48 as 9312; # apnic
   roa 2a0e:7580:4590::/48 max 48 as 9312; # ripe
