@@ -7012,12 +7012,6 @@ protocol static roas6 {
   route 2620:89:c000::/48 max 48 as 20099; # arin
   route 2600:230f::/32 max 32 as 20115; # arin
   route 2600:5801:a01f::/48 max 48 as 20115; # arin
-  route 2600:6c64::/32 max 32 as 20115; # arin
-  route 2600:6c65::/32 max 32 as 20115; # arin
-  route 2600:6c66::/32 max 32 as 20115; # arin
-  route 2600:6c67::/32 max 32 as 20115; # arin
-  route 2602:102::/32 max 32 as 20115; # arin
-  route 2602:105::/32 max 32 as 20115; # arin
   route 2602:10e::/48 max 48 as 20115; # arin
   route 2602:10e:1::/48 max 48 as 20115; # arin
   route 2602:10e:2::/48 max 48 as 20115; # arin
