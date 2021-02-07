@@ -414,7 +414,9 @@ roa table roa {
   roa 2001:7f8:48::/48 max 48 as 1850; # ripe
   roa 2001:628::/29 max 29 as 1853; # ripe
   roa 2001:67c:1864::/48 max 48 as 1853; # ripe
+  roa 2001:67c:2938::/48 max 48 as 1880; # ripe
   roa 2001:1400::/48 max 48 as 1881; # ripe
+  roa 2001:67c:2938::/48 max 48 as 1883; # ripe
   roa 2a07:9e40::/29 max 29 as 1902; # ripe
   roa 2001:12f0::/32 max 64 as 1916; # lacnic
   roa 2a05:7f00:188::/48 max 48 as 1921; # ripe
