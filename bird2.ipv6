@@ -68,7 +68,6 @@ protocol static roas6 {
   route 2001:7f8:f5::/48 max 48 as 0; # ripe
   route 2001:7f8:fd::/48 max 48 as 0; # ripe
   route 2001:7f8:101:7::/64 max 64 as 0; # ripe
-  route 2001:7f8:102::/48 max 48 as 0; # ripe
   route 2001:7f8:105::/48 max 48 as 0; # ripe
   route 2001:7f8:106::/48 max 48 as 0; # ripe
   route 2001:7fa:0:1::/64 max 64 as 0; # apnic
