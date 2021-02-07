@@ -416,9 +416,7 @@ protocol static roas6 {
   route 2001:7f8:48::/48 max 48 as 1850; # ripe
   route 2001:628::/29 max 29 as 1853; # ripe
   route 2001:67c:1864::/48 max 48 as 1853; # ripe
-  route 2001:67c:2938::/48 max 48 as 1880; # ripe
   route 2001:1400::/48 max 48 as 1881; # ripe
-  route 2001:67c:2938::/48 max 48 as 1883; # ripe
   route 2a07:9e40::/29 max 29 as 1902; # ripe
   route 2001:12f0::/32 max 64 as 1916; # lacnic
   route 2a05:7f00:188::/48 max 48 as 1921; # ripe
@@ -638,6 +636,7 @@ protocol static roas6 {
   route 2a09:0:6::/48 max 48 as 3214; # ripe
   route 2a09:0:7::/48 max 48 as 3214; # ripe
   route 2a09:0:8::/48 max 48 as 3214; # ripe
+  route 2a09:0:9::/48 max 48 as 3214; # ripe
   route 2a0b:4080::/32 max 48 as 3214; # ripe
   route 2a0b:89c0::/29 max 48 as 3214; # ripe
   route 2a0c:59c0::/29 max 48 as 3214; # ripe
@@ -20653,7 +20652,6 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  route 2605:9cc0:382::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -27296,6 +27294,7 @@ protocol static roas6 {
   route 2a0f:3cc0::/29 max 32 as 207936; # ripe
   route 2001:7f8:e3::/48 max 48 as 207948; # ripe
   route 2a0d:1a40:7900::/40 max 48 as 207960; # ripe
+  route 2a0e:1cc1::/40 max 48 as 207960; # ripe
   route 2a0f:5707:ad00::/44 max 48 as 207963; # ripe
   route 2a0f:5707:ad01::/48 max 48 as 207963; # ripe
   route 2001:694::/48 max 48 as 207969; # ripe
@@ -28138,6 +28137,7 @@ protocol static roas6 {
   route 2a0e:97c0:120::/44 max 48 as 211977; # ripe
   route 2a0e:8f02:f006::/48 max 48 as 211980; # ripe
   route 2a0d:f301:43::/48 max 48 as 211983; # ripe
+  route 2a0e:1cc0:5::/48 max 48 as 211998; # ripe
   route 2a0f:5707:20::/48 max 48 as 212000; # ripe
   route 2001:67c:229c::/48 max 48 as 212002; # ripe
   route 2a0e:fd45:e10::/48 max 48 as 212004; # ripe
