@@ -2695,6 +2695,8 @@ protocol static roas6 {
   route 2001:16b8:7100::/40 max 40 as 8881; # ripe
   route 2001:16b8:7200::/40 max 40 as 8881; # ripe
   route 2001:16b8:7300::/40 max 40 as 8881; # ripe
+  route 2001:16b8:7400::/40 max 40 as 8881; # ripe
+  route 2001:16b8:7500::/40 max 40 as 8881; # ripe
   route 2001:16b8:8000::/35 max 35 as 8881; # ripe
   route 2001:16b8:8000::/40 max 40 as 8881; # ripe
   route 2001:16b8:8100::/40 max 40 as 8881; # ripe
@@ -2714,6 +2716,16 @@ protocol static roas6 {
   route 2001:16b8:9000::/40 max 40 as 8881; # ripe
   route 2001:16b8:9100::/40 max 40 as 8881; # ripe
   route 2001:16b8:9200::/40 max 40 as 8881; # ripe
+  route 2001:16b8:9600::/40 max 40 as 8881; # ripe
+  route 2001:16b8:9700::/40 max 40 as 8881; # ripe
+  route 2001:16b8:9800::/40 max 40 as 8881; # ripe
+  route 2001:16b8:9900::/40 max 40 as 8881; # ripe
+  route 2001:16b8:9a00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:9b00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:9c00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:9d00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:9e00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:9f00::/40 max 40 as 8881; # ripe
   route 2001:16b8:a000::/35 max 35 as 8881; # ripe
   route 2001:16b8:a000::/40 max 40 as 8881; # ripe
   route 2001:16b8:a100::/40 max 40 as 8881; # ripe
@@ -2747,6 +2759,14 @@ protocol static roas6 {
   route 2001:16b8:c600::/40 max 40 as 8881; # ripe
   route 2001:16b8:c700::/40 max 40 as 8881; # ripe
   route 2001:16b8:c800::/40 max 40 as 8881; # ripe
+  route 2001:16b8:c900::/40 max 40 as 8881; # ripe
+  route 2001:16b8:ca00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:cb00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:cc00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:e000::/40 max 40 as 8881; # ripe
+  route 2001:16b8:e100::/40 max 40 as 8881; # ripe
+  route 2001:16b8:e200::/40 max 40 as 8881; # ripe
+  route 2001:16b8:e300::/40 max 40 as 8881; # ripe
   route 2a01:c9c0:a0::/44 max 48 as 8891; # ripe
   route 2a01:c9c0:c0::/44 max 48 as 8891; # ripe
   route 2a00:1f78::/29 max 48 as 8893; # ripe
@@ -24436,6 +24456,8 @@ protocol static roas6 {
   route 2a02:4540:c020::/44 max 44 as 197207; # ripe
   route 2a02:4540:c030::/44 max 44 as 197207; # ripe
   route 2a02:4544:e0:500::1:0/116 max 116 as 197207; # ripe
+  route 2a02:4545:e0::b/128 max 128 as 197207; # ripe
+  route 2a02:4545:e0::c/128 max 128 as 197207; # ripe
   route 2a01:b6a0::/32 max 32 as 197216; # ripe
   route 2a02:80e0::/30 max 30 as 197216; # ripe
   route 2a03:8c0::/32 max 32 as 197223; # ripe
