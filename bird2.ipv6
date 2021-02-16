@@ -2731,6 +2731,10 @@ protocol static roas6 {
   route 2001:16b8:7500::/40 max 40 as 8881; # ripe
   route 2001:16b8:7600::/40 max 40 as 8881; # ripe
   route 2001:16b8:7700::/40 max 40 as 8881; # ripe
+  route 2001:16b8:7800::/40 max 40 as 8881; # ripe
+  route 2001:16b8:7900::/40 max 40 as 8881; # ripe
+  route 2001:16b8:7a00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:7b00::/40 max 40 as 8881; # ripe
   route 2001:16b8:8000::/35 max 35 as 8881; # ripe
   route 2001:16b8:8000::/40 max 40 as 8881; # ripe
   route 2001:16b8:8100::/40 max 40 as 8881; # ripe
@@ -2799,6 +2803,10 @@ protocol static roas6 {
   route 2001:16b8:cc00::/40 max 40 as 8881; # ripe
   route 2001:16b8:cd00::/40 max 40 as 8881; # ripe
   route 2001:16b8:ce00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:cf00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:d000::/40 max 40 as 8881; # ripe
+  route 2001:16b8:d100::/40 max 40 as 8881; # ripe
+  route 2001:16b8:d200::/40 max 40 as 8881; # ripe
   route 2001:16b8:e000::/40 max 40 as 8881; # ripe
   route 2001:16b8:e100::/40 max 40 as 8881; # ripe
   route 2001:16b8:e200::/40 max 40 as 8881; # ripe
@@ -2807,6 +2815,18 @@ protocol static roas6 {
   route 2001:16b8:e500::/40 max 40 as 8881; # ripe
   route 2001:16b8:e600::/40 max 40 as 8881; # ripe
   route 2001:16b8:e700::/40 max 40 as 8881; # ripe
+  route 2001:16b8:e800::/40 max 40 as 8881; # ripe
+  route 2001:16b8:e900::/40 max 40 as 8881; # ripe
+  route 2001:16b8:ea00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:eb00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:ec00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:ed00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:ee00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:ef00::/40 max 40 as 8881; # ripe
+  route 2001:16b8:f000::/40 max 40 as 8881; # ripe
+  route 2001:16b8:f100::/40 max 40 as 8881; # ripe
+  route 2001:16b8:f200::/40 max 40 as 8881; # ripe
+  route 2001:16b8:f300::/40 max 40 as 8881; # ripe
   route 2a01:c9c0:a0::/44 max 48 as 8891; # ripe
   route 2a01:c9c0:c0::/44 max 48 as 8891; # ripe
   route 2a00:1f78::/29 max 48 as 8893; # ripe
