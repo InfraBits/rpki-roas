@@ -16200,6 +16200,7 @@ protocol static roas6 {
   route 2001:470:e0::/48 max 48 as 54225; # arin
   route 2604:ebc0::/32 max 36 as 54225; # arin
   route 2001:470:52::/48 max 48 as 54288; # arin
+  route 2001:67c:64::/48 max 48 as 54321; # ripe
   route 2606:f700::/32 max 32 as 54359; # arin
   route 2001:470:82::/48 max 48 as 54371; # arin
   route 2401:b140::/48 max 48 as 54415; # apnic
@@ -19091,6 +19092,7 @@ protocol static roas6 {
   route 2a04:5e86::/32 max 32 as 60243; # ripe
   route 2a04:5e87::/32 max 32 as 60243; # ripe
   route 2602:fed2:711a::/48 max 48 as 60246; # arin
+  route 2a0f:6b40::/29 max 29 as 60251; # ripe
   route 2a00:cfe0::/32 max 32 as 60252; # ripe
   route 2a0e:2e80::/29 max 29 as 60255; # ripe
   route 2a06:6ec0::/29 max 29 as 60262; # ripe
@@ -21059,8 +21061,6 @@ protocol static roas6 {
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
   route 2605:9cc0:357::/48 max 48 as 65530; # arin
-  route 2605:9cc0:382::/48 max 48 as 65530; # arin
-  route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -25514,10 +25514,8 @@ protocol static roas6 {
   route 2a0c:684::/30 max 30 as 200000; # ripe
   route 2a0c:780::/29 max 29 as 200000; # ripe
   route 2a0d:6500::/29 max 29 as 200000; # ripe
-  route 2a0b:35c0::/32 max 32 as 200005; # ripe
-  route 2a0b:35c1::/32 max 32 as 200005; # ripe
-  route 2a0b:35c2::/32 max 32 as 200005; # ripe
-  route 2a0b:35c3::/32 max 32 as 200005; # ripe
+  route 2a0b:35c0::/30 max 32 as 200005; # ripe
+  route 2a0b:35c4::/48 max 48 as 200005; # ripe
   route 2001:678:6d4::/48 max 48 as 200019; # ripe
   route 2a09:7c46::/32 max 32 as 200019; # ripe
   route 2a0f:5f40::/29 max 29 as 200019; # ripe
@@ -28423,6 +28421,8 @@ protocol static roas6 {
   route 2001:67c:2904::/48 max 48 as 212125; # ripe
   route 2a0c:b641:100::/44 max 48 as 212127; # ripe
   route 2001:67c:2b2c::/48 max 48 as 212129; # ripe
+  route 2a0e:b107:ef0::/44 max 48 as 212129; # ripe
+  route 2a10:2f00:160::/48 max 48 as 212129; # ripe
   route 2a10:af80::/32 max 32 as 212130; # ripe
   route 2a10:ae80::/29 max 32 as 212131; # ripe
   route 2001:678:efc::/48 max 48 as 212135; # ripe
