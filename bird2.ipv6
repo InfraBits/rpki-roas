@@ -1648,7 +1648,6 @@ protocol static roas6 {
   route 2605:3a40::/32 max 48 as 6233; # arin
   route 2a09::/29 max 48 as 6233; # ripe
   route 2a09::/48 max 48 as 6233; # ripe
-  route 2a09:4bc7:f000::/36 max 36 as 6233; # ripe
   route 2800:6b0::/28 max 28 as 6306; # lacnic
   route 2604:9d40:120::/48 max 48 as 6315; # arin
   route 2001:4e8::/32 max 48 as 6327; # arin
@@ -21013,10 +21012,6 @@ protocol static roas6 {
   route 2404:aac0::/44 max 44 as 64271; # apnic
   route 2404:bac0::/32 max 32 as 64271; # apnic
   route 2604:d6c0::/32 max 36 as 64271; # arin
-  route 2a09:4bc0::/36 max 36 as 64271; # ripe
-  route 2a09:4bc0:1000::/36 max 36 as 64271; # ripe
-  route 2a09:4bc0:2000::/36 max 36 as 64271; # ripe
-  route 2a09:4bc0:4000::/36 max 36 as 64271; # ripe
   route 2400:4ec0::/32 max 48 as 64300; # apnic
   route 2406:45c0::/32 max 32 as 64300; # apnic
   route 2406:45c0::/33 max 48 as 64300; # apnic
@@ -21070,6 +21065,7 @@ protocol static roas6 {
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
   route 2605:9cc0:357::/48 max 48 as 65530; # arin
   route 2605:9cc0:382::/48 max 48 as 65530; # arin
+  route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -21157,7 +21153,6 @@ protocol static roas6 {
   route 2402:f740:1000::/36 max 36 as 131477; # apnic
   route 2402:f740:1000::/44 max 44 as 131477; # apnic
   route 2602:feda:af3::/48 max 48 as 131477; # arin
-  route 2a09:4bc7:d020::/44 max 44 as 131477; # ripe
   route 2a0b:4340:500::/40 max 48 as 131477; # ripe
   route 2406:d140::/32 max 32 as 131484; # apnic
   route 2400:4e80::/32 max 124 as 131584; # apnic
@@ -23774,7 +23769,6 @@ protocol static roas6 {
   route 2405:3340::/32 max 32 as 137856; # apnic
   route 2406:1dc0::/32 max 36 as 137871; # apnic
   route 2402:f640::/32 max 32 as 137873; # apnic
-  route 2a09:4bc7:d020::/44 max 44 as 137882; # ripe
   route 2402:f840::/32 max 32 as 137883; # apnic
   route 2402:f940::/32 max 32 as 137884; # apnic
   route 2a0d:2906:f000::/44 max 48 as 137897; # ripe

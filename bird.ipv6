@@ -1646,7 +1646,6 @@ roa table roa {
   roa 2605:3a40::/32 max 48 as 6233; # arin
   roa 2a09::/29 max 48 as 6233; # ripe
   roa 2a09::/48 max 48 as 6233; # ripe
-  roa 2a09:4bc7:f000::/36 max 36 as 6233; # ripe
   roa 2800:6b0::/28 max 28 as 6306; # lacnic
   roa 2604:9d40:120::/48 max 48 as 6315; # arin
   roa 2001:4e8::/32 max 48 as 6327; # arin
@@ -21011,10 +21010,6 @@ roa table roa {
   roa 2404:aac0::/44 max 44 as 64271; # apnic
   roa 2404:bac0::/32 max 32 as 64271; # apnic
   roa 2604:d6c0::/32 max 36 as 64271; # arin
-  roa 2a09:4bc0::/36 max 36 as 64271; # ripe
-  roa 2a09:4bc0:1000::/36 max 36 as 64271; # ripe
-  roa 2a09:4bc0:2000::/36 max 36 as 64271; # ripe
-  roa 2a09:4bc0:4000::/36 max 36 as 64271; # ripe
   roa 2400:4ec0::/32 max 48 as 64300; # apnic
   roa 2406:45c0::/32 max 32 as 64300; # apnic
   roa 2406:45c0::/33 max 48 as 64300; # apnic
@@ -21068,6 +21063,7 @@ roa table roa {
   roa 2001:e68:2001:1::/64 max 64 as 65530; # apnic
   roa 2605:9cc0:357::/48 max 48 as 65530; # arin
   roa 2605:9cc0:382::/48 max 48 as 65530; # arin
+  roa 2605:9cc0:384::/48 max 48 as 65530; # arin
   roa 2001:718:ffff::/48 max 48 as 65533; # ripe
   roa 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   roa 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -21155,7 +21151,6 @@ roa table roa {
   roa 2402:f740:1000::/36 max 36 as 131477; # apnic
   roa 2402:f740:1000::/44 max 44 as 131477; # apnic
   roa 2602:feda:af3::/48 max 48 as 131477; # arin
-  roa 2a09:4bc7:d020::/44 max 44 as 131477; # ripe
   roa 2a0b:4340:500::/40 max 48 as 131477; # ripe
   roa 2406:d140::/32 max 32 as 131484; # apnic
   roa 2400:4e80::/32 max 124 as 131584; # apnic
@@ -23772,7 +23767,6 @@ roa table roa {
   roa 2405:3340::/32 max 32 as 137856; # apnic
   roa 2406:1dc0::/32 max 36 as 137871; # apnic
   roa 2402:f640::/32 max 32 as 137873; # apnic
-  roa 2a09:4bc7:d020::/44 max 44 as 137882; # ripe
   roa 2402:f840::/32 max 32 as 137883; # apnic
   roa 2402:f940::/32 max 32 as 137884; # apnic
   roa 2a0d:2906:f000::/44 max 48 as 137897; # ripe
