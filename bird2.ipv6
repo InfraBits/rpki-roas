@@ -14641,6 +14641,7 @@ protocol static roas6 {
   route 2a09:ed40::/29 max 48 as 47829; # ripe
   route 2a03:f300::/29 max 29 as 47834; # ripe
   route 2a03:f300::/32 max 32 as 47834; # ripe
+  route 2a02:c70::/32 max 32 as 47841; # ripe
   route 2001:67c:64c::/48 max 64 as 47846; # ripe
   route 2a00:1b00::/48 max 48 as 47862; # ripe
   route 2a00:1b00:1000::/48 max 48 as 47862; # ripe
@@ -21107,7 +21108,7 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  route 2605:9cc0:382::/48 max 48 as 65530; # arin
+  route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -28170,6 +28171,7 @@ protocol static roas6 {
   route 2a07:cf40::/32 max 32 as 209578; # ripe
   route 2a0d:d1c0::/32 max 32 as 209582; # ripe
   route 2a0c:b641:510::/44 max 48 as 209586; # ripe
+  route 2a10:9107:f000::/36 max 36 as 209588; # ripe
   route 2a0c:b641:200::/44 max 48 as 209606; # ripe
   route 2a0d:76c0::/48 max 48 as 209608; # ripe
   route 2001:678:900::/48 max 48 as 209609; # ripe
