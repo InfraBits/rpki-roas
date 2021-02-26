@@ -92,6 +92,7 @@ protocol static roas6 {
   route 2001:df0:5580::/48 max 48 as 0; # apnic
   route 2001:df3:1300::/48 max 48 as 0; # apnic
   route 2001:df5:7880::/48 max 48 as 0; # apnic
+  route 2001:df6:780::/48 max 48 as 0; # apnic
   route 2001:12f8::/48 max 128 as 0; # lacnic
   route 2001:43f8::/48 max 128 as 0; # afrinic
   route 2001:43f8:1f0::/47 max 47 as 0; # afrinic
