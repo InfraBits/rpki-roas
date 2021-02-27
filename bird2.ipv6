@@ -31288,6 +31288,8 @@ protocol static roas6 {
   route 2602:fe6a:aaa::/48 max 48 as 397131; # arin
   route 2602:fe6a:bc1::/48 max 48 as 397131; # arin
   route 2602:fe2e::/36 max 36 as 397143; # arin
+  route 2602:fe2e::/36 max 37 as 397143; # arin
+  route 2602:fe2e::/37 max 37 as 397143; # arin
   route 2a0f:9400:7350::/44 max 48 as 397143; # ripe
   route 2607:c280::/32 max 64 as 397168; # arin
   route 2a03:a860:51::/48 max 48 as 397192; # ripe
