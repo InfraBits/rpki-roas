@@ -813,6 +813,10 @@ roa table roa {
   roa 2a0f:3b04::/32 max 32 as 3356; # ripe
   roa 2001:4830:c0c0::/44 max 48 as 3384; # arin
   roa 2602:fec5::/36 max 36 as 3386; # arin
+  roa 2001:678:5d8::/48 max 48 as 3399; # ripe
+  roa 2a03:8600::/32 max 32 as 3399; # ripe
+  roa 2a07:5cc0::/29 max 32 as 3399; # ripe
+  roa 2a0c:dd40::/29 max 32 as 3399; # ripe
   roa 2001:1998:2000::/36 max 36 as 3456; # arin
   roa 2001:1998:3000::/36 max 36 as 3456; # arin
   roa 2001:1998:3100::/48 max 48 as 3456; # arin
@@ -11882,6 +11886,7 @@ roa table roa {
   roa 2a09:7:2000::/48 max 48 as 39220; # ripe
   roa 2a00:1f78:fffe::/48 max 48 as 39227; # ripe
   roa 2a03:7740::/32 max 32 as 39232; # ripe
+  roa 2a02:1600::/29 max 32 as 39233; # ripe
   roa 2a0c:f540::/29 max 29 as 39238; # ripe
   roa 2a00:1d68::/32 max 32 as 39250; # ripe
   roa 2a03:7dc0::/32 max 32 as 39256; # ripe
@@ -12474,6 +12479,7 @@ roa table roa {
   roa 2a00:11c0:77::/48 max 48 as 42360; # ripe
   roa 2a01:6f0::/32 max 32 as 42366; # ripe
   roa 2a01:6f0:100::/40 max 48 as 42366; # ripe
+  roa 2a10:8b40::/32 max 32 as 42369; # ripe
   roa 2a0c:a9c7:177::/48 max 48 as 42385; # ripe
   roa 2605:380::/32 max 48 as 42388; # arin
   roa 2803:ad80::/32 max 48 as 42388; # lacnic
@@ -21112,7 +21118,7 @@ roa table roa {
   roa 2a02:d58:200a::/48 max 48 as 64520; # ripe
   roa 2607:fd78:902::/48 max 48 as 65001; # arin
   roa 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  roa 2605:9cc0:357::/48 max 48 as 65530; # arin
+  roa 2605:9cc0:382::/48 max 48 as 65530; # arin
   roa 2605:9cc0:384::/48 max 48 as 65530; # arin
   roa 2001:718:ffff::/48 max 48 as 65533; # ripe
   roa 2001:67c:2b5c::/48 max 48 as 65535; # ripe
@@ -25033,7 +25039,6 @@ roa table roa {
   roa 2a0c:dd44::/32 max 32 as 197595; # ripe
   roa 2a0c:dd45::/32 max 32 as 197595; # ripe
   roa 2a0c:dd46::/32 max 32 as 197595; # ripe
-  roa 2a0e:1c80:1::/48 max 48 as 197595; # ripe
   roa 2a0e:1c80:6::/48 max 48 as 197595; # ripe
   roa 2a0e:1c80:f::/48 max 48 as 197595; # ripe
   roa 2001:678:7b8::/48 max 48 as 197600; # ripe
