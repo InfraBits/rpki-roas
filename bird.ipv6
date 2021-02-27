@@ -14827,6 +14827,7 @@ roa table roa {
   roa 2a07:ecc4::/30 max 30 as 48399; # ripe
   roa 2a07:2400::/29 max 29 as 48402; # ripe
   roa 2a07:3140::/29 max 29 as 48408; # ripe
+  roa 2602:fcf6:a::/48 max 48 as 48413; # arin
   roa 2a02:db8::/32 max 32 as 48417; # ripe
   roa 2a02:5ac0::/33 max 33 as 48424; # ripe
   roa 2a07:1840::/32 max 32 as 48430; # ripe
@@ -28408,6 +28409,7 @@ roa table roa {
   roa 2a0e:aa01:aa00::/40 max 48 as 210311; # ripe
   roa 2a0d:3dc0::/29 max 29 as 210312; # ripe
   roa 2a0c:f780::/29 max 29 as 210321; # ripe
+  roa 2602:fcf6:b::/48 max 48 as 210323; # arin
   roa 2a0b:b87:ffee::/48 max 48 as 210323; # ripe
   roa 2a10:98c0::/29 max 48 as 211756; # ripe
   roa 2a10:9840::/29 max 29 as 211757; # ripe
