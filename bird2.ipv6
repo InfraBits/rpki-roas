@@ -16293,6 +16293,7 @@ protocol static roas6 {
   route 2602:fed2:712d::/48 max 48 as 53356; # arin
   route 2602:fed2:7305::/48 max 48 as 53356; # arin
   route 2602:fed2:730a::/48 max 48 as 53356; # arin
+  route 2602:fed2:730c::/48 max 48 as 53356; # arin
   route 2602:fed2:730f::/48 max 48 as 53356; # arin
   route 2602:fed2:7705::/48 max 48 as 53356; # arin
   route 2602:fed2:770a::/48 max 48 as 53356; # arin
