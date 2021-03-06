@@ -148,6 +148,7 @@ protocol static roas6 {
   route 2a0e:bf00::/29 max 48 as 0; # ripe
   route 2a0f:3787::/32 max 32 as 0; # ripe
   route 2a0f:6040::/29 max 29 as 0; # ripe
+  route 2803:8380::/32 max 32 as 1; # lacnic
   route 2001:500:14::/48 max 48 as 42; # arin
   route 2001:500:15::/48 max 48 as 42; # arin
   route 2001:678:3::/48 max 48 as 42; # ripe
