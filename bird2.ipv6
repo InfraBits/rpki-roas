@@ -157,7 +157,6 @@ protocol static roas6 {
   route 2620:0:870::/45 max 48 as 42; # arin
   route 2620:171::/36 max 48 as 42; # arin
   route 2800:110:10::/48 max 48 as 42; # lacnic
-  route 2400:d680:1f3::/48 max 48 as 48; # apnic
   route 2607:f470::/32 max 48 as 55; # arin
   route 2001:470:22::/48 max 48 as 57; # arin
   route 2001:18e8::/44 max 44 as 87; # arin
@@ -1006,7 +1005,6 @@ protocol static roas6 {
   route 2610:1f0::/32 max 48 as 4181; # arin
   route 2800:110::/32 max 48 as 4270; # lacnic
   route 2803:b5a0::/32 max 32 as 4323; # lacnic
-  route 2403:b900::/32 max 32 as 4382; # apnic
   route 2a02:6a0:4ffe::/48 max 48 as 4410; # ripe
   route 2a02:6a0:4fff::/48 max 48 as 4410; # ripe
   route 2001:470:e::/48 max 48 as 4531; # arin
@@ -1030,7 +1028,6 @@ protocol static roas6 {
   route 2001:c00:4618:4444::/64 max 64 as 4618; # apnic
   route 2001:c00:7000:1::/64 max 64 as 4618; # apnic
   route 2001:c00:face::/48 max 48 as 4618; # apnic
-  route 2406:6cc0::/32 max 48 as 4622; # apnic
   route 2400:1700::/32 max 32 as 4628; # apnic
   route 2001:cb0::/32 max 32 as 4637; # apnic
   route 2001:cb0:20d::/48 max 48 as 4637; # apnic
@@ -1447,13 +1444,11 @@ protocol static roas6 {
   route 2a06:5040:12::/48 max 48 as 4785; # ripe
   route 2a06:5040:13::/48 max 48 as 4785; # ripe
   route 2a06:5040:14::/48 max 48 as 4785; # ripe
-  route 2001:d10::/32 max 48 as 4787; # apnic
   route 2001:d10::/48 max 48 as 4787; # apnic
   route 2403:3440::/32 max 32 as 4787; # apnic
   route 2403:3440::/48 max 48 as 4787; # apnic
   route 2403:34c0::/32 max 32 as 4787; # apnic
   route 2403:34c0::/48 max 48 as 4787; # apnic
-  route 2405:8180::/32 max 32 as 4787; # apnic
   route 2001:e68::/32 max 64 as 4788; # apnic
   route 2001:e68::/35 max 35 as 4788; # apnic
   route 2001:e68:2::/56 max 56 as 4788; # apnic
@@ -1496,18 +1491,6 @@ protocol static roas6 {
   route 2001:e00:100:8000::/49 max 49 as 4795; # apnic
   route 2001:e00:1005::/48 max 48 as 4795; # apnic
   route 2001:e00:10e4:8400::/56 max 56 as 4795; # apnic
-  route 2400:8000::/32 max 48 as 4800; # apnic
-  route 2400:8000:1::/48 max 48 as 4800; # apnic
-  route 2400:8000:2::/48 max 48 as 4800; # apnic
-  route 2400:8000:4::/48 max 48 as 4800; # apnic
-  route 2400:8000:6::/48 max 48 as 4800; # apnic
-  route 2400:8000:8::/48 max 48 as 4800; # apnic
-  route 2400:8000:1000::/48 max 48 as 4800; # apnic
-  route 2400:8000:1001::/48 max 48 as 4800; # apnic
-  route 2400:8000:2420::/48 max 48 as 4800; # apnic
-  route 2400:8000:3002::/48 max 48 as 4800; # apnic
-  route 2400:8000:8001::/48 max 48 as 4800; # apnic
-  route 2400:8000:8002::/48 max 48 as 4800; # apnic
   route 2400:9380:9000::/40 max 48 as 4809; # apnic
   route 2400:9380:9100::/40 max 48 as 4809; # apnic
   route 2400:9380:9200::/40 max 48 as 4809; # apnic
@@ -1515,7 +1498,6 @@ protocol static roas6 {
   route 2605:9d80:9000::/36 max 48 as 4809; # arin
   route 2001:4458::/32 max 33 as 4818; # apnic
   route 2402:1980::/32 max 33 as 4818; # apnic
-  route 2402:a500::/32 max 32 as 4821; # apnic
   route 2001:df3:a880::/48 max 48 as 4826; # apnic
   route 2402:7800::/32 max 32 as 4826; # apnic
   route 2402:7800:ff00::/40 max 40 as 4826; # apnic
@@ -1525,7 +1507,6 @@ protocol static roas6 {
   route 2402:7800:ff40::/44 max 44 as 4826; # apnic
   route 2402:7800:ffe0::/48 max 48 as 4826; # apnic
   route 2403:d600::/32 max 32 as 4826; # apnic
-  route 2404:600::/32 max 48 as 4833; # apnic
   route 2404:7ac0:500::/40 max 40 as 4842; # apnic
   route 2404:7ac0:660::/44 max 44 as 4842; # apnic
   route 2406:840:f990::/44 max 48 as 4842; # apnic
@@ -3268,7 +3249,6 @@ protocol static roas6 {
   route 2406:3100::/32 max 32 as 9411; # apnic
   route 2404:0:3000::/36 max 48 as 9415; # apnic
   route 2001:d58::/32 max 32 as 9416; # apnic
-  route 2407:7c0:9422::/48 max 48 as 9422; # apnic
   route 2402:ef16::/32 max 32 as 9430; # apnic
   route 2404:138:4004::/48 max 48 as 9431; # apnic
   route 2402:e380:200::/40 max 48 as 9434; # apnic
@@ -3458,7 +3438,6 @@ protocol static roas6 {
   route 2001:370::/32 max 32 as 9607; # apnic
   route 2001:370:a::/48 max 48 as 9607; # apnic
   route 2405:1340::/32 max 32 as 9654; # apnic
-  route 2403:9500::/32 max 36 as 9657; # apnic
   route 2001:df5:cc00::/48 max 48 as 9661; # apnic
   route 2401:e180::/32 max 64 as 9674; # apnic
   route 2402:9c00::/32 max 32 as 9676; # apnic
@@ -3478,11 +3457,9 @@ protocol static roas6 {
   route 2403:2400::/32 max 32 as 9729; # apnic
   route 2407:6300::/32 max 32 as 9731; # apnic
   route 2406::/32 max 40 as 9732; # apnic
-  route 2403:7200::/32 max 48 as 9785; # apnic
   route 2400:4800::/32 max 32 as 9790; # apnic
   route 2402:8200::/32 max 32 as 9790; # apnic
   route 2404:4400::/28 max 36 as 9790; # apnic
-  route 2404:1b8::/32 max 32 as 9794; # apnic
   route 2404:b000::/36 max 36 as 9822; # apnic
   route 2404:b000:203::/48 max 48 as 9822; # apnic
   route 2404:b000:205::/48 max 48 as 9822; # apnic
@@ -6480,103 +6457,6 @@ protocol static roas6 {
   route 2406:69c0::/32 max 36 as 17439; # apnic
   route 2401:4a00::/32 max 32 as 17444; # apnic
   route 2001:df4:e900::/48 max 48 as 17448; # apnic
-  route 2404:8000::/32 max 32 as 17451; # apnic
-  route 2404:8000::/48 max 48 as 17451; # apnic
-  route 2404:8000:1::/48 max 48 as 17451; # apnic
-  route 2404:8000:2::/48 max 48 as 17451; # apnic
-  route 2404:8000:3::/48 max 48 as 17451; # apnic
-  route 2404:8000:4::/48 max 48 as 17451; # apnic
-  route 2404:8000:5::/48 max 48 as 17451; # apnic
-  route 2404:8000:6::/48 max 48 as 17451; # apnic
-  route 2404:8000:7::/48 max 48 as 17451; # apnic
-  route 2404:8000:8::/48 max 48 as 17451; # apnic
-  route 2404:8000:9::/48 max 48 as 17451; # apnic
-  route 2404:8000:a::/48 max 48 as 17451; # apnic
-  route 2404:8000:b::/48 max 48 as 17451; # apnic
-  route 2404:8000:c::/48 max 48 as 17451; # apnic
-  route 2404:8000:d::/48 max 48 as 17451; # apnic
-  route 2404:8000:e::/48 max 48 as 17451; # apnic
-  route 2404:8000:f::/48 max 48 as 17451; # apnic
-  route 2404:8000:10::/48 max 48 as 17451; # apnic
-  route 2404:8000:11::/48 max 48 as 17451; # apnic
-  route 2404:8000:12::/48 max 48 as 17451; # apnic
-  route 2404:8000:13::/48 max 48 as 17451; # apnic
-  route 2404:8000:14::/48 max 48 as 17451; # apnic
-  route 2404:8000:15::/48 max 48 as 17451; # apnic
-  route 2404:8000:20::/48 max 48 as 17451; # apnic
-  route 2404:8000:21::/48 max 48 as 17451; # apnic
-  route 2404:8000:22::/48 max 48 as 17451; # apnic
-  route 2404:8000:23::/48 max 48 as 17451; # apnic
-  route 2404:8000:24::/48 max 48 as 17451; # apnic
-  route 2404:8000:25::/48 max 48 as 17451; # apnic
-  route 2404:8000:30::/48 max 48 as 17451; # apnic
-  route 2404:8000:70::/48 max 48 as 17451; # apnic
-  route 2404:8000:71::/48 max 48 as 17451; # apnic
-  route 2404:8000:72::/48 max 48 as 17451; # apnic
-  route 2404:8000:78::/48 max 48 as 17451; # apnic
-  route 2404:8000:80::/48 max 48 as 17451; # apnic
-  route 2404:8000:81::/48 max 48 as 17451; # apnic
-  route 2404:8000:82::/48 max 48 as 17451; # apnic
-  route 2404:8000:83::/48 max 48 as 17451; # apnic
-  route 2404:8000:84::/48 max 48 as 17451; # apnic
-  route 2404:8000:8b::/48 max 48 as 17451; # apnic
-  route 2404:8000:8c::/48 max 48 as 17451; # apnic
-  route 2404:8000:93::/48 max 48 as 17451; # apnic
-  route 2404:8000:9f::/48 max 48 as 17451; # apnic
-  route 2404:8000:a1::/48 max 48 as 17451; # apnic
-  route 2404:8000:a2::/48 max 48 as 17451; # apnic
-  route 2404:8000:a7::/48 max 48 as 17451; # apnic
-  route 2404:8000:a8::/48 max 48 as 17451; # apnic
-  route 2404:8000:a9::/48 max 48 as 17451; # apnic
-  route 2404:8000:aa::/48 max 48 as 17451; # apnic
-  route 2404:8000:ab::/48 max 48 as 17451; # apnic
-  route 2404:8000:ac::/48 max 48 as 17451; # apnic
-  route 2404:8000:ad::/48 max 48 as 17451; # apnic
-  route 2404:8000:ae::/48 max 48 as 17451; # apnic
-  route 2404:8000:af::/48 max 48 as 17451; # apnic
-  route 2404:8000:b2::/48 max 48 as 17451; # apnic
-  route 2404:8000:b5::/48 max 48 as 17451; # apnic
-  route 2404:8000:b6::/48 max 48 as 17451; # apnic
-  route 2404:8000:b8::/48 max 48 as 17451; # apnic
-  route 2404:8000:b9::/48 max 48 as 17451; # apnic
-  route 2404:8000:bf::/48 max 48 as 17451; # apnic
-  route 2404:8000:c0::/48 max 48 as 17451; # apnic
-  route 2404:8000:c5::/48 max 48 as 17451; # apnic
-  route 2404:8000:d2::/48 max 48 as 17451; # apnic
-  route 2404:8000:d4::/48 max 48 as 17451; # apnic
-  route 2404:8000:d6::/48 max 48 as 17451; # apnic
-  route 2404:8000:e1::/48 max 48 as 17451; # apnic
-  route 2404:8000:1000::/48 max 48 as 17451; # apnic
-  route 2404:8000:1001::/48 max 48 as 17451; # apnic
-  route 2404:8000:1002::/48 max 48 as 17451; # apnic
-  route 2404:8000:1003::/48 max 48 as 17451; # apnic
-  route 2404:8000:1004::/48 max 48 as 17451; # apnic
-  route 2404:8000:1005::/48 max 48 as 17451; # apnic
-  route 2404:8000:1006::/48 max 48 as 17451; # apnic
-  route 2404:8000:1007::/48 max 48 as 17451; # apnic
-  route 2404:8000:1008::/48 max 48 as 17451; # apnic
-  route 2404:8000:1009::/48 max 48 as 17451; # apnic
-  route 2404:8000:100a::/48 max 48 as 17451; # apnic
-  route 2404:8000:100b::/48 max 48 as 17451; # apnic
-  route 2404:8000:100d::/48 max 48 as 17451; # apnic
-  route 2404:8000:100e::/48 max 48 as 17451; # apnic
-  route 2404:8000:100f::/48 max 48 as 17451; # apnic
-  route 2404:8000:1010::/48 max 48 as 17451; # apnic
-  route 2404:8000:1011::/48 max 48 as 17451; # apnic
-  route 2404:8000:1012::/48 max 48 as 17451; # apnic
-  route 2404:8000:1013::/48 max 48 as 17451; # apnic
-  route 2404:8000:1014::/48 max 48 as 17451; # apnic
-  route 2404:8000:1015::/48 max 48 as 17451; # apnic
-  route 2404:8000:1017::/48 max 48 as 17451; # apnic
-  route 2404:8000:1018::/48 max 48 as 17451; # apnic
-  route 2404:8000:1019::/48 max 48 as 17451; # apnic
-  route 2404:8000:1020::/48 max 48 as 17451; # apnic
-  route 2404:8000:1021::/48 max 48 as 17451; # apnic
-  route 2404:8000:1023::/48 max 48 as 17451; # apnic
-  route 2404:8000:10ba::/48 max 48 as 17451; # apnic
-  route 2404:8000:1100::/48 max 48 as 17451; # apnic
-  route 2404:8000:b4b1::/48 max 48 as 17451; # apnic
-  route 2404:8000:ba71::/48 max 48 as 17451; # apnic
   route 2401:2880::/32 max 40 as 17452; # apnic
   route 2406:8800::/32 max 32 as 17465; # apnic
   route 2406:8800::/36 max 36 as 17465; # apnic
@@ -6618,8 +6498,6 @@ protocol static roas6 {
   route 2407:5000:88::/48 max 48 as 17494; # apnic
   route 2400:1a00::/32 max 48 as 17501; # apnic
   route 2407:6200::/32 max 48 as 17501; # apnic
-  route 2001:df3:b880::/48 max 48 as 17538; # apnic
-  route 2001:df3:b980::/48 max 48 as 17538; # apnic
   route 2001:fc0::/32 max 32 as 17547; # apnic
   route 2001:fc0:480f::/48 max 48 as 17547; # apnic
   route 2401:3d00::/28 max 28 as 17547; # apnic
@@ -6686,8 +6564,6 @@ protocol static roas6 {
   route 2405:d000:7000::/36 max 36 as 17660; # apnic
   route 2401:200::/32 max 32 as 17666; # apnic
   route 2401:200::/36 max 36 as 17666; # apnic
-  route 2400:1880::/32 max 48 as 17670; # apnic
-  route 2404:b280::/32 max 48 as 17670; # apnic
   route 2404:1800::/32 max 32 as 17705; # apnic
   route 2407:3000::/32 max 32 as 17707; # apnic
   route 2407:3000:6::/48 max 48 as 17707; # apnic
@@ -6700,10 +6576,6 @@ protocol static roas6 {
   route 2404:0:1000::/40 max 56 as 17709; # apnic
   route 2606:c00:c000::/35 max 48 as 17714; # arin
   route 2401:a700::/32 max 32 as 17726; # apnic
-  route 2404:c000:8000::/33 max 33 as 17727; # apnic
-  route 2404:c000:c002::/47 max 47 as 17727; # apnic
-  route 2404:c000:c003::/48 max 48 as 17727; # apnic
-  route 2404:c000:c004::/48 max 48 as 17727; # apnic
   route 2404:8600::/32 max 32 as 17732; # apnic
   route 2404:8600::/37 max 37 as 17732; # apnic
   route 2404:8600:4000::/37 max 37 as 17732; # apnic
@@ -6755,7 +6627,6 @@ protocol static roas6 {
   route 2401:b000::/32 max 32 as 17971; # apnic
   route 2404:1000::/32 max 32 as 17977; # apnic
   route 2401:4540::/32 max 32 as 17994; # apnic
-  route 2402:a600::/32 max 32 as 17996; # apnic
   route 2402:4000::/32 max 32 as 18001; # apnic
   route 2402:4000:1000::/40 max 40 as 18001; # apnic
   route 2402:4000:1080::/48 max 48 as 18001; # apnic
@@ -7979,7 +7850,6 @@ protocol static roas6 {
   route 2803:f780::/32 max 32 as 23520; # lacnic
   route 2001:200:c000::/35 max 35 as 23634; # apnic
   route 2404:6380::/32 max 48 as 23650; # apnic
-  route 2403:b200::/32 max 48 as 23671; # apnic
   route 2402:c100::/32 max 32 as 23673; # apnic
   route 2402:c100::/48 max 48 as 23673; # apnic
   route 2402:c100:c00::/48 max 48 as 23673; # apnic
@@ -8024,7 +7894,6 @@ protocol static roas6 {
   route 2407:1400::/48 max 48 as 23752; # apnic
   route 2407:1400:1::/48 max 48 as 23752; # apnic
   route 2407:1400:ffff::/48 max 48 as 23752; # apnic
-  route 2406:6200::/32 max 48 as 23756; # apnic
   route 2400:9380:a000::/40 max 48 as 23764; # apnic
   route 2400:9380:a100::/40 max 48 as 23764; # apnic
   route 2400:9380:a200::/40 max 48 as 23764; # apnic
@@ -8080,7 +7949,6 @@ protocol static roas6 {
   route 2404:3c00:a000::/36 max 44 as 23944; # apnic
   route 2404:3c00:b000::/36 max 44 as 23944; # apnic
   route 2404:3c00:c000::/36 max 44 as 23944; # apnic
-  route 2401:ee00::/32 max 48 as 23951; # apnic
   route 2405:ec00::/32 max 32 as 23955; # apnic
   route 2405:ec00:2::/48 max 48 as 23955; # apnic
   route 2405:ec00:3::/48 max 48 as 23955; # apnic
@@ -8202,25 +8070,13 @@ protocol static roas6 {
   route 2402:9e00:402::/48 max 48 as 24183; # apnic
   route 2403:cc00:a000::/36 max 36 as 24183; # apnic
   route 2406:f00:7::/48 max 48 as 24186; # apnic
-  route 2401:4200::/32 max 48 as 24195; # apnic
   route 2400:9800:3::/48 max 48 as 24203; # apnic
   route 2400:9800:4::/48 max 48 as 24203; # apnic
   route 2400:9800:5::/48 max 48 as 24203; # apnic
   route 2400:9800:6::/48 max 48 as 24203; # apnic
   route 2400:9800:7::/48 max 48 as 24203; # apnic
-  route 2405:8e00::/32 max 32 as 24204; # apnic
-  route 2402:ab00::/32 max 32 as 24206; # apnic
-  route 2402:ab00::/48 max 48 as 24206; # apnic
-  route 2402:ab00:cf::/48 max 48 as 24206; # apnic
-  route 2402:ab00:df::/48 max 48 as 24206; # apnic
-  route 2402:ab00:ef::/48 max 48 as 24206; # apnic
-  route 2402:ab00:cafe::/48 max 48 as 24206; # apnic
   route 2402:a000::/32 max 32 as 24211; # apnic
-  route 2402:a000::/34 max 34 as 24211; # apnic
   route 2402:a000::/48 max 48 as 24211; # apnic
-  route 2402:a000:4000::/34 max 34 as 24211; # apnic
-  route 2402:a000:8000::/34 max 34 as 24211; # apnic
-  route 2402:a000:c000::/34 max 34 as 24211; # apnic
   route 2402:a000:fffe::/48 max 48 as 24211; # apnic
   route 2001:4498::/32 max 32 as 24218; # apnic
   route 2401:5000::/32 max 32 as 24218; # apnic
@@ -8522,11 +8378,7 @@ protocol static roas6 {
   route 2404:a8:4094::/48 max 48 as 24514; # apnic
   route 2402:fa80::/32 max 32 as 24516; # apnic
   route 2403:ba00::/32 max 32 as 24521; # apnic
-  route 2403:ba00::/32 max 48 as 24521; # apnic
   route 2403:ba00:2000::/40 max 40 as 24521; # apnic
-  route 2402:1200::/32 max 48 as 24523; # apnic
-  route 2405:6c40::/32 max 48 as 24527; # apnic
-  route 2403:2e00::/32 max 48 as 24532; # apnic
   route 2400:9700::/32 max 32 as 24550; # apnic
   route 2400:9700:5::/48 max 48 as 24550; # apnic
   route 2400:9700:100::/44 max 44 as 24550; # apnic
@@ -11494,14 +11346,7 @@ protocol static roas6 {
   route 2402:6c40::/32 max 32 as 38084; # apnic
   route 2405:f40:7fc0::/44 max 48 as 38136; # apnic
   route 2406:840:d000::/36 max 48 as 38136; # apnic
-  route 2402:f080::/48 max 48 as 38150; # apnic
-  route 2402:f080:1::/48 max 48 as 38150; # apnic
-  route 2402:f080:2::/48 max 48 as 38150; # apnic
-  route 2402:f080:a::/48 max 48 as 38150; # apnic
-  route 2402:f080:b::/48 max 48 as 38150; # apnic
-  route 2402:f080:c::/48 max 48 as 38150; # apnic
   route 2402:9800::/32 max 32 as 38158; # apnic
-  route 2402:9800::/32 max 48 as 38158; # apnic
   route 2406:840:edd0::/44 max 48 as 38173; # apnic
   route 2406:4440:f000::/44 max 48 as 38173; # apnic
   route 2406:8dc0:2003::/48 max 48 as 38173; # apnic
@@ -11661,49 +11506,6 @@ protocol static roas6 {
   route 2401:f000::/32 max 48 as 38477; # apnic
   route 2001:df7:6600::/48 max 48 as 38478; # apnic
   route 2404:7e00::/32 max 36 as 38493; # apnic
-  route 2401:2400::/32 max 48 as 38496; # apnic
-  route 2403:2700::/48 max 48 as 38500; # apnic
-  route 2403:2700:1::/48 max 48 as 38500; # apnic
-  route 2403:2700:2::/48 max 48 as 38500; # apnic
-  route 2403:2700:3::/48 max 48 as 38500; # apnic
-  route 2403:2700:4::/48 max 48 as 38500; # apnic
-  route 2403:2700:5::/48 max 48 as 38500; # apnic
-  route 2403:2700:6::/48 max 48 as 38500; # apnic
-  route 2403:2700:7::/48 max 48 as 38500; # apnic
-  route 2403:2700:8::/48 max 48 as 38500; # apnic
-  route 2403:2700:9::/48 max 48 as 38500; # apnic
-  route 2403:2700:10::/48 max 48 as 38500; # apnic
-  route 2403:2700:4000::/48 max 48 as 38500; # apnic
-  route 2403:2700:4001::/48 max 48 as 38500; # apnic
-  route 2403:2700:4002::/48 max 48 as 38500; # apnic
-  route 2403:2700:4003::/48 max 48 as 38500; # apnic
-  route 2403:2700:4004::/48 max 48 as 38500; # apnic
-  route 2403:2700:4005::/48 max 48 as 38500; # apnic
-  route 2403:2700:4006::/48 max 48 as 38500; # apnic
-  route 2403:2700:4007::/48 max 48 as 38500; # apnic
-  route 2403:2700:4008::/48 max 48 as 38500; # apnic
-  route 2403:2700:4009::/48 max 48 as 38500; # apnic
-  route 2403:2700:4010::/48 max 48 as 38500; # apnic
-  route 2403:b200:a99c::/48 max 48 as 38506; # apnic
-  route 2406:9300::/32 max 32 as 38506; # apnic
-  route 2404:cf00::/32 max 48 as 38511; # apnic
-  route 2402:600::/32 max 48 as 38515; # apnic
-  route 2401:de80::/32 max 32 as 38524; # apnic
-  route 2401:de80:1::/48 max 48 as 38524; # apnic
-  route 2401:de80:2::/48 max 48 as 38524; # apnic
-  route 2401:de80:3::/48 max 48 as 38524; # apnic
-  route 2401:de80:4::/48 max 48 as 38524; # apnic
-  route 2401:de80:5::/48 max 48 as 38524; # apnic
-  route 2401:de80:6::/48 max 48 as 38524; # apnic
-  route 2401:de80:7::/48 max 48 as 38524; # apnic
-  route 2401:de80:8::/48 max 48 as 38524; # apnic
-  route 2401:de80:9::/48 max 48 as 38524; # apnic
-  route 2401:de80:a::/48 max 48 as 38524; # apnic
-  route 2401:de80:b::/48 max 48 as 38524; # apnic
-  route 2401:de80:c::/48 max 48 as 38524; # apnic
-  route 2401:de80:d::/48 max 48 as 38524; # apnic
-  route 2401:de80:e::/48 max 48 as 38524; # apnic
-  route 2401:de80:f::/48 max 48 as 38524; # apnic
   route 2402:f00::/32 max 32 as 38561; # apnic
   route 2400:9500::/32 max 32 as 38565; # apnic
   route 2001:df0:65::/48 max 48 as 38567; # apnic
@@ -11747,12 +11549,8 @@ protocol static roas6 {
   route 2400:e500:33::/48 max 48 as 38742; # apnic
   route 2400:e500:34::/48 max 48 as 38742; # apnic
   route 2404:b580::/32 max 36 as 38744; # apnic
-  route 2404:3e00::/32 max 48 as 38758; # apnic
   route 2001:df7:3c00::/48 max 48 as 38767; # apnic
-  route 2407:3e80::/32 max 48 as 38768; # apnic
-  route 2001:df4:9800::/48 max 48 as 38775; # apnic
   route 2407:f900::/32 max 32 as 38778; # apnic
-  route 2001:df3:e600::/48 max 48 as 38781; # apnic
   route 2001:dcd:9::/48 max 48 as 38796; # apnic
   route 2001:dcd:11::/48 max 48 as 38796; # apnic
   route 2001:dcd:12::/48 max 48 as 38796; # apnic
@@ -13423,12 +13221,6 @@ protocol static roas6 {
   route 2404:f801:8020::/48 max 48 as 45139; # apnic
   route 2404:f801:802c::/48 max 48 as 45139; # apnic
   route 2407:de00::/32 max 48 as 45144; # apnic
-  route 2404:c000::/32 max 32 as 45147; # apnic
-  route 2404:c000::/33 max 33 as 45147; # apnic
-  route 2404:c000::/47 max 47 as 45147; # apnic
-  route 2404:c000:2::/48 max 48 as 45147; # apnic
-  route 2404:c000:4000::/47 max 47 as 45147; # apnic
-  route 2404:c000:4002::/47 max 47 as 45147; # apnic
   route 2407:1e00::/32 max 48 as 45158; # apnic
   route 2001:df5:b000::/48 max 48 as 45164; # apnic
   route 2400:1700:300::/48 max 48 as 45166; # apnic
@@ -13866,11 +13658,6 @@ protocol static roas6 {
   route 240c:f:2::/48 max 48 as 45275; # apnic
   route 2402:7e00::/32 max 32 as 45280; # apnic
   route 2407:ca00::/32 max 32 as 45280; # apnic
-  route 2406:2400::/32 max 48 as 45287; # apnic
-  route 2404:6d00::/32 max 48 as 45294; # apnic
-  route 2407:4600::/32 max 48 as 45295; # apnic
-  route 2001:df0:a3::/48 max 48 as 45305; # apnic
-  route 2001:df7:bd00::/48 max 48 as 45312; # apnic
   route 2401:8a40::/32 max 32 as 45326; # apnic
   route 2401:8a40::/48 max 48 as 45326; # apnic
   route 2401:8a40:1::/48 max 48 as 45326; # apnic
@@ -14045,9 +13832,6 @@ protocol static roas6 {
   route 2400:d400:b00b::/48 max 48 as 45671; # apnic
   route 2400:d400:ffff::/48 max 48 as 45671; # apnic
   route 2401:5300::/32 max 64 as 45680; # apnic
-  route 2405:2c40::/32 max 48 as 45705; # apnic
-  route 2406:a300::/32 max 32 as 45706; # apnic
-  route 2401:3340::/32 max 48 as 45722; # apnic
   route 2403:6200::/32 max 32 as 45758; # apnic
   route 2400:f940::/32 max 32 as 45766; # apnic
   route 2400:f940::/33 max 33 as 45766; # apnic
@@ -14068,7 +13852,6 @@ protocol static roas6 {
   route 2001:44c8:3000::/36 max 48 as 45781; # apnic
   route 2401:c400::/32 max 32 as 45785; # apnic
   route 2401:c400:1000::/48 max 48 as 45785; # apnic
-  route 2001:df0:cb::/48 max 48 as 45786; # apnic
   route 2404:138:1301::/48 max 48 as 45787; # apnic
   route 2403:8500::/32 max 32 as 45804; # apnic
   route 2403:8500::/40 max 40 as 45804; # apnic
@@ -14389,10 +14172,7 @@ protocol static roas6 {
   route 2402:b400:41e3::/48 max 48 as 45960; # apnic
   route 2406:6000::/32 max 32 as 45960; # apnic
   route 2402:6c00::/32 max 32 as 46015; # apnic
-  route 2405:8740::/32 max 48 as 46019; # apnic
-  route 2405:9940::/32 max 48 as 46044; # apnic
   route 2405:1dc0::/32 max 32 as 46047; # apnic
-  route 2405:1dc0::/32 max 48 as 46047; # apnic
   route 2405:1dc0::/36 max 36 as 46047; # apnic
   route 2405:1dc0:1000::/36 max 36 as 46047; # apnic
   route 2405:1dc0:2000::/36 max 36 as 46047; # apnic
@@ -14409,11 +14189,6 @@ protocol static roas6 {
   route 2405:1dc0:d000::/36 max 36 as 46047; # apnic
   route 2405:1dc0:e000::/36 max 36 as 46047; # apnic
   route 2405:1dc0:f000::/36 max 36 as 46047; # apnic
-  route 2001:df0:b5::/48 max 48 as 46049; # apnic
-  route 2001:df5:d200::/48 max 48 as 46050; # apnic
-  route 2001:df0:a8::/48 max 48 as 46052; # apnic
-  route 2403:1880::/32 max 32 as 46055; # apnic
-  route 2001:df0:44a::/48 max 48 as 46056; # apnic
   route 2001:470:10b::/48 max 48 as 46154; # arin
   route 2001:470:10c::/48 max 48 as 46154; # arin
   route 2607:fa60::/32 max 64 as 46177; # arin
@@ -16561,23 +16336,10 @@ protocol static roas6 {
   route 2406:bd00:de00::/48 max 48 as 55651; # apnic
   route 2406:bd00:de50::/48 max 48 as 55651; # apnic
   route 2406:bd00:decd::/48 max 48 as 55651; # apnic
-  route 2402:c300::/32 max 48 as 55653; # apnic
   route 2001:df1:2980::/48 max 48 as 55654; # apnic
-  route 2401:1700::/32 max 48 as 55666; # apnic
   route 2405:b40::/32 max 32 as 55674; # apnic
-  route 2405:b40::/32 max 48 as 55674; # apnic
   route 2405:b40::/48 max 48 as 55674; # apnic
   route 2405:b40:1::/48 max 48 as 55674; # apnic
-  route 2001:df6:cc00::/48 max 48 as 55683; # apnic
-  route 2404:e100::/47 max 48 as 55685; # apnic
-  route 2404:e100:3::/48 max 48 as 55685; # apnic
-  route 2404:e100:2001::/48 max 48 as 55685; # apnic
-  route 2404:e100:3002::/48 max 48 as 55685; # apnic
-  route 2404:e100:3003::/48 max 48 as 55685; # apnic
-  route 2404:e100:4000::/47 max 48 as 55685; # apnic
-  route 2001:df4:3b00::/48 max 48 as 55688; # apnic
-  route 2406:a040:ff01::/48 max 48 as 55688; # apnic
-  route 2001:df4:f00::/48 max 48 as 55691; # apnic
   route 2405:2d40::/32 max 32 as 55695; # apnic
   route 2405:2d40::/48 max 48 as 55695; # apnic
   route 2405:2d40:1::/48 max 48 as 55695; # apnic
@@ -16590,12 +16352,8 @@ protocol static roas6 {
   route 2405:2d40:16::/48 max 48 as 55695; # apnic
   route 2405:2d40:17::/48 max 48 as 55695; # apnic
   route 2405:2d40:18::/48 max 48 as 55695; # apnic
-  route 2001:df0:2a7::/48 max 48 as 55697; # apnic
-  route 2401:fcc0::/32 max 32 as 55699; # apnic
   route 2402:e240::/32 max 32 as 55699; # apnic
-  route 2404:a1c0::/32 max 32 as 55699; # apnic
   route 2406:ee80::/32 max 32 as 55699; # apnic
-  route 2405:b900::/32 max 48 as 55701; # apnic
   route 2404:138:1300::/48 max 48 as 55702; # apnic
   route 2406:f500::/32 max 32 as 55714; # apnic
   route 2406:f500::/36 max 36 as 55714; # apnic
@@ -16631,8 +16389,6 @@ protocol static roas6 {
   route 2407:7800::/32 max 32 as 55803; # apnic
   route 2401:90c0::/32 max 48 as 55805; # apnic
   route 2405:600::/32 max 48 as 55805; # apnic
-  route 2404:c000:4004::/47 max 47 as 55818; # apnic
-  route 2404:c000:4004::/48 max 48 as 55818; # apnic
   route 2400:6a80::/32 max 32 as 55821; # apnic
   route 2001:de8:10::/48 max 48 as 55822; # apnic
   route 2001:de8:13::/48 max 48 as 55822; # apnic
@@ -16947,7 +16703,6 @@ protocol static roas6 {
   route 2001:df0:215::/48 max 48 as 56199; # apnic
   route 2001:df0:217::/48 max 48 as 56201; # apnic
   route 2400:7700::/32 max 32 as 56214; # apnic
-  route 2001:df5:3600::/48 max 48 as 56236; # apnic
   route 2401:9440::/33 max 33 as 56264; # apnic
   route 2401:9440:8000::/33 max 33 as 56264; # apnic
   route 2406:9b00::/33 max 33 as 56264; # apnic
@@ -17548,12 +17303,6 @@ protocol static roas6 {
   route 2a05:5445::/32 max 32 as 58331; # ripe
   route 2a05:5446::/32 max 32 as 58331; # ripe
   route 2a05:5447::/32 max 32 as 58331; # ripe
-  route 2403:fd80::/32 max 32 as 58369; # apnic
-  route 2403:e600::/32 max 32 as 58376; # apnic
-  route 2001:df0:2e1::/48 max 48 as 58381; # apnic
-  route 2403:9f40:a000::/40 max 48 as 58381; # apnic
-  route 2001:df2:6000::/48 max 48 as 58392; # apnic
-  route 2001:df2:e300::/48 max 48 as 58404; # apnic
   route 2620:131:3008::/46 max 48 as 58419; # arin
   route 2407:8180::/32 max 32 as 58424; # apnic
   route 2405:6d00:c00::/48 max 48 as 58430; # apnic
@@ -17576,13 +17325,6 @@ protocol static roas6 {
   route 2401:0:c000::/40 max 40 as 58470; # apnic
   route 2404:3100::/32 max 32 as 58470; # apnic
   route 2402:df80::/32 max 32 as 58473; # apnic
-  route 2404:fb00::/32 max 32 as 58474; # apnic
-  route 2405:1e40::/48 max 48 as 58475; # apnic
-  route 2405:1e40:1::/48 max 48 as 58475; # apnic
-  route 2001:df0:26f::/48 max 48 as 58476; # apnic
-  route 2001:df0:273::/48 max 48 as 58477; # apnic
-  route 2001:df0:27b::/48 max 48 as 58487; # apnic
-  route 2001:df0:c80::/48 max 48 as 58499; # apnic
   route 2406:b700::/32 max 32 as 58504; # apnic
   route 2400:5d00::/32 max 40 as 58507; # apnic
   route 2400:5d80::/32 max 40 as 58507; # apnic
@@ -17593,7 +17335,6 @@ protocol static roas6 {
   route 2400:8280::/32 max 48 as 58511; # apnic
   route 2001:df0:295::/48 max 56 as 58516; # apnic
   route 2001:df0:296::/48 max 56 as 58516; # apnic
-  route 2404:fd00::/32 max 32 as 58552; # apnic
   route 2001:c20:c817::/48 max 48 as 58562; # apnic
   route 2403:9300::/32 max 32 as 58587; # apnic
   route 2404:7940::/32 max 64 as 58593; # apnic
@@ -17788,8 +17529,6 @@ protocol static roas6 {
   route 2401:af80:9011::/56 max 56 as 59103; # apnic
   route 2403:bd80::/32 max 48 as 59105; # apnic
   route 2001:df0:8500::/48 max 128 as 59128; # apnic
-  route 2001:df1:2100::/48 max 48 as 59155; # apnic
-  route 2401:1fc0::/32 max 48 as 59155; # apnic
   route 2407:8e80::/32 max 32 as 59179; # apnic
   route 2406:18c0::/35 max 35 as 59183; # apnic
   route 2406:18c0:2000::/35 max 35 as 59183; # apnic
@@ -17838,1030 +17577,6 @@ protocol static roas6 {
   route 2402:ad80:2000::/36 max 36 as 59257; # apnic
   route 2402:ad80:3000::/36 max 36 as 59257; # apnic
   route 2402:ad80:4000::/36 max 36 as 59257; # apnic
-  route 2400:d680::/32 max 32 as 59282; # apnic
-  route 2400:d680::/48 max 48 as 59282; # apnic
-  route 2400:d680:1::/48 max 48 as 59282; # apnic
-  route 2400:d680:2::/48 max 48 as 59282; # apnic
-  route 2400:d680:3::/48 max 48 as 59282; # apnic
-  route 2400:d680:4::/48 max 48 as 59282; # apnic
-  route 2400:d680:5::/48 max 48 as 59282; # apnic
-  route 2400:d680:6::/48 max 48 as 59282; # apnic
-  route 2400:d680:7::/48 max 48 as 59282; # apnic
-  route 2400:d680:8::/48 max 48 as 59282; # apnic
-  route 2400:d680:9::/48 max 48 as 59282; # apnic
-  route 2400:d680:a::/48 max 48 as 59282; # apnic
-  route 2400:d680:b::/48 max 48 as 59282; # apnic
-  route 2400:d680:c::/48 max 48 as 59282; # apnic
-  route 2400:d680:d::/48 max 48 as 59282; # apnic
-  route 2400:d680:e::/48 max 48 as 59282; # apnic
-  route 2400:d680:f::/48 max 48 as 59282; # apnic
-  route 2400:d680:10::/48 max 48 as 59282; # apnic
-  route 2400:d680:11::/48 max 48 as 59282; # apnic
-  route 2400:d680:12::/48 max 48 as 59282; # apnic
-  route 2400:d680:13::/48 max 48 as 59282; # apnic
-  route 2400:d680:14::/48 max 48 as 59282; # apnic
-  route 2400:d680:15::/48 max 48 as 59282; # apnic
-  route 2400:d680:16::/48 max 48 as 59282; # apnic
-  route 2400:d680:17::/48 max 48 as 59282; # apnic
-  route 2400:d680:18::/48 max 48 as 59282; # apnic
-  route 2400:d680:19::/48 max 48 as 59282; # apnic
-  route 2400:d680:1a::/48 max 48 as 59282; # apnic
-  route 2400:d680:1b::/48 max 48 as 59282; # apnic
-  route 2400:d680:1c::/48 max 48 as 59282; # apnic
-  route 2400:d680:1d::/48 max 48 as 59282; # apnic
-  route 2400:d680:1e::/48 max 48 as 59282; # apnic
-  route 2400:d680:1f::/48 max 48 as 59282; # apnic
-  route 2400:d680:20::/48 max 48 as 59282; # apnic
-  route 2400:d680:21::/48 max 48 as 59282; # apnic
-  route 2400:d680:22::/48 max 48 as 59282; # apnic
-  route 2400:d680:23::/48 max 48 as 59282; # apnic
-  route 2400:d680:24::/48 max 48 as 59282; # apnic
-  route 2400:d680:25::/48 max 48 as 59282; # apnic
-  route 2400:d680:26::/48 max 48 as 59282; # apnic
-  route 2400:d680:27::/48 max 48 as 59282; # apnic
-  route 2400:d680:28::/48 max 48 as 59282; # apnic
-  route 2400:d680:29::/48 max 48 as 59282; # apnic
-  route 2400:d680:2a::/48 max 48 as 59282; # apnic
-  route 2400:d680:2b::/48 max 48 as 59282; # apnic
-  route 2400:d680:2c::/48 max 48 as 59282; # apnic
-  route 2400:d680:2d::/48 max 48 as 59282; # apnic
-  route 2400:d680:2e::/48 max 48 as 59282; # apnic
-  route 2400:d680:2f::/48 max 48 as 59282; # apnic
-  route 2400:d680:30::/48 max 48 as 59282; # apnic
-  route 2400:d680:31::/48 max 48 as 59282; # apnic
-  route 2400:d680:32::/48 max 48 as 59282; # apnic
-  route 2400:d680:33::/48 max 48 as 59282; # apnic
-  route 2400:d680:34::/48 max 48 as 59282; # apnic
-  route 2400:d680:35::/48 max 48 as 59282; # apnic
-  route 2400:d680:36::/48 max 48 as 59282; # apnic
-  route 2400:d680:37::/48 max 48 as 59282; # apnic
-  route 2400:d680:38::/48 max 48 as 59282; # apnic
-  route 2400:d680:39::/48 max 48 as 59282; # apnic
-  route 2400:d680:3a::/48 max 48 as 59282; # apnic
-  route 2400:d680:3b::/48 max 48 as 59282; # apnic
-  route 2400:d680:3c::/48 max 48 as 59282; # apnic
-  route 2400:d680:3d::/48 max 48 as 59282; # apnic
-  route 2400:d680:3e::/48 max 48 as 59282; # apnic
-  route 2400:d680:3f::/48 max 48 as 59282; # apnic
-  route 2400:d680:40::/48 max 48 as 59282; # apnic
-  route 2400:d680:41::/48 max 48 as 59282; # apnic
-  route 2400:d680:42::/48 max 48 as 59282; # apnic
-  route 2400:d680:43::/48 max 48 as 59282; # apnic
-  route 2400:d680:44::/48 max 48 as 59282; # apnic
-  route 2400:d680:45::/48 max 48 as 59282; # apnic
-  route 2400:d680:46::/48 max 48 as 59282; # apnic
-  route 2400:d680:47::/48 max 48 as 59282; # apnic
-  route 2400:d680:48::/48 max 48 as 59282; # apnic
-  route 2400:d680:49::/48 max 48 as 59282; # apnic
-  route 2400:d680:4a::/48 max 48 as 59282; # apnic
-  route 2400:d680:4b::/48 max 48 as 59282; # apnic
-  route 2400:d680:4c::/48 max 48 as 59282; # apnic
-  route 2400:d680:4d::/48 max 48 as 59282; # apnic
-  route 2400:d680:4e::/48 max 48 as 59282; # apnic
-  route 2400:d680:4f::/48 max 48 as 59282; # apnic
-  route 2400:d680:50::/48 max 48 as 59282; # apnic
-  route 2400:d680:51::/48 max 48 as 59282; # apnic
-  route 2400:d680:52::/48 max 48 as 59282; # apnic
-  route 2400:d680:53::/48 max 48 as 59282; # apnic
-  route 2400:d680:54::/48 max 48 as 59282; # apnic
-  route 2400:d680:55::/48 max 48 as 59282; # apnic
-  route 2400:d680:56::/48 max 48 as 59282; # apnic
-  route 2400:d680:57::/48 max 48 as 59282; # apnic
-  route 2400:d680:58::/48 max 48 as 59282; # apnic
-  route 2400:d680:59::/48 max 48 as 59282; # apnic
-  route 2400:d680:5a::/48 max 48 as 59282; # apnic
-  route 2400:d680:5b::/48 max 48 as 59282; # apnic
-  route 2400:d680:5c::/48 max 48 as 59282; # apnic
-  route 2400:d680:5d::/48 max 48 as 59282; # apnic
-  route 2400:d680:5e::/48 max 48 as 59282; # apnic
-  route 2400:d680:5f::/48 max 48 as 59282; # apnic
-  route 2400:d680:60::/48 max 48 as 59282; # apnic
-  route 2400:d680:61::/48 max 48 as 59282; # apnic
-  route 2400:d680:62::/48 max 48 as 59282; # apnic
-  route 2400:d680:63::/48 max 48 as 59282; # apnic
-  route 2400:d680:64::/48 max 48 as 59282; # apnic
-  route 2400:d680:65::/48 max 48 as 59282; # apnic
-  route 2400:d680:66::/48 max 48 as 59282; # apnic
-  route 2400:d680:67::/48 max 48 as 59282; # apnic
-  route 2400:d680:68::/48 max 48 as 59282; # apnic
-  route 2400:d680:69::/48 max 48 as 59282; # apnic
-  route 2400:d680:6a::/48 max 48 as 59282; # apnic
-  route 2400:d680:6b::/48 max 48 as 59282; # apnic
-  route 2400:d680:6c::/48 max 48 as 59282; # apnic
-  route 2400:d680:6d::/48 max 48 as 59282; # apnic
-  route 2400:d680:6e::/48 max 48 as 59282; # apnic
-  route 2400:d680:6f::/48 max 48 as 59282; # apnic
-  route 2400:d680:70::/48 max 48 as 59282; # apnic
-  route 2400:d680:71::/48 max 48 as 59282; # apnic
-  route 2400:d680:72::/48 max 48 as 59282; # apnic
-  route 2400:d680:73::/48 max 48 as 59282; # apnic
-  route 2400:d680:74::/48 max 48 as 59282; # apnic
-  route 2400:d680:75::/48 max 48 as 59282; # apnic
-  route 2400:d680:76::/48 max 48 as 59282; # apnic
-  route 2400:d680:77::/48 max 48 as 59282; # apnic
-  route 2400:d680:78::/48 max 48 as 59282; # apnic
-  route 2400:d680:79::/48 max 48 as 59282; # apnic
-  route 2400:d680:7a::/48 max 48 as 59282; # apnic
-  route 2400:d680:7b::/48 max 48 as 59282; # apnic
-  route 2400:d680:7c::/48 max 48 as 59282; # apnic
-  route 2400:d680:7d::/48 max 48 as 59282; # apnic
-  route 2400:d680:7e::/48 max 48 as 59282; # apnic
-  route 2400:d680:7f::/48 max 48 as 59282; # apnic
-  route 2400:d680:80::/48 max 48 as 59282; # apnic
-  route 2400:d680:81::/48 max 48 as 59282; # apnic
-  route 2400:d680:82::/48 max 48 as 59282; # apnic
-  route 2400:d680:83::/48 max 48 as 59282; # apnic
-  route 2400:d680:84::/48 max 48 as 59282; # apnic
-  route 2400:d680:85::/48 max 48 as 59282; # apnic
-  route 2400:d680:86::/48 max 48 as 59282; # apnic
-  route 2400:d680:87::/48 max 48 as 59282; # apnic
-  route 2400:d680:88::/48 max 48 as 59282; # apnic
-  route 2400:d680:89::/48 max 48 as 59282; # apnic
-  route 2400:d680:8a::/48 max 48 as 59282; # apnic
-  route 2400:d680:8b::/48 max 48 as 59282; # apnic
-  route 2400:d680:8c::/48 max 48 as 59282; # apnic
-  route 2400:d680:8d::/48 max 48 as 59282; # apnic
-  route 2400:d680:8e::/48 max 48 as 59282; # apnic
-  route 2400:d680:8f::/48 max 48 as 59282; # apnic
-  route 2400:d680:90::/48 max 48 as 59282; # apnic
-  route 2400:d680:91::/48 max 48 as 59282; # apnic
-  route 2400:d680:92::/48 max 48 as 59282; # apnic
-  route 2400:d680:93::/48 max 48 as 59282; # apnic
-  route 2400:d680:94::/48 max 48 as 59282; # apnic
-  route 2400:d680:95::/48 max 48 as 59282; # apnic
-  route 2400:d680:96::/48 max 48 as 59282; # apnic
-  route 2400:d680:97::/48 max 48 as 59282; # apnic
-  route 2400:d680:98::/48 max 48 as 59282; # apnic
-  route 2400:d680:99::/48 max 48 as 59282; # apnic
-  route 2400:d680:9a::/48 max 48 as 59282; # apnic
-  route 2400:d680:9b::/48 max 48 as 59282; # apnic
-  route 2400:d680:9c::/48 max 48 as 59282; # apnic
-  route 2400:d680:9d::/48 max 48 as 59282; # apnic
-  route 2400:d680:9e::/48 max 48 as 59282; # apnic
-  route 2400:d680:9f::/48 max 48 as 59282; # apnic
-  route 2400:d680:a0::/48 max 48 as 59282; # apnic
-  route 2400:d680:a1::/48 max 48 as 59282; # apnic
-  route 2400:d680:a2::/48 max 48 as 59282; # apnic
-  route 2400:d680:a3::/48 max 48 as 59282; # apnic
-  route 2400:d680:a4::/48 max 48 as 59282; # apnic
-  route 2400:d680:a5::/48 max 48 as 59282; # apnic
-  route 2400:d680:a6::/48 max 48 as 59282; # apnic
-  route 2400:d680:a7::/48 max 48 as 59282; # apnic
-  route 2400:d680:a8::/48 max 48 as 59282; # apnic
-  route 2400:d680:a9::/48 max 48 as 59282; # apnic
-  route 2400:d680:aa::/48 max 48 as 59282; # apnic
-  route 2400:d680:ab::/48 max 48 as 59282; # apnic
-  route 2400:d680:ac::/48 max 48 as 59282; # apnic
-  route 2400:d680:ad::/48 max 48 as 59282; # apnic
-  route 2400:d680:ae::/48 max 48 as 59282; # apnic
-  route 2400:d680:af::/48 max 48 as 59282; # apnic
-  route 2400:d680:b0::/48 max 48 as 59282; # apnic
-  route 2400:d680:b1::/48 max 48 as 59282; # apnic
-  route 2400:d680:b2::/48 max 48 as 59282; # apnic
-  route 2400:d680:b3::/48 max 48 as 59282; # apnic
-  route 2400:d680:b4::/48 max 48 as 59282; # apnic
-  route 2400:d680:b5::/48 max 48 as 59282; # apnic
-  route 2400:d680:b6::/48 max 48 as 59282; # apnic
-  route 2400:d680:b7::/48 max 48 as 59282; # apnic
-  route 2400:d680:b8::/48 max 48 as 59282; # apnic
-  route 2400:d680:b9::/48 max 48 as 59282; # apnic
-  route 2400:d680:ba::/48 max 48 as 59282; # apnic
-  route 2400:d680:bb::/48 max 48 as 59282; # apnic
-  route 2400:d680:bc::/48 max 48 as 59282; # apnic
-  route 2400:d680:bd::/48 max 48 as 59282; # apnic
-  route 2400:d680:be::/48 max 48 as 59282; # apnic
-  route 2400:d680:bf::/48 max 48 as 59282; # apnic
-  route 2400:d680:c0::/48 max 48 as 59282; # apnic
-  route 2400:d680:c1::/48 max 48 as 59282; # apnic
-  route 2400:d680:c2::/48 max 48 as 59282; # apnic
-  route 2400:d680:c3::/48 max 48 as 59282; # apnic
-  route 2400:d680:c4::/48 max 48 as 59282; # apnic
-  route 2400:d680:c5::/48 max 48 as 59282; # apnic
-  route 2400:d680:c6::/48 max 48 as 59282; # apnic
-  route 2400:d680:c7::/48 max 48 as 59282; # apnic
-  route 2400:d680:c8::/48 max 48 as 59282; # apnic
-  route 2400:d680:c9::/48 max 48 as 59282; # apnic
-  route 2400:d680:ca::/48 max 48 as 59282; # apnic
-  route 2400:d680:cb::/48 max 48 as 59282; # apnic
-  route 2400:d680:cc::/48 max 48 as 59282; # apnic
-  route 2400:d680:cd::/48 max 48 as 59282; # apnic
-  route 2400:d680:ce::/48 max 48 as 59282; # apnic
-  route 2400:d680:cf::/48 max 48 as 59282; # apnic
-  route 2400:d680:d0::/48 max 48 as 59282; # apnic
-  route 2400:d680:d1::/48 max 48 as 59282; # apnic
-  route 2400:d680:d2::/48 max 48 as 59282; # apnic
-  route 2400:d680:d3::/48 max 48 as 59282; # apnic
-  route 2400:d680:d4::/48 max 48 as 59282; # apnic
-  route 2400:d680:d5::/48 max 48 as 59282; # apnic
-  route 2400:d680:d6::/48 max 48 as 59282; # apnic
-  route 2400:d680:d7::/48 max 48 as 59282; # apnic
-  route 2400:d680:d8::/48 max 48 as 59282; # apnic
-  route 2400:d680:d9::/48 max 48 as 59282; # apnic
-  route 2400:d680:da::/48 max 48 as 59282; # apnic
-  route 2400:d680:db::/48 max 48 as 59282; # apnic
-  route 2400:d680:dc::/48 max 48 as 59282; # apnic
-  route 2400:d680:dd::/48 max 48 as 59282; # apnic
-  route 2400:d680:de::/48 max 48 as 59282; # apnic
-  route 2400:d680:df::/48 max 48 as 59282; # apnic
-  route 2400:d680:e0::/48 max 48 as 59282; # apnic
-  route 2400:d680:e1::/48 max 48 as 59282; # apnic
-  route 2400:d680:e2::/48 max 48 as 59282; # apnic
-  route 2400:d680:e3::/48 max 48 as 59282; # apnic
-  route 2400:d680:e4::/48 max 48 as 59282; # apnic
-  route 2400:d680:e5::/48 max 48 as 59282; # apnic
-  route 2400:d680:e6::/48 max 48 as 59282; # apnic
-  route 2400:d680:e7::/48 max 48 as 59282; # apnic
-  route 2400:d680:e8::/48 max 48 as 59282; # apnic
-  route 2400:d680:e9::/48 max 48 as 59282; # apnic
-  route 2400:d680:ea::/48 max 48 as 59282; # apnic
-  route 2400:d680:eb::/48 max 48 as 59282; # apnic
-  route 2400:d680:ec::/48 max 48 as 59282; # apnic
-  route 2400:d680:ed::/48 max 48 as 59282; # apnic
-  route 2400:d680:ee::/48 max 48 as 59282; # apnic
-  route 2400:d680:ef::/48 max 48 as 59282; # apnic
-  route 2400:d680:f0::/48 max 48 as 59282; # apnic
-  route 2400:d680:f1::/48 max 48 as 59282; # apnic
-  route 2400:d680:f2::/48 max 48 as 59282; # apnic
-  route 2400:d680:f3::/48 max 48 as 59282; # apnic
-  route 2400:d680:f4::/48 max 48 as 59282; # apnic
-  route 2400:d680:f5::/48 max 48 as 59282; # apnic
-  route 2400:d680:f6::/48 max 48 as 59282; # apnic
-  route 2400:d680:f7::/48 max 48 as 59282; # apnic
-  route 2400:d680:f8::/48 max 48 as 59282; # apnic
-  route 2400:d680:f9::/48 max 48 as 59282; # apnic
-  route 2400:d680:fa::/48 max 48 as 59282; # apnic
-  route 2400:d680:fb::/48 max 48 as 59282; # apnic
-  route 2400:d680:fc::/48 max 48 as 59282; # apnic
-  route 2400:d680:fd::/48 max 48 as 59282; # apnic
-  route 2400:d680:fe::/48 max 48 as 59282; # apnic
-  route 2400:d680:ff::/48 max 48 as 59282; # apnic
-  route 2400:d680:100::/48 max 48 as 59282; # apnic
-  route 2400:d680:101::/48 max 48 as 59282; # apnic
-  route 2400:d680:102::/48 max 48 as 59282; # apnic
-  route 2400:d680:103::/48 max 48 as 59282; # apnic
-  route 2400:d680:104::/48 max 48 as 59282; # apnic
-  route 2400:d680:105::/48 max 48 as 59282; # apnic
-  route 2400:d680:106::/48 max 48 as 59282; # apnic
-  route 2400:d680:107::/48 max 48 as 59282; # apnic
-  route 2400:d680:108::/48 max 48 as 59282; # apnic
-  route 2400:d680:109::/48 max 48 as 59282; # apnic
-  route 2400:d680:10a::/48 max 48 as 59282; # apnic
-  route 2400:d680:10b::/48 max 48 as 59282; # apnic
-  route 2400:d680:10c::/48 max 48 as 59282; # apnic
-  route 2400:d680:10d::/48 max 48 as 59282; # apnic
-  route 2400:d680:10e::/48 max 48 as 59282; # apnic
-  route 2400:d680:10f::/48 max 48 as 59282; # apnic
-  route 2400:d680:110::/48 max 48 as 59282; # apnic
-  route 2400:d680:111::/48 max 48 as 59282; # apnic
-  route 2400:d680:112::/48 max 48 as 59282; # apnic
-  route 2400:d680:113::/48 max 48 as 59282; # apnic
-  route 2400:d680:114::/48 max 48 as 59282; # apnic
-  route 2400:d680:115::/48 max 48 as 59282; # apnic
-  route 2400:d680:116::/48 max 48 as 59282; # apnic
-  route 2400:d680:117::/48 max 48 as 59282; # apnic
-  route 2400:d680:118::/48 max 48 as 59282; # apnic
-  route 2400:d680:119::/48 max 48 as 59282; # apnic
-  route 2400:d680:11a::/48 max 48 as 59282; # apnic
-  route 2400:d680:11b::/48 max 48 as 59282; # apnic
-  route 2400:d680:11c::/48 max 48 as 59282; # apnic
-  route 2400:d680:11d::/48 max 48 as 59282; # apnic
-  route 2400:d680:11e::/48 max 48 as 59282; # apnic
-  route 2400:d680:11f::/48 max 48 as 59282; # apnic
-  route 2400:d680:120::/48 max 48 as 59282; # apnic
-  route 2400:d680:121::/48 max 48 as 59282; # apnic
-  route 2400:d680:122::/48 max 48 as 59282; # apnic
-  route 2400:d680:123::/48 max 48 as 59282; # apnic
-  route 2400:d680:124::/48 max 48 as 59282; # apnic
-  route 2400:d680:125::/48 max 48 as 59282; # apnic
-  route 2400:d680:126::/48 max 48 as 59282; # apnic
-  route 2400:d680:127::/48 max 48 as 59282; # apnic
-  route 2400:d680:128::/48 max 48 as 59282; # apnic
-  route 2400:d680:129::/48 max 48 as 59282; # apnic
-  route 2400:d680:12a::/48 max 48 as 59282; # apnic
-  route 2400:d680:12b::/48 max 48 as 59282; # apnic
-  route 2400:d680:12c::/48 max 48 as 59282; # apnic
-  route 2400:d680:12d::/48 max 48 as 59282; # apnic
-  route 2400:d680:12e::/48 max 48 as 59282; # apnic
-  route 2400:d680:12f::/48 max 48 as 59282; # apnic
-  route 2400:d680:130::/48 max 48 as 59282; # apnic
-  route 2400:d680:131::/48 max 48 as 59282; # apnic
-  route 2400:d680:132::/48 max 48 as 59282; # apnic
-  route 2400:d680:133::/48 max 48 as 59282; # apnic
-  route 2400:d680:134::/48 max 48 as 59282; # apnic
-  route 2400:d680:135::/48 max 48 as 59282; # apnic
-  route 2400:d680:136::/48 max 48 as 59282; # apnic
-  route 2400:d680:137::/48 max 48 as 59282; # apnic
-  route 2400:d680:138::/48 max 48 as 59282; # apnic
-  route 2400:d680:139::/48 max 48 as 59282; # apnic
-  route 2400:d680:13a::/48 max 48 as 59282; # apnic
-  route 2400:d680:13b::/48 max 48 as 59282; # apnic
-  route 2400:d680:13c::/48 max 48 as 59282; # apnic
-  route 2400:d680:13d::/48 max 48 as 59282; # apnic
-  route 2400:d680:13e::/48 max 48 as 59282; # apnic
-  route 2400:d680:13f::/48 max 48 as 59282; # apnic
-  route 2400:d680:140::/48 max 48 as 59282; # apnic
-  route 2400:d680:141::/48 max 48 as 59282; # apnic
-  route 2400:d680:142::/48 max 48 as 59282; # apnic
-  route 2400:d680:143::/48 max 48 as 59282; # apnic
-  route 2400:d680:144::/48 max 48 as 59282; # apnic
-  route 2400:d680:145::/48 max 48 as 59282; # apnic
-  route 2400:d680:146::/48 max 48 as 59282; # apnic
-  route 2400:d680:147::/48 max 48 as 59282; # apnic
-  route 2400:d680:148::/48 max 48 as 59282; # apnic
-  route 2400:d680:149::/48 max 48 as 59282; # apnic
-  route 2400:d680:14a::/48 max 48 as 59282; # apnic
-  route 2400:d680:14b::/48 max 48 as 59282; # apnic
-  route 2400:d680:14c::/48 max 48 as 59282; # apnic
-  route 2400:d680:14d::/48 max 48 as 59282; # apnic
-  route 2400:d680:14e::/48 max 48 as 59282; # apnic
-  route 2400:d680:14f::/48 max 48 as 59282; # apnic
-  route 2400:d680:150::/48 max 48 as 59282; # apnic
-  route 2400:d680:151::/48 max 48 as 59282; # apnic
-  route 2400:d680:152::/48 max 48 as 59282; # apnic
-  route 2400:d680:153::/48 max 48 as 59282; # apnic
-  route 2400:d680:154::/48 max 48 as 59282; # apnic
-  route 2400:d680:155::/48 max 48 as 59282; # apnic
-  route 2400:d680:156::/48 max 48 as 59282; # apnic
-  route 2400:d680:157::/48 max 48 as 59282; # apnic
-  route 2400:d680:158::/48 max 48 as 59282; # apnic
-  route 2400:d680:159::/48 max 48 as 59282; # apnic
-  route 2400:d680:15a::/48 max 48 as 59282; # apnic
-  route 2400:d680:15b::/48 max 48 as 59282; # apnic
-  route 2400:d680:15c::/48 max 48 as 59282; # apnic
-  route 2400:d680:15d::/48 max 48 as 59282; # apnic
-  route 2400:d680:15e::/48 max 48 as 59282; # apnic
-  route 2400:d680:15f::/48 max 48 as 59282; # apnic
-  route 2400:d680:160::/48 max 48 as 59282; # apnic
-  route 2400:d680:161::/48 max 48 as 59282; # apnic
-  route 2400:d680:162::/48 max 48 as 59282; # apnic
-  route 2400:d680:163::/48 max 48 as 59282; # apnic
-  route 2400:d680:164::/48 max 48 as 59282; # apnic
-  route 2400:d680:165::/48 max 48 as 59282; # apnic
-  route 2400:d680:166::/48 max 48 as 59282; # apnic
-  route 2400:d680:167::/48 max 48 as 59282; # apnic
-  route 2400:d680:168::/48 max 48 as 59282; # apnic
-  route 2400:d680:169::/48 max 48 as 59282; # apnic
-  route 2400:d680:16a::/48 max 48 as 59282; # apnic
-  route 2400:d680:16b::/48 max 48 as 59282; # apnic
-  route 2400:d680:16c::/48 max 48 as 59282; # apnic
-  route 2400:d680:16d::/48 max 48 as 59282; # apnic
-  route 2400:d680:16e::/48 max 48 as 59282; # apnic
-  route 2400:d680:16f::/48 max 48 as 59282; # apnic
-  route 2400:d680:170::/48 max 48 as 59282; # apnic
-  route 2400:d680:171::/48 max 48 as 59282; # apnic
-  route 2400:d680:172::/48 max 48 as 59282; # apnic
-  route 2400:d680:173::/48 max 48 as 59282; # apnic
-  route 2400:d680:174::/48 max 48 as 59282; # apnic
-  route 2400:d680:175::/48 max 48 as 59282; # apnic
-  route 2400:d680:176::/48 max 48 as 59282; # apnic
-  route 2400:d680:177::/48 max 48 as 59282; # apnic
-  route 2400:d680:178::/48 max 48 as 59282; # apnic
-  route 2400:d680:179::/48 max 48 as 59282; # apnic
-  route 2400:d680:17a::/48 max 48 as 59282; # apnic
-  route 2400:d680:17b::/48 max 48 as 59282; # apnic
-  route 2400:d680:17c::/48 max 48 as 59282; # apnic
-  route 2400:d680:17d::/48 max 48 as 59282; # apnic
-  route 2400:d680:17e::/48 max 48 as 59282; # apnic
-  route 2400:d680:17f::/48 max 48 as 59282; # apnic
-  route 2400:d680:180::/48 max 48 as 59282; # apnic
-  route 2400:d680:181::/48 max 48 as 59282; # apnic
-  route 2400:d680:182::/48 max 48 as 59282; # apnic
-  route 2400:d680:183::/48 max 48 as 59282; # apnic
-  route 2400:d680:184::/48 max 48 as 59282; # apnic
-  route 2400:d680:185::/48 max 48 as 59282; # apnic
-  route 2400:d680:186::/48 max 48 as 59282; # apnic
-  route 2400:d680:187::/48 max 48 as 59282; # apnic
-  route 2400:d680:188::/48 max 48 as 59282; # apnic
-  route 2400:d680:189::/48 max 48 as 59282; # apnic
-  route 2400:d680:18a::/48 max 48 as 59282; # apnic
-  route 2400:d680:18b::/48 max 48 as 59282; # apnic
-  route 2400:d680:18c::/48 max 48 as 59282; # apnic
-  route 2400:d680:18d::/48 max 48 as 59282; # apnic
-  route 2400:d680:18e::/48 max 48 as 59282; # apnic
-  route 2400:d680:18f::/48 max 48 as 59282; # apnic
-  route 2400:d680:190::/48 max 48 as 59282; # apnic
-  route 2400:d680:191::/48 max 48 as 59282; # apnic
-  route 2400:d680:192::/48 max 48 as 59282; # apnic
-  route 2400:d680:193::/48 max 48 as 59282; # apnic
-  route 2400:d680:194::/48 max 48 as 59282; # apnic
-  route 2400:d680:195::/48 max 48 as 59282; # apnic
-  route 2400:d680:196::/48 max 48 as 59282; # apnic
-  route 2400:d680:197::/48 max 48 as 59282; # apnic
-  route 2400:d680:198::/48 max 48 as 59282; # apnic
-  route 2400:d680:199::/48 max 48 as 59282; # apnic
-  route 2400:d680:19a::/48 max 48 as 59282; # apnic
-  route 2400:d680:19b::/48 max 48 as 59282; # apnic
-  route 2400:d680:19c::/48 max 48 as 59282; # apnic
-  route 2400:d680:19d::/48 max 48 as 59282; # apnic
-  route 2400:d680:19e::/48 max 48 as 59282; # apnic
-  route 2400:d680:19f::/48 max 48 as 59282; # apnic
-  route 2400:d680:1a0::/48 max 48 as 59282; # apnic
-  route 2400:d680:1a1::/48 max 48 as 59282; # apnic
-  route 2400:d680:1a2::/48 max 48 as 59282; # apnic
-  route 2400:d680:1a3::/48 max 48 as 59282; # apnic
-  route 2400:d680:1a4::/48 max 48 as 59282; # apnic
-  route 2400:d680:1a5::/48 max 48 as 59282; # apnic
-  route 2400:d680:1a6::/48 max 48 as 59282; # apnic
-  route 2400:d680:1a7::/48 max 48 as 59282; # apnic
-  route 2400:d680:1a8::/48 max 48 as 59282; # apnic
-  route 2400:d680:1a9::/48 max 48 as 59282; # apnic
-  route 2400:d680:1aa::/48 max 48 as 59282; # apnic
-  route 2400:d680:1ab::/48 max 48 as 59282; # apnic
-  route 2400:d680:1ac::/48 max 48 as 59282; # apnic
-  route 2400:d680:1ad::/48 max 48 as 59282; # apnic
-  route 2400:d680:1ae::/48 max 48 as 59282; # apnic
-  route 2400:d680:1af::/48 max 48 as 59282; # apnic
-  route 2400:d680:1b0::/48 max 48 as 59282; # apnic
-  route 2400:d680:1b1::/48 max 48 as 59282; # apnic
-  route 2400:d680:1b2::/48 max 48 as 59282; # apnic
-  route 2400:d680:1b3::/48 max 48 as 59282; # apnic
-  route 2400:d680:1b4::/48 max 48 as 59282; # apnic
-  route 2400:d680:1b5::/48 max 48 as 59282; # apnic
-  route 2400:d680:1b6::/48 max 48 as 59282; # apnic
-  route 2400:d680:1b7::/48 max 48 as 59282; # apnic
-  route 2400:d680:1b8::/48 max 48 as 59282; # apnic
-  route 2400:d680:1b9::/48 max 48 as 59282; # apnic
-  route 2400:d680:1ba::/48 max 48 as 59282; # apnic
-  route 2400:d680:1bb::/48 max 48 as 59282; # apnic
-  route 2400:d680:1bc::/48 max 48 as 59282; # apnic
-  route 2400:d680:1bd::/48 max 48 as 59282; # apnic
-  route 2400:d680:1be::/48 max 48 as 59282; # apnic
-  route 2400:d680:1bf::/48 max 48 as 59282; # apnic
-  route 2400:d680:1c0::/48 max 48 as 59282; # apnic
-  route 2400:d680:1c1::/48 max 48 as 59282; # apnic
-  route 2400:d680:1c2::/48 max 48 as 59282; # apnic
-  route 2400:d680:1c3::/48 max 48 as 59282; # apnic
-  route 2400:d680:1c4::/48 max 48 as 59282; # apnic
-  route 2400:d680:1c5::/48 max 48 as 59282; # apnic
-  route 2400:d680:1c6::/48 max 48 as 59282; # apnic
-  route 2400:d680:1c7::/48 max 48 as 59282; # apnic
-  route 2400:d680:1c8::/48 max 48 as 59282; # apnic
-  route 2400:d680:1c9::/48 max 48 as 59282; # apnic
-  route 2400:d680:1ca::/48 max 48 as 59282; # apnic
-  route 2400:d680:1cb::/48 max 48 as 59282; # apnic
-  route 2400:d680:1cc::/48 max 48 as 59282; # apnic
-  route 2400:d680:1cd::/48 max 48 as 59282; # apnic
-  route 2400:d680:1ce::/48 max 48 as 59282; # apnic
-  route 2400:d680:1cf::/48 max 48 as 59282; # apnic
-  route 2400:d680:1d0::/48 max 48 as 59282; # apnic
-  route 2400:d680:1d1::/48 max 48 as 59282; # apnic
-  route 2400:d680:1d2::/48 max 48 as 59282; # apnic
-  route 2400:d680:1d3::/48 max 48 as 59282; # apnic
-  route 2400:d680:1d4::/48 max 48 as 59282; # apnic
-  route 2400:d680:1d5::/48 max 48 as 59282; # apnic
-  route 2400:d680:1d6::/48 max 48 as 59282; # apnic
-  route 2400:d680:1d7::/48 max 48 as 59282; # apnic
-  route 2400:d680:1d8::/48 max 48 as 59282; # apnic
-  route 2400:d680:1d9::/48 max 48 as 59282; # apnic
-  route 2400:d680:1da::/48 max 48 as 59282; # apnic
-  route 2400:d680:1db::/48 max 48 as 59282; # apnic
-  route 2400:d680:1dc::/48 max 48 as 59282; # apnic
-  route 2400:d680:1dd::/48 max 48 as 59282; # apnic
-  route 2400:d680:1de::/48 max 48 as 59282; # apnic
-  route 2400:d680:1df::/48 max 48 as 59282; # apnic
-  route 2400:d680:1e0::/48 max 48 as 59282; # apnic
-  route 2400:d680:1e1::/48 max 48 as 59282; # apnic
-  route 2400:d680:1e2::/48 max 48 as 59282; # apnic
-  route 2400:d680:1e3::/48 max 48 as 59282; # apnic
-  route 2400:d680:1e4::/48 max 48 as 59282; # apnic
-  route 2400:d680:1e5::/48 max 48 as 59282; # apnic
-  route 2400:d680:1e6::/48 max 48 as 59282; # apnic
-  route 2400:d680:1e7::/48 max 48 as 59282; # apnic
-  route 2400:d680:1e8::/48 max 48 as 59282; # apnic
-  route 2400:d680:1e9::/48 max 48 as 59282; # apnic
-  route 2400:d680:1ea::/48 max 48 as 59282; # apnic
-  route 2400:d680:1eb::/48 max 48 as 59282; # apnic
-  route 2400:d680:1ec::/48 max 48 as 59282; # apnic
-  route 2400:d680:1ed::/48 max 48 as 59282; # apnic
-  route 2400:d680:1ee::/48 max 48 as 59282; # apnic
-  route 2400:d680:1ef::/48 max 48 as 59282; # apnic
-  route 2400:d680:1f0::/48 max 48 as 59282; # apnic
-  route 2400:d680:1f1::/48 max 48 as 59282; # apnic
-  route 2400:d680:1f2::/48 max 48 as 59282; # apnic
-  route 2400:d680:1f4::/48 max 48 as 59282; # apnic
-  route 2400:d680:1f5::/48 max 48 as 59282; # apnic
-  route 2400:d680:1f6::/48 max 48 as 59282; # apnic
-  route 2400:d680:1f7::/48 max 48 as 59282; # apnic
-  route 2400:d680:1f8::/48 max 48 as 59282; # apnic
-  route 2400:d680:1f9::/48 max 48 as 59282; # apnic
-  route 2400:d680:1fa::/48 max 48 as 59282; # apnic
-  route 2400:d680:1fb::/48 max 48 as 59282; # apnic
-  route 2400:d680:1fc::/48 max 48 as 59282; # apnic
-  route 2400:d680:1fd::/48 max 48 as 59282; # apnic
-  route 2400:d680:1fe::/48 max 48 as 59282; # apnic
-  route 2400:d680:1ff::/48 max 48 as 59282; # apnic
-  route 2400:d680:200::/48 max 48 as 59282; # apnic
-  route 2400:d680:201::/48 max 48 as 59282; # apnic
-  route 2400:d680:202::/48 max 48 as 59282; # apnic
-  route 2400:d680:203::/48 max 48 as 59282; # apnic
-  route 2400:d680:204::/48 max 48 as 59282; # apnic
-  route 2400:d680:205::/48 max 48 as 59282; # apnic
-  route 2400:d680:206::/48 max 48 as 59282; # apnic
-  route 2400:d680:207::/48 max 48 as 59282; # apnic
-  route 2400:d680:208::/48 max 48 as 59282; # apnic
-  route 2400:d680:209::/48 max 48 as 59282; # apnic
-  route 2400:d680:20a::/48 max 48 as 59282; # apnic
-  route 2400:d680:20b::/48 max 48 as 59282; # apnic
-  route 2400:d680:20c::/48 max 48 as 59282; # apnic
-  route 2400:d680:20d::/48 max 48 as 59282; # apnic
-  route 2400:d680:20e::/48 max 48 as 59282; # apnic
-  route 2400:d680:20f::/48 max 48 as 59282; # apnic
-  route 2400:d680:210::/48 max 48 as 59282; # apnic
-  route 2400:d680:211::/48 max 48 as 59282; # apnic
-  route 2400:d680:212::/48 max 48 as 59282; # apnic
-  route 2400:d680:213::/48 max 48 as 59282; # apnic
-  route 2400:d680:214::/48 max 48 as 59282; # apnic
-  route 2400:d680:215::/48 max 48 as 59282; # apnic
-  route 2400:d680:216::/48 max 48 as 59282; # apnic
-  route 2400:d680:217::/48 max 48 as 59282; # apnic
-  route 2400:d680:218::/48 max 48 as 59282; # apnic
-  route 2400:d680:219::/48 max 48 as 59282; # apnic
-  route 2400:d680:21a::/48 max 48 as 59282; # apnic
-  route 2400:d680:21b::/48 max 48 as 59282; # apnic
-  route 2400:d680:21c::/48 max 48 as 59282; # apnic
-  route 2400:d680:21d::/48 max 48 as 59282; # apnic
-  route 2400:d680:21e::/48 max 48 as 59282; # apnic
-  route 2400:d680:21f::/48 max 48 as 59282; # apnic
-  route 2400:d680:220::/48 max 48 as 59282; # apnic
-  route 2400:d680:221::/48 max 48 as 59282; # apnic
-  route 2400:d680:222::/48 max 48 as 59282; # apnic
-  route 2400:d680:223::/48 max 48 as 59282; # apnic
-  route 2400:d680:224::/48 max 48 as 59282; # apnic
-  route 2400:d680:225::/48 max 48 as 59282; # apnic
-  route 2400:d680:226::/48 max 48 as 59282; # apnic
-  route 2400:d680:227::/48 max 48 as 59282; # apnic
-  route 2400:d680:228::/48 max 48 as 59282; # apnic
-  route 2400:d680:229::/48 max 48 as 59282; # apnic
-  route 2400:d680:22a::/48 max 48 as 59282; # apnic
-  route 2400:d680:22b::/48 max 48 as 59282; # apnic
-  route 2400:d680:22c::/48 max 48 as 59282; # apnic
-  route 2400:d680:22d::/48 max 48 as 59282; # apnic
-  route 2400:d680:22e::/48 max 48 as 59282; # apnic
-  route 2400:d680:22f::/48 max 48 as 59282; # apnic
-  route 2400:d680:230::/48 max 48 as 59282; # apnic
-  route 2400:d680:231::/48 max 48 as 59282; # apnic
-  route 2400:d680:232::/48 max 48 as 59282; # apnic
-  route 2400:d680:233::/48 max 48 as 59282; # apnic
-  route 2400:d680:234::/48 max 48 as 59282; # apnic
-  route 2400:d680:235::/48 max 48 as 59282; # apnic
-  route 2400:d680:236::/48 max 48 as 59282; # apnic
-  route 2400:d680:237::/48 max 48 as 59282; # apnic
-  route 2400:d680:238::/48 max 48 as 59282; # apnic
-  route 2400:d680:239::/48 max 48 as 59282; # apnic
-  route 2400:d680:23a::/48 max 48 as 59282; # apnic
-  route 2400:d680:23b::/48 max 48 as 59282; # apnic
-  route 2400:d680:23c::/48 max 48 as 59282; # apnic
-  route 2400:d680:23d::/48 max 48 as 59282; # apnic
-  route 2400:d680:23e::/48 max 48 as 59282; # apnic
-  route 2400:d680:23f::/48 max 48 as 59282; # apnic
-  route 2400:d680:240::/48 max 48 as 59282; # apnic
-  route 2400:d680:241::/48 max 48 as 59282; # apnic
-  route 2400:d680:242::/48 max 48 as 59282; # apnic
-  route 2400:d680:243::/48 max 48 as 59282; # apnic
-  route 2400:d680:244::/48 max 48 as 59282; # apnic
-  route 2400:d680:245::/48 max 48 as 59282; # apnic
-  route 2400:d680:246::/48 max 48 as 59282; # apnic
-  route 2400:d680:247::/48 max 48 as 59282; # apnic
-  route 2400:d680:248::/48 max 48 as 59282; # apnic
-  route 2400:d680:249::/48 max 48 as 59282; # apnic
-  route 2400:d680:24a::/48 max 48 as 59282; # apnic
-  route 2400:d680:24b::/48 max 48 as 59282; # apnic
-  route 2400:d680:24c::/48 max 48 as 59282; # apnic
-  route 2400:d680:24d::/48 max 48 as 59282; # apnic
-  route 2400:d680:24e::/48 max 48 as 59282; # apnic
-  route 2400:d680:24f::/48 max 48 as 59282; # apnic
-  route 2400:d680:250::/48 max 48 as 59282; # apnic
-  route 2400:d680:251::/48 max 48 as 59282; # apnic
-  route 2400:d680:252::/48 max 48 as 59282; # apnic
-  route 2400:d680:253::/48 max 48 as 59282; # apnic
-  route 2400:d680:254::/48 max 48 as 59282; # apnic
-  route 2400:d680:255::/48 max 48 as 59282; # apnic
-  route 2400:d680:256::/48 max 48 as 59282; # apnic
-  route 2400:d680:257::/48 max 48 as 59282; # apnic
-  route 2400:d680:258::/48 max 48 as 59282; # apnic
-  route 2400:d680:259::/48 max 48 as 59282; # apnic
-  route 2400:d680:25a::/48 max 48 as 59282; # apnic
-  route 2400:d680:25b::/48 max 48 as 59282; # apnic
-  route 2400:d680:25c::/48 max 48 as 59282; # apnic
-  route 2400:d680:25d::/48 max 48 as 59282; # apnic
-  route 2400:d680:25e::/48 max 48 as 59282; # apnic
-  route 2400:d680:25f::/48 max 48 as 59282; # apnic
-  route 2400:d680:260::/48 max 48 as 59282; # apnic
-  route 2400:d680:261::/48 max 48 as 59282; # apnic
-  route 2400:d680:262::/48 max 48 as 59282; # apnic
-  route 2400:d680:263::/48 max 48 as 59282; # apnic
-  route 2400:d680:264::/48 max 48 as 59282; # apnic
-  route 2400:d680:265::/48 max 48 as 59282; # apnic
-  route 2400:d680:266::/48 max 48 as 59282; # apnic
-  route 2400:d680:267::/48 max 48 as 59282; # apnic
-  route 2400:d680:268::/48 max 48 as 59282; # apnic
-  route 2400:d680:269::/48 max 48 as 59282; # apnic
-  route 2400:d680:26a::/48 max 48 as 59282; # apnic
-  route 2400:d680:26b::/48 max 48 as 59282; # apnic
-  route 2400:d680:26c::/48 max 48 as 59282; # apnic
-  route 2400:d680:26d::/48 max 48 as 59282; # apnic
-  route 2400:d680:26e::/48 max 48 as 59282; # apnic
-  route 2400:d680:26f::/48 max 48 as 59282; # apnic
-  route 2400:d680:270::/48 max 48 as 59282; # apnic
-  route 2400:d680:271::/48 max 48 as 59282; # apnic
-  route 2400:d680:272::/48 max 48 as 59282; # apnic
-  route 2400:d680:273::/48 max 48 as 59282; # apnic
-  route 2400:d680:274::/48 max 48 as 59282; # apnic
-  route 2400:d680:275::/48 max 48 as 59282; # apnic
-  route 2400:d680:276::/48 max 48 as 59282; # apnic
-  route 2400:d680:277::/48 max 48 as 59282; # apnic
-  route 2400:d680:278::/48 max 48 as 59282; # apnic
-  route 2400:d680:279::/48 max 48 as 59282; # apnic
-  route 2400:d680:27a::/48 max 48 as 59282; # apnic
-  route 2400:d680:27b::/48 max 48 as 59282; # apnic
-  route 2400:d680:27c::/48 max 48 as 59282; # apnic
-  route 2400:d680:27d::/48 max 48 as 59282; # apnic
-  route 2400:d680:27e::/48 max 48 as 59282; # apnic
-  route 2400:d680:27f::/48 max 48 as 59282; # apnic
-  route 2400:d680:280::/48 max 48 as 59282; # apnic
-  route 2400:d680:281::/48 max 48 as 59282; # apnic
-  route 2400:d680:282::/48 max 48 as 59282; # apnic
-  route 2400:d680:283::/48 max 48 as 59282; # apnic
-  route 2400:d680:284::/48 max 48 as 59282; # apnic
-  route 2400:d680:285::/48 max 48 as 59282; # apnic
-  route 2400:d680:286::/48 max 48 as 59282; # apnic
-  route 2400:d680:287::/48 max 48 as 59282; # apnic
-  route 2400:d680:288::/48 max 48 as 59282; # apnic
-  route 2400:d680:289::/48 max 48 as 59282; # apnic
-  route 2400:d680:28a::/48 max 48 as 59282; # apnic
-  route 2400:d680:28b::/48 max 48 as 59282; # apnic
-  route 2400:d680:28c::/48 max 48 as 59282; # apnic
-  route 2400:d680:28d::/48 max 48 as 59282; # apnic
-  route 2400:d680:28e::/48 max 48 as 59282; # apnic
-  route 2400:d680:28f::/48 max 48 as 59282; # apnic
-  route 2400:d680:290::/48 max 48 as 59282; # apnic
-  route 2400:d680:291::/48 max 48 as 59282; # apnic
-  route 2400:d680:292::/48 max 48 as 59282; # apnic
-  route 2400:d680:293::/48 max 48 as 59282; # apnic
-  route 2400:d680:294::/48 max 48 as 59282; # apnic
-  route 2400:d680:295::/48 max 48 as 59282; # apnic
-  route 2400:d680:296::/48 max 48 as 59282; # apnic
-  route 2400:d680:297::/48 max 48 as 59282; # apnic
-  route 2400:d680:298::/48 max 48 as 59282; # apnic
-  route 2400:d680:299::/48 max 48 as 59282; # apnic
-  route 2400:d680:29a::/48 max 48 as 59282; # apnic
-  route 2400:d680:29b::/48 max 48 as 59282; # apnic
-  route 2400:d680:29c::/48 max 48 as 59282; # apnic
-  route 2400:d680:29d::/48 max 48 as 59282; # apnic
-  route 2400:d680:29e::/48 max 48 as 59282; # apnic
-  route 2400:d680:29f::/48 max 48 as 59282; # apnic
-  route 2400:d680:2a0::/48 max 48 as 59282; # apnic
-  route 2400:d680:2a1::/48 max 48 as 59282; # apnic
-  route 2400:d680:2a2::/48 max 48 as 59282; # apnic
-  route 2400:d680:2a3::/48 max 48 as 59282; # apnic
-  route 2400:d680:2a4::/48 max 48 as 59282; # apnic
-  route 2400:d680:2a5::/48 max 48 as 59282; # apnic
-  route 2400:d680:2a6::/48 max 48 as 59282; # apnic
-  route 2400:d680:2a7::/48 max 48 as 59282; # apnic
-  route 2400:d680:2a8::/48 max 48 as 59282; # apnic
-  route 2400:d680:2a9::/48 max 48 as 59282; # apnic
-  route 2400:d680:2aa::/48 max 48 as 59282; # apnic
-  route 2400:d680:2ab::/48 max 48 as 59282; # apnic
-  route 2400:d680:2ac::/48 max 48 as 59282; # apnic
-  route 2400:d680:2ad::/48 max 48 as 59282; # apnic
-  route 2400:d680:2ae::/48 max 48 as 59282; # apnic
-  route 2400:d680:2af::/48 max 48 as 59282; # apnic
-  route 2400:d680:2b0::/48 max 48 as 59282; # apnic
-  route 2400:d680:2b1::/48 max 48 as 59282; # apnic
-  route 2400:d680:2b2::/48 max 48 as 59282; # apnic
-  route 2400:d680:2b3::/48 max 48 as 59282; # apnic
-  route 2400:d680:2b4::/48 max 48 as 59282; # apnic
-  route 2400:d680:2b5::/48 max 48 as 59282; # apnic
-  route 2400:d680:2b6::/48 max 48 as 59282; # apnic
-  route 2400:d680:2b7::/48 max 48 as 59282; # apnic
-  route 2400:d680:2b8::/48 max 48 as 59282; # apnic
-  route 2400:d680:2b9::/48 max 48 as 59282; # apnic
-  route 2400:d680:2ba::/48 max 48 as 59282; # apnic
-  route 2400:d680:2bb::/48 max 48 as 59282; # apnic
-  route 2400:d680:2bc::/48 max 48 as 59282; # apnic
-  route 2400:d680:2bd::/48 max 48 as 59282; # apnic
-  route 2400:d680:2be::/48 max 48 as 59282; # apnic
-  route 2400:d680:2bf::/48 max 48 as 59282; # apnic
-  route 2400:d680:2c0::/48 max 48 as 59282; # apnic
-  route 2400:d680:2c1::/48 max 48 as 59282; # apnic
-  route 2400:d680:2c2::/48 max 48 as 59282; # apnic
-  route 2400:d680:2c3::/48 max 48 as 59282; # apnic
-  route 2400:d680:2c4::/48 max 48 as 59282; # apnic
-  route 2400:d680:2c5::/48 max 48 as 59282; # apnic
-  route 2400:d680:2c6::/48 max 48 as 59282; # apnic
-  route 2400:d680:2c7::/48 max 48 as 59282; # apnic
-  route 2400:d680:2c8::/48 max 48 as 59282; # apnic
-  route 2400:d680:2c9::/48 max 48 as 59282; # apnic
-  route 2400:d680:2ca::/48 max 48 as 59282; # apnic
-  route 2400:d680:2cb::/48 max 48 as 59282; # apnic
-  route 2400:d680:2cc::/48 max 48 as 59282; # apnic
-  route 2400:d680:2cd::/48 max 48 as 59282; # apnic
-  route 2400:d680:2ce::/48 max 48 as 59282; # apnic
-  route 2400:d680:2cf::/48 max 48 as 59282; # apnic
-  route 2400:d680:2d0::/48 max 48 as 59282; # apnic
-  route 2400:d680:2d1::/48 max 48 as 59282; # apnic
-  route 2400:d680:2d2::/48 max 48 as 59282; # apnic
-  route 2400:d680:2d3::/48 max 48 as 59282; # apnic
-  route 2400:d680:2d4::/48 max 48 as 59282; # apnic
-  route 2400:d680:2d5::/48 max 48 as 59282; # apnic
-  route 2400:d680:2d6::/48 max 48 as 59282; # apnic
-  route 2400:d680:2d7::/48 max 48 as 59282; # apnic
-  route 2400:d680:2d8::/48 max 48 as 59282; # apnic
-  route 2400:d680:2d9::/48 max 48 as 59282; # apnic
-  route 2400:d680:2da::/48 max 48 as 59282; # apnic
-  route 2400:d680:2db::/48 max 48 as 59282; # apnic
-  route 2400:d680:2dc::/48 max 48 as 59282; # apnic
-  route 2400:d680:2dd::/48 max 48 as 59282; # apnic
-  route 2400:d680:2de::/48 max 48 as 59282; # apnic
-  route 2400:d680:2df::/48 max 48 as 59282; # apnic
-  route 2400:d680:2e0::/48 max 48 as 59282; # apnic
-  route 2400:d680:2e1::/48 max 48 as 59282; # apnic
-  route 2400:d680:2e2::/48 max 48 as 59282; # apnic
-  route 2400:d680:2e3::/48 max 48 as 59282; # apnic
-  route 2400:d680:2e4::/48 max 48 as 59282; # apnic
-  route 2400:d680:2e5::/48 max 48 as 59282; # apnic
-  route 2400:d680:2e6::/48 max 48 as 59282; # apnic
-  route 2400:d680:2e7::/48 max 48 as 59282; # apnic
-  route 2400:d680:2e8::/48 max 48 as 59282; # apnic
-  route 2400:d680:2e9::/48 max 48 as 59282; # apnic
-  route 2400:d680:2ea::/48 max 48 as 59282; # apnic
-  route 2400:d680:2eb::/48 max 48 as 59282; # apnic
-  route 2400:d680:2ec::/48 max 48 as 59282; # apnic
-  route 2400:d680:2ed::/48 max 48 as 59282; # apnic
-  route 2400:d680:2ee::/48 max 48 as 59282; # apnic
-  route 2400:d680:2ef::/48 max 48 as 59282; # apnic
-  route 2400:d680:2f0::/48 max 48 as 59282; # apnic
-  route 2400:d680:2f1::/48 max 48 as 59282; # apnic
-  route 2400:d680:2f2::/48 max 48 as 59282; # apnic
-  route 2400:d680:2f3::/48 max 48 as 59282; # apnic
-  route 2400:d680:2f4::/48 max 48 as 59282; # apnic
-  route 2400:d680:2f5::/48 max 48 as 59282; # apnic
-  route 2400:d680:2f6::/48 max 48 as 59282; # apnic
-  route 2400:d680:2f7::/48 max 48 as 59282; # apnic
-  route 2400:d680:2f8::/48 max 48 as 59282; # apnic
-  route 2400:d680:2f9::/48 max 48 as 59282; # apnic
-  route 2400:d680:2fa::/48 max 48 as 59282; # apnic
-  route 2400:d680:2fb::/48 max 48 as 59282; # apnic
-  route 2400:d680:2fc::/48 max 48 as 59282; # apnic
-  route 2400:d680:2fd::/48 max 48 as 59282; # apnic
-  route 2400:d680:2fe::/48 max 48 as 59282; # apnic
-  route 2400:d680:2ff::/48 max 48 as 59282; # apnic
-  route 2400:d680:300::/48 max 48 as 59282; # apnic
-  route 2400:d680:301::/48 max 48 as 59282; # apnic
-  route 2400:d680:302::/48 max 48 as 59282; # apnic
-  route 2400:d680:303::/48 max 48 as 59282; # apnic
-  route 2400:d680:304::/48 max 48 as 59282; # apnic
-  route 2400:d680:305::/48 max 48 as 59282; # apnic
-  route 2400:d680:306::/48 max 48 as 59282; # apnic
-  route 2400:d680:307::/48 max 48 as 59282; # apnic
-  route 2400:d680:308::/48 max 48 as 59282; # apnic
-  route 2400:d680:309::/48 max 48 as 59282; # apnic
-  route 2400:d680:30a::/48 max 48 as 59282; # apnic
-  route 2400:d680:30b::/48 max 48 as 59282; # apnic
-  route 2400:d680:30c::/48 max 48 as 59282; # apnic
-  route 2400:d680:30d::/48 max 48 as 59282; # apnic
-  route 2400:d680:30e::/48 max 48 as 59282; # apnic
-  route 2400:d680:30f::/48 max 48 as 59282; # apnic
-  route 2400:d680:310::/48 max 48 as 59282; # apnic
-  route 2400:d680:311::/48 max 48 as 59282; # apnic
-  route 2400:d680:312::/48 max 48 as 59282; # apnic
-  route 2400:d680:313::/48 max 48 as 59282; # apnic
-  route 2400:d680:314::/48 max 48 as 59282; # apnic
-  route 2400:d680:315::/48 max 48 as 59282; # apnic
-  route 2400:d680:316::/48 max 48 as 59282; # apnic
-  route 2400:d680:317::/48 max 48 as 59282; # apnic
-  route 2400:d680:318::/48 max 48 as 59282; # apnic
-  route 2400:d680:319::/48 max 48 as 59282; # apnic
-  route 2400:d680:31a::/48 max 48 as 59282; # apnic
-  route 2400:d680:31b::/48 max 48 as 59282; # apnic
-  route 2400:d680:31c::/48 max 48 as 59282; # apnic
-  route 2400:d680:31d::/48 max 48 as 59282; # apnic
-  route 2400:d680:31e::/48 max 48 as 59282; # apnic
-  route 2400:d680:31f::/48 max 48 as 59282; # apnic
-  route 2400:d680:320::/48 max 48 as 59282; # apnic
-  route 2400:d680:321::/48 max 48 as 59282; # apnic
-  route 2400:d680:322::/48 max 48 as 59282; # apnic
-  route 2400:d680:323::/48 max 48 as 59282; # apnic
-  route 2400:d680:324::/48 max 48 as 59282; # apnic
-  route 2400:d680:325::/48 max 48 as 59282; # apnic
-  route 2400:d680:326::/48 max 48 as 59282; # apnic
-  route 2400:d680:327::/48 max 48 as 59282; # apnic
-  route 2400:d680:328::/48 max 48 as 59282; # apnic
-  route 2400:d680:329::/48 max 48 as 59282; # apnic
-  route 2400:d680:32a::/48 max 48 as 59282; # apnic
-  route 2400:d680:32b::/48 max 48 as 59282; # apnic
-  route 2400:d680:32c::/48 max 48 as 59282; # apnic
-  route 2400:d680:32d::/48 max 48 as 59282; # apnic
-  route 2400:d680:32e::/48 max 48 as 59282; # apnic
-  route 2400:d680:32f::/48 max 48 as 59282; # apnic
-  route 2400:d680:330::/48 max 48 as 59282; # apnic
-  route 2400:d680:331::/48 max 48 as 59282; # apnic
-  route 2400:d680:332::/48 max 48 as 59282; # apnic
-  route 2400:d680:333::/48 max 48 as 59282; # apnic
-  route 2400:d680:334::/48 max 48 as 59282; # apnic
-  route 2400:d680:335::/48 max 48 as 59282; # apnic
-  route 2400:d680:336::/48 max 48 as 59282; # apnic
-  route 2400:d680:337::/48 max 48 as 59282; # apnic
-  route 2400:d680:338::/48 max 48 as 59282; # apnic
-  route 2400:d680:339::/48 max 48 as 59282; # apnic
-  route 2400:d680:33a::/48 max 48 as 59282; # apnic
-  route 2400:d680:33b::/48 max 48 as 59282; # apnic
-  route 2400:d680:33c::/48 max 48 as 59282; # apnic
-  route 2400:d680:33d::/48 max 48 as 59282; # apnic
-  route 2400:d680:33e::/48 max 48 as 59282; # apnic
-  route 2400:d680:33f::/48 max 48 as 59282; # apnic
-  route 2400:d680:340::/48 max 48 as 59282; # apnic
-  route 2400:d680:341::/48 max 48 as 59282; # apnic
-  route 2400:d680:342::/48 max 48 as 59282; # apnic
-  route 2400:d680:343::/48 max 48 as 59282; # apnic
-  route 2400:d680:344::/48 max 48 as 59282; # apnic
-  route 2400:d680:345::/48 max 48 as 59282; # apnic
-  route 2400:d680:346::/48 max 48 as 59282; # apnic
-  route 2400:d680:347::/48 max 48 as 59282; # apnic
-  route 2400:d680:348::/48 max 48 as 59282; # apnic
-  route 2400:d680:349::/48 max 48 as 59282; # apnic
-  route 2400:d680:34a::/48 max 48 as 59282; # apnic
-  route 2400:d680:34b::/48 max 48 as 59282; # apnic
-  route 2400:d680:34c::/48 max 48 as 59282; # apnic
-  route 2400:d680:34d::/48 max 48 as 59282; # apnic
-  route 2400:d680:34e::/48 max 48 as 59282; # apnic
-  route 2400:d680:34f::/48 max 48 as 59282; # apnic
-  route 2400:d680:350::/48 max 48 as 59282; # apnic
-  route 2400:d680:351::/48 max 48 as 59282; # apnic
-  route 2400:d680:352::/48 max 48 as 59282; # apnic
-  route 2400:d680:353::/48 max 48 as 59282; # apnic
-  route 2400:d680:354::/48 max 48 as 59282; # apnic
-  route 2400:d680:355::/48 max 48 as 59282; # apnic
-  route 2400:d680:356::/48 max 48 as 59282; # apnic
-  route 2400:d680:357::/48 max 48 as 59282; # apnic
-  route 2400:d680:358::/48 max 48 as 59282; # apnic
-  route 2400:d680:359::/48 max 48 as 59282; # apnic
-  route 2400:d680:35a::/48 max 48 as 59282; # apnic
-  route 2400:d680:35b::/48 max 48 as 59282; # apnic
-  route 2400:d680:35c::/48 max 48 as 59282; # apnic
-  route 2400:d680:35d::/48 max 48 as 59282; # apnic
-  route 2400:d680:35e::/48 max 48 as 59282; # apnic
-  route 2400:d680:35f::/48 max 48 as 59282; # apnic
-  route 2400:d680:360::/48 max 48 as 59282; # apnic
-  route 2400:d680:361::/48 max 48 as 59282; # apnic
-  route 2400:d680:362::/48 max 48 as 59282; # apnic
-  route 2400:d680:363::/48 max 48 as 59282; # apnic
-  route 2400:d680:364::/48 max 48 as 59282; # apnic
-  route 2400:d680:365::/48 max 48 as 59282; # apnic
-  route 2400:d680:366::/48 max 48 as 59282; # apnic
-  route 2400:d680:367::/48 max 48 as 59282; # apnic
-  route 2400:d680:368::/48 max 48 as 59282; # apnic
-  route 2400:d680:369::/48 max 48 as 59282; # apnic
-  route 2400:d680:36a::/48 max 48 as 59282; # apnic
-  route 2400:d680:36b::/48 max 48 as 59282; # apnic
-  route 2400:d680:36c::/48 max 48 as 59282; # apnic
-  route 2400:d680:36d::/48 max 48 as 59282; # apnic
-  route 2400:d680:36e::/48 max 48 as 59282; # apnic
-  route 2400:d680:36f::/48 max 48 as 59282; # apnic
-  route 2400:d680:370::/48 max 48 as 59282; # apnic
-  route 2400:d680:371::/48 max 48 as 59282; # apnic
-  route 2400:d680:372::/48 max 48 as 59282; # apnic
-  route 2400:d680:373::/48 max 48 as 59282; # apnic
-  route 2400:d680:374::/48 max 48 as 59282; # apnic
-  route 2400:d680:375::/48 max 48 as 59282; # apnic
-  route 2400:d680:376::/48 max 48 as 59282; # apnic
-  route 2400:d680:377::/48 max 48 as 59282; # apnic
-  route 2400:d680:378::/48 max 48 as 59282; # apnic
-  route 2400:d680:379::/48 max 48 as 59282; # apnic
-  route 2400:d680:37a::/48 max 48 as 59282; # apnic
-  route 2400:d680:37b::/48 max 48 as 59282; # apnic
-  route 2400:d680:37c::/48 max 48 as 59282; # apnic
-  route 2400:d680:37d::/48 max 48 as 59282; # apnic
-  route 2400:d680:37e::/48 max 48 as 59282; # apnic
-  route 2400:d680:37f::/48 max 48 as 59282; # apnic
-  route 2400:d680:380::/48 max 48 as 59282; # apnic
-  route 2400:d680:381::/48 max 48 as 59282; # apnic
-  route 2400:d680:382::/48 max 48 as 59282; # apnic
-  route 2400:d680:383::/48 max 48 as 59282; # apnic
-  route 2400:d680:384::/48 max 48 as 59282; # apnic
-  route 2400:d680:385::/48 max 48 as 59282; # apnic
-  route 2400:d680:386::/48 max 48 as 59282; # apnic
-  route 2400:d680:387::/48 max 48 as 59282; # apnic
-  route 2400:d680:388::/48 max 48 as 59282; # apnic
-  route 2400:d680:389::/48 max 48 as 59282; # apnic
-  route 2400:d680:38a::/48 max 48 as 59282; # apnic
-  route 2400:d680:38b::/48 max 48 as 59282; # apnic
-  route 2400:d680:38c::/48 max 48 as 59282; # apnic
-  route 2400:d680:38d::/48 max 48 as 59282; # apnic
-  route 2400:d680:38e::/48 max 48 as 59282; # apnic
-  route 2400:d680:38f::/48 max 48 as 59282; # apnic
-  route 2400:d680:390::/48 max 48 as 59282; # apnic
-  route 2400:d680:391::/48 max 48 as 59282; # apnic
-  route 2400:d680:392::/48 max 48 as 59282; # apnic
-  route 2400:d680:393::/48 max 48 as 59282; # apnic
-  route 2400:d680:394::/48 max 48 as 59282; # apnic
-  route 2400:d680:395::/48 max 48 as 59282; # apnic
-  route 2400:d680:396::/48 max 48 as 59282; # apnic
-  route 2400:d680:397::/48 max 48 as 59282; # apnic
-  route 2400:d680:398::/48 max 48 as 59282; # apnic
-  route 2400:d680:399::/48 max 48 as 59282; # apnic
-  route 2400:d680:39a::/48 max 48 as 59282; # apnic
-  route 2400:d680:39b::/48 max 48 as 59282; # apnic
-  route 2400:d680:39c::/48 max 48 as 59282; # apnic
-  route 2400:d680:39d::/48 max 48 as 59282; # apnic
-  route 2400:d680:39e::/48 max 48 as 59282; # apnic
-  route 2400:d680:39f::/48 max 48 as 59282; # apnic
-  route 2400:d680:3a0::/48 max 48 as 59282; # apnic
-  route 2400:d680:3a1::/48 max 48 as 59282; # apnic
-  route 2400:d680:3a2::/48 max 48 as 59282; # apnic
-  route 2400:d680:3a3::/48 max 48 as 59282; # apnic
-  route 2400:d680:3a4::/48 max 48 as 59282; # apnic
-  route 2400:d680:3a5::/48 max 48 as 59282; # apnic
-  route 2400:d680:3a6::/48 max 48 as 59282; # apnic
-  route 2400:d680:3a7::/48 max 48 as 59282; # apnic
-  route 2400:d680:3a8::/48 max 48 as 59282; # apnic
-  route 2400:d680:3a9::/48 max 48 as 59282; # apnic
-  route 2400:d680:3aa::/48 max 48 as 59282; # apnic
-  route 2400:d680:3ab::/48 max 48 as 59282; # apnic
-  route 2400:d680:3ac::/48 max 48 as 59282; # apnic
-  route 2400:d680:3ad::/48 max 48 as 59282; # apnic
-  route 2400:d680:3ae::/48 max 48 as 59282; # apnic
-  route 2400:d680:3af::/48 max 48 as 59282; # apnic
-  route 2400:d680:3b0::/48 max 48 as 59282; # apnic
-  route 2400:d680:3b1::/48 max 48 as 59282; # apnic
-  route 2400:d680:3b2::/48 max 48 as 59282; # apnic
-  route 2400:d680:3b3::/48 max 48 as 59282; # apnic
-  route 2400:d680:3b4::/48 max 48 as 59282; # apnic
-  route 2400:d680:3b5::/48 max 48 as 59282; # apnic
-  route 2400:d680:3b6::/48 max 48 as 59282; # apnic
-  route 2400:d680:3b7::/48 max 48 as 59282; # apnic
-  route 2400:d680:3b8::/48 max 48 as 59282; # apnic
-  route 2400:d680:3b9::/48 max 48 as 59282; # apnic
-  route 2400:d680:3ba::/48 max 48 as 59282; # apnic
-  route 2400:d680:3bb::/48 max 48 as 59282; # apnic
-  route 2400:d680:3bc::/48 max 48 as 59282; # apnic
-  route 2400:d680:3bd::/48 max 48 as 59282; # apnic
-  route 2400:d680:3be::/48 max 48 as 59282; # apnic
-  route 2400:d680:3bf::/48 max 48 as 59282; # apnic
-  route 2400:d680:3c0::/48 max 48 as 59282; # apnic
-  route 2400:d680:3c1::/48 max 48 as 59282; # apnic
-  route 2400:d680:3c2::/48 max 48 as 59282; # apnic
-  route 2400:d680:3c3::/48 max 48 as 59282; # apnic
-  route 2400:d680:3c4::/48 max 48 as 59282; # apnic
-  route 2400:d680:3c5::/48 max 48 as 59282; # apnic
-  route 2400:d680:3c6::/48 max 48 as 59282; # apnic
-  route 2400:d680:3c7::/48 max 48 as 59282; # apnic
-  route 2400:d680:3c8::/48 max 48 as 59282; # apnic
-  route 2400:d680:3c9::/48 max 48 as 59282; # apnic
-  route 2400:d680:3ca::/48 max 48 as 59282; # apnic
-  route 2400:d680:3cb::/48 max 48 as 59282; # apnic
-  route 2400:d680:3cc::/48 max 48 as 59282; # apnic
-  route 2400:d680:3cd::/48 max 48 as 59282; # apnic
-  route 2400:d680:3ce::/48 max 48 as 59282; # apnic
-  route 2400:d680:3cf::/48 max 48 as 59282; # apnic
-  route 2400:d680:3d0::/48 max 48 as 59282; # apnic
-  route 2400:d680:3d1::/48 max 48 as 59282; # apnic
-  route 2400:d680:3d2::/48 max 48 as 59282; # apnic
-  route 2400:d680:3d3::/48 max 48 as 59282; # apnic
-  route 2400:d680:3d4::/48 max 48 as 59282; # apnic
-  route 2400:d680:3d5::/48 max 48 as 59282; # apnic
-  route 2400:d680:3d6::/48 max 48 as 59282; # apnic
-  route 2400:d680:3d7::/48 max 48 as 59282; # apnic
-  route 2400:d680:3d8::/48 max 48 as 59282; # apnic
-  route 2400:d680:3d9::/48 max 48 as 59282; # apnic
-  route 2400:d680:3da::/48 max 48 as 59282; # apnic
-  route 2400:d680:3db::/48 max 48 as 59282; # apnic
-  route 2400:d680:3dc::/48 max 48 as 59282; # apnic
-  route 2400:d680:3dd::/48 max 48 as 59282; # apnic
-  route 2400:d680:3de::/48 max 48 as 59282; # apnic
-  route 2400:d680:3df::/48 max 48 as 59282; # apnic
-  route 2400:d680:3e0::/48 max 48 as 59282; # apnic
-  route 2400:d680:3e1::/48 max 48 as 59282; # apnic
-  route 2400:d680:3e2::/48 max 48 as 59282; # apnic
-  route 2400:d680:3e3::/48 max 48 as 59282; # apnic
-  route 2400:d680:3e4::/48 max 48 as 59282; # apnic
-  route 2400:d680:3e5::/48 max 48 as 59282; # apnic
-  route 2400:d680:3e6::/48 max 48 as 59282; # apnic
-  route 2400:d680:3e7::/48 max 48 as 59282; # apnic
-  route 2400:d680:3e8::/48 max 48 as 59282; # apnic
-  route 2400:d680:3e9::/48 max 48 as 59282; # apnic
-  route 2400:d680:3ea::/48 max 48 as 59282; # apnic
-  route 2400:d680:3eb::/48 max 48 as 59282; # apnic
-  route 2400:d680:3ec::/48 max 48 as 59282; # apnic
-  route 2400:d680:3ed::/48 max 48 as 59282; # apnic
-  route 2400:d680:3ee::/48 max 48 as 59282; # apnic
-  route 2400:d680:3ef::/48 max 48 as 59282; # apnic
-  route 2400:d680:3f0::/48 max 48 as 59282; # apnic
-  route 2400:d680:3f1::/48 max 48 as 59282; # apnic
-  route 2400:d680:3f2::/48 max 48 as 59282; # apnic
-  route 2400:d680:3f3::/48 max 48 as 59282; # apnic
-  route 2400:d680:3f4::/48 max 48 as 59282; # apnic
-  route 2400:d680:3f5::/48 max 48 as 59282; # apnic
-  route 2400:d680:3f6::/48 max 48 as 59282; # apnic
-  route 2400:d680:3f7::/48 max 48 as 59282; # apnic
-  route 2400:d680:3f8::/48 max 48 as 59282; # apnic
-  route 2400:d680:3f9::/48 max 48 as 59282; # apnic
-  route 2400:d680:3fa::/48 max 48 as 59282; # apnic
-  route 2400:d680:3fb::/48 max 48 as 59282; # apnic
-  route 2400:d680:3fc::/48 max 48 as 59282; # apnic
-  route 2400:d680:3fd::/48 max 48 as 59282; # apnic
-  route 2400:d680:3fe::/48 max 48 as 59282; # apnic
-  route 2400:d680:3ff::/48 max 48 as 59282; # apnic
   route 2400:dc80::/32 max 32 as 59332; # apnic
   route 2400:dc80::/36 max 36 as 59332; # apnic
   route 2400:dc80:1000::/36 max 36 as 59332; # apnic
@@ -20483,7 +19198,6 @@ protocol static roas6 {
   route 2a01:6f0:ffff::/48 max 48 as 63473; # ripe
   route 2a0e:dc0:3::/48 max 48 as 63473; # ripe
   route 2a0e:dc0:5::/48 max 48 as 63473; # ripe
-  route 2403:fc80::/32 max 48 as 63501; # apnic
   route 2001:df2:9b80::/48 max 48 as 63526; # apnic
   route 2404:4580::/32 max 32 as 63526; # apnic
   route 2404:4580::/48 max 48 as 63526; # apnic
@@ -20506,8 +19220,6 @@ protocol static roas6 {
   route 2402:3180::/32 max 32 as 63828; # apnic
   route 2402:3180::/32 max 32 as 63833; # apnic
   route 2405:9140::/32 max 36 as 63844; # apnic
-  route 2401:f980::/32 max 32 as 63862; # apnic
-  route 2001:df3:c00::/48 max 48 as 63872; # apnic
   route 2402:c480::/32 max 32 as 63916; # apnic
   route 2402:c480:3000::/48 max 48 as 63916; # apnic
   route 2402:c480:5000::/48 max 48 as 63916; # apnic
@@ -21163,10 +19875,6 @@ protocol static roas6 {
   route 2404:aac0::/44 max 44 as 64271; # apnic
   route 2404:bac0::/32 max 32 as 64271; # apnic
   route 2604:d6c0::/32 max 36 as 64271; # arin
-  route 2400:4ec0::/32 max 48 as 64300; # apnic
-  route 2406:45c0::/32 max 32 as 64300; # apnic
-  route 2406:45c0::/33 max 48 as 64300; # apnic
-  route 2406:45c0:8000::/33 max 48 as 64300; # apnic
   route 2a0b:5200::/29 max 48 as 64396; # ripe
   route 2a0b:2200::/29 max 64 as 64403; # ripe
   route 2001:678:814::/48 max 48 as 64404; # ripe
@@ -21212,6 +19920,9 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
+  route 2605:9cc0:357::/48 max 48 as 65530; # arin
+  route 2605:9cc0:382::/48 max 48 as 65530; # arin
+  route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -21219,14 +19930,6 @@ protocol static roas6 {
   route 2001:c38:b010::/47 max 47 as 131090; # apnic
   route 2001:df2:ee00::/48 max 48 as 131107; # apnic
   route 2406:6400::/32 max 36 as 131107; # apnic
-  route 2400:dc00:4100::/48 max 48 as 131111; # apnic
-  route 2400:dc00:4101::/48 max 48 as 131111; # apnic
-  route 2400:dc00:c000::/48 max 48 as 131111; # apnic
-  route 2400:dc00:c001::/48 max 48 as 131111; # apnic
-  route 2400:dc00:c002::/48 max 48 as 131111; # apnic
-  route 2400:dc00:c003::/48 max 48 as 131111; # apnic
-  route 2400:dc00:c004::/48 max 48 as 131111; # apnic
-  route 2001:d10:8410::/48 max 48 as 131119; # apnic
   route 2404:0:7000::/36 max 48 as 131142; # apnic
   route 2405:3300::/32 max 96 as 131143; # apnic
   route 2001:df7:c00::/48 max 52 as 131149; # apnic
@@ -21440,34 +20143,6 @@ protocol static roas6 {
   route 2405:e4c0::/32 max 64 as 131677; # apnic
   route 2406:3a40::/32 max 64 as 131677; # apnic
   route 2407:7b80::/32 max 36 as 131686; # apnic
-  route 2402:e300::/32 max 48 as 131706; # apnic
-  route 2401:10c0::/32 max 32 as 131717; # apnic
-  route 2401:10c0::/34 max 34 as 131717; # apnic
-  route 2401:10c0:4000::/34 max 34 as 131717; # apnic
-  route 2401:10c0:8000::/34 max 34 as 131717; # apnic
-  route 2401:10c0:c000::/34 max 34 as 131717; # apnic
-  route 2001:df7:bd00::/48 max 48 as 131727; # apnic
-  route 2400:f340::/32 max 48 as 131746; # apnic
-  route 2402:be80::/32 max 32 as 131749; # apnic
-  route 2402:be80::/33 max 33 as 131749; # apnic
-  route 2402:be80::/34 max 34 as 131749; # apnic
-  route 2402:be80::/35 max 35 as 131749; # apnic
-  route 2402:be80:2000::/35 max 35 as 131749; # apnic
-  route 2402:be80:4000::/34 max 34 as 131749; # apnic
-  route 2402:be80:4000::/35 max 35 as 131749; # apnic
-  route 2402:be80:6000::/35 max 35 as 131749; # apnic
-  route 2402:be80:8000::/33 max 33 as 131749; # apnic
-  route 2402:be80:8000::/34 max 34 as 131749; # apnic
-  route 2402:be80:8000::/35 max 35 as 131749; # apnic
-  route 2402:be80:a000::/35 max 35 as 131749; # apnic
-  route 2402:be80:c000::/34 max 34 as 131749; # apnic
-  route 2402:be80:c000::/35 max 35 as 131749; # apnic
-  route 2402:be80:c0ba::/48 max 48 as 131749; # apnic
-  route 2402:be80:d9ab::/48 max 48 as 131749; # apnic
-  route 2402:be80:e000::/35 max 35 as 131749; # apnic
-  route 2001:df6:1800::/48 max 48 as 131755; # apnic
-  route 2001:df0:229::/48 max 48 as 131778; # apnic
-  route 2001:df4:7100::/48 max 48 as 131784; # apnic
   route 2400:48c0::/32 max 32 as 131898; # apnic
   route 2401:b300::/32 max 32 as 131999; # apnic
   route 2404:2000:3000::/40 max 48 as 132003; # apnic
@@ -21592,12 +20267,7 @@ protocol static roas6 {
   route 2001:df0:3000::/48 max 48 as 132615; # apnic
   route 2405:85c0::/32 max 32 as 132622; # apnic
   route 2406:840:fcc0::/44 max 48 as 132623; # apnic
-  route 2405:3dc0::/32 max 48 as 132642; # apnic
-  route 2406:e900::/48 max 48 as 132649; # apnic
   route 2403:ba00:2000::/40 max 40 as 132651; # apnic
-  route 2403:ba00:2000::/40 max 48 as 132651; # apnic
-  route 2406:eb00::/32 max 48 as 132653; # apnic
-  route 2001:df3:2c80::/48 max 48 as 132670; # apnic
   route 2400:8380::/32 max 48 as 132679; # apnic
   route 2407:e700::/32 max 32 as 132680; # apnic
   route 2407:e700:1::/48 max 48 as 132680; # apnic
@@ -21854,24 +20524,12 @@ protocol static roas6 {
   route 2001:df5:6a00::/48 max 48 as 133742; # apnic
   route 2407:6180::/32 max 32 as 133749; # apnic
   route 2001:fb0:1071::/48 max 48 as 133761; # apnic
-  route 2001:df7:aa00::/48 max 48 as 133800; # apnic
-  route 2001:df4:6c00::/48 max 48 as 133802; # apnic
-  route 2001:df2:7f80::/48 max 48 as 133803; # apnic
-  route 2406:ef40::/32 max 48 as 133811; # apnic
   route 2001:df2:cc00::/48 max 48 as 133812; # apnic
-  route 2403:57c0::/32 max 48 as 133815; # apnic
-  route 2403:bac0::/32 max 48 as 133815; # apnic
-  route 2402:5580::/32 max 48 as 133817; # apnic
   route 2404:a640::/32 max 32 as 133827; # apnic
   route 2404:a640:113::/48 max 48 as 133827; # apnic
   route 2404:a640:139::/48 max 48 as 133827; # apnic
   route 2404:a640:956::/48 max 48 as 133827; # apnic
   route 2404:a640:957::/48 max 48 as 133827; # apnic
-  route 2001:df0:3300::/48 max 48 as 133839; # apnic
-  route 2404:e100:4004::/48 max 48 as 133840; # apnic
-  route 2404:e100:4005::/48 max 48 as 133840; # apnic
-  route 2404:e100:4006::/48 max 48 as 133840; # apnic
-  route 2404:e100:4009::/48 max 48 as 133840; # apnic
   route 2402:9e80:18::/48 max 48 as 133846; # apnic
   route 2602:feda:1b0::/44 max 48 as 133846; # arin
   route 2a09:b280:ff80::/44 max 48 as 133846; # ripe
@@ -22430,16 +21088,8 @@ protocol static roas6 {
   route 2405:6480::/32 max 32 as 135425; # apnic
   route 2405:6680::/32 max 32 as 135425; # apnic
   route 2402:91c0::/32 max 32 as 135438; # apnic
-  route 2001:df2:4a00::/48 max 48 as 135441; # apnic
-  route 2405:4c80::/32 max 48 as 135465; # apnic
-  route 2001:df4:e00::/48 max 48 as 135471; # apnic
-  route 2406:f180::/32 max 32 as 135474; # apnic
-  route 2001:d10:9400::/38 max 48 as 135478; # apnic
   route 2405:8180::/32 max 32 as 135478; # apnic
-  route 2405:8180::/32 max 48 as 135478; # apnic
   route 2405:8180::/48 max 48 as 135478; # apnic
-  route 2001:df5:9600::/48 max 48 as 135480; # apnic
-  route 2407:9c80::/32 max 48 as 135484; # apnic
   route 2001:df5:fb00::/48 max 48 as 135495; # apnic
   route 2400:f8c0::/32 max 36 as 135517; # apnic
   route 2405:ac80::/32 max 36 as 135524; # apnic
@@ -23226,33 +21876,6 @@ protocol static roas6 {
   route 2405:2cc0:600d::/48 max 48 as 136079; # apnic
   route 2405:2cc0:600e::/48 max 48 as 136079; # apnic
   route 2405:2cc0:600f::/48 max 48 as 136079; # apnic
-  route 2405:2cc0:6010::/48 max 48 as 136079; # apnic
-  route 2400:d940:10::/48 max 48 as 136088; # apnic
-  route 2400:d940:20::/48 max 48 as 136088; # apnic
-  route 2400:d940:30::/48 max 48 as 136088; # apnic
-  route 2400:d940:40::/48 max 48 as 136088; # apnic
-  route 2400:d940:50::/48 max 48 as 136088; # apnic
-  route 2400:d940:60::/48 max 48 as 136088; # apnic
-  route 2400:d940:70::/48 max 48 as 136088; # apnic
-  route 2400:d940:80::/48 max 48 as 136088; # apnic
-  route 2400:d940:90::/48 max 48 as 136088; # apnic
-  route 2400:d940:100::/48 max 48 as 136088; # apnic
-  route 2400:d940:200::/48 max 48 as 136088; # apnic
-  route 2400:d940:300::/48 max 48 as 136088; # apnic
-  route 2400:d940:400::/48 max 48 as 136088; # apnic
-  route 2400:d940:500::/48 max 48 as 136088; # apnic
-  route 2400:d940:600::/48 max 48 as 136088; # apnic
-  route 2400:d940:700::/48 max 48 as 136088; # apnic
-  route 2400:d940:800::/48 max 48 as 136088; # apnic
-  route 2400:d940:900::/48 max 48 as 136088; # apnic
-  route 2400:d940:c000::/48 max 48 as 136088; # apnic
-  route 2001:df0:fb00::/48 max 48 as 136105; # apnic
-  route 2400:d740::/32 max 48 as 136106; # apnic
-  route 2401:48c0::/32 max 48 as 136119; # apnic
-  route 2406:5dc0::/32 max 32 as 136121; # apnic
-  route 2001:df1:b300::/48 max 48 as 136123; # apnic
-  route 2001:df2:1100::/48 max 48 as 136129; # apnic
-  route 2001:df3:2300::/48 max 48 as 136129; # apnic
   route 2402:bc0::/32 max 32 as 136134; # apnic
   route 2001:df5:2f00::/48 max 48 as 136141; # apnic
   route 2402:d3c0::/32 max 36 as 136156; # apnic
@@ -23707,16 +22330,6 @@ protocol static roas6 {
   route 2001:df1:c700::/48 max 48 as 136786; # apnic
   route 2001:df1:c701::/48 max 48 as 136786; # apnic
   route 2001:df0:3b00::/48 max 48 as 136807; # apnic
-  route 2001:df2:2100::/48 max 48 as 136821; # apnic
-  route 2407:24c0::/32 max 48 as 136835; # apnic
-  route 2401:bfc0::/32 max 32 as 136840; # apnic
-  route 2405:bc0::/32 max 48 as 136842; # apnic
-  route 2405:bc0::/33 max 48 as 136842; # apnic
-  route 2001:df2:9100::/48 max 48 as 136843; # apnic
-  route 2001:df3:7100::/48 max 48 as 136868; # apnic
-  route 2402:1a40::/32 max 32 as 136869; # apnic
-  route 2402:2a40::/32 max 32 as 136873; # apnic
-  route 2402:4240::/32 max 32 as 136880; # apnic
   route 2001:df5:8480::/48 max 48 as 136897; # apnic
   route 2001:df4:c500::/48 max 48 as 136900; # apnic
   route 2001:df1:4080::/48 max 48 as 136902; # apnic
@@ -23787,18 +22400,6 @@ protocol static roas6 {
   route 2401:f9c0:2700::/40 max 40 as 137268; # apnic
   route 2406:e340::/32 max 32 as 137274; # apnic
   route 2001:df3:ad00::/48 max 48 as 137275; # apnic
-  route 2001:df5:7b00::/48 max 48 as 137301; # apnic
-  route 2402:6ac0::/33 max 33 as 137306; # apnic
-  route 2001:df4:1f00::/48 max 48 as 137312; # apnic
-  route 2402:8ac0::/32 max 48 as 137320; # apnic
-  route 2001:df4:8b00::/48 max 48 as 137325; # apnic
-  route 2402:aa40::/32 max 32 as 137330; # apnic
-  route 2001:df4:b100::/48 max 48 as 137331; # apnic
-  route 2001:df4:bd00::/48 max 48 as 137338; # apnic
-  route 2001:df4:f300::/48 max 48 as 137349; # apnic
-  route 2001:df3:ff00::/48 max 48 as 137368; # apnic
-  route 2001:df5:7b00::/48 max 48 as 137368; # apnic
-  route 2403:4340::/32 max 32 as 137378; # apnic
   route 2001:df3:a180::/48 max 48 as 137385; # apnic
   route 2402:49c0::/32 max 32 as 137385; # apnic
   route 2402:49c0::/48 max 48 as 137385; # apnic
@@ -24047,16 +22648,6 @@ protocol static roas6 {
   route 2001:df6:3700:100::/56 max 56 as 138043; # apnic
   route 2001:df6:3700:200::/56 max 56 as 138043; # apnic
   route 2001:df6:3700:300::/56 max 56 as 138043; # apnic
-  route 2001:df6:5900::/48 max 48 as 138056; # apnic
-  route 2001:df6:4500::/48 max 48 as 138059; # apnic
-  route 2001:df6:bd00::/48 max 48 as 138069; # apnic
-  route 2403:9f40::/32 max 48 as 138074; # apnic
-  route 2001:df7:3b00::/48 max 48 as 138107; # apnic
-  route 2404:ec0::/32 max 32 as 138112; # apnic
-  route 2404:1040::/32 max 32 as 138113; # apnic
-  route 2001:df7:5300::/48 max 48 as 138115; # apnic
-  route 2407:7c0:13::/48 max 48 as 138128; # apnic
-  route 2404:48c0::/32 max 32 as 138134; # apnic
   route 2403:a040:c001::/48 max 48 as 138145; # apnic
   route 2404:4fc0:a022::/48 max 48 as 138145; # apnic
   route 2404:7340::/32 max 48 as 138145; # apnic
@@ -24389,16 +22980,6 @@ protocol static roas6 {
   route 2001:df0:de80::/48 max 48 as 138762; # apnic
   route 2001:df1:9980::/48 max 48 as 138770; # apnic
   route 2406:c7c0::/32 max 32 as 138800; # apnic
-  route 2404:6d40::/32 max 32 as 138810; # apnic
-  route 2405:c9c0::/32 max 48 as 138823; # apnic
-  route 2404:afc0::/32 max 48 as 138829; # apnic
-  route 2404:bdc0::/32 max 48 as 138839; # apnic
-  route 2001:df0:3e80::/48 max 48 as 138851; # apnic
-  route 2001:df0:8c80::/48 max 48 as 138864; # apnic
-  route 2001:df0:b280::/48 max 48 as 138873; # apnic
-  route 2001:df0:e180::/48 max 48 as 138880; # apnic
-  route 2405:c0::/32 max 48 as 138881; # apnic
-  route 2405:c40::/32 max 32 as 138887; # apnic
   route 2001:df0:1680::/48 max 48 as 138903; # apnic
   route 2001:df0:f80::/48 max 48 as 138904; # apnic
   route 2402:e380:21::/48 max 48 as 138913; # apnic
@@ -24595,11 +23176,6 @@ protocol static roas6 {
   route 2405:17c0:300::/40 max 48 as 139331; # apnic
   route 2001:df0:fc80::/48 max 52 as 139338; # apnic
   route 2405:2040::/32 max 32 as 139358; # apnic
-  route 2001:df1:5680::/48 max 48 as 139378; # apnic
-  route 2405:3fc0::/32 max 32 as 139401; # apnic
-  route 2405:6a40::/32 max 32 as 139425; # apnic
-  route 2001:df1:d780::/48 max 48 as 139430; # apnic
-  route 2001:df2:4b80::/48 max 48 as 139457; # apnic
   route 2405:9e40::/32 max 32 as 139468; # apnic
   route 2405:22c0::/32 max 32 as 139470; # apnic
   route 2405:22c0::/36 max 36 as 139470; # apnic
@@ -24743,18 +23319,7 @@ protocol static roas6 {
   route 2405:a7c0::/32 max 36 as 139915; # apnic
   route 2a0e:fd45:bee::/48 max 48 as 139921; # ripe
   route 2001:df2:9380::/48 max 48 as 139928; # apnic
-  route 2405:aac0::/32 max 32 as 139949; # apnic
-  route 2405:aac0:52::/48 max 48 as 139949; # apnic
-  route 2405:aac0:53::/48 max 48 as 139949; # apnic
-  route 2405:aac0:54::/48 max 48 as 139949; # apnic
-  route 2405:aac0:224::/48 max 48 as 139949; # apnic
   route 2a0f:5701:fe06::/48 max 64 as 139949; # ripe
-  route 2405:9cc0::/32 max 48 as 139967; # apnic
-  route 2405:c5c0::/32 max 48 as 139976; # apnic
-  route 2001:df2:c780::/48 max 48 as 139986; # apnic
-  route 2001:df2:c280::/48 max 48 as 139989; # apnic
-  route 2001:df2:d080::/48 max 48 as 139993; # apnic
-  route 2001:df2:e880::/48 max 48 as 139998; # apnic
   route 2404:49c0:a::/48 max 48 as 140036; # apnic
   route 2001:df2:9f80::/48 max 48 as 140038; # apnic
   route 2405:bfc0::/32 max 32 as 140042; # apnic
@@ -24786,18 +23351,6 @@ protocol static roas6 {
   route 2001:df3:2e80::/48 max 48 as 140305; # apnic
   route 2001:418:1450::/48 max 64 as 140306; # arin
   route 2404:f4c0:f580::/44 max 48 as 140362; # apnic
-  route 2404:2f80::/32 max 48 as 140399; # apnic
-  route 2406:1340::/32 max 32 as 140407; # apnic
-  route 2406:1340::/33 max 33 as 140407; # apnic
-  route 2406:1340:8000::/33 max 33 as 140407; # apnic
-  route 2406:13c0::/32 max 32 as 140413; # apnic
-  route 2001:df2:c880::/48 max 48 as 140416; # apnic
-  route 2001:df2:c980::/48 max 48 as 140421; # apnic
-  route 2406:20c0::/32 max 32 as 140423; # apnic
-  route 2001:df3:fd80::/48 max 48 as 140442; # apnic
-  route 2001:df4:3680::/48 max 48 as 140456; # apnic
-  route 2406:44c0::/32 max 48 as 140462; # apnic
-  route 2001:df4:4980::/48 max 48 as 140463; # apnic
   route 2404:f4c0:f540::/44 max 48 as 140498; # apnic
   route 2405:f3c0::/44 max 48 as 140500; # apnic
   route 2001:df3:4c80::/48 max 48 as 140502; # apnic
@@ -24899,15 +23452,6 @@ protocol static roas6 {
   route 2406:5ec0:f::/48 max 48 as 141014; # apnic
   route 2001:df4:b080::/48 max 48 as 141038; # apnic
   route 2001:df4:b180::/48 max 48 as 141042; # apnic
-  route 2001:df3:f780::/48 max 48 as 141052; # apnic
-  route 2001:df4:aa80::/48 max 48 as 141057; # apnic
-  route 2001:df4:c880::/48 max 48 as 141058; # apnic
-  route 2001:df4:e880::/48 max 48 as 141085; # apnic
-  route 2406:87c0::/32 max 48 as 141091; # apnic
-  route 2001:df1:fe00::/48 max 48 as 141107; # apnic
-  route 2001:df5:b80::/48 max 48 as 141107; # apnic
-  route 2406:a4c0::/32 max 48 as 141120; # apnic
-  route 2406:b740::/32 max 32 as 141125; # apnic
   route 2001:df4:b980::/48 max 48 as 141149; # apnic
   route 2001:df4:c080::/48 max 48 as 141154; # apnic
   route 2001:df4:c680::/48 max 48 as 141156; # apnic
@@ -24987,8 +23531,6 @@ protocol static roas6 {
   route 2407:2140::/32 max 32 as 141532; # apnic
   route 2001:df0:c080::/48 max 48 as 141568; # apnic
   route 2406:f140::/32 max 32 as 141574; # apnic
-  route 2406:f940::/32 max 48 as 141596; # apnic
-  route 2001:df5:e280::/48 max 48 as 141640; # apnic
   route 2001:df5:d880::/48 max 48 as 141680; # apnic
   route 2001:df5:dc80::/48 max 48 as 141689; # apnic
   route 2407:fc0::/32 max 32 as 141693; # apnic
