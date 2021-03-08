@@ -3315,6 +3315,7 @@ protocol static roas6 {
   route 2400:adc0:100::/48 max 48 as 9541; # apnic
   route 2400:adc0:110::/48 max 48 as 9541; # apnic
   route 2400:adc0:111::/48 max 48 as 9541; # apnic
+  route 2400:adc0:200::/48 max 48 as 9541; # apnic
   route 2400:adc0:4000::/48 max 48 as 9541; # apnic
   route 2400:adc0:4001::/48 max 48 as 9541; # apnic
   route 2400:adc0:4002::/48 max 48 as 9541; # apnic
@@ -3366,6 +3367,8 @@ protocol static roas6 {
   route 2400:adc3:10d::/48 max 48 as 9541; # apnic
   route 2400:adc3:10e::/48 max 48 as 9541; # apnic
   route 2400:adc3:10f::/48 max 48 as 9541; # apnic
+  route 2400:adc4:800::/40 max 40 as 9541; # apnic
+  route 2400:adc4:900::/40 max 40 as 9541; # apnic
   route 2400:adc5::/32 max 40 as 9541; # apnic
   route 2400:adc7::/32 max 40 as 9541; # apnic
   route 2400:adca::/40 max 40 as 9541; # apnic
@@ -3377,6 +3380,8 @@ protocol static roas6 {
   route 2400:adda:1f00::/40 max 40 as 9541; # apnic
   route 2400:addb::/40 max 40 as 9541; # apnic
   route 2400:addb:100::/40 max 40 as 9541; # apnic
+  route 2400:addb:800::/40 max 40 as 9541; # apnic
+  route 2400:addb:900::/40 max 40 as 9541; # apnic
   route 2400:addc::/40 max 40 as 9541; # apnic
   route 2400:addc:100::/40 max 40 as 9541; # apnic
   route 2400:addd::/32 max 32 as 9541; # apnic
@@ -8468,14 +8473,19 @@ protocol static roas6 {
   route 2405:400:8000::/33 max 33 as 24439; # apnic
   route 2001:4538::/32 max 32 as 24440; # apnic
   route 2001:4538:41::/48 max 48 as 24440; # apnic
+  route 2400:adc0:200::/48 max 48 as 24440; # apnic
   route 2400:adc2:300::/40 max 40 as 24440; # apnic
   route 2400:adc2:400::/40 max 40 as 24440; # apnic
   route 2400:adc2:600::/40 max 40 as 24440; # apnic
   route 2400:adc2:700::/40 max 40 as 24440; # apnic
   route 2400:adc2:900::/40 max 40 as 24440; # apnic
   route 2400:adc2:a00::/40 max 40 as 24440; # apnic
+  route 2400:adc4:800::/40 max 40 as 24440; # apnic
+  route 2400:adc4:900::/40 max 40 as 24440; # apnic
   route 2400:adca::/40 max 40 as 24440; # apnic
   route 2400:adca:100::/40 max 40 as 24440; # apnic
+  route 2400:addb:800::/40 max 40 as 24440; # apnic
+  route 2400:addb:900::/40 max 40 as 24440; # apnic
   route 2400:adde::/40 max 40 as 24440; # apnic
   route 2400:adde:100::/40 max 40 as 24440; # apnic
   route 2404:cc00::/32 max 48 as 24441; # apnic
