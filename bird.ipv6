@@ -268,6 +268,7 @@ roa table roa {
   roa 2001:568:837::/48 max 48 as 852; # arin
   roa 2001:568:fff4::/48 max 48 as 852; # arin
   roa 2001:569::/33 max 33 as 852; # arin
+  roa 2001:569:b::/48 max 48 as 852; # arin
   roa 2001:569:6f09::/48 max 48 as 852; # arin
   roa 2001:569:6f10::/44 max 44 as 852; # arin
   roa 2001:569:6f20::/44 max 44 as 852; # arin
@@ -279,8 +280,11 @@ roa table roa {
   roa 2001:569:8000::/34 max 34 as 852; # arin
   roa 2001:569:c000::/34 max 34 as 852; # arin
   roa 2001:569:c007::/48 max 48 as 852; # arin
+  roa 2001:569:c00b::/48 max 48 as 852; # arin
+  roa 2001:569:c00c::/48 max 48 as 852; # arin
   roa 2001:56a::/33 max 33 as 852; # arin
   roa 2001:56a:3::/48 max 48 as 852; # arin
+  roa 2001:56a:b::/48 max 48 as 852; # arin
   roa 2001:56a:6f10::/44 max 44 as 852; # arin
   roa 2001:56a:6f20::/44 max 44 as 852; # arin
   roa 2001:56a:6f60::/44 max 44 as 852; # arin
@@ -288,6 +292,8 @@ roa table roa {
   roa 2001:56a:6fe0::/44 max 44 as 852; # arin
   roa 2001:56a:6ff0::/44 max 44 as 852; # arin
   roa 2001:56a:8000::/33 max 33 as 852; # arin
+  roa 2001:56a:800b::/48 max 48 as 852; # arin
+  roa 2001:56a:800c::/48 max 48 as 852; # arin
   roa 2001:56a:810c::/48 max 48 as 852; # arin
   roa 2001:56a:dfe0::/44 max 44 as 852; # arin
   roa 2001:56a:dff0::/44 max 44 as 852; # arin
@@ -301,6 +307,7 @@ roa table roa {
   roa 2001:56b:3ff0::/44 max 44 as 852; # arin
   roa 2001:56b:4000::/36 max 36 as 852; # arin
   roa 2001:56b:5000::/36 max 36 as 852; # arin
+  roa 2001:56b:500c::/48 max 48 as 852; # arin
   roa 2001:56b:5f60::/44 max 44 as 852; # arin
   roa 2001:56b:5f70::/44 max 44 as 852; # arin
   roa 2001:56b:5fe0::/44 max 44 as 852; # arin
@@ -21376,7 +21383,6 @@ roa table roa {
   roa 2607:fd78:902::/48 max 48 as 65001; # arin
   roa 2001:e68:2001:1::/64 max 64 as 65530; # apnic
   roa 2605:9cc0:357::/48 max 48 as 65530; # arin
-  roa 2605:9cc0:382::/48 max 48 as 65530; # arin
   roa 2605:9cc0:384::/48 max 48 as 65530; # arin
   roa 2001:718:ffff::/48 max 48 as 65533; # ripe
   roa 2001:67c:2b5c::/48 max 48 as 65535; # ripe
