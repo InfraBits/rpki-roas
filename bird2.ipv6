@@ -21416,8 +21416,6 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  route 2605:9cc0:357::/48 max 48 as 65530; # arin
-  route 2605:9cc0:382::/48 max 48 as 65530; # arin
   route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
@@ -24524,8 +24522,41 @@ protocol static roas6 {
   route 2404:4d40:1000::/48 max 48 as 138575; # apnic
   route 2404:4d40:1001::/48 max 48 as 138575; # apnic
   route 2404:4d40:1002::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1003::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1004::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1005::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1006::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1007::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1008::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1009::/48 max 48 as 138575; # apnic
+  route 2404:4d40:100a::/48 max 48 as 138575; # apnic
+  route 2404:4d40:100b::/48 max 48 as 138575; # apnic
+  route 2404:4d40:100c::/48 max 48 as 138575; # apnic
+  route 2404:4d40:100d::/48 max 48 as 138575; # apnic
+  route 2404:4d40:100e::/48 max 48 as 138575; # apnic
+  route 2404:4d40:100f::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1010::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1011::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1012::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1013::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1014::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1015::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1016::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1017::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1018::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1019::/48 max 48 as 138575; # apnic
+  route 2404:4d40:101a::/48 max 48 as 138575; # apnic
+  route 2404:4d40:101b::/48 max 48 as 138575; # apnic
+  route 2404:4d40:101c::/48 max 48 as 138575; # apnic
+  route 2404:4d40:101d::/48 max 48 as 138575; # apnic
+  route 2404:4d40:101e::/48 max 48 as 138575; # apnic
+  route 2404:4d40:101f::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1020::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1021::/48 max 48 as 138575; # apnic
+  route 2404:4d40:1022::/48 max 48 as 138575; # apnic
   route 2404:4d40:2000::/36 max 36 as 138575; # apnic
   route 2404:4d40:3000::/36 max 36 as 138575; # apnic
+  route 2404:4d40:4000::/36 max 36 as 138575; # apnic
   route 2404:9ec0::/32 max 32 as 138576; # apnic
   route 2404:9ec0:100::/48 max 48 as 138576; # apnic
   route 2404:9ec0:101::/48 max 48 as 138576; # apnic
