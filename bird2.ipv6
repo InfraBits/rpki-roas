@@ -7515,6 +7515,7 @@ protocol static roas6 {
   route 2602:fed2:710e::/48 max 48 as 20473; # arin
   route 2602:fed2:711e::/48 max 48 as 20473; # arin
   route 2602:ffc5:108::/48 max 48 as 20473; # arin
+  route 2a03:60c0::/32 max 32 as 20473; # ripe
   route 2a04:5b81:2030::/48 max 48 as 20473; # ripe
   route 2a06:7a02::/48 max 48 as 20473; # ripe
   route 2a06:7a05::/48 max 48 as 20473; # ripe
@@ -12388,6 +12389,7 @@ protocol static roas6 {
   route 2a02:2218::/32 max 32 as 41157; # ripe
   route 2a02:fe0::/29 max 40 as 41164; # ripe
   route 2a02:fe0:dd05::/48 max 48 as 41164; # ripe
+  route 2a00:7d00::/32 max 32 as 41165; # ripe
   route 2a02:cb43:2003::/48 max 48 as 41179; # ripe
   route 2a05:a944::/48 max 48 as 41179; # ripe
   route 2a0d:ca47::/47 max 48 as 41195; # ripe
