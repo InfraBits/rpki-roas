@@ -21579,6 +21579,8 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
+  route 2605:9cc0:357::/48 max 48 as 65530; # arin
+  route 2605:9cc0:382::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -24304,6 +24306,7 @@ protocol static roas6 {
   route 2001:df4:8300::/48 max 48 as 137519; # apnic
   route 2402:a1c0::/32 max 32 as 137526; # apnic
   route 2402:a5c0::/32 max 32 as 137531; # apnic
+  route 2402:a5c0::/36 max 36 as 137531; # apnic
   route 2402:a5c0::/48 max 48 as 137531; # apnic
   route 2402:a5c0:1::/48 max 48 as 137531; # apnic
   route 2402:a5c0:2::/48 max 48 as 137531; # apnic
@@ -24314,6 +24317,21 @@ protocol static roas6 {
   route 2402:a5c0:201::/48 max 48 as 137531; # apnic
   route 2402:a5c0:206::/48 max 48 as 137531; # apnic
   route 2402:a5c0:207::/48 max 48 as 137531; # apnic
+  route 2402:a5c0:1000::/36 max 36 as 137531; # apnic
+  route 2402:a5c0:2000::/36 max 36 as 137531; # apnic
+  route 2402:a5c0:3000::/36 max 36 as 137531; # apnic
+  route 2402:a5c0:4000::/36 max 36 as 137531; # apnic
+  route 2402:a5c0:5000::/36 max 36 as 137531; # apnic
+  route 2402:a5c0:6000::/36 max 36 as 137531; # apnic
+  route 2402:a5c0:7000::/36 max 36 as 137531; # apnic
+  route 2402:a5c0:8000::/36 max 36 as 137531; # apnic
+  route 2402:a5c0:9000::/36 max 36 as 137531; # apnic
+  route 2402:a5c0:a000::/36 max 36 as 137531; # apnic
+  route 2402:a5c0:b000::/36 max 36 as 137531; # apnic
+  route 2402:a5c0:c000::/36 max 36 as 137531; # apnic
+  route 2402:a5c0:d000::/36 max 36 as 137531; # apnic
+  route 2402:a5c0:e000::/36 max 36 as 137531; # apnic
+  route 2402:a5c0:f000::/36 max 36 as 137531; # apnic
   route 2405:e6c0::/32 max 40 as 137532; # apnic
   route 2402:a940::/32 max 32 as 137542; # apnic
   route 2402:a940::/36 max 36 as 137542; # apnic
