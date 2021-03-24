@@ -136,6 +136,7 @@ roa table roa {
   roa 2a09:9280::/29 max 29 as 0; # ripe
   roa 2a09:e180::/29 max 29 as 0; # ripe
   roa 2a0a:db80::/29 max 29 as 0; # ripe
+  roa 2a0b:35c0::/29 max 31 as 0; # ripe
   roa 2a0b:6500::/29 max 29 as 0; # ripe
   roa 2a0c:3800::/32 max 32 as 0; # ripe
   roa 2a0c:9a44:cf::/48 max 48 as 0; # ripe
@@ -21445,7 +21446,6 @@ roa table roa {
   roa 2a02:d58:200a::/48 max 48 as 64520; # ripe
   roa 2607:fd78:902::/48 max 48 as 65001; # arin
   roa 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  roa 2605:9cc0:382::/48 max 48 as 65530; # arin
   roa 2001:718:ffff::/48 max 48 as 65533; # ripe
   roa 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   roa 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -25740,9 +25740,6 @@ roa table roa {
   roa 2a05:b0c4:1::/48 max 48 as 198412; # ripe
   roa 2a10:3ec0::/29 max 64 as 198417; # ripe
   roa 2a10:3ec0:32::/48 max 48 as 198417; # ripe
-  roa 2a00:78c0::/29 max 29 as 198435; # ripe
-  roa 2a00:78c0::/32 max 32 as 198435; # ripe
-  roa 2a00:78c2::/32 max 32 as 198435; # ripe
   roa 2a05:87c0::/29 max 29 as 198440; # ripe
   roa 2001:87f::/32 max 48 as 198455; # ripe
   roa 2001:67c:2d04::/48 max 48 as 198463; # ripe
@@ -26113,6 +26110,10 @@ roa table roa {
   roa 2a0c:684::/30 max 30 as 200000; # ripe
   roa 2a0c:780::/29 max 29 as 200000; # ripe
   roa 2a0d:6500::/29 max 29 as 200000; # ripe
+  roa 2a0b:35c0::/32 max 32 as 200005; # ripe
+  roa 2a0b:35c1::/32 max 32 as 200005; # ripe
+  roa 2a0b:35c2::/32 max 32 as 200005; # ripe
+  roa 2a0b:35c3::/32 max 32 as 200005; # ripe
   roa 2001:678:6d4::/48 max 48 as 200019; # ripe
   roa 2a09:7c46::/32 max 32 as 200019; # ripe
   roa 2a0f:5f40::/29 max 29 as 200019; # ripe
@@ -26774,7 +26775,6 @@ roa table roa {
   roa 2a04:ac00:a::/48 max 48 as 203004; # ripe
   roa 2a07:5900::/29 max 31 as 203014; # ripe
   roa 2a0a:3507:1::/48 max 48 as 203038; # ripe
-  roa 2a07:5300::/29 max 29 as 203046; # ripe
   roa 2a07:5100::/29 max 29 as 203052; # ripe
   roa 2a0b:e46:1::/48 max 48 as 203055; # ripe
   roa 2a0c:6cc0::/29 max 29 as 203082; # ripe
