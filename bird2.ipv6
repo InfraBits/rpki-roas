@@ -7139,6 +7139,7 @@ protocol static roas6 {
   route 2400:f640::/32 max 32 as 18231; # apnic
   route 2400:f640::/48 max 48 as 18231; # apnic
   route 2400:f640::/64 max 64 as 18231; # apnic
+  route 2406:840:edd0::/44 max 48 as 18250; # apnic
   route 2406:9dc0::/44 max 48 as 18250; # apnic
   route 2406:9dc0:60::/44 max 48 as 18250; # apnic
   route 2406:9dc0:100::/44 max 48 as 18250; # apnic
@@ -7971,6 +7972,7 @@ protocol static roas6 {
   route 2a0b:1900::/44 max 44 as 22458; # ripe
   route 2620:3d:c000::/48 max 48 as 22512; # arin
   route 2803:7680::/32 max 32 as 22541; # lacnic
+  route 2803:7680::/32 max 36 as 22541; # lacnic
   route 2001:12ff::/32 max 48 as 22548; # lacnic
   route 2001:470:9b::/48 max 48 as 22552; # arin
   route 2c0f:e9e0::/32 max 32 as 22572; # afrinic
@@ -21449,6 +21451,8 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
+  route 2605:9cc0:357::/48 max 48 as 65530; # arin
+  route 2605:9cc0:382::/48 max 48 as 65530; # arin
   route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
@@ -28819,6 +28823,7 @@ protocol static roas6 {
   route 2a02:128:4::/48 max 48 as 209863; # ripe
   route 2605:f440:cafe::/48 max 48 as 209864; # arin
   route 2a0d:2146:8040::/48 max 48 as 209864; # ripe
+  route 2a0e:ec00:1000::/36 max 48 as 209870; # ripe
   route 2a0e:ec00:1002::/48 max 48 as 209870; # ripe
   route 2a0e:ec00:c0de::/48 max 48 as 209870; # ripe
   route 2a10:1ac0::/29 max 29 as 209886; # ripe
@@ -30352,6 +30357,7 @@ protocol static roas6 {
   route 2804:3a20::/32 max 34 as 266072; # lacnic
   route 2804:3a30::/32 max 48 as 266076; # lacnic
   route 2804:3a68::/32 max 32 as 266087; # lacnic
+  route 2804:3acc::/32 max 34 as 266110; # lacnic
   route 2804:3b1c::/32 max 34 as 266130; # lacnic
   route 2804:3b34::/32 max 48 as 266135; # lacnic
   route 2804:3b38::/32 max 48 as 266136; # lacnic
