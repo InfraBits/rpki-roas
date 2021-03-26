@@ -29580,7 +29580,7 @@ protocol static roas6 {
   route 2a09:be40:3610::/44 max 48 as 212557; # ripe
   route 2001:678:e68::/48 max 48 as 212567; # ripe
   route 2001:678:ed0::/48 max 48 as 212567; # ripe
-  route 2a00:dd00::/32 max 32 as 212573; # ripe
+  route 2a00:dd00::/32 max 48 as 212573; # ripe
   route 2a0e:8f02:2070::/44 max 48 as 212577; # ripe
   route 2602:feda:c40::/44 max 48 as 212580; # arin
   route 2a0f:5707:aad0::/44 max 44 as 212591; # ripe
