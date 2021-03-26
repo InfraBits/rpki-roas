@@ -21898,8 +21898,8 @@ roa table roa {
   roa 2404:fdc0:110::/48 max 64 as 131669; # apnic
   roa 2404:fdc0:111::/48 max 64 as 131670; # apnic
   roa 2405:a0c0::/32 max 48 as 131671; # apnic
-  roa 2405:b8c0::/32 max 64 as 131674; # apnic
   roa 2404:2ec0::/32 max 48 as 131675; # apnic
+  roa 2405:b8c0::/32 max 64 as 131677; # apnic
   roa 2405:e4c0::/32 max 64 as 131677; # apnic
   roa 2406:3a40::/32 max 64 as 131677; # apnic
   roa 2407:7b80::/32 max 36 as 131686; # apnic
