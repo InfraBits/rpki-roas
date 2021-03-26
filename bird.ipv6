@@ -29317,6 +29317,8 @@ roa table roa {
   roa 2a10:b640:3000::/36 max 48 as 211607; # ripe
   roa 2a03:5840:120::/44 max 48 as 211620; # ripe
   roa 2001:7f8:10e::/48 max 48 as 211621; # ripe
+  roa 2403:7f40:e000::/48 max 48 as 211622; # apnic
+  roa 2403:7f40:e001::/48 max 48 as 211622; # apnic
   roa 2406:8dc0:2005::/48 max 48 as 211622; # apnic
   roa 2406:8dc0:2006::/47 max 48 as 211622; # apnic
   roa 2a10:b9c0::/29 max 48 as 211623; # ripe
