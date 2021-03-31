@@ -21849,6 +21849,9 @@ protocol static roas6 {
   route 2402:9d80:10b::/48 max 48 as 131429; # apnic
   route 2402:9d80:10c::/48 max 48 as 131429; # apnic
   route 2402:9d80:10d::/48 max 48 as 131429; # apnic
+  route 2402:9d80:200::/40 max 48 as 131429; # apnic
+  route 2402:9d80:300::/40 max 48 as 131429; # apnic
+  route 2402:9d80:400::/40 max 48 as 131429; # apnic
   route 2402:9d80:800::/48 max 48 as 131429; # apnic
   route 2402:9d80:801::/48 max 48 as 131429; # apnic
   route 2402:9d80:802::/47 max 47 as 131429; # apnic
