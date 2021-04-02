@@ -21876,6 +21876,8 @@ roa table roa {
   roa 2a02:d58:200a::/48 max 48 as 64520; # ripe
   roa 2607:fd78:902::/48 max 48 as 65001; # arin
   roa 2001:e68:2001:1::/64 max 64 as 65530; # apnic
+  roa 2605:9cc0:357::/48 max 48 as 65530; # arin
+  roa 2605:9cc0:384::/48 max 48 as 65530; # arin
   roa 2001:718:ffff::/48 max 48 as 65533; # ripe
   roa 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   roa 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -28231,6 +28233,38 @@ roa table roa {
   roa 2001:678:c88::/48 max 48 as 206161; # ripe
   roa 2a07:f280::/29 max 29 as 206163; # ripe
   roa 2a0a:86c0::/29 max 29 as 206163; # ripe
+  roa 2a0a:86c0::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:1::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:2::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:3::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:4::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:5::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:6::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:7::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:8::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:9::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:10::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:11::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:12::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:13::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:14::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:15::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:16::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:17::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:18::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:19::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:20::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:21::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:22::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:23::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:24::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:25::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:26::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:27::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:28::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:29::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:30::/48 max 48 as 206163; # ripe
+  roa 2a0a:86c0:31::/48 max 48 as 206163; # ripe
   roa 2a10:1e40::/29 max 29 as 206173; # ripe
   roa 2001:678:3b0::/48 max 48 as 206186; # ripe
   roa 2a0f:e980::/29 max 29 as 206194; # ripe
