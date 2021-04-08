@@ -2000,6 +2000,20 @@ protocol static roas6 {
   route 2001:43f8:30::/48 max 48 as 6968; # afrinic
   route 2001:43f8:100::/48 max 48 as 6968; # afrinic
   route 2001:43f8:790::/48 max 48 as 6968; # afrinic
+  route 2001:558:130::/44 max 44 as 7016; # arin
+  route 2001:558:380::/44 max 44 as 7016; # arin
+  route 2001:558:501a::/48 max 48 as 7016; # arin
+  route 2001:558:501d::/48 max 48 as 7016; # arin
+  route 2001:558:6031::/48 max 48 as 7016; # arin
+  route 2001:558:6035::/48 max 48 as 7016; # arin
+  route 2001:558:fe0e::/47 max 47 as 7016; # arin
+  route 2001:558:feea::/48 max 48 as 7016; # arin
+  route 2601:540::/26 max 26 as 7016; # arin
+  route 2601:980::/26 max 26 as 7016; # arin
+  route 2603:2540::/26 max 26 as 7016; # arin
+  route 2603:2980::/26 max 26 as 7016; # arin
+  route 2603:3007::/32 max 32 as 7016; # arin
+  route 2603:301f::/32 max 32 as 7016; # arin
   route 2001:1890::/29 max 29 as 7018; # arin
   route 2600:1700::/28 max 28 as 7018; # arin
   route 2602:300::/24 max 24 as 7018; # arin
