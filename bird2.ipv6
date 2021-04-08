@@ -5591,6 +5591,7 @@ protocol static roas6 {
   route 2605:9cc0:399::/48 max 48 as 14618; # arin
   route 2605:9cc0:ffff::/48 max 48 as 14618; # arin
   route 2605:c940::/32 max 48 as 14618; # arin
+  route 2605:dd40:8880::/44 max 44 as 14618; # arin
   route 2605:e240:a::/48 max 48 as 14618; # arin
   route 2606:2c0::/48 max 48 as 14618; # arin
   route 2606:2c0:1::/48 max 48 as 14618; # arin
@@ -6311,6 +6312,7 @@ protocol static roas6 {
   route 2605:9cc0:399::/48 max 48 as 16509; # arin
   route 2605:9cc0:ffff::/48 max 48 as 16509; # arin
   route 2605:c940::/32 max 48 as 16509; # arin
+  route 2605:dd40:8880::/44 max 44 as 16509; # arin
   route 2605:e240:7::/48 max 48 as 16509; # arin
   route 2605:e240:b::/48 max 48 as 16509; # arin
   route 2606:2c0::/48 max 48 as 16509; # arin
@@ -22022,6 +22024,8 @@ protocol static roas6 {
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
   route 2605:9cc0:357::/48 max 48 as 65530; # arin
+  route 2605:9cc0:382::/48 max 48 as 65530; # arin
+  route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -22999,7 +23003,9 @@ protocol static roas6 {
   route 2a09:7080::/29 max 29 as 134743; # ripe
   route 2407:fe80::/32 max 32 as 134749; # apnic
   route 2407:fe80::/40 max 40 as 134749; # apnic
+  route 2407:fe80:2::/48 max 48 as 134749; # apnic
   route 2407:fe80:100::/40 max 40 as 134749; # apnic
+  route 2407:fe80:100::/48 max 48 as 134749; # apnic
   route 2407:fe80:300::/40 max 40 as 134749; # apnic
   route 2407:fe80:8100::/40 max 40 as 134749; # apnic
   route 2407:fe80:8200::/40 max 40 as 134749; # apnic
@@ -33294,6 +33300,7 @@ protocol static roas6 {
   route 2605:dd40:8208::/48 max 48 as 398549; # arin
   route 2605:dd40:8210::/48 max 48 as 398549; # arin
   route 2605:dd40:8250::/48 max 48 as 398549; # arin
+  route 2605:dd40:8880::/44 max 44 as 398549; # arin
   route 2605:dd40:8bbb::/48 max 48 as 398549; # arin
   route 2605:dd40:8be0::/44 max 44 as 398549; # arin
   route 2605:dd40:8bea::/48 max 48 as 398549; # arin
