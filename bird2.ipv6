@@ -32103,6 +32103,7 @@ protocol static roas6 {
   route 2801:1f:6800::/48 max 48 as 271866; # lacnic
   route 2803:8c10:40::/42 max 42 as 271868; # lacnic
   route 2801:12:e800::/48 max 48 as 271885; # lacnic
+  route 2803:4210::/32 max 32 as 271898; # lacnic
   route 2c0f:f6d0::/32 max 32 as 327687; # afrinic
   route 2c0f:f6d0::/32 max 48 as 327687; # afrinic
   route 2c0f:f6d0:a::/48 max 48 as 327687; # afrinic
