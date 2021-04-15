@@ -17598,7 +17598,6 @@ roa table roa {
   roa 2001:12f8:6::/47 max 48 as 53035; # lacnic
   roa 2801:80:330::/48 max 48 as 53046; # lacnic
   roa 2804:1f04::/32 max 48 as 53046; # lacnic
-  roa 2804:1b04::/32 max 48 as 53048; # lacnic
   roa 2804:a3c::/32 max 48 as 53054; # lacnic
   roa 2804:2140::/32 max 32 as 53059; # lacnic
   roa 2804:2140:100c::/48 max 48 as 53059; # lacnic
@@ -22627,9 +22626,6 @@ roa table roa {
   roa 2a02:d58:200a::/48 max 48 as 64520; # ripe
   roa 2607:fd78:902::/48 max 48 as 65001; # arin
   roa 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  roa 2605:9cc0:357::/48 max 48 as 65530; # arin
-  roa 2605:9cc0:382::/48 max 48 as 65530; # arin
-  roa 2605:9cc0:384::/48 max 48 as 65530; # arin
   roa 2001:718:ffff::/48 max 48 as 65533; # ripe
   roa 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   roa 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -31444,7 +31440,6 @@ roa table roa {
   roa 2804:f24::/32 max 48 as 263567; # lacnic
   roa 2804:f30::/32 max 48 as 263569; # lacnic
   roa 2804:f40::/32 max 32 as 263573; # lacnic
-  roa 2804:f6c::/32 max 48 as 263585; # lacnic
   roa 2804:fb4::/32 max 48 as 263599; # lacnic
   roa 2804:1044::/32 max 32 as 263627; # lacnic
   roa 2804:1044::/33 max 33 as 263627; # lacnic
@@ -31817,7 +31812,6 @@ roa table roa {
   roa 2804:34d8::/34 max 34 as 265484; # lacnic
   roa 2804:34d8:8000::/34 max 34 as 265484; # lacnic
   roa 2804:34d8:c000::/34 max 34 as 265484; # lacnic
-  roa 2804:3504::/32 max 48 as 265495; # lacnic
   roa 2806:282::/32 max 48 as 265509; # lacnic
   roa 2806:285::/32 max 32 as 265523; # lacnic
   roa 2806:301::/32 max 32 as 265523; # lacnic
@@ -32435,7 +32429,6 @@ roa table roa {
   roa 2804:60f0::/32 max 34 as 269201; # lacnic
   roa 2804:60f4::/32 max 48 as 269202; # lacnic
   roa 2804:6104::/32 max 34 as 269206; # lacnic
-  roa 2804:6180::/32 max 48 as 269238; # lacnic
   roa 2804:61a0::/32 max 48 as 269246; # lacnic
   roa 2804:61bc::/32 max 34 as 269253; # lacnic
   roa 2804:6274::/32 max 48 as 269298; # lacnic
