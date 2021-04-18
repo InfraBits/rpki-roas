@@ -31260,7 +31260,6 @@ roa table roa {
   roa 2a10:7a80::/29 max 29 as 213317; # ripe
   roa 2001:678:d2c::/48 max 48 as 213318; # ripe
   roa 2a0b:f080::/32 max 48 as 213319; # ripe
-  roa 2406:840:f330::/44 max 48 as 213326; # apnic
   roa 2a0e:8f02:2110::/44 max 48 as 213326; # ripe
   roa 2a0e:8f02:2110::/46 max 46 as 213326; # ripe
   roa 2a0e:8f02:2114::/46 max 46 as 213326; # ripe
