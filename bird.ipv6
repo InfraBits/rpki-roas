@@ -17823,6 +17823,7 @@ roa table roa {
   roa 2001:470:8e::/48 max 48 as 53299; # arin
   roa 2606:3380::/32 max 48 as 53334; # arin
   roa 2001:504:2f::/48 max 48 as 53339; # arin
+  roa 2602:fe13:fa0::/44 max 44 as 53356; # arin
   roa 2602:fed2:31::/48 max 48 as 53356; # arin
   roa 2602:fed2:3eb::/48 max 48 as 53356; # arin
   roa 2602:fed2:3ec::/48 max 48 as 53356; # arin
