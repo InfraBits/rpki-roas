@@ -27059,22 +27059,10 @@ protocol static roas6 {
   route 2a0e:aa07:e100::/44 max 48 as 142025; # ripe
   route 2001:df6:6d80::/48 max 48 as 142044; # apnic
   route 2407:4ac0::/32 max 32 as 142045; # apnic
-  route 2407:4ac0::/36 max 36 as 142045; # apnic
   route 2407:4ac0:1::/48 max 48 as 142045; # apnic
   route 2407:4ac0:1000::/36 max 36 as 142045; # apnic
-  route 2407:4ac0:2000::/36 max 36 as 142045; # apnic
-  route 2407:4ac0:3000::/36 max 36 as 142045; # apnic
-  route 2407:4ac0:4000::/36 max 36 as 142045; # apnic
-  route 2407:4ac0:5000::/36 max 36 as 142045; # apnic
-  route 2407:4ac0:6000::/36 max 36 as 142045; # apnic
-  route 2407:4ac0:7000::/36 max 36 as 142045; # apnic
-  route 2407:4ac0:8000::/36 max 36 as 142045; # apnic
-  route 2407:4ac0:9000::/36 max 36 as 142045; # apnic
+  route 2407:4ac0:6d80::/48 max 48 as 142045; # apnic
   route 2407:4ac0:a000::/36 max 36 as 142045; # apnic
-  route 2407:4ac0:b000::/36 max 36 as 142045; # apnic
-  route 2407:4ac0:c000::/36 max 36 as 142045; # apnic
-  route 2407:4ac0:d000::/36 max 36 as 142045; # apnic
-  route 2407:4ac0:e000::/36 max 36 as 142045; # apnic
   route 2407:4ac0:f000::/40 max 40 as 142045; # apnic
   route 2407:d280::/32 max 32 as 142045; # apnic
   route 2407:4d40::/32 max 32 as 142050; # apnic
