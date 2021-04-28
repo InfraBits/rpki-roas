@@ -15342,6 +15342,20 @@ protocol static roas6 {
   route 2401:8a40:47::/48 max 48 as 45326; # apnic
   route 2401:8a40:48::/48 max 48 as 45326; # apnic
   route 2401:8a40:49::/48 max 48 as 45326; # apnic
+  route 2401:8a40:4a::/48 max 48 as 45326; # apnic
+  route 2401:8a40:4b::/48 max 48 as 45326; # apnic
+  route 2401:8a40:4c::/48 max 48 as 45326; # apnic
+  route 2401:8a40:4d::/48 max 48 as 45326; # apnic
+  route 2401:8a40:4e::/48 max 48 as 45326; # apnic
+  route 2401:8a40:4f::/48 max 48 as 45326; # apnic
+  route 2401:8a40:50::/48 max 48 as 45326; # apnic
+  route 2401:8a40:51::/48 max 48 as 45326; # apnic
+  route 2401:8a40:52::/48 max 48 as 45326; # apnic
+  route 2401:8a40:53::/48 max 48 as 45326; # apnic
+  route 2401:8a40:54::/48 max 48 as 45326; # apnic
+  route 2401:8a40:55::/48 max 48 as 45326; # apnic
+  route 2401:8a40:56::/48 max 48 as 45326; # apnic
+  route 2401:8a40:57::/48 max 48 as 45326; # apnic
   route 2001:df0:18::/48 max 48 as 45344; # apnic
   route 2404:e400::/32 max 32 as 45345; # apnic
   route 2401:3400::/32 max 36 as 45352; # apnic
