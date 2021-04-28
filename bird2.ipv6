@@ -15318,6 +15318,11 @@ protocol static roas6 {
   route 2401:8a40:32::/48 max 48 as 45326; # apnic
   route 2401:8a40:33::/48 max 48 as 45326; # apnic
   route 2401:8a40:34::/48 max 48 as 45326; # apnic
+  route 2401:8a40:35::/48 max 48 as 45326; # apnic
+  route 2401:8a40:36::/48 max 48 as 45326; # apnic
+  route 2401:8a40:37::/48 max 48 as 45326; # apnic
+  route 2401:8a40:38::/48 max 48 as 45326; # apnic
+  route 2401:8a40:39::/48 max 48 as 45326; # apnic
   route 2001:df0:18::/48 max 48 as 45344; # apnic
   route 2404:e400::/32 max 32 as 45345; # apnic
   route 2401:3400::/32 max 36 as 45352; # apnic
