@@ -13249,6 +13249,7 @@ roa table roa {
   roa 2a02:6f80::/29 max 32 as 39179; # ripe
   roa 2a01:378::/32 max 32 as 39180; # ripe
   roa 2a0f:5840::/44 max 48 as 39192; # ripe
+  roa 2a0a:df80:26::/48 max 48 as 39212; # ripe
   roa 2a04:2dc0::/48 max 48 as 39216; # ripe
   roa 2a04:2dc0:1::/48 max 48 as 39216; # ripe
   roa 2a04:2dc0:2::/48 max 48 as 39216; # ripe
@@ -13404,6 +13405,7 @@ roa table roa {
   roa 2a09:4080::/29 max 29 as 39668; # ripe
   roa 2a0f:5fc0:dead::/48 max 48 as 39673; # ripe
   roa 2a09:7ac0::/32 max 32 as 39679; # ripe
+  roa 2001:67c:18a0::/48 max 48 as 39686; # ripe
   roa 2a02:fe8::/32 max 48 as 39686; # ripe
   roa 2a02:fe9::/32 max 48 as 39686; # ripe
   roa 2a03:50a0::/32 max 32 as 39699; # ripe
@@ -25090,6 +25092,7 @@ roa table roa {
   roa 2403:6a40::/48 max 48 as 135967; # apnic
   roa 2403:6a40:2::/48 max 48 as 135967; # apnic
   roa 2403:6a40:1000::/36 max 36 as 135967; # apnic
+  roa 2403:6a40:2000::/36 max 36 as 135967; # apnic
   roa 2407:2ec0::/48 max 48 as 135967; # apnic
   roa 2001:df4:d880::/48 max 48 as 135981; # apnic
   roa 2405:1a40::/48 max 48 as 135981; # apnic
@@ -26889,6 +26892,9 @@ roa table roa {
   roa 2406:e6c0::/48 max 48 as 140766; # apnic
   roa 2406:e740::/48 max 48 as 140766; # apnic
   roa 2407:4940::/48 max 48 as 140770; # apnic
+  roa 2407:1c0::/48 max 48 as 140775; # apnic
+  roa 2407:240::/48 max 48 as 140775; # apnic
+  roa 2407:2c0::/48 max 48 as 140775; # apnic
   roa 2001:df4:980::/48 max 48 as 140843; # apnic
   roa 2001:df4:a80::/48 max 48 as 140849; # apnic
   roa 2001:df4:1480::/48 max 48 as 140864; # apnic
@@ -28917,6 +28923,8 @@ roa table roa {
   roa 2a06:e881:4337::/48 max 48 as 204307; # ripe
   roa 2a06:e881:4339::/48 max 48 as 204307; # ripe
   roa 2a06:e881:433f::/48 max 48 as 204307; # ripe
+  roa 2a0e:b107:ac0::/48 max 48 as 204307; # ripe
+  roa 2a0e:b107:ac2::/48 max 48 as 204307; # ripe
   roa 2a0c:3ec0::/29 max 29 as 204310; # ripe
   roa 2a0c:3ec7::/32 max 32 as 204310; # ripe
   roa 2a03:4b27:f000::/36 max 36 as 204320; # ripe
