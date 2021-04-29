@@ -4893,6 +4893,8 @@ roa table roa {
   roa 2a00:f080::/42 max 42 as 13030; # ripe
   roa 2a07:600::/29 max 29 as 13030; # ripe
   roa 2a03:5dc0:6::/48 max 48 as 13032; # ripe
+  roa 2a09:c400::/30 max 30 as 13032; # ripe
+  roa 2a09:c404::/30 max 30 as 13032; # ripe
   roa 2a02:8010::/29 max 29 as 13037; # ripe
   roa 2001:40b8::/32 max 32 as 13039; # ripe
   roa 2001:7f8:2a::/48 max 48 as 13041; # ripe
@@ -30465,24 +30467,46 @@ roa table roa {
   roa 2a0e:af00::/44 max 48 as 208840; # ripe
   roa 2a0e:7780::/29 max 48 as 208846; # ripe
   roa 2a0e:c5c0::/32 max 32 as 208854; # ripe
+  roa 2a00:48a0::/29 max 29 as 208861; # ripe
+  roa 2a00:7320::/29 max 29 as 208861; # ripe
   roa 2a05:fb45::/32 max 32 as 208861; # ripe
+  roa 2a07:f6c0::/29 max 29 as 208861; # ripe
   roa 2a09:940::/29 max 29 as 208861; # ripe
   roa 2a09:4cc0::/29 max 29 as 208861; # ripe
   roa 2a09:6dc0::/29 max 29 as 208861; # ripe
   roa 2a09:7a40::/29 max 29 as 208861; # ripe
   roa 2a09:a840::/29 max 29 as 208861; # ripe
+  roa 2a09:b080::/29 max 29 as 208861; # ripe
   roa 2a09:c300::/29 max 29 as 208861; # ripe
   roa 2a09:da00::/29 max 29 as 208861; # ripe
   roa 2a0a:4780::/32 max 32 as 208861; # ripe
   roa 2a0a:4781::/32 max 32 as 208861; # ripe
   roa 2a0a:4782::/32 max 32 as 208861; # ripe
   roa 2a0a:4783::/32 max 32 as 208861; # ripe
+  roa 2a0c:1f40::/29 max 29 as 208861; # ripe
   roa 2a0c:ab00::/29 max 36 as 208861; # ripe
+  roa 2a0d:5e40::/29 max 29 as 208861; # ripe
   roa 2a0d:60c1::/32 max 32 as 208861; # ripe
+  roa 2a0d:6640::/32 max 32 as 208861; # ripe
+  roa 2a0d:6641::/32 max 32 as 208861; # ripe
+  roa 2a0d:6642::/32 max 32 as 208861; # ripe
+  roa 2a0d:6643::/32 max 32 as 208861; # ripe
+  roa 2a0d:6c40::/29 max 29 as 208861; # ripe
+  roa 2a0d:6cc0::/29 max 29 as 208861; # ripe
+  roa 2a0d:71c0::/29 max 29 as 208861; # ripe
+  roa 2a0d:75c0::/29 max 29 as 208861; # ripe
+  roa 2a0d:78c0::/29 max 29 as 208861; # ripe
+  roa 2a0d:7bc0::/29 max 29 as 208861; # ripe
+  roa 2a0d:8900::/29 max 29 as 208861; # ripe
+  roa 2a0d:8e40::/29 max 29 as 208861; # ripe
+  roa 2a0d:91c0::/29 max 29 as 208861; # ripe
+  roa 2a0d:99c0::/29 max 29 as 208861; # ripe
+  roa 2a0d:9dc0::/29 max 29 as 208861; # ripe
   roa 2a0d:c3c0::/29 max 29 as 208861; # ripe
   roa 2a0e:940::/29 max 29 as 208861; # ripe
   roa 2a0e:4880::/29 max 29 as 208861; # ripe
   roa 2a0e:4a80::/29 max 29 as 208861; # ripe
+  roa 2a0e:5000::/29 max 29 as 208861; # ripe
   roa 2a0e:5ac0::/29 max 29 as 208861; # ripe
   roa 2a0e:9840::/29 max 29 as 208861; # ripe
   roa 2a0e:b140::/29 max 29 as 208861; # ripe
@@ -30490,6 +30514,9 @@ roa table roa {
   roa 2a0f:cc82::/32 max 32 as 208861; # ripe
   roa 2a10:2ec0::/29 max 48 as 208861; # ripe
   roa 2a10:4b00::/29 max 29 as 208861; # ripe
+  roa 2a10:9fc0::/29 max 29 as 208861; # ripe
+  roa 2a10:a040::/29 max 29 as 208861; # ripe
+  roa 2a10:f900::/29 max 29 as 208861; # ripe
   roa 2a06:e881:6600::/44 max 48 as 208872; # ripe
   roa 2a0e:4d80::/29 max 29 as 208882; # ripe
   roa 2a0e:aa07:f090::/44 max 48 as 208884; # ripe
