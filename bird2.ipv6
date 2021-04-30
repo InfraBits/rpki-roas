@@ -33271,6 +33271,7 @@ protocol static roas6 {
   route 2804:6d48::/32 max 48 as 270522; # lacnic
   route 2804:6dc0::/32 max 32 as 270553; # lacnic
   route 2804:6df8::/32 max 48 as 270567; # lacnic
+  route 2804:6e20::/32 max 48 as 270577; # lacnic
   route 2804:6e40::/32 max 38 as 270584; # lacnic
   route 2804:6e68::/32 max 34 as 270595; # lacnic
   route 2804:6e8c::/32 max 48 as 270604; # lacnic
