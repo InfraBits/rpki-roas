@@ -22129,6 +22129,7 @@ roa table roa {
   roa 2605:4300:ff00::/40 max 48 as 62907; # arin
   roa 2602:fedb::/36 max 36 as 62948; # arin
   roa 2602:fec5::/36 max 36 as 62952; # arin
+  roa 2602:fec5:1::/48 max 48 as 62952; # arin
   roa 2602:fed2:7030::/44 max 48 as 62997; # arin
   roa 2803:5ac0::/32 max 48 as 63023; # lacnic
   roa 2a09:57c0::/29 max 29 as 63023; # ripe
