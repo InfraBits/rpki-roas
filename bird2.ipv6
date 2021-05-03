@@ -22983,7 +22983,7 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  route 2605:9cc0:382::/48 max 48 as 65530; # arin
+  route 2605:9cc0:357::/48 max 48 as 65530; # arin
   route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
@@ -29618,6 +29618,75 @@ protocol static roas6 {
   route 2a0a:86c0:29::/48 max 48 as 206163; # ripe
   route 2a0a:86c0:30::/48 max 48 as 206163; # ripe
   route 2a0a:86c0:31::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:32::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:33::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:34::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:35::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:36::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:37::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:38::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:39::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:40::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:41::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:42::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:43::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:44::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:45::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:46::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:47::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:48::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:49::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:50::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:51::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:52::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:53::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:54::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:55::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:56::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:57::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:58::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:59::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:60::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:61::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:62::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:63::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:64::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:65::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:66::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:67::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:68::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:69::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:70::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:71::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:72::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:73::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:74::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:75::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:76::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:77::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:78::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:79::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:80::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:81::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:82::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:83::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:84::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:85::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:86::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:87::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:88::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:89::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:90::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:91::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:92::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:93::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:94::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:95::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:96::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:97::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:98::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:99::/48 max 48 as 206163; # ripe
+  route 2a0a:86c0:100::/48 max 48 as 206163; # ripe
   route 2a10:1e40::/29 max 29 as 206173; # ripe
   route 2001:678:3b0::/48 max 48 as 206186; # ripe
   route 2a0f:e980::/29 max 29 as 206194; # ripe
