@@ -7738,6 +7738,7 @@ roa table roa {
   roa 2801:10a:1::/48 max 48 as 19429; # lacnic
   roa 2801:10a:2::/48 max 48 as 19429; # lacnic
   roa 2801:132::/48 max 48 as 19429; # lacnic
+  roa 2801:13e::/40 max 40 as 19429; # lacnic
   roa 2801:170::/48 max 48 as 19429; # lacnic
   roa 2801:18a::/44 max 44 as 19429; # lacnic
   roa 2801:1aa:3::/48 max 48 as 19429; # lacnic
@@ -8067,6 +8068,7 @@ roa table roa {
   roa 2a0e:b107:114a::/48 max 48 as 20473; # ripe
   roa 2a0e:b107:114b::/48 max 48 as 20473; # ripe
   roa 2a0e:b107:114c::/48 max 48 as 20473; # ripe
+  roa 2a0e:c500::/29 max 128 as 20473; # ripe
   roa 2a0f:13c0::/31 max 31 as 20473; # ripe
   roa 2a0f:13c2::/31 max 31 as 20473; # ripe
   roa 2a0f:13c4::/31 max 31 as 20473; # ripe
@@ -19139,6 +19141,7 @@ roa table roa {
   roa 2a0c:da02::/32 max 32 as 57878; # ripe
   roa 2a0d:740::/30 max 30 as 57878; # ripe
   roa 2a0d:744::/30 max 30 as 57878; # ripe
+  roa 2a0e:c500::/29 max 128 as 57878; # ripe
   roa 2a03:6dc0::/32 max 32 as 57908; # ripe
   roa 2001:67c:2778::/48 max 48 as 57926; # ripe
   roa 2a00:bf40::/32 max 32 as 57928; # ripe
@@ -22987,7 +22990,8 @@ roa table roa {
   roa 2a02:d58:200a::/48 max 48 as 64520; # ripe
   roa 2607:fd78:902::/48 max 48 as 65001; # arin
   roa 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  roa 2605:9cc0:357::/48 max 48 as 65530; # arin
+  roa 2605:9cc0:382::/48 max 48 as 65530; # arin
+  roa 2605:9cc0:384::/48 max 48 as 65530; # arin
   roa 2001:718:ffff::/48 max 48 as 65533; # ripe
   roa 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   roa 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -26130,6 +26134,8 @@ roa table roa {
   roa 2400:e500:36::/48 max 48 as 138322; # apnic
   roa 2400:e500:37::/48 max 48 as 138322; # apnic
   roa 2400:e500:38::/48 max 48 as 138322; # apnic
+  roa 2400:e500:39::/48 max 48 as 138322; # apnic
+  roa 2400:e500:3a::/48 max 48 as 138322; # apnic
   roa 2400:e500:90::/48 max 48 as 138322; # apnic
   roa 2400:e501::/32 max 32 as 138322; # apnic
   roa 2403:ab40::/32 max 36 as 138329; # apnic
