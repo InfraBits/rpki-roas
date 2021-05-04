@@ -23003,9 +23003,6 @@ roa table roa {
   roa 2a02:d58:200a::/48 max 48 as 64520; # ripe
   roa 2607:fd78:902::/48 max 48 as 65001; # arin
   roa 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  roa 2605:9cc0:357::/48 max 48 as 65530; # arin
-  roa 2605:9cc0:382::/48 max 48 as 65530; # arin
-  roa 2605:9cc0:384::/48 max 48 as 65530; # arin
   roa 2001:718:ffff::/48 max 48 as 65533; # ripe
   roa 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   roa 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -30662,6 +30659,7 @@ roa table roa {
   roa 2a0d:6641::/32 max 32 as 208861; # ripe
   roa 2a0d:6642::/32 max 32 as 208861; # ripe
   roa 2a0d:6643::/32 max 32 as 208861; # ripe
+  roa 2a0d:6644::/32 max 32 as 208861; # ripe
   roa 2a0d:6c40::/29 max 29 as 208861; # ripe
   roa 2a0d:6cc0::/29 max 29 as 208861; # ripe
   roa 2a0d:71c0::/29 max 29 as 208861; # ripe
@@ -30687,6 +30685,8 @@ roa table roa {
   roa 2a10:4b00::/29 max 29 as 208861; # ripe
   roa 2a10:9fc0::/29 max 29 as 208861; # ripe
   roa 2a10:a040::/29 max 29 as 208861; # ripe
+  roa 2a10:a340::/29 max 29 as 208861; # ripe
+  roa 2a10:d940::/29 max 29 as 208861; # ripe
   roa 2a10:f900::/29 max 29 as 208861; # ripe
   roa 2a06:e881:6600::/44 max 48 as 208872; # ripe
   roa 2a0e:4d80::/29 max 29 as 208882; # ripe
@@ -32433,7 +32433,6 @@ roa table roa {
   roa 2803:20c0::/32 max 48 as 264760; # lacnic
   roa 2803:50c0:1::/48 max 48 as 264763; # lacnic
   roa 2803:50c0:105::/48 max 48 as 264763; # lacnic
-  roa 2803:bf40::/32 max 32 as 264764; # lacnic
   roa 2803:10c0::/32 max 32 as 264770; # lacnic
   roa 2803:30c0::/32 max 32 as 264771; # lacnic
   roa 2803:360::/32 max 32 as 264773; # lacnic
@@ -33431,7 +33430,6 @@ roa table roa {
   roa 2804:6e8c::/32 max 48 as 270604; # lacnic
   roa 2804:6e9c::/32 max 48 as 270608; # lacnic
   roa 2804:6eb4::/32 max 32 as 270614; # lacnic
-  roa 2804:6ef0::/32 max 32 as 270628; # lacnic
   roa 2804:6fc8::/32 max 48 as 270684; # lacnic
   roa 2804:708c::/32 max 34 as 270733; # lacnic
   roa 2804:70a4::/32 max 34 as 270739; # lacnic
