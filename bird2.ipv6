@@ -16116,6 +16116,7 @@ protocol static roas6 {
   route 2a00:dc00::/32 max 32 as 47288; # ripe
   route 2a03:2400::/29 max 29 as 47295; # ripe
   route 2a03:b880::/29 max 29 as 47297; # ripe
+  route 2001:7f8:10e::/48 max 48 as 47298; # ripe
   route 2a00:1d30::/29 max 48 as 47331; # ripe
   route 2a01:358::/29 max 48 as 47331; # ripe
   route 2a02:2520::/32 max 32 as 47337; # ripe
@@ -21478,6 +21479,7 @@ protocol static roas6 {
   route 2a04:4340::/29 max 32 as 61349; # ripe
   route 2a04:a240::/29 max 29 as 61351; # ripe
   route 2a02:101c::/32 max 32 as 61352; # ripe
+  route 2a0e:3780:c0ca::/48 max 48 as 61361; # ripe
   route 2a0e:9580::/29 max 32 as 61381; # ripe
   route 2a05:9281::/32 max 32 as 61385; # ripe
   route 2a03:220::/32 max 48 as 61400; # ripe
@@ -23005,6 +23007,7 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
+  route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -28585,6 +28588,7 @@ protocol static roas6 {
   route 2a09:cd42::/32 max 32 as 202448; # ripe
   route 2a09:cd43::/32 max 32 as 202448; # ripe
   route 2a09:cd45::/32 max 32 as 202448; # ripe
+  route 2a09:cd46::/32 max 32 as 202448; # ripe
   route 2a0c:b9c0::/32 max 32 as 202448; # ripe
   route 2a0a:2700::/29 max 29 as 202454; # ripe
   route 2a07:3900::/29 max 29 as 202468; # ripe
@@ -31228,7 +31232,6 @@ protocol static roas6 {
   route 2a10:b640:3000::/36 max 48 as 211607; # ripe
   route 2a0e:bfc0::/29 max 29 as 211619; # ripe
   route 2a03:5840:120::/44 max 48 as 211620; # ripe
-  route 2001:7f8:10e::/48 max 48 as 211621; # ripe
   route 2403:7f40:e000::/48 max 64 as 211622; # apnic
   route 2406:8dc0:2005::/48 max 48 as 211622; # apnic
   route 2406:8dc0:2006::/47 max 48 as 211622; # apnic
@@ -31459,6 +31462,7 @@ protocol static roas6 {
   route 2a0f:52c1::/48 max 48 as 212319; # ripe
   route 2a10:d200::/29 max 48 as 212323; # ripe
   route 2a10:c700::/32 max 32 as 212324; # ripe
+  route 2a10:a700::/29 max 48 as 212329; # ripe
   route 2a0e:8f02:f010::/48 max 48 as 212331; # ripe
   route 2a0b:b87:ffa4::/48 max 48 as 212332; # ripe
   route 2a0c:b641:b0::/44 max 48 as 212334; # ripe
