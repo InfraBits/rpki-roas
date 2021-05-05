@@ -28214,7 +28214,7 @@ protocol static roas6 {
   route 2a0c:a780::/31 max 31 as 200748; # ripe
   route 2a0f:4640::/29 max 29 as 200750; # ripe
   route 2a06:e880::/32 max 48 as 200753; # ripe
-  route 2a06:e881:199::/64 max 64 as 200753; # ripe
+  route 2a06:e881:199::/64 max 65 as 200753; # ripe
   route 2a06:e881:f000::/36 max 48 as 200753; # ripe
   route 2a06:200::/29 max 64 as 200770; # ripe
   route 2a05:46c0::/29 max 29 as 200780; # ripe
