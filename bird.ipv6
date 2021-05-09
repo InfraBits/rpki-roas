@@ -23024,6 +23024,7 @@ roa table roa {
   roa 2a02:d58:200a::/48 max 48 as 64520; # ripe
   roa 2607:fd78:902::/48 max 48 as 65001; # arin
   roa 2001:e68:2001:1::/64 max 64 as 65530; # apnic
+  roa 2605:9cc0:382::/48 max 48 as 65530; # arin
   roa 2605:9cc0:384::/48 max 48 as 65530; # arin
   roa 2001:718:ffff::/48 max 48 as 65533; # ripe
   roa 2001:67c:2b5c::/48 max 48 as 65535; # ripe
@@ -27260,16 +27261,45 @@ roa table roa {
   roa 2001:df6:6d80::/48 max 48 as 142044; # apnic
   roa 2407:4ac0:1000::/38 max 40 as 142045; # apnic
   roa 2407:4ac0:1400::/38 max 40 as 142045; # apnic
+  roa 2407:4ac0:1700::/40 max 40 as 142045; # apnic
   roa 2407:4ac0:1800::/37 max 40 as 142045; # apnic
+  roa 2407:4ac0:1800::/40 max 40 as 142045; # apnic
+  roa 2407:4ac0:1900::/40 max 40 as 142045; # apnic
   roa 2407:4ac0:1a00::/39 max 40 as 142045; # apnic
   roa 2407:4ac0:1c00::/38 max 40 as 142045; # apnic
   roa 2407:4ac0:2000::/35 max 40 as 142045; # apnic
   roa 2407:4ac0:2400::/38 max 40 as 142045; # apnic
   roa 2407:4ac0:2800::/37 max 40 as 142045; # apnic
+  roa 2407:4ac0:2a00::/39 max 39 as 142045; # apnic
+  roa 2407:4ac0:2a00::/40 max 40 as 142045; # apnic
+  roa 2407:4ac0:2c00::/38 max 39 as 142045; # apnic
+  roa 2407:4ac0:2c00::/39 max 40 as 142045; # apnic
+  roa 2407:4ac0:2e00::/40 max 40 as 142045; # apnic
   roa 2407:4ac0:3000::/36 max 40 as 142045; # apnic
+  roa 2407:4ac0:3000::/40 max 40 as 142045; # apnic
+  roa 2407:4ac0:3100::/40 max 40 as 142045; # apnic
+  roa 2407:4ac0:3200::/39 max 40 as 142045; # apnic
+  roa 2407:4ac0:3400::/38 max 39 as 142045; # apnic
+  roa 2407:4ac0:3400::/39 max 40 as 142045; # apnic
+  roa 2407:4ac0:3a00::/39 max 40 as 142045; # apnic
+  roa 2407:4ac0:3c00::/38 max 40 as 142045; # apnic
+  roa 2407:4ac0:4000::/35 max 35 as 142045; # apnic
+  roa 2407:4ac0:4000::/35 max 40 as 142045; # apnic
+  roa 2407:4ac0:4600::/40 max 40 as 142045; # apnic
+  roa 2407:4ac0:4700::/40 max 40 as 142045; # apnic
+  roa 2407:4ac0:4800::/37 max 40 as 142045; # apnic
+  roa 2407:4ac0:5000::/36 max 40 as 142045; # apnic
   roa 2407:4ac0:6000::/35 max 40 as 142045; # apnic
+  roa 2407:4ac0:6400::/38 max 39 as 142045; # apnic
   roa 2407:4ac0:6400::/38 max 40 as 142045; # apnic
+  roa 2407:4ac0:6400::/39 max 40 as 142045; # apnic
+  roa 2407:4ac0:6600::/40 max 40 as 142045; # apnic
+  roa 2407:4ac0:6800::/37 max 40 as 142045; # apnic
+  roa 2407:4ac0:7000::/36 max 40 as 142045; # apnic
   roa 2407:4ac0:8000::/35 max 40 as 142045; # apnic
+  roa 2407:4ac0:a000::/35 max 40 as 142045; # apnic
+  roa 2407:4ac0:c000::/35 max 40 as 142045; # apnic
+  roa 2407:4ac0:e000::/35 max 40 as 142045; # apnic
   roa 2001:df6:6e80::/48 max 48 as 142049; # apnic
   roa 2407:4d40::/32 max 32 as 142050; # apnic
   roa 2602:feda:da0::/44 max 48 as 142055; # arin
