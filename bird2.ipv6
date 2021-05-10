@@ -2048,6 +2048,80 @@ protocol static roas6 {
   route 2001:558:5019::/48 max 48 as 7015; # arin
   route 2001:558:6017::/48 max 48 as 7015; # arin
   route 2001:558:fe02::/47 max 47 as 7015; # arin
+  route 2001:559:3::/48 max 48 as 7015; # arin
+  route 2001:559:c::/48 max 48 as 7015; # arin
+  route 2001:559:11::/48 max 48 as 7015; # arin
+  route 2001:559:21::/48 max 48 as 7015; # arin
+  route 2001:559:2a::/48 max 48 as 7015; # arin
+  route 2001:559:3f::/48 max 48 as 7015; # arin
+  route 2001:559:5d::/48 max 48 as 7015; # arin
+  route 2001:559:61::/48 max 48 as 7015; # arin
+  route 2001:559:63::/48 max 48 as 7015; # arin
+  route 2001:559:67::/48 max 48 as 7015; # arin
+  route 2001:559:75::/48 max 48 as 7015; # arin
+  route 2001:559:88::/48 max 48 as 7015; # arin
+  route 2001:559:94::/48 max 48 as 7015; # arin
+  route 2001:559:a1::/48 max 48 as 7015; # arin
+  route 2001:559:cb::/48 max 48 as 7015; # arin
+  route 2001:559:d3::/48 max 48 as 7015; # arin
+  route 2001:559:f9::/48 max 48 as 7015; # arin
+  route 2001:559:107::/48 max 48 as 7015; # arin
+  route 2001:559:10c::/48 max 48 as 7015; # arin
+  route 2001:559:122::/48 max 48 as 7015; # arin
+  route 2001:559:128::/48 max 48 as 7015; # arin
+  route 2001:559:12a::/48 max 48 as 7015; # arin
+  route 2001:559:143::/48 max 48 as 7015; # arin
+  route 2001:559:147::/48 max 48 as 7015; # arin
+  route 2001:559:151::/48 max 48 as 7015; # arin
+  route 2001:559:156::/48 max 48 as 7015; # arin
+  route 2001:559:15c::/48 max 48 as 7015; # arin
+  route 2001:559:16b::/48 max 48 as 7015; # arin
+  route 2001:559:176::/48 max 48 as 7015; # arin
+  route 2001:559:177::/48 max 48 as 7015; # arin
+  route 2001:559:185::/48 max 48 as 7015; # arin
+  route 2001:559:18b::/48 max 48 as 7015; # arin
+  route 2001:559:1a0::/48 max 48 as 7015; # arin
+  route 2001:559:1ae::/48 max 48 as 7015; # arin
+  route 2001:559:1b8::/48 max 48 as 7015; # arin
+  route 2001:559:1c2::/48 max 48 as 7015; # arin
+  route 2001:559:1d0::/48 max 48 as 7015; # arin
+  route 2001:559:1e6::/48 max 48 as 7015; # arin
+  route 2001:559:1f1::/48 max 48 as 7015; # arin
+  route 2001:559:203::/48 max 48 as 7015; # arin
+  route 2001:559:23e::/48 max 48 as 7015; # arin
+  route 2001:559:23f::/48 max 48 as 7015; # arin
+  route 2001:559:26b::/48 max 48 as 7015; # arin
+  route 2001:559:26d::/48 max 48 as 7015; # arin
+  route 2001:559:278::/48 max 48 as 7015; # arin
+  route 2001:559:27a::/48 max 48 as 7015; # arin
+  route 2001:559:291::/48 max 48 as 7015; # arin
+  route 2001:559:292::/48 max 48 as 7015; # arin
+  route 2001:559:293::/48 max 48 as 7015; # arin
+  route 2001:559:294::/48 max 48 as 7015; # arin
+  route 2001:559:2a1::/48 max 48 as 7015; # arin
+  route 2001:559:2a2::/48 max 48 as 7015; # arin
+  route 2001:559:2a8::/48 max 48 as 7015; # arin
+  route 2001:559:2ad::/48 max 48 as 7015; # arin
+  route 2001:559:2ae::/48 max 48 as 7015; # arin
+  route 2001:559:2b9::/48 max 48 as 7015; # arin
+  route 2001:559:2bb::/48 max 48 as 7015; # arin
+  route 2001:559:2bd::/48 max 48 as 7015; # arin
+  route 2001:559:2be::/48 max 48 as 7015; # arin
+  route 2001:559:2c9::/48 max 48 as 7015; # arin
+  route 2001:559:2cc::/48 max 48 as 7015; # arin
+  route 2001:559:2d4::/48 max 48 as 7015; # arin
+  route 2001:559:2d5::/48 max 48 as 7015; # arin
+  route 2001:559:2d6::/48 max 48 as 7015; # arin
+  route 2001:559:2ed::/48 max 48 as 7015; # arin
+  route 2001:559:2fa::/48 max 48 as 7015; # arin
+  route 2001:559:2fd::/48 max 48 as 7015; # arin
+  route 2001:559:31c::/48 max 48 as 7015; # arin
+  route 2001:559:331::/48 max 48 as 7015; # arin
+  route 2001:559:334::/48 max 48 as 7015; # arin
+  route 2001:559:337::/48 max 48 as 7015; # arin
+  route 2001:559:356::/48 max 48 as 7015; # arin
+  route 2001:559:357::/48 max 48 as 7015; # arin
+  route 2001:559:35e::/48 max 48 as 7015; # arin
   route 2601:180::/26 max 26 as 7015; # arin
   route 2603:2180::/26 max 26 as 7015; # arin
   route 2603:3005::/32 max 32 as 7015; # arin
@@ -2059,6 +2133,61 @@ protocol static roas6 {
   route 2001:558:6035::/48 max 48 as 7016; # arin
   route 2001:558:fe0e::/47 max 47 as 7016; # arin
   route 2001:558:feea::/48 max 48 as 7016; # arin
+  route 2001:559:2::/48 max 48 as 7016; # arin
+  route 2001:559:24::/48 max 48 as 7016; # arin
+  route 2001:559:57::/48 max 48 as 7016; # arin
+  route 2001:559:80::/48 max 48 as 7016; # arin
+  route 2001:559:84::/48 max 48 as 7016; # arin
+  route 2001:559:95::/48 max 48 as 7016; # arin
+  route 2001:559:dc::/48 max 48 as 7016; # arin
+  route 2001:559:10b::/48 max 48 as 7016; # arin
+  route 2001:559:10f::/48 max 48 as 7016; # arin
+  route 2001:559:112::/48 max 48 as 7016; # arin
+  route 2001:559:114::/48 max 48 as 7016; # arin
+  route 2001:559:11a::/48 max 48 as 7016; # arin
+  route 2001:559:11b::/48 max 48 as 7016; # arin
+  route 2001:559:13a::/48 max 48 as 7016; # arin
+  route 2001:559:14c::/48 max 48 as 7016; # arin
+  route 2001:559:14e::/48 max 48 as 7016; # arin
+  route 2001:559:162::/48 max 48 as 7016; # arin
+  route 2001:559:169::/48 max 48 as 7016; # arin
+  route 2001:559:16c::/48 max 48 as 7016; # arin
+  route 2001:559:173::/48 max 48 as 7016; # arin
+  route 2001:559:174::/48 max 48 as 7016; # arin
+  route 2001:559:17c::/48 max 48 as 7016; # arin
+  route 2001:559:17d::/48 max 48 as 7016; # arin
+  route 2001:559:18f::/48 max 48 as 7016; # arin
+  route 2001:559:190::/48 max 48 as 7016; # arin
+  route 2001:559:194::/48 max 48 as 7016; # arin
+  route 2001:559:196::/48 max 48 as 7016; # arin
+  route 2001:559:199::/48 max 48 as 7016; # arin
+  route 2001:559:1b5::/48 max 48 as 7016; # arin
+  route 2001:559:1bd::/48 max 48 as 7016; # arin
+  route 2001:559:1ce::/48 max 48 as 7016; # arin
+  route 2001:559:1db::/48 max 48 as 7016; # arin
+  route 2001:559:209::/48 max 48 as 7016; # arin
+  route 2001:559:20f::/48 max 48 as 7016; # arin
+  route 2001:559:212::/48 max 48 as 7016; # arin
+  route 2001:559:213::/48 max 48 as 7016; # arin
+  route 2001:559:234::/48 max 48 as 7016; # arin
+  route 2001:559:235::/48 max 48 as 7016; # arin
+  route 2001:559:242::/48 max 48 as 7016; # arin
+  route 2001:559:244::/48 max 48 as 7016; # arin
+  route 2001:559:247::/48 max 48 as 7016; # arin
+  route 2001:559:277::/48 max 48 as 7016; # arin
+  route 2001:559:289::/48 max 48 as 7016; # arin
+  route 2001:559:290::/48 max 48 as 7016; # arin
+  route 2001:559:2af::/48 max 48 as 7016; # arin
+  route 2001:559:2b0::/48 max 48 as 7016; # arin
+  route 2001:559:2d2::/48 max 48 as 7016; # arin
+  route 2001:559:2d7::/48 max 48 as 7016; # arin
+  route 2001:559:2ec::/48 max 48 as 7016; # arin
+  route 2001:559:302::/48 max 48 as 7016; # arin
+  route 2001:559:31d::/48 max 48 as 7016; # arin
+  route 2001:559:31e::/48 max 48 as 7016; # arin
+  route 2001:559:32a::/48 max 48 as 7016; # arin
+  route 2001:559:33c::/48 max 48 as 7016; # arin
+  route 2001:559:34e::/48 max 48 as 7016; # arin
   route 2601:540::/26 max 26 as 7016; # arin
   route 2601:980::/26 max 26 as 7016; # arin
   route 2603:2540::/26 max 26 as 7016; # arin
@@ -2077,6 +2206,7 @@ protocol static roas6 {
   route 2001:418:8005::/48 max 64 as 7019; # arin
   route 2607:7c80:55::/48 max 48 as 7034; # arin
   route 2620:13b::/48 max 48 as 7034; # arin
+  route 2001:559:37::/48 max 48 as 7046; # arin
   route 2600:803:40b::/48 max 64 as 7046; # arin
   route 2800:630::/32 max 32 as 7049; # lacnic
   route 2803:db40::/32 max 48 as 7049; # lacnic
@@ -2206,6 +2336,35 @@ protocol static roas6 {
   route 2001:558:fe12::/47 max 47 as 7725; # arin
   route 2001:558:fe37::/48 max 48 as 7725; # arin
   route 2001:558:fee4::/48 max 48 as 7725; # arin
+  route 2001:559:5a::/48 max 48 as 7725; # arin
+  route 2001:559:62::/48 max 48 as 7725; # arin
+  route 2001:559:64::/48 max 48 as 7725; # arin
+  route 2001:559:72::/48 max 48 as 7725; # arin
+  route 2001:559:90::/48 max 48 as 7725; # arin
+  route 2001:559:fe::/48 max 48 as 7725; # arin
+  route 2001:559:ff::/48 max 48 as 7725; # arin
+  route 2001:559:10a::/48 max 48 as 7725; # arin
+  route 2001:559:11d::/48 max 48 as 7725; # arin
+  route 2001:559:11e::/48 max 48 as 7725; # arin
+  route 2001:559:125::/48 max 48 as 7725; # arin
+  route 2001:559:127::/48 max 48 as 7725; # arin
+  route 2001:559:15a::/48 max 48 as 7725; # arin
+  route 2001:559:161::/48 max 48 as 7725; # arin
+  route 2001:559:17b::/48 max 48 as 7725; # arin
+  route 2001:559:1a1::/48 max 48 as 7725; # arin
+  route 2001:559:1a6::/48 max 48 as 7725; # arin
+  route 2001:559:1a7::/48 max 48 as 7725; # arin
+  route 2001:559:1ad::/48 max 48 as 7725; # arin
+  route 2001:559:1c8::/48 max 48 as 7725; # arin
+  route 2001:559:1fe::/48 max 48 as 7725; # arin
+  route 2001:559:241::/48 max 48 as 7725; # arin
+  route 2001:559:255::/48 max 48 as 7725; # arin
+  route 2001:559:266::/48 max 48 as 7725; # arin
+  route 2001:559:267::/48 max 48 as 7725; # arin
+  route 2001:559:271::/48 max 48 as 7725; # arin
+  route 2001:559:28d::/48 max 48 as 7725; # arin
+  route 2001:559:2e9::/48 max 48 as 7725; # arin
+  route 2001:559:362::/48 max 48 as 7725; # arin
   route 2601:c0::/26 max 26 as 7725; # arin
   route 2601:7c0::/26 max 26 as 7725; # arin
   route 2601:940::/26 max 26 as 7725; # arin
@@ -5614,6 +5773,19 @@ protocol static roas6 {
   route 2001:558:6014::/48 max 48 as 13367; # arin
   route 2001:558:fe24::/48 max 48 as 13367; # arin
   route 2001:558:fe29::/48 max 48 as 13367; # arin
+  route 2001:559:59::/48 max 48 as 13367; # arin
+  route 2001:559:70::/48 max 48 as 13367; # arin
+  route 2001:559:71::/48 max 48 as 13367; # arin
+  route 2001:559:8d::/48 max 48 as 13367; # arin
+  route 2001:559:8e::/48 max 48 as 13367; # arin
+  route 2001:559:a3::/48 max 48 as 13367; # arin
+  route 2001:559:d9::/48 max 48 as 13367; # arin
+  route 2001:559:e9::/48 max 48 as 13367; # arin
+  route 2001:559:150::/48 max 48 as 13367; # arin
+  route 2001:559:227::/48 max 48 as 13367; # arin
+  route 2001:559:269::/48 max 48 as 13367; # arin
+  route 2001:559:326::/48 max 48 as 13367; # arin
+  route 2001:559:364::/48 max 48 as 13367; # arin
   route 2601:440::/26 max 26 as 13367; # arin
   route 2603:2440::/26 max 26 as 13367; # arin
   route 2603:3016::/32 max 32 as 13367; # arin
@@ -8036,6 +8208,33 @@ protocol static roas6 {
   route 2001:558:5014::/48 max 48 as 20214; # arin
   route 2001:558:6030::/48 max 48 as 20214; # arin
   route 2001:558:fe2e::/48 max 48 as 20214; # arin
+  route 2001:559:89::/48 max 48 as 20214; # arin
+  route 2001:559:ea::/48 max 48 as 20214; # arin
+  route 2001:559:eb::/48 max 48 as 20214; # arin
+  route 2001:559:ec::/48 max 48 as 20214; # arin
+  route 2001:559:ed::/48 max 48 as 20214; # arin
+  route 2001:559:103::/48 max 48 as 20214; # arin
+  route 2001:559:116::/48 max 48 as 20214; # arin
+  route 2001:559:11c::/48 max 48 as 20214; # arin
+  route 2001:559:140::/48 max 48 as 20214; # arin
+  route 2001:559:142::/48 max 48 as 20214; # arin
+  route 2001:559:160::/48 max 48 as 20214; # arin
+  route 2001:559:168::/48 max 48 as 20214; # arin
+  route 2001:559:192::/48 max 48 as 20214; # arin
+  route 2001:559:1ac::/48 max 48 as 20214; # arin
+  route 2001:559:1b3::/48 max 48 as 20214; # arin
+  route 2001:559:1cb::/48 max 48 as 20214; # arin
+  route 2001:559:1cc::/48 max 48 as 20214; # arin
+  route 2001:559:1cd::/48 max 48 as 20214; # arin
+  route 2001:559:1d9::/48 max 48 as 20214; # arin
+  route 2001:559:205::/48 max 48 as 20214; # arin
+  route 2001:559:232::/48 max 48 as 20214; # arin
+  route 2001:559:274::/48 max 48 as 20214; # arin
+  route 2001:559:281::/48 max 48 as 20214; # arin
+  route 2001:559:2a0::/48 max 48 as 20214; # arin
+  route 2001:559:2cf::/48 max 48 as 20214; # arin
+  route 2001:559:329::/48 max 48 as 20214; # arin
+  route 2001:559:32e::/48 max 48 as 20214; # arin
   route 2601:580::/26 max 26 as 20214; # arin
   route 2603:3020::/32 max 32 as 20214; # arin
   route 2803:d600::/32 max 32 as 20255; # lacnic
@@ -8329,6 +8528,7 @@ protocol static roas6 {
   route 2001:418:2401:1::/64 max 64 as 20940; # arin
   route 2001:418:8001::/48 max 64 as 20940; # arin
   route 2001:418:8404:1::/64 max 64 as 20940; # arin
+  route 2001:559:19:e000::/64 max 64 as 20940; # arin
   route 2001:5a0:4402::/48 max 48 as 20940; # arin
   route 2001:4450:40::/48 max 48 as 20940; # apnic
   route 2001:4457:ff0::/48 max 48 as 20940; # apnic
@@ -8513,6 +8713,13 @@ protocol static roas6 {
   route 2001:558:6036::/48 max 48 as 21508; # arin
   route 2001:558:701a::/48 max 48 as 21508; # arin
   route 2001:558:fe30::/48 max 48 as 21508; # arin
+  route 2001:559:34::/48 max 48 as 21508; # arin
+  route 2001:559:49::/48 max 48 as 21508; # arin
+  route 2001:559:8a::/48 max 48 as 21508; # arin
+  route 2001:559:f7::/48 max 48 as 21508; # arin
+  route 2001:559:19f::/48 max 48 as 21508; # arin
+  route 2001:559:243::/48 max 48 as 21508; # arin
+  route 2001:559:280::/48 max 48 as 21508; # arin
   route 2001:55c:6000::/35 max 35 as 21508; # arin
   route 2601:5c0::/26 max 26 as 21508; # arin
   route 2603:3021::/32 max 32 as 21508; # arin
@@ -8558,6 +8765,12 @@ protocol static roas6 {
   route 2001:558:6006::/48 max 48 as 22258; # arin
   route 2001:558:fe19::/48 max 48 as 22258; # arin
   route 2001:558:fe1e::/48 max 48 as 22258; # arin
+  route 2001:559:b2::/48 max 48 as 22258; # arin
+  route 2001:559:13e::/48 max 48 as 22258; # arin
+  route 2001:559:21c::/48 max 48 as 22258; # arin
+  route 2001:559:21d::/48 max 48 as 22258; # arin
+  route 2001:559:25f::/48 max 48 as 22258; # arin
+  route 2001:559:2f7::/48 max 48 as 22258; # arin
   route 2601:3c0::/26 max 26 as 22258; # arin
   route 2603:23c0::/26 max 26 as 22258; # arin
   route 2603:3014::/32 max 32 as 22258; # arin
@@ -8625,6 +8838,14 @@ protocol static roas6 {
   route 2001:558:fe26::/48 max 48 as 22909; # arin
   route 2001:558:fe3e::/48 max 48 as 22909; # arin
   route 2001:558:feee::/48 max 48 as 22909; # arin
+  route 2001:559:e6::/48 max 48 as 22909; # arin
+  route 2001:559:e8::/48 max 48 as 22909; # arin
+  route 2001:559:13d::/48 max 48 as 22909; # arin
+  route 2001:559:15b::/48 max 48 as 22909; # arin
+  route 2001:559:20b::/48 max 48 as 22909; # arin
+  route 2001:559:245::/48 max 48 as 22909; # arin
+  route 2001:559:286::/48 max 48 as 22909; # arin
+  route 2001:559:306::/48 max 48 as 22909; # arin
   route 2601:480::/26 max 26 as 22909; # arin
   route 2601:780::/26 max 26 as 22909; # arin
   route 2601:840::/26 max 26 as 22909; # arin
@@ -11259,6 +11480,75 @@ protocol static roas6 {
   route 2001:558:6027::/48 max 48 as 33287; # arin
   route 2001:558:fe23::/48 max 48 as 33287; # arin
   route 2001:558:fe2a::/48 max 48 as 33287; # arin
+  route 2001:559:9::/48 max 48 as 33287; # arin
+  route 2001:559:f::/48 max 48 as 33287; # arin
+  route 2001:559:30::/48 max 48 as 33287; # arin
+  route 2001:559:45::/48 max 48 as 33287; # arin
+  route 2001:559:73::/48 max 48 as 33287; # arin
+  route 2001:559:74::/48 max 48 as 33287; # arin
+  route 2001:559:81::/48 max 48 as 33287; # arin
+  route 2001:559:8f::/48 max 48 as 33287; # arin
+  route 2001:559:96::/48 max 48 as 33287; # arin
+  route 2001:559:99::/48 max 48 as 33287; # arin
+  route 2001:559:a5::/48 max 48 as 33287; # arin
+  route 2001:559:a6::/48 max 48 as 33287; # arin
+  route 2001:559:a8::/48 max 48 as 33287; # arin
+  route 2001:559:a9::/48 max 48 as 33287; # arin
+  route 2001:559:af::/48 max 48 as 33287; # arin
+  route 2001:559:b6::/48 max 48 as 33287; # arin
+  route 2001:559:b7::/48 max 48 as 33287; # arin
+  route 2001:559:d1::/48 max 48 as 33287; # arin
+  route 2001:559:d6::/48 max 48 as 33287; # arin
+  route 2001:559:102::/48 max 48 as 33287; # arin
+  route 2001:559:109::/48 max 48 as 33287; # arin
+  route 2001:559:111::/48 max 48 as 33287; # arin
+  route 2001:559:117::/48 max 48 as 33287; # arin
+  route 2001:559:126::/48 max 48 as 33287; # arin
+  route 2001:559:133::/48 max 48 as 33287; # arin
+  route 2001:559:141::/48 max 48 as 33287; # arin
+  route 2001:559:149::/48 max 48 as 33287; # arin
+  route 2001:559:14a::/48 max 48 as 33287; # arin
+  route 2001:559:14f::/48 max 48 as 33287; # arin
+  route 2001:559:15e::/48 max 48 as 33287; # arin
+  route 2001:559:165::/48 max 48 as 33287; # arin
+  route 2001:559:1a5::/48 max 48 as 33287; # arin
+  route 2001:559:1aa::/48 max 48 as 33287; # arin
+  route 2001:559:1b2::/48 max 48 as 33287; # arin
+  route 2001:559:1b6::/48 max 48 as 33287; # arin
+  route 2001:559:1bc::/48 max 48 as 33287; # arin
+  route 2001:559:1bf::/48 max 48 as 33287; # arin
+  route 2001:559:1c7::/48 max 48 as 33287; # arin
+  route 2001:559:1d3::/48 max 48 as 33287; # arin
+  route 2001:559:1d8::/48 max 48 as 33287; # arin
+  route 2001:559:1dd::/48 max 48 as 33287; # arin
+  route 2001:559:1ea::/48 max 48 as 33287; # arin
+  route 2001:559:1ee::/48 max 48 as 33287; # arin
+  route 2001:559:20d::/48 max 48 as 33287; # arin
+  route 2001:559:238::/48 max 48 as 33287; # arin
+  route 2001:559:239::/48 max 48 as 33287; # arin
+  route 2001:559:23a::/48 max 48 as 33287; # arin
+  route 2001:559:240::/48 max 48 as 33287; # arin
+  route 2001:559:257::/48 max 48 as 33287; # arin
+  route 2001:559:25e::/48 max 48 as 33287; # arin
+  route 2001:559:272::/48 max 48 as 33287; # arin
+  route 2001:559:273::/48 max 48 as 33287; # arin
+  route 2001:559:285::/48 max 48 as 33287; # arin
+  route 2001:559:28c::/48 max 48 as 33287; # arin
+  route 2001:559:2c1::/48 max 48 as 33287; # arin
+  route 2001:559:2c5::/48 max 48 as 33287; # arin
+  route 2001:559:2c7::/48 max 48 as 33287; # arin
+  route 2001:559:2c8::/48 max 48 as 33287; # arin
+  route 2001:559:2e2::/48 max 48 as 33287; # arin
+  route 2001:559:2ea::/48 max 48 as 33287; # arin
+  route 2001:559:2f4::/48 max 48 as 33287; # arin
+  route 2001:559:2f5::/48 max 48 as 33287; # arin
+  route 2001:559:2f6::/48 max 48 as 33287; # arin
+  route 2001:559:2f8::/48 max 48 as 33287; # arin
+  route 2001:559:2fb::/48 max 48 as 33287; # arin
+  route 2001:559:30f::/48 max 48 as 33287; # arin
+  route 2001:559:312::/48 max 48 as 33287; # arin
+  route 2001:559:33a::/48 max 48 as 33287; # arin
+  route 2001:559:359::/48 max 48 as 33287; # arin
   route 2601:40::/26 max 26 as 33287; # arin
   route 2603:2040::/26 max 26 as 33287; # arin
   route 2603:301d::/32 max 32 as 33287; # arin
@@ -11770,6 +12060,18 @@ protocol static roas6 {
   route 2001:558:fe1d::/48 max 48 as 33489; # arin
   route 2001:558:fe27::/48 max 48 as 33489; # arin
   route 2001:558:fe35::/48 max 48 as 33489; # arin
+  route 2001:559:ac::/48 max 48 as 33489; # arin
+  route 2001:559:df::/48 max 48 as 33489; # arin
+  route 2001:559:164::/48 max 48 as 33489; # arin
+  route 2001:559:178::/48 max 48 as 33489; # arin
+  route 2001:559:1eb::/48 max 48 as 33489; # arin
+  route 2001:559:1ec::/48 max 48 as 33489; # arin
+  route 2001:559:28b::/48 max 48 as 33489; # arin
+  route 2001:559:307::/48 max 48 as 33489; # arin
+  route 2001:559:315::/48 max 48 as 33489; # arin
+  route 2001:559:317::/48 max 48 as 33489; # arin
+  route 2001:559:32f::/48 max 48 as 33489; # arin
+  route 2001:559:332::/48 max 48 as 33489; # arin
   route 2601:340::/26 max 26 as 33489; # arin
   route 2601:740::/26 max 26 as 33489; # arin
   route 2601:900::/26 max 26 as 33489; # arin
@@ -11792,6 +12094,71 @@ protocol static roas6 {
   route 2001:558:6033::/48 max 48 as 33491; # arin
   route 2001:558:fe04::/47 max 47 as 33491; # arin
   route 2001:558:fe3d::/48 max 48 as 33491; # arin
+  route 2001:559:26::/48 max 48 as 33491; # arin
+  route 2001:559:2f::/48 max 48 as 33491; # arin
+  route 2001:559:35::/48 max 48 as 33491; # arin
+  route 2001:559:43::/48 max 48 as 33491; # arin
+  route 2001:559:66::/48 max 48 as 33491; # arin
+  route 2001:559:76::/48 max 48 as 33491; # arin
+  route 2001:559:7e::/48 max 48 as 33491; # arin
+  route 2001:559:7f::/48 max 48 as 33491; # arin
+  route 2001:559:b0::/48 max 48 as 33491; # arin
+  route 2001:559:b1::/48 max 48 as 33491; # arin
+  route 2001:559:bd::/48 max 48 as 33491; # arin
+  route 2001:559:be::/48 max 48 as 33491; # arin
+  route 2001:559:c9::/48 max 48 as 33491; # arin
+  route 2001:559:ca::/48 max 48 as 33491; # arin
+  route 2001:559:101::/48 max 48 as 33491; # arin
+  route 2001:559:12d::/48 max 48 as 33491; # arin
+  route 2001:559:134::/48 max 48 as 33491; # arin
+  route 2001:559:146::/48 max 48 as 33491; # arin
+  route 2001:559:148::/48 max 48 as 33491; # arin
+  route 2001:559:15d::/48 max 48 as 33491; # arin
+  route 2001:559:1d5::/48 max 48 as 33491; # arin
+  route 2001:559:1d6::/48 max 48 as 33491; # arin
+  route 2001:559:1e3::/48 max 48 as 33491; # arin
+  route 2001:559:1fc::/48 max 48 as 33491; # arin
+  route 2001:559:1ff::/48 max 48 as 33491; # arin
+  route 2001:559:204::/48 max 48 as 33491; # arin
+  route 2001:559:21f::/48 max 48 as 33491; # arin
+  route 2001:559:221::/48 max 48 as 33491; # arin
+  route 2001:559:222::/48 max 48 as 33491; # arin
+  route 2001:559:223::/48 max 48 as 33491; # arin
+  route 2001:559:224::/48 max 48 as 33491; # arin
+  route 2001:559:225::/48 max 48 as 33491; # arin
+  route 2001:559:226::/48 max 48 as 33491; # arin
+  route 2001:559:228::/48 max 48 as 33491; # arin
+  route 2001:559:229::/48 max 48 as 33491; # arin
+  route 2001:559:22a::/48 max 48 as 33491; # arin
+  route 2001:559:22b::/48 max 48 as 33491; # arin
+  route 2001:559:22c::/48 max 48 as 33491; # arin
+  route 2001:559:22d::/48 max 48 as 33491; # arin
+  route 2001:559:22e::/48 max 48 as 33491; # arin
+  route 2001:559:22f::/48 max 48 as 33491; # arin
+  route 2001:559:230::/48 max 48 as 33491; # arin
+  route 2001:559:231::/48 max 48 as 33491; # arin
+  route 2001:559:23b::/48 max 48 as 33491; # arin
+  route 2001:559:24b::/48 max 48 as 33491; # arin
+  route 2001:559:24c::/48 max 48 as 33491; # arin
+  route 2001:559:27b::/48 max 48 as 33491; # arin
+  route 2001:559:2a9::/48 max 48 as 33491; # arin
+  route 2001:559:2b1::/48 max 48 as 33491; # arin
+  route 2001:559:2cd::/48 max 48 as 33491; # arin
+  route 2001:559:2e3::/48 max 48 as 33491; # arin
+  route 2001:559:303::/48 max 48 as 33491; # arin
+  route 2001:559:308::/48 max 48 as 33491; # arin
+  route 2001:559:309::/48 max 48 as 33491; # arin
+  route 2001:559:30b::/48 max 48 as 33491; # arin
+  route 2001:559:311::/48 max 48 as 33491; # arin
+  route 2001:559:314::/48 max 48 as 33491; # arin
+  route 2001:559:31f::/48 max 48 as 33491; # arin
+  route 2001:559:324::/48 max 48 as 33491; # arin
+  route 2001:559:346::/48 max 48 as 33491; # arin
+  route 2001:559:347::/48 max 48 as 33491; # arin
+  route 2001:559:348::/48 max 48 as 33491; # arin
+  route 2001:559:34a::/48 max 48 as 33491; # arin
+  route 2001:559:35c::/48 max 48 as 33491; # arin
+  route 2001:559:360::/48 max 48 as 33491; # arin
   route 2601:240::/26 max 26 as 33491; # arin
   route 2601:800::/26 max 26 as 33491; # arin
   route 2603:2240::/26 max 26 as 33491; # arin
@@ -11819,6 +12186,83 @@ protocol static roas6 {
   route 2001:558:5027::/48 max 48 as 33651; # arin
   route 2001:558:6045::/48 max 48 as 33651; # arin
   route 2001:558:fe0c::/47 max 47 as 33651; # arin
+  route 2001:559:2e::/48 max 48 as 33651; # arin
+  route 2001:559:4d::/48 max 48 as 33651; # arin
+  route 2001:559:4e::/48 max 48 as 33651; # arin
+  route 2001:559:4f::/48 max 48 as 33651; # arin
+  route 2001:559:52::/48 max 48 as 33651; # arin
+  route 2001:559:53::/48 max 48 as 33651; # arin
+  route 2001:559:5e::/48 max 48 as 33651; # arin
+  route 2001:559:69::/48 max 48 as 33651; # arin
+  route 2001:559:6a::/48 max 48 as 33651; # arin
+  route 2001:559:6b::/48 max 48 as 33651; # arin
+  route 2001:559:6e::/48 max 48 as 33651; # arin
+  route 2001:559:77::/48 max 48 as 33651; # arin
+  route 2001:559:78::/48 max 48 as 33651; # arin
+  route 2001:559:82::/48 max 48 as 33651; # arin
+  route 2001:559:93::/48 max 48 as 33651; # arin
+  route 2001:559:9a::/48 max 48 as 33651; # arin
+  route 2001:559:9b::/48 max 48 as 33651; # arin
+  route 2001:559:9c::/48 max 48 as 33651; # arin
+  route 2001:559:9d::/48 max 48 as 33651; # arin
+  route 2001:559:9e::/48 max 48 as 33651; # arin
+  route 2001:559:a4::/48 max 48 as 33651; # arin
+  route 2001:559:a7::/48 max 48 as 33651; # arin
+  route 2001:559:d0::/48 max 48 as 33651; # arin
+  route 2001:559:e4::/48 max 48 as 33651; # arin
+  route 2001:559:e5::/48 max 48 as 33651; # arin
+  route 2001:559:f3::/48 max 48 as 33651; # arin
+  route 2001:559:104::/48 max 48 as 33651; # arin
+  route 2001:559:106::/48 max 48 as 33651; # arin
+  route 2001:559:120::/48 max 48 as 33651; # arin
+  route 2001:559:17e::/48 max 48 as 33651; # arin
+  route 2001:559:186::/48 max 48 as 33651; # arin
+  route 2001:559:187::/48 max 48 as 33651; # arin
+  route 2001:559:18c::/48 max 48 as 33651; # arin
+  route 2001:559:18d::/48 max 48 as 33651; # arin
+  route 2001:559:18e::/48 max 48 as 33651; # arin
+  route 2001:559:197::/48 max 48 as 33651; # arin
+  route 2001:559:1c0::/48 max 48 as 33651; # arin
+  route 2001:559:1c1::/48 max 48 as 33651; # arin
+  route 2001:559:1de::/48 max 48 as 33651; # arin
+  route 2001:559:1df::/48 max 48 as 33651; # arin
+  route 2001:559:1e4::/48 max 48 as 33651; # arin
+  route 2001:559:1ed::/48 max 48 as 33651; # arin
+  route 2001:559:20e::/48 max 48 as 33651; # arin
+  route 2001:559:218::/48 max 48 as 33651; # arin
+  route 2001:559:21e::/48 max 48 as 33651; # arin
+  route 2001:559:24f::/48 max 48 as 33651; # arin
+  route 2001:559:259::/48 max 48 as 33651; # arin
+  route 2001:559:262::/48 max 48 as 33651; # arin
+  route 2001:559:268::/48 max 48 as 33651; # arin
+  route 2001:559:276::/48 max 48 as 33651; # arin
+  route 2001:559:279::/48 max 48 as 33651; # arin
+  route 2001:559:27e::/48 max 48 as 33651; # arin
+  route 2001:559:27f::/48 max 48 as 33651; # arin
+  route 2001:559:295::/48 max 48 as 33651; # arin
+  route 2001:559:2a6::/48 max 48 as 33651; # arin
+  route 2001:559:2ac::/48 max 48 as 33651; # arin
+  route 2001:559:2bc::/48 max 48 as 33651; # arin
+  route 2001:559:2dc::/48 max 48 as 33651; # arin
+  route 2001:559:2dd::/48 max 48 as 33651; # arin
+  route 2001:559:2e5::/48 max 48 as 33651; # arin
+  route 2001:559:2e6::/48 max 48 as 33651; # arin
+  route 2001:559:2eb::/48 max 48 as 33651; # arin
+  route 2001:559:305::/48 max 48 as 33651; # arin
+  route 2001:559:340::/48 max 48 as 33651; # arin
+  route 2001:559:341::/48 max 48 as 33651; # arin
+  route 2001:559:342::/48 max 48 as 33651; # arin
+  route 2001:559:343::/48 max 48 as 33651; # arin
+  route 2001:559:344::/48 max 48 as 33651; # arin
+  route 2001:559:345::/48 max 48 as 33651; # arin
+  route 2001:559:34c::/48 max 48 as 33651; # arin
+  route 2001:559:34d::/48 max 48 as 33651; # arin
+  route 2001:559:34f::/48 max 48 as 33651; # arin
+  route 2001:559:350::/48 max 48 as 33651; # arin
+  route 2001:559:352::/48 max 48 as 33651; # arin
+  route 2001:559:353::/48 max 48 as 33651; # arin
+  route 2001:559:358::/48 max 48 as 33651; # arin
+  route 2001:559:35b::/48 max 48 as 33651; # arin
   route 2601:640::/26 max 26 as 33651; # arin
   route 2603:2640::/26 max 26 as 33651; # arin
   route 2603:3024::/32 max 32 as 33651; # arin
@@ -11826,15 +12270,120 @@ protocol static roas6 {
   route 2001:558:5021::/48 max 48 as 33652; # arin
   route 2001:558:6040::/48 max 48 as 33652; # arin
   route 2001:558:fe1c::/48 max 48 as 33652; # arin
+  route 2001:559:a::/48 max 48 as 33652; # arin
+  route 2001:559:4b::/48 max 48 as 33652; # arin
+  route 2001:559:83::/48 max 48 as 33652; # arin
+  route 2001:559:98::/48 max 48 as 33652; # arin
+  route 2001:559:a0::/48 max 48 as 33652; # arin
+  route 2001:559:bc::/48 max 48 as 33652; # arin
+  route 2001:559:c2::/48 max 48 as 33652; # arin
+  route 2001:559:d4::/48 max 48 as 33652; # arin
+  route 2001:559:d5::/48 max 48 as 33652; # arin
+  route 2001:559:105::/48 max 48 as 33652; # arin
+  route 2001:559:131::/48 max 48 as 33652; # arin
+  route 2001:559:14d::/48 max 48 as 33652; # arin
+  route 2001:559:152::/48 max 48 as 33652; # arin
+  route 2001:559:155::/48 max 48 as 33652; # arin
+  route 2001:559:163::/48 max 48 as 33652; # arin
+  route 2001:559:183::/48 max 48 as 33652; # arin
+  route 2001:559:198::/48 max 48 as 33652; # arin
+  route 2001:559:19a::/48 max 48 as 33652; # arin
+  route 2001:559:19c::/48 max 48 as 33652; # arin
+  route 2001:559:19e::/48 max 48 as 33652; # arin
+  route 2001:559:1a2::/48 max 48 as 33652; # arin
+  route 2001:559:1a4::/48 max 48 as 33652; # arin
+  route 2001:559:1b4::/48 max 48 as 33652; # arin
+  route 2001:559:1b9::/48 max 48 as 33652; # arin
+  route 2001:559:1ba::/48 max 48 as 33652; # arin
+  route 2001:559:1c9::/48 max 48 as 33652; # arin
+  route 2001:559:1f3::/48 max 48 as 33652; # arin
+  route 2001:559:1f5::/48 max 48 as 33652; # arin
+  route 2001:559:1f6::/48 max 48 as 33652; # arin
+  route 2001:559:1fb::/48 max 48 as 33652; # arin
+  route 2001:559:207::/48 max 48 as 33652; # arin
+  route 2001:559:24a::/48 max 48 as 33652; # arin
+  route 2001:559:250::/48 max 48 as 33652; # arin
+  route 2001:559:251::/48 max 48 as 33652; # arin
+  route 2001:559:252::/48 max 48 as 33652; # arin
+  route 2001:559:253::/48 max 48 as 33652; # arin
+  route 2001:559:25b::/48 max 48 as 33652; # arin
+  route 2001:559:25c::/48 max 48 as 33652; # arin
+  route 2001:559:26f::/48 max 48 as 33652; # arin
+  route 2001:559:27c::/48 max 48 as 33652; # arin
+  route 2001:559:27d::/48 max 48 as 33652; # arin
+  route 2001:559:28e::/48 max 48 as 33652; # arin
+  route 2001:559:298::/48 max 48 as 33652; # arin
+  route 2001:559:2b3::/48 max 48 as 33652; # arin
+  route 2001:559:2c0::/48 max 48 as 33652; # arin
+  route 2001:559:2c4::/48 max 48 as 33652; # arin
+  route 2001:559:2da::/48 max 48 as 33652; # arin
+  route 2001:559:2df::/48 max 48 as 33652; # arin
+  route 2001:559:2e8::/48 max 48 as 33652; # arin
+  route 2001:559:2ef::/48 max 48 as 33652; # arin
+  route 2001:559:2fc::/48 max 48 as 33652; # arin
+  route 2001:559:301::/48 max 48 as 33652; # arin
+  route 2001:559:321::/48 max 48 as 33652; # arin
+  route 2001:559:323::/48 max 48 as 33652; # arin
+  route 2001:559:338::/48 max 48 as 33652; # arin
+  route 2001:559:33f::/48 max 48 as 33652; # arin
+  route 2001:559:349::/48 max 48 as 33652; # arin
+  route 2001:559:35f::/48 max 48 as 33652; # arin
+  route 2001:559:363::/48 max 48 as 33652; # arin
   route 2601:280::/26 max 26 as 33652; # arin
   route 2603:2280::/26 max 26 as 33652; # arin
   route 2603:300b::/32 max 32 as 33652; # arin
+  route 2001:559:ba::/48 max 48 as 33654; # arin
+  route 2001:559:bb::/48 max 48 as 33654; # arin
+  route 2001:559:12b::/48 max 48 as 33654; # arin
+  route 2001:559:24d::/48 max 48 as 33654; # arin
+  route 2001:559:13f::/48 max 48 as 33655; # arin
+  route 2001:559:1e2::/48 max 48 as 33656; # arin
   route 2001:558:2f0::/44 max 44 as 33657; # arin
   route 2001:558:340::/44 max 44 as 33657; # arin
   route 2001:558:5018::/48 max 48 as 33657; # arin
   route 2001:558:6003::/48 max 48 as 33657; # arin
   route 2001:558:6020::/48 max 48 as 33657; # arin
   route 2001:558:fe06::/47 max 47 as 33657; # arin
+  route 2001:559:b::/48 max 48 as 33657; # arin
+  route 2001:559:48::/48 max 48 as 33657; # arin
+  route 2001:559:65::/48 max 48 as 33657; # arin
+  route 2001:559:7a::/48 max 48 as 33657; # arin
+  route 2001:559:87::/48 max 48 as 33657; # arin
+  route 2001:559:a2::/48 max 48 as 33657; # arin
+  route 2001:559:ae::/48 max 48 as 33657; # arin
+  route 2001:559:b5::/48 max 48 as 33657; # arin
+  route 2001:559:b8::/48 max 48 as 33657; # arin
+  route 2001:559:b9::/48 max 48 as 33657; # arin
+  route 2001:559:cc::/48 max 48 as 33657; # arin
+  route 2001:559:db::/48 max 48 as 33657; # arin
+  route 2001:559:110::/48 max 48 as 33657; # arin
+  route 2001:559:119::/48 max 48 as 33657; # arin
+  route 2001:559:136::/48 max 48 as 33657; # arin
+  route 2001:559:16a::/48 max 48 as 33657; # arin
+  route 2001:559:171::/48 max 48 as 33657; # arin
+  route 2001:559:1e1::/48 max 48 as 33657; # arin
+  route 2001:559:1e5::/48 max 48 as 33657; # arin
+  route 2001:559:1e7::/48 max 48 as 33657; # arin
+  route 2001:559:202::/48 max 48 as 33657; # arin
+  route 2001:559:214::/48 max 48 as 33657; # arin
+  route 2001:559:219::/48 max 48 as 33657; # arin
+  route 2001:559:246::/48 max 48 as 33657; # arin
+  route 2001:559:25a::/48 max 48 as 33657; # arin
+  route 2001:559:263::/48 max 48 as 33657; # arin
+  route 2001:559:282::/48 max 48 as 33657; # arin
+  route 2001:559:284::/48 max 48 as 33657; # arin
+  route 2001:559:288::/48 max 48 as 33657; # arin
+  route 2001:559:2b6::/48 max 48 as 33657; # arin
+  route 2001:559:2ca::/48 max 48 as 33657; # arin
+  route 2001:559:2cb::/48 max 48 as 33657; # arin
+  route 2001:559:2ee::/48 max 48 as 33657; # arin
+  route 2001:559:2f2::/48 max 48 as 33657; # arin
+  route 2001:559:2f3::/48 max 48 as 33657; # arin
+  route 2001:559:304::/48 max 48 as 33657; # arin
+  route 2001:559:30d::/48 max 48 as 33657; # arin
+  route 2001:559:319::/48 max 48 as 33657; # arin
+  route 2001:559:335::/48 max 48 as 33657; # arin
+  route 2001:559:33b::/48 max 48 as 33657; # arin
   route 2601:140::/26 max 26 as 33657; # arin
   route 2603:2140::/26 max 26 as 33657; # arin
   route 2603:3003::/32 max 32 as 33657; # arin
@@ -11842,6 +12391,64 @@ protocol static roas6 {
   route 2001:558:501b::/48 max 48 as 33659; # arin
   route 2001:558:6026::/48 max 48 as 33659; # arin
   route 2001:558:fe36::/48 max 48 as 33659; # arin
+  route 2001:559:45::/48 max 48 as 33659; # arin
+  route 2001:559:47::/48 max 48 as 33659; # arin
+  route 2001:559:5b::/48 max 48 as 33659; # arin
+  route 2001:559:6f::/48 max 48 as 33659; # arin
+  route 2001:559:74::/48 max 48 as 33659; # arin
+  route 2001:559:8f::/48 max 48 as 33659; # arin
+  route 2001:559:99::/48 max 48 as 33659; # arin
+  route 2001:559:ad::/48 max 48 as 33659; # arin
+  route 2001:559:cd::/48 max 48 as 33659; # arin
+  route 2001:559:d1::/48 max 48 as 33659; # arin
+  route 2001:559:121::/48 max 48 as 33659; # arin
+  route 2001:559:126::/48 max 48 as 33659; # arin
+  route 2001:559:139::/48 max 48 as 33659; # arin
+  route 2001:559:15e::/48 max 48 as 33659; # arin
+  route 2001:559:15f::/48 max 48 as 33659; # arin
+  route 2001:559:180::/48 max 48 as 33659; # arin
+  route 2001:559:189::/48 max 48 as 33659; # arin
+  route 2001:559:18a::/48 max 48 as 33659; # arin
+  route 2001:559:191::/48 max 48 as 33659; # arin
+  route 2001:559:193::/48 max 48 as 33659; # arin
+  route 2001:559:1a9::/48 max 48 as 33659; # arin
+  route 2001:559:1bc::/48 max 48 as 33659; # arin
+  route 2001:559:1bf::/48 max 48 as 33659; # arin
+  route 2001:559:1c3::/48 max 48 as 33659; # arin
+  route 2001:559:1c4::/48 max 48 as 33659; # arin
+  route 2001:559:1da::/48 max 48 as 33659; # arin
+  route 2001:559:1dc::/48 max 48 as 33659; # arin
+  route 2001:559:1dd::/48 max 48 as 33659; # arin
+  route 2001:559:1e0::/48 max 48 as 33659; # arin
+  route 2001:559:1e8::/48 max 48 as 33659; # arin
+  route 2001:559:1f0::/48 max 48 as 33659; # arin
+  route 2001:559:1f4::/48 max 48 as 33659; # arin
+  route 2001:559:1f8::/48 max 48 as 33659; # arin
+  route 2001:559:1f9::/48 max 48 as 33659; # arin
+  route 2001:559:200::/48 max 48 as 33659; # arin
+  route 2001:559:208::/48 max 48 as 33659; # arin
+  route 2001:559:20c::/48 max 48 as 33659; # arin
+  route 2001:559:215::/48 max 48 as 33659; # arin
+  route 2001:559:217::/48 max 48 as 33659; # arin
+  route 2001:559:239::/48 max 48 as 33659; # arin
+  route 2001:559:240::/48 max 48 as 33659; # arin
+  route 2001:559:24e::/48 max 48 as 33659; # arin
+  route 2001:559:25e::/48 max 48 as 33659; # arin
+  route 2001:559:260::/48 max 48 as 33659; # arin
+  route 2001:559:28f::/48 max 48 as 33659; # arin
+  route 2001:559:2c3::/48 max 48 as 33659; # arin
+  route 2001:559:2ce::/48 max 48 as 33659; # arin
+  route 2001:559:2d3::/48 max 48 as 33659; # arin
+  route 2001:559:2e1::/48 max 48 as 33659; # arin
+  route 2001:559:2e2::/48 max 48 as 33659; # arin
+  route 2001:559:2ea::/48 max 48 as 33659; # arin
+  route 2001:559:2f1::/48 max 48 as 33659; # arin
+  route 2001:559:300::/48 max 48 as 33659; # arin
+  route 2001:559:31b::/48 max 48 as 33659; # arin
+  route 2001:559:339::/48 max 48 as 33659; # arin
+  route 2001:559:359::/48 max 48 as 33659; # arin
+  route 2001:559:35a::/48 max 48 as 33659; # arin
+  route 2001:559:35d::/48 max 48 as 33659; # arin
   route 2601:80::/26 max 26 as 33659; # arin
   route 2603:2080::/26 max 26 as 33659; # arin
   route 2603:301b::/32 max 32 as 33659; # arin
@@ -11849,14 +12456,45 @@ protocol static roas6 {
   route 2001:558:5028::/48 max 48 as 33660; # arin
   route 2001:558:6008::/48 max 48 as 33660; # arin
   route 2001:558:fe0a::/47 max 47 as 33660; # arin
+  route 2001:559:29::/48 max 48 as 33660; # arin
+  route 2001:559:fa::/48 max 48 as 33660; # arin
+  route 2001:559:fb::/48 max 48 as 33660; # arin
+  route 2001:559:108::/48 max 48 as 33660; # arin
+  route 2001:559:14b::/48 max 48 as 33660; # arin
+  route 2001:559:1c5::/48 max 48 as 33660; # arin
+  route 2001:559:1cf::/48 max 48 as 33660; # arin
+  route 2001:559:201::/48 max 48 as 33660; # arin
+  route 2001:559:20a::/48 max 48 as 33660; # arin
+  route 2001:559:26c::/48 max 48 as 33660; # arin
+  route 2001:559:297::/48 max 48 as 33660; # arin
+  route 2001:559:299::/48 max 48 as 33660; # arin
+  route 2001:559:29a::/48 max 48 as 33660; # arin
+  route 2001:559:29f::/48 max 48 as 33660; # arin
+  route 2001:559:2a3::/48 max 48 as 33660; # arin
+  route 2001:559:2de::/48 max 48 as 33660; # arin
+  route 2001:559:2e4::/48 max 48 as 33660; # arin
+  route 2001:559:31a::/48 max 48 as 33660; # arin
   route 2601:680::/26 max 26 as 33660; # arin
   route 2603:2680::/26 max 26 as 33660; # arin
   route 2603:3026::/32 max 32 as 33660; # arin
+  route 2001:559:124::/48 max 48 as 33661; # arin
+  route 2001:559:135::/48 max 48 as 33661; # arin
+  route 2001:559:237::/48 max 48 as 33661; # arin
   route 2001:558:2c0::/44 max 44 as 33662; # arin
   route 2001:558:5022::/48 max 48 as 33662; # arin
   route 2001:558:6022::/48 max 48 as 33662; # arin
   route 2001:558:fe1a::/48 max 48 as 33662; # arin
   route 2001:558:fe25::/48 max 48 as 33662; # arin
+  route 2001:559:d::/48 max 48 as 33662; # arin
+  route 2001:559:158::/48 max 48 as 33662; # arin
+  route 2001:559:172::/48 max 48 as 33662; # arin
+  route 2001:559:19b::/48 max 48 as 33662; # arin
+  route 2001:559:1e9::/48 max 48 as 33662; # arin
+  route 2001:559:256::/48 max 48 as 33662; # arin
+  route 2001:559:283::/48 max 48 as 33662; # arin
+  route 2001:559:287::/48 max 48 as 33662; # arin
+  route 2001:559:2c6::/48 max 48 as 33662; # arin
+  route 2001:559:313::/48 max 48 as 33662; # arin
   route 2601:2c0::/26 max 26 as 33662; # arin
   route 2603:22c0::/26 max 26 as 33662; # arin
   route 2603:300c::/32 max 32 as 33662; # arin
@@ -11864,6 +12502,8 @@ protocol static roas6 {
   route 2001:558:5012::/48 max 48 as 33666; # arin
   route 2001:558:6024::/48 max 48 as 33666; # arin
   route 2001:558:fe28::/48 max 48 as 33666; # arin
+  route 2001:559:195::/48 max 48 as 33666; # arin
+  route 2001:559:233::/48 max 48 as 33666; # arin
   route 2601:4c0::/26 max 26 as 33666; # arin
   route 2603:24c0::/26 max 26 as 33666; # arin
   route 2603:301c::/32 max 32 as 33666; # arin
@@ -11875,6 +12515,13 @@ protocol static roas6 {
   route 2001:558:6046::/48 max 48 as 33667; # arin
   route 2001:558:fe2b::/48 max 48 as 33667; # arin
   route 2001:558:fe32::/48 max 48 as 33667; # arin
+  route 2001:559:8b::/48 max 48 as 33667; # arin
+  route 2001:559:8c::/48 max 48 as 33667; # arin
+  route 2001:559:c1::/48 max 48 as 33667; # arin
+  route 2001:559:123::/48 max 48 as 33667; # arin
+  route 2001:559:1be::/48 max 48 as 33667; # arin
+  route 2001:559:249::/48 max 48 as 33667; # arin
+  route 2001:559:2bf::/48 max 48 as 33667; # arin
   route 2601:200::/26 max 26 as 33667; # arin
   route 2603:2200::/26 max 26 as 33667; # arin
   route 2603:3006::/32 max 32 as 33667; # arin
@@ -11882,6 +12529,12 @@ protocol static roas6 {
   route 2001:558:500e::/48 max 48 as 33668; # arin
   route 2001:558:6007::/48 max 48 as 33668; # arin
   route 2001:558:fe10::/47 max 47 as 33668; # arin
+  route 2001:559:41::/48 max 48 as 33668; # arin
+  route 2001:559:1ef::/48 max 48 as 33668; # arin
+  route 2001:559:248::/48 max 48 as 33668; # arin
+  route 2001:559:261::/48 max 48 as 33668; # arin
+  route 2001:559:2e7::/48 max 48 as 33668; # arin
+  route 2001:559:33d::/48 max 48 as 33668; # arin
   route 2601:400::/26 max 26 as 33668; # arin
   route 2603:2400::/26 max 26 as 33668; # arin
   route 2603:3015::/32 max 32 as 33668; # arin
