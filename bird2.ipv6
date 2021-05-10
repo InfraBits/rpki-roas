@@ -23058,7 +23058,7 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  route 2605:9cc0:384::/48 max 48 as 65530; # arin
+  route 2605:9cc0:382::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -25219,6 +25219,9 @@ protocol static roas6 {
   route 2403:6a40:2::/48 max 48 as 135967; # apnic
   route 2403:6a40:1000::/36 max 36 as 135967; # apnic
   route 2403:6a40:2000::/36 max 36 as 135967; # apnic
+  route 2403:6a40:3000::/36 max 36 as 135967; # apnic
+  route 2403:6a40:4000::/36 max 36 as 135967; # apnic
+  route 2403:6a40:5000::/36 max 36 as 135967; # apnic
   route 2407:2ec0::/48 max 48 as 135967; # apnic
   route 2001:df4:d880::/48 max 48 as 135981; # apnic
   route 2405:1a40::/48 max 48 as 135981; # apnic
@@ -27298,9 +27301,20 @@ protocol static roas6 {
   route 2407:4ac0:1800::/37 max 40 as 142045; # apnic
   route 2407:4ac0:2000::/35 max 40 as 142045; # apnic
   route 2407:4ac0:2800::/37 max 40 as 142045; # apnic
+  route 2407:4ac0:2b00::/40 max 40 as 142045; # apnic
+  route 2407:4ac0:2f00::/40 max 40 as 142045; # apnic
   route 2407:4ac0:3000::/36 max 40 as 142045; # apnic
   route 2407:4ac0:3000::/40 max 40 as 142045; # apnic
   route 2407:4ac0:3100::/40 max 40 as 142045; # apnic
+  route 2407:4ac0:3600::/40 max 40 as 142045; # apnic
+  route 2407:4ac0:3700::/40 max 40 as 142045; # apnic
+  route 2407:4ac0:3800::/37 max 37 as 142045; # apnic
+  route 2407:4ac0:3800::/38 max 38 as 142045; # apnic
+  route 2407:4ac0:3800::/39 max 40 as 142045; # apnic
+  route 2407:4ac0:4000::/36 max 36 as 142045; # apnic
+  route 2407:4ac0:4000::/37 max 39 as 142045; # apnic
+  route 2407:4ac0:4000::/38 max 40 as 142045; # apnic
+  route 2407:4ac0:4400::/39 max 40 as 142045; # apnic
   route 2407:4ac0:6000::/35 max 40 as 142045; # apnic
   route 2407:4ac0:6700::/40 max 40 as 142045; # apnic
   route 2001:df6:6e80::/48 max 48 as 142049; # apnic
