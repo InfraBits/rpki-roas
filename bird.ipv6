@@ -177,7 +177,11 @@ roa table roa {
   roa 2a02:f181:1000::/48 max 48 as 174; # ripe
   roa 2a03:f80:420::/48 max 48 as 174; # ripe
   roa 2a07:4a80::/29 max 29 as 174; # ripe
+  roa 2a09:7a47::/32 max 32 as 174; # ripe
+  roa 2a0b:ec85::/32 max 32 as 174; # ripe
+  roa 2a0d:c3c6::/32 max 32 as 174; # ripe
   roa 2a0e:1c80:3::/48 max 48 as 174; # ripe
+  roa 2a0e:2d44::/32 max 32 as 174; # ripe
   roa 2001:48a8:68fd::/48 max 48 as 177; # arin
   roa 2607:f018:fffe::/48 max 48 as 177; # arin
   roa 2001:dd8:7::/48 max 48 as 187; # apnic
