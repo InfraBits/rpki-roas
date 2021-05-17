@@ -37775,6 +37775,7 @@ roa table roa {
   roa 2001:43ff::/48 max 52 as 328813; # afrinic
   roa 2001:43ff::/52 max 52 as 328813; # afrinic
   roa 2c0f:4600::/32 max 32 as 328839; # afrinic
+  roa 2c0f:5e00::/32 max 32 as 328843; # afrinic
   roa 2001:500:31::/48 max 48 as 393220; # arin
   roa 2001:500:13::/48 max 48 as 393225; # arin
   roa 2001:470:55::/48 max 48 as 393238; # arin
