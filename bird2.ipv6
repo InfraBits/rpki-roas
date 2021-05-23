@@ -12053,6 +12053,8 @@ protocol static roas6 {
   route 2a01:5580::/32 max 32 as 29037; # ripe
   route 2a02:820::/32 max 32 as 29061; # ripe
   route 2a00:6180::/32 max 32 as 29062; # ripe
+  route 2a00:6180::/33 max 33 as 29062; # ripe
+  route 2a00:6180:8000::/33 max 33 as 29062; # ripe
   route 2a01:8180:3000::/36 max 42 as 29063; # ripe
   route 2001:67c:308::/48 max 48 as 29066; # ripe
   route 2001:1520::/32 max 48 as 29066; # ripe
