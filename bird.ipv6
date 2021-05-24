@@ -1041,6 +1041,7 @@ roa table roa {
   roa 2606:9400::/32 max 48 as 3737; # arin
   roa 2a07:8146::/36 max 36 as 3741; # ripe
   roa 2c0f:fc00::/27 max 48 as 3741; # afrinic
+  roa 2c0f:ff40::/26 max 48 as 3741; # afrinic
   roa 2001:c20::/32 max 32 as 3758; # apnic
   roa 2001:c20:10::/48 max 48 as 3758; # apnic
   roa 2001:c20:18::/48 max 48 as 3758; # apnic

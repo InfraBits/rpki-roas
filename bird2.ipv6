@@ -1043,6 +1043,7 @@ protocol static roas6 {
   route 2606:9400::/32 max 48 as 3737; # arin
   route 2a07:8146::/36 max 36 as 3741; # ripe
   route 2c0f:fc00::/27 max 48 as 3741; # afrinic
+  route 2c0f:ff40::/26 max 48 as 3741; # afrinic
   route 2001:c20::/32 max 32 as 3758; # apnic
   route 2001:c20:10::/48 max 48 as 3758; # apnic
   route 2001:c20:18::/48 max 48 as 3758; # apnic
