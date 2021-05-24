@@ -5757,6 +5757,7 @@ roa table roa {
   roa 2a02:4c00:100::/40 max 40 as 12676; # ripe
   roa 2a02:4c07:4000::/34 max 34 as 12676; # ripe
   roa 2a02:4c07:8000::/34 max 34 as 12676; # ripe
+  roa 2a00:aea0:100::/40 max 40 as 12678; # ripe
   roa 2a00:aea0:111::/48 max 48 as 12678; # ripe
   roa 2a00:aea0:112::/48 max 48 as 12678; # ripe
   roa 2a00:aea0:113::/48 max 48 as 12678; # ripe
@@ -5765,6 +5766,7 @@ roa table roa {
   roa 2a00:aea0:212::/48 max 48 as 12678; # ripe
   roa 2a00:aea0:213::/48 max 48 as 12678; # ripe
   roa 2a00:aea0:600::/40 max 40 as 12678; # ripe
+  roa 2a00:aea0:6500::/40 max 40 as 12678; # ripe
   roa 2a07:500::/32 max 32 as 12679; # ripe
   roa 2a07:501::/32 max 32 as 12679; # ripe
   roa 2a07:502::/32 max 32 as 12679; # ripe
