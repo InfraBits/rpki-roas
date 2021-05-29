@@ -39594,4 +39594,5 @@ roa table roa {
   roa 2620:96:a000::/48 max 48 as 399628; # arin
   roa 2001:678:d44:2::/64 max 64 as 999999; # ripe
   roa 2001:678:d44:100::/64 max 64 as 999999; # ripe
+  roa 2a05:4140:201::/48 max 48 as 2112271; # ripe
 }
