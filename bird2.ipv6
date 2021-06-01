@@ -16818,7 +16818,6 @@ protocol static roas6 {
   route 2001:43f8:1f4::/48 max 48 as 37663; # afrinic
   route 2001:43f8:1f5::/48 max 48 as 37668; # afrinic
   route 2c0f:fbc0::/32 max 48 as 37670; # afrinic
-  route 2c0f:f9b8::/32 max 48 as 37674; # afrinic
   route 2c0f:eac0:800::/37 max 37 as 37682; # afrinic
   route 2001:43f8:60::/48 max 48 as 37704; # afrinic
   route 2001:43f8:7b0::/48 max 48 as 37704; # afrinic
@@ -27315,6 +27314,7 @@ protocol static roas6 {
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
   route 2605:9cc0:357::/48 max 48 as 65530; # arin
+  route 2605:9cc0:382::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
@@ -31932,7 +31932,6 @@ protocol static roas6 {
   route 2a09:6ec0::/29 max 29 as 197706; # ripe
   route 2a0d:42c0::/29 max 29 as 197706; # ripe
   route 2a0d:4a40::/29 max 29 as 197706; # ripe
-  route 2a0e:4f00::/29 max 29 as 197706; # ripe
   route 2a0e:abc0::/29 max 29 as 197706; # ripe
   route 2a0e:d4c0::/29 max 29 as 197706; # ripe
   route 2a0f:4780::/29 max 29 as 197706; # ripe
@@ -33819,6 +33818,7 @@ protocol static roas6 {
   route 2a06:3200::/29 max 32 as 204989; # ripe
   route 2a0f:a7c0::/29 max 29 as 204989; # ripe
   route 2a0b:b87:ffe1::/48 max 48 as 204994; # ripe
+  route 2a0b:2180:1::/48 max 48 as 204995; # ripe
   route 2a0b:2180:1:2002::/64 max 64 as 204995; # ripe
   route 2a0b:2180:1:2007::/64 max 64 as 204995; # ripe
   route 2a0c:cf00::/29 max 29 as 205002; # ripe
@@ -34342,7 +34342,7 @@ protocol static roas6 {
   route 2a0f:5701::/34 max 34 as 206499; # ripe
   route 2a0f:5701:fe10::/48 max 48 as 206499; # ripe
   route 2a0f:5c47:3e8::/48 max 48 as 206499; # ripe
-  route 2a0b:2180::/32 max 64 as 206502; # ripe
+  route 2a0b:2180::/32 max 32 as 206502; # ripe
   route 2a0b:2180::/48 max 48 as 206502; # ripe
   route 2001:678:360::/48 max 48 as 206506; # ripe
   route 2a0b:3080::/32 max 32 as 206516; # ripe
