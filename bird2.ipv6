@@ -707,13 +707,6 @@ protocol static roas6 {
   route 2a04:b600::/29 max 29 as 3188; # ripe
   route 2a06:ad40::/32 max 32 as 3188; # ripe
   route 2a00:ebc0::/32 max 32 as 3190; # ripe
-  route 2a04:6f00::/32 max 48 as 3204; # ripe
-  route 2a04:6f02::/32 max 48 as 3204; # ripe
-  route 2a04:6f03::/32 max 48 as 3204; # ripe
-  route 2a04:6f04::/32 max 48 as 3204; # ripe
-  route 2a04:6f05::/32 max 48 as 3204; # ripe
-  route 2a04:6f06::/32 max 48 as 3204; # ripe
-  route 2a04:6f07::/32 max 48 as 3204; # ripe
   route 2a07:d880::/32 max 48 as 3204; # ripe
   route 2a09:7:200a::/48 max 48 as 3204; # ripe
   route 2a02:908::/32 max 32 as 3209; # ripe
@@ -734,13 +727,6 @@ protocol static roas6 {
   route 2a03:d9c0:3000::/48 max 64 as 3214; # ripe
   route 2a03:d9c0:8000::/48 max 48 as 3214; # ripe
   route 2a03:d9c0:c0de::/48 max 64 as 3214; # ripe
-  route 2a04:6f00::/32 max 48 as 3214; # ripe
-  route 2a04:6f02::/32 max 48 as 3214; # ripe
-  route 2a04:6f03::/32 max 48 as 3214; # ripe
-  route 2a04:6f04::/32 max 48 as 3214; # ripe
-  route 2a04:6f05::/32 max 48 as 3214; # ripe
-  route 2a04:6f06::/32 max 48 as 3214; # ripe
-  route 2a04:6f07::/32 max 48 as 3214; # ripe
   route 2a06:4fc0::/29 max 48 as 3214; # ripe
   route 2a06:5040:6::/48 max 48 as 3214; # ripe
   route 2a06:57c0::/29 max 48 as 3214; # ripe
@@ -816,7 +802,6 @@ protocol static roas6 {
   route 2a00:1750::/32 max 32 as 3257; # ripe
   route 2a02:798::/32 max 32 as 3257; # ripe
   route 2a09:7:2008::/48 max 48 as 3258; # ripe
-  route 2a0a:acc1::/32 max 48 as 3258; # ripe
   route 2a02:300::/32 max 32 as 3261; # ripe
   route 2a03:c600::/32 max 32 as 3262; # ripe
   route 2001:888::/29 max 29 as 3265; # ripe
@@ -1843,7 +1828,6 @@ protocol static roas6 {
   route 2604:e8c0::/32 max 48 as 6233; # arin
   route 2605:3a40::/32 max 48 as 6233; # arin
   route 2a09::/29 max 48 as 6233; # ripe
-  route 2a0a:acc2::/32 max 48 as 6233; # ripe
   route 2a11::/32 max 48 as 6233; # ripe
   route 2800:6b0::/28 max 28 as 6306; # lacnic
   route 2604:9d40:120::/48 max 48 as 6315; # arin
@@ -1852,7 +1836,6 @@ protocol static roas6 {
   route 2604:3d00::/28 max 48 as 6327; # arin
   route 2620:8::/41 max 48 as 6327; # arin
   route 2607:f278::/32 max 44 as 6360; # arin
-  route 2a0a:acc0::/32 max 48 as 6369; # ripe
   route 2a0f:5707:ae00::/44 max 48 as 6369; # ripe
   route 2607:7c80:57::/48 max 48 as 6373; # arin
   route 2001:470:4a::/48 max 48 as 6379; # arin
@@ -16627,7 +16610,6 @@ protocol static roas6 {
   route 2a00:d80::/29 max 29 as 35518; # ripe
   route 2403:5180:22::/48 max 48 as 35536; # apnic
   route 2a09:7:2003::/48 max 48 as 35536; # ripe
-  route 2a04:6f01:1::/48 max 48 as 35537; # ripe
   route 2a09:7:2004::/48 max 48 as 35537; # ripe
   route 2a03:8600:1007::/48 max 48 as 35543; # ripe
   route 2a06:bdc7::/32 max 32 as 35545; # ripe
@@ -23454,7 +23436,6 @@ protocol static roas6 {
   route 2a07:8f40::/29 max 29 as 57831; # ripe
   route 2a00:1348:10::/48 max 48 as 57837; # ripe
   route 2a00:9bc0::/32 max 32 as 57844; # ripe
-  route 2a0b:2540::/32 max 48 as 57848; # ripe
   route 2a0c:b641:190::/44 max 48 as 57853; # ripe
   route 2a0e:36c0::/29 max 29 as 57855; # ripe
   route 2a06:d380::/29 max 29 as 57860; # ripe
@@ -27403,8 +27384,6 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  route 2605:9cc0:357::/48 max 48 as 65530; # arin
-  route 2605:9cc0:382::/48 max 48 as 65530; # arin
   route 2605:9cc0:384::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
@@ -31406,7 +31385,6 @@ protocol static roas6 {
   route 2001:df4:d180::/48 max 48 as 140050; # apnic
   route 2001:470:134::/48 max 48 as 140052; # arin
   route 2001:470:136::/48 max 48 as 140052; # arin
-  route 2a0b:2541::/32 max 48 as 140052; # ripe
   route 2001:df2:a780::/48 max 48 as 140054; # apnic
   route 2001:df2:b780::/48 max 48 as 140068; # apnic
   route 2001:df2:bd80::/48 max 48 as 140076; # apnic
