@@ -1204,10 +1204,13 @@ roa table roa {
   roa 2406:3000:22::/56 max 64 as 4657; # apnic
   roa 2406:3000:35::/56 max 64 as 4657; # apnic
   roa 2406:3000:36::/56 max 64 as 4657; # apnic
+  roa 2406:3000:36:100::/56 max 64 as 4657; # apnic
   roa 2406:3000:38::/56 max 64 as 4657; # apnic
   roa 2406:3000:4f::/56 max 64 as 4657; # apnic
+  roa 2406:3000:4f:100::/56 max 64 as 4657; # apnic
   roa 2406:3000:1000::/56 max 64 as 4657; # apnic
   roa 2406:3000:ad53::/49 max 49 as 4657; # apnic
+  roa 2406:3001:20::/56 max 64 as 4657; # apnic
   roa 2406:3001:22::/56 max 64 as 4657; # apnic
   roa 2406:3001:23::/56 max 64 as 4657; # apnic
   roa 2001:200:e00::/40 max 40 as 4690; # apnic
