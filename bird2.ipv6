@@ -6377,6 +6377,7 @@ protocol static roas6 {
   route 2400:cb00:274::/48 max 48 as 13335; # apnic
   route 2400:cb00:275::/48 max 48 as 13335; # apnic
   route 2400:cb00:279::/48 max 48 as 13335; # apnic
+  route 2400:cb00:281::/48 max 48 as 13335; # apnic
   route 2400:cb00:282::/48 max 48 as 13335; # apnic
   route 2400:cb00:283::/48 max 48 as 13335; # apnic
   route 2400:cb00:285::/48 max 48 as 13335; # apnic
@@ -6424,6 +6425,7 @@ protocol static roas6 {
   route 2400:cb00:387::/48 max 48 as 13335; # apnic
   route 2400:cb00:388::/48 max 48 as 13335; # apnic
   route 2400:cb00:393::/48 max 48 as 13335; # apnic
+  route 2400:cb00:394::/48 max 48 as 13335; # apnic
   route 2400:cb00:397::/48 max 48 as 13335; # apnic
   route 2400:cb00:398::/48 max 48 as 13335; # apnic
   route 2400:cb00:504::/48 max 48 as 13335; # apnic
@@ -7298,7 +7300,6 @@ protocol static roas6 {
   route 2001:4138::/32 max 48 as 15533; # ripe
   route 2001:4139::/32 max 48 as 15533; # ripe
   route 2a02:5e40::/32 max 48 as 15533; # ripe
-  route 2001:67c:45c::/48 max 48 as 15542; # ripe
   route 2001:67c:460::/48 max 48 as 15542; # ripe
   route 2001:67c:2b0c::/48 max 48 as 15542; # ripe
   route 2001:67c:2c24::/48 max 48 as 15542; # ripe
@@ -8432,6 +8433,7 @@ protocol static roas6 {
   route 2403:ec00:37::/48 max 48 as 17806; # apnic
   route 2403:ec00:38::/48 max 48 as 17806; # apnic
   route 2403:ec00:39::/48 max 48 as 17806; # apnic
+  route 2401:ab00::/32 max 36 as 17809; # apnic
   route 2a0e:9300::/48 max 48 as 17818; # ripe
   route 2001:c00:4618:3000::/64 max 64 as 17823; # apnic
   route 2401:d540::/32 max 32 as 17828; # apnic
@@ -27407,7 +27409,7 @@ protocol static roas6 {
   route 2a02:d58:200a::/48 max 48 as 64520; # ripe
   route 2607:fd78:902::/48 max 48 as 65001; # arin
   route 2001:e68:2001:1::/64 max 64 as 65530; # apnic
-  route 2605:9cc0:382::/48 max 48 as 65530; # arin
+  route 2605:9cc0:357::/48 max 48 as 65530; # arin
   route 2001:718:ffff::/48 max 48 as 65533; # ripe
   route 2001:67c:2b5c::/48 max 48 as 65535; # ripe
   route 2001:3a0:f007::/48 max 48 as 131079; # apnic
