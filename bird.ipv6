@@ -3378,7 +3378,6 @@ roa table roa {
   roa 2620:1ec::/36 max 36 as 8075; # arin
   roa 2620:1ec:9::/48 max 48 as 8075; # arin
   roa 2620:1ec:25::/48 max 48 as 8075; # arin
-  roa 2801:80:1d0::/48 max 48 as 8075; # lacnic
   roa 2a01:111::/32 max 32 as 8075; # ripe
   roa 2a01:111:2000::/36 max 36 as 8075; # ripe
   roa 2a01:111:4000::/36 max 36 as 8075; # ripe
