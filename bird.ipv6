@@ -31507,8 +31507,6 @@ roa table roa {
   roa 2001:df1:cb80::/48 max 48 as 139755; # apnic
   roa 2001:df1:d980::/48 max 48 as 139757; # apnic
   roa 2001:df1:cc80::/48 max 48 as 139758; # apnic
-  roa 2001:df1:ec80::/48 max 48 as 139769; # apnic
-  roa 2001:df1:ec80::/52 max 52 as 139769; # apnic
   roa 2001:df1:f180::/48 max 48 as 139771; # apnic
   roa 2402:4c0::/32 max 32 as 139779; # apnic
   roa 2405:84c0:9c00::/40 max 40 as 139782; # apnic
