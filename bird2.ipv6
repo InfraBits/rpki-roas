@@ -133,7 +133,6 @@ protocol static roas6 {
   route 2602:fd10:e00::/40 max 48 as 0; # arin
   route 2602:fd10:f00::/40 max 48 as 0; # arin
   route 2605:f440:56f0::/44 max 44 as 0; # arin
-  route 2605:f440:7000::/36 max 48 as 0; # arin
   route 2605:f440:8000::/35 max 48 as 0; # arin
   route 2606:4700:7000::/48 max 48 as 0; # arin
   route 2606:6c00:200::/40 max 40 as 0; # arin
