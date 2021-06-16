@@ -33353,6 +33353,7 @@ roa table roa {
   roa 2a02:4460::/32 max 32 as 202032; # ripe
   roa 2a02:4460::/64 max 64 as 202032; # ripe
   roa 2a02:4460:1::/48 max 48 as 202032; # ripe
+  roa 2a02:4460:2::/48 max 48 as 202032; # ripe
   roa 2001:67c:12c0::/47 max 47 as 202033; # ripe
   roa 2a02:8d1::/32 max 32 as 202038; # ripe
   roa 2001:678:764::/48 max 48 as 202039; # ripe
