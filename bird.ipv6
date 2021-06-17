@@ -7006,8 +7006,7 @@ roa table roa {
   roa 2a03:9e00::/32 max 48 as 14537; # ripe
   roa 2a0f:9400:7350::/44 max 48 as 14570; # ripe
   roa 2607:a700::/32 max 48 as 14574; # arin
-  roa 2604:65c0::/32 max 32 as 14585; # arin
-  roa 2604:65c0:100::/48 max 48 as 14585; # arin
+  roa 2604:65c0::/32 max 64 as 14585; # arin
   roa 2605:59c8::/29 max 48 as 14593; # arin
   roa 2001:470:33::/48 max 48 as 14613; # arin
   roa 2a02:e38:8100::/40 max 40 as 14616; # ripe
