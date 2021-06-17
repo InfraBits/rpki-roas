@@ -32053,6 +32053,8 @@ protocol static roas6 {
   route 2407:4d40:1::/48 max 48 as 142050; # apnic
   route 2407:4d40:2::/48 max 48 as 142050; # apnic
   route 2407:4d40:3::/48 max 48 as 142050; # apnic
+  route 2407:4d40:4::/48 max 48 as 142050; # apnic
+  route 2407:4d40:5::/48 max 48 as 142050; # apnic
   route 2001:df6:7a80::/48 max 48 as 142054; # apnic
   route 2001:df6:7a80::/50 max 50 as 142054; # apnic
   route 2001:df6:7a80:4000::/50 max 50 as 142054; # apnic
