@@ -20613,6 +20613,7 @@ protocol static roas6 {
   route 2001:648:22b0::/48 max 48 as 47616; # ripe
   route 2001:648:25e0::/48 max 48 as 47616; # ripe
   route 2a00:17f8::/32 max 48 as 47622; # ripe
+  route 2a05:9c00::/29 max 29 as 47626; # ripe
   route 2a00:9460::/32 max 32 as 47631; # ripe
   route 2a00:9461::/32 max 32 as 47631; # ripe
   route 2001:67c:248c::/48 max 48 as 47638; # ripe
@@ -28067,7 +28068,6 @@ protocol static roas6 {
   route 2406:58c0::/32 max 32 as 132518; # apnic
   route 2406:f00:1::/48 max 48 as 132524; # apnic
   route 2001:df0:45d::/48 max 48 as 132556; # apnic
-  route 2404:7a40::/32 max 32 as 132556; # apnic
   route 2404:7a40::/48 max 48 as 132556; # apnic
   route 2404:7a40:1::/48 max 48 as 132556; # apnic
   route 2404:7a40:2::/48 max 48 as 132556; # apnic
