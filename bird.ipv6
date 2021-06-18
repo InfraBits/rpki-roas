@@ -11762,6 +11762,7 @@ roa table roa {
   roa 2a00:1a00::/32 max 32 as 25593; # ripe
   roa 2a06:3080::/30 max 32 as 25595; # ripe
   roa 2a02:58::/32 max 32 as 25596; # ripe
+  roa 2800:390::/32 max 33 as 25620; # lacnic
   roa 2001:4830:200::/40 max 48 as 25623; # arin
   roa 2001:4830:2070::/48 max 48 as 25623; # arin
   roa 2001:4830:3100::/48 max 48 as 25623; # arin
