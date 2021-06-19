@@ -8166,10 +8166,6 @@ protocol static roas6 {
   route 2600:6ce6:4400::/44 max 44 as 16787; # arin
   route 2600:6cf0::/32 max 32 as 16787; # arin
   route 2603:90f8::/40 max 40 as 16787; # arin
-  route 2605:1c00:ff0::/44 max 44 as 16787; # arin
-  route 2605:1c00:1ff0::/44 max 44 as 16787; # arin
-  route 2605:1c00:50f0::/44 max 44 as 16787; # arin
-  route 2605:1c00:fff0::/44 max 44 as 16787; # arin
   route 2620:b0::/48 max 64 as 16796; # arin
   route 2800:40::/32 max 32 as 16814; # lacnic
   route 2800:40::/32 max 48 as 16814; # lacnic
