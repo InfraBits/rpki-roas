@@ -12108,7 +12108,6 @@ protocol static roas6 {
   route 2001:13c7:7001::/48 max 48 as 28000; # lacnic
   route 2001:13c7:7010::/46 max 48 as 28000; # lacnic
   route 2801:1b8::/44 max 48 as 28000; # lacnic
-  route 2801:1b8::/46 max 49 as 28000; # lacnic
   route 2801:1b8::/47 max 48 as 28000; # lacnic
   route 2001:13c7:7002::/48 max 48 as 28001; # lacnic
   route 2001:13c7:7010::/46 max 48 as 28001; # lacnic
