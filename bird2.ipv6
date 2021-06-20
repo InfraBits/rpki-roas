@@ -28649,6 +28649,10 @@ protocol static roas6 {
   route 2400:3dc0::/32 max 32 as 134371; # apnic
   route 2400:3dc0::/44 max 48 as 134371; # apnic
   route 2400:3dc0:10::/44 max 48 as 134371; # apnic
+  route 2400:3dc0:2e::/48 max 48 as 134371; # apnic
+  route 2400:3dc0:2f::/48 max 48 as 134371; # apnic
+  route 2400:3dc0:3e::/48 max 48 as 134371; # apnic
+  route 2400:3dc0:3f::/48 max 48 as 134371; # apnic
   route 2400:3dc0:100::/48 max 48 as 134371; # apnic
   route 2400:3dc0:200::/48 max 48 as 134371; # apnic
   route 2400:3dc0:300::/48 max 48 as 134371; # apnic
