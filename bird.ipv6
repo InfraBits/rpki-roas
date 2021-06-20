@@ -20378,6 +20378,30 @@ roa table roa {
   roa 2402:b400:4180::/45 max 45 as 45960; # apnic
   roa 2402:b400:41c0::/45 max 45 as 45960; # apnic
   roa 2402:b400:41e3::/48 max 48 as 45960; # apnic
+  roa 2402:b400:4400::/45 max 45 as 45960; # apnic
+  roa 2402:b400:4420::/45 max 45 as 45960; # apnic
+  roa 2402:b400:4440::/46 max 46 as 45960; # apnic
+  roa 2402:b400:4444::/46 max 46 as 45960; # apnic
+  roa 2402:b400:4448::/46 max 46 as 45960; # apnic
+  roa 2402:b400:444c::/46 max 46 as 45960; # apnic
+  roa 2402:b400:4460::/46 max 46 as 45960; # apnic
+  roa 2402:b400:4464::/46 max 46 as 45960; # apnic
+  roa 2402:b400:4468::/46 max 46 as 45960; # apnic
+  roa 2402:b400:446c::/46 max 46 as 45960; # apnic
+  roa 2402:b400:4500::/48 max 48 as 45960; # apnic
+  roa 2402:b400:4501::/48 max 48 as 45960; # apnic
+  roa 2402:b400:4502::/48 max 48 as 45960; # apnic
+  roa 2402:b400:4503::/48 max 48 as 45960; # apnic
+  roa 2402:b400:4600::/45 max 45 as 45960; # apnic
+  roa 2402:b400:4620::/45 max 45 as 45960; # apnic
+  roa 2402:b400:4640::/46 max 46 as 45960; # apnic
+  roa 2402:b400:4644::/46 max 46 as 45960; # apnic
+  roa 2402:b400:4648::/46 max 46 as 45960; # apnic
+  roa 2402:b400:464c::/46 max 46 as 45960; # apnic
+  roa 2402:b400:4660::/46 max 46 as 45960; # apnic
+  roa 2402:b400:4664::/46 max 46 as 45960; # apnic
+  roa 2402:b400:4668::/46 max 46 as 45960; # apnic
+  roa 2402:b400:466c::/46 max 46 as 45960; # apnic
   roa 2406:6000::/32 max 32 as 45960; # apnic
   roa 2402:6c00::/32 max 32 as 46015; # apnic
   roa 2405:8740::/32 max 48 as 46019; # apnic
