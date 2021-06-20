@@ -22538,6 +22538,7 @@ protocol static roas6 {
   route 2605:9180::/32 max 48 as 53597; # arin
   route 2604:4d40:2000::/36 max 48 as 53667; # arin
   route 2605:6400::/32 max 48 as 53667; # arin
+  route 2a0e:97c0:1c1::/48 max 48 as 53667; # ripe
   route 2a0d:da07::/32 max 32 as 53755; # ripe
   route 2620:137:e000::/44 max 44 as 53758; # arin
   route 2605:a7c0::/32 max 48 as 53766; # arin
