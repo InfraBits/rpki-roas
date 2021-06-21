@@ -20376,11 +20376,25 @@ protocol static roas6 {
   route 2402:b400:1010::/44 max 44 as 45960; # apnic
   route 2402:b400:1020::/44 max 44 as 45960; # apnic
   route 2402:b400:1030::/44 max 44 as 45960; # apnic
+  route 2402:b400:4020::/45 max 45 as 45960; # apnic
+  route 2402:b400:4060::/45 max 45 as 45960; # apnic
   route 2402:b400:4080::/44 max 44 as 45960; # apnic
   route 2402:b400:40c0::/44 max 44 as 45960; # apnic
   route 2402:b400:4180::/45 max 45 as 45960; # apnic
+  route 2402:b400:4188::/46 max 46 as 45960; # apnic
+  route 2402:b400:418c::/46 max 46 as 45960; # apnic
+  route 2402:b400:4194::/47 max 47 as 45960; # apnic
+  route 2402:b400:4196::/47 max 47 as 45960; # apnic
+  route 2402:b400:41a1::/48 max 48 as 45960; # apnic
+  route 2402:b400:41a4::/48 max 48 as 45960; # apnic
   route 2402:b400:41c0::/45 max 45 as 45960; # apnic
+  route 2402:b400:41c8::/46 max 46 as 45960; # apnic
+  route 2402:b400:41cc::/46 max 46 as 45960; # apnic
+  route 2402:b400:41d4::/47 max 47 as 45960; # apnic
+  route 2402:b400:41d6::/47 max 47 as 45960; # apnic
+  route 2402:b400:41e1::/48 max 48 as 45960; # apnic
   route 2402:b400:41e3::/48 max 48 as 45960; # apnic
+  route 2402:b400:41e4::/48 max 48 as 45960; # apnic
   route 2402:b400:4400::/45 max 45 as 45960; # apnic
   route 2402:b400:4420::/45 max 45 as 45960; # apnic
   route 2402:b400:4440::/46 max 46 as 45960; # apnic
