@@ -5672,6 +5672,32 @@ roa table roa {
   roa 2001:4878:102::/48 max 48 as 12222; # arin
   roa 2001:4878:103::/48 max 48 as 12222; # arin
   roa 2001:4878:136::/48 max 48 as 12222; # arin
+  roa 2001:4878:141::/48 max 48 as 12222; # arin
+  roa 2001:4878:151::/48 max 48 as 12222; # arin
+  roa 2001:4878:153::/48 max 48 as 12222; # arin
+  roa 2001:4878:158::/48 max 48 as 12222; # arin
+  roa 2001:4878:164::/48 max 48 as 12222; # arin
+  roa 2001:4878:204::/48 max 48 as 12222; # arin
+  roa 2001:4878:215::/48 max 48 as 12222; # arin
+  roa 2001:4878:216::/48 max 48 as 12222; # arin
+  roa 2001:4878:217::/48 max 48 as 12222; # arin
+  roa 2001:4878:219::/48 max 48 as 12222; # arin
+  roa 2001:4878:220::/48 max 48 as 12222; # arin
+  roa 2001:4878:225::/48 max 48 as 12222; # arin
+  roa 2001:4878:228::/48 max 48 as 12222; # arin
+  roa 2001:4878:242::/48 max 48 as 12222; # arin
+  roa 2001:4878:246::/48 max 48 as 12222; # arin
+  roa 2001:4878:259::/48 max 48 as 12222; # arin
+  roa 2001:4878:261::/48 max 48 as 12222; # arin
+  roa 2001:4878:321::/48 max 48 as 12222; # arin
+  roa 2001:4878:322::/48 max 48 as 12222; # arin
+  roa 2001:4878:323::/48 max 48 as 12222; # arin
+  roa 2001:4878:324::/48 max 48 as 12222; # arin
+  roa 2001:4878:347::/48 max 48 as 12222; # arin
+  roa 2001:4878:356::/48 max 48 as 12222; # arin
+  roa 2001:4878:2000::/48 max 48 as 12222; # arin
+  roa 2001:4878:2007::/48 max 48 as 12222; # arin
+  roa 2001:4878:2008::/48 max 48 as 12222; # arin
   roa 2001:470:2b::/48 max 48 as 12266; # arin
   roa 2001:470:68::/48 max 48 as 12266; # arin
   roa 2001:470:be::/48 max 48 as 12266; # arin
