@@ -6942,6 +6942,7 @@ roa table roa {
   roa 2a03:b0c0::/32 max 48 as 14061; # ripe
   roa 2800:480::/32 max 32 as 14080; # lacnic
   roa 2800:480::/32 max 48 as 14080; # lacnic
+  roa 2800:481::/32 max 36 as 14080; # lacnic
   roa 2800:484::/32 max 48 as 14080; # lacnic
   roa 2800:485::/32 max 32 as 14080; # lacnic
   roa 2800:485::/32 max 48 as 14080; # lacnic
