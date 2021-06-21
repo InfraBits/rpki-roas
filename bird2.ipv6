@@ -36328,8 +36328,6 @@ protocol static roas6 {
   route 2a0e:97c0:389::/48 max 48 as 211305; # ripe
   route 2a0e:97c0:38a::/48 max 48 as 211305; # ripe
   route 2a0c:b641:1b0::/44 max 48 as 211317; # ripe
-  route 2001:7fc::/48 max 48 as 211321; # ripe
-  route 2a04:b904::/32 max 48 as 211321; # ripe
   route 2a04:b904::/48 max 48 as 211321; # ripe
   route 2a0c:e642::/32 max 48 as 211323; # ripe
   route 2a0e:aa07:e01e::/48 max 48 as 211323; # ripe
