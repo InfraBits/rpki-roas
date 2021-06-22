@@ -16984,6 +16984,7 @@ protocol static roas6 {
   route 2620:0:ccb::/48 max 48 as 36692; # arin
   route 2620:0:ccc::/48 max 48 as 36692; # arin
   route 2620:0:ccd::/48 max 48 as 36692; # arin
+  route 2620:119:10::/48 max 48 as 36692; # arin
   route 2620:119:11::/48 max 48 as 36692; # arin
   route 2620:119:30::/48 max 48 as 36692; # arin
   route 2620:119:35::/48 max 48 as 36692; # arin
