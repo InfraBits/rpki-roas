@@ -36370,6 +36370,7 @@ protocol static roas6 {
   route 2a0d:3dc0::/29 max 29 as 210312; # ripe
   route 2a0c:f780::/29 max 29 as 210321; # ripe
   route 2a0b:b87:ffee::/48 max 48 as 210323; # ripe
+  route 2a0c:b641:1f0::/44 max 48 as 211129; # ripe
   route 2a0f:607:1400::/44 max 48 as 211132; # ripe
   route 2a05:4140:500::/40 max 48 as 211138; # ripe
   route 2a0c:b641:160::/44 max 48 as 211139; # ripe
