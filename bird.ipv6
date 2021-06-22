@@ -31670,6 +31670,24 @@ roa table roa {
   roa 2001:df1:6a80::/48 max 48 as 139647; # apnic
   roa 2001:df1:6c80::/48 max 48 as 139648; # apnic
   roa 2001:df4:f780::/48 max 48 as 139648; # apnic
+  roa 2407:9740::/32 max 32 as 139648; # apnic
+  roa 2407:9740::/44 max 44 as 139648; # apnic
+  roa 2407:9740:fe00::/44 max 44 as 139648; # apnic
+  roa 2407:9740:fe10::/44 max 44 as 139648; # apnic
+  roa 2407:9740:fe20::/44 max 44 as 139648; # apnic
+  roa 2407:9740:fe30::/44 max 44 as 139648; # apnic
+  roa 2407:9740:fe40::/44 max 44 as 139648; # apnic
+  roa 2407:9740:fe50::/44 max 44 as 139648; # apnic
+  roa 2407:9740:fe60::/44 max 44 as 139648; # apnic
+  roa 2407:9740:fe70::/44 max 44 as 139648; # apnic
+  roa 2407:9740:fe80::/44 max 44 as 139648; # apnic
+  roa 2407:9740:fe90::/44 max 44 as 139648; # apnic
+  roa 2407:9740:fea0::/44 max 44 as 139648; # apnic
+  roa 2407:9740:feb0::/44 max 44 as 139648; # apnic
+  roa 2407:9740:fec0::/44 max 44 as 139648; # apnic
+  roa 2407:9740:fed0::/44 max 44 as 139648; # apnic
+  roa 2407:9740:fee0::/44 max 44 as 139648; # apnic
+  roa 2407:9740:fef0::/44 max 44 as 139648; # apnic
   roa 2403:cfc0:1014::/48 max 48 as 139653; # apnic
   roa 2001:df1:6f80::/48 max 48 as 139655; # apnic
   roa 2402:9e80:58::/48 max 48 as 139677; # apnic
@@ -31822,6 +31840,7 @@ roa table roa {
   roa 2407:6240:e000::/36 max 36 as 140132; # apnic
   roa 2407:6240:f000::/36 max 36 as 140132; # apnic
   roa 2001:df4:ba80::/48 max 48 as 140146; # apnic
+  roa 2407:96c0::/32 max 32 as 140158; # apnic
   roa 2001:df6:4880::/48 max 48 as 140168; # apnic
   roa 2406:84c0::/32 max 32 as 140178; # apnic
   roa 2406:8d40::/32 max 32 as 140178; # apnic
@@ -38356,6 +38375,7 @@ roa table roa {
   roa 2804:4b14:8000::/34 max 34 as 267282; # lacnic
   roa 2804:4b14:c000::/34 max 34 as 267282; # lacnic
   roa 2804:4b44::/32 max 48 as 267294; # lacnic
+  roa 2804:4b58::/32 max 34 as 267299; # lacnic
   roa 2804:4b68::/32 max 32 as 267304; # lacnic
   roa 2804:4be0::/32 max 32 as 267334; # lacnic
   roa 2804:4be0::/33 max 33 as 267334; # lacnic
