@@ -24140,7 +24140,20 @@ protocol static roas6 {
   route 2403:41c0:e000::/36 max 36 as 58715; # apnic
   route 2403:41c0:f000::/36 max 36 as 58715; # apnic
   route 2404:4f80::/32 max 36 as 58715; # apnic
+  route 2404:4f80::/48 max 48 as 58715; # apnic
+  route 2404:4f80:f::/48 max 48 as 58715; # apnic
+  route 2404:4f80:10::/48 max 48 as 58715; # apnic
+  route 2404:4f80:11::/48 max 48 as 58715; # apnic
+  route 2404:4f80:12::/48 max 48 as 58715; # apnic
+  route 2404:4f80:13::/48 max 48 as 58715; # apnic
+  route 2404:4f80:14::/48 max 48 as 58715; # apnic
   route 2404:4f80:15::/48 max 48 as 58715; # apnic
+  route 2404:4f80:16::/48 max 48 as 58715; # apnic
+  route 2404:4f80:17::/48 max 48 as 58715; # apnic
+  route 2404:4f80:30::/48 max 48 as 58715; # apnic
+  route 2404:4f80:31::/48 max 48 as 58715; # apnic
+  route 2404:4f80:33::/48 max 48 as 58715; # apnic
+  route 2404:4f80:31f::/48 max 48 as 58715; # apnic
   route 2405:1500::/32 max 32 as 58717; # apnic
   route 2405:1500::/32 max 48 as 58717; # apnic
   route 2405:1500::/48 max 48 as 58717; # apnic
