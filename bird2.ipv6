@@ -28678,6 +28678,15 @@ protocol static roas6 {
   route 2a0d:2480::/29 max 29 as 134196; # ripe
   route 2400:4d40::/32 max 32 as 134204; # apnic
   route 2400:4d40:1::/48 max 48 as 134204; # apnic
+  route 2400:4d40:201::/48 max 48 as 134204; # apnic
+  route 2400:4d40:202::/48 max 48 as 134204; # apnic
+  route 2400:4d40:254::/48 max 48 as 134204; # apnic
+  route 2400:4d40:256::/48 max 48 as 134204; # apnic
+  route 2400:4d40:258::/48 max 48 as 134204; # apnic
+  route 2400:4d40:259::/48 max 48 as 134204; # apnic
+  route 2400:4d40:269::/48 max 48 as 134204; # apnic
+  route 2400:4d40:301::/48 max 48 as 134204; # apnic
+  route 2400:4d40:308::/48 max 48 as 134204; # apnic
   route 2400:4d40:e000::/48 max 48 as 134204; # apnic
   route 2400:4d40:f000::/48 max 48 as 134204; # apnic
   route 2402:6f80::/32 max 32 as 134220; # apnic
