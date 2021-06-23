@@ -39233,6 +39233,7 @@ roa table roa {
   roa 2801:19:e800::/48 max 48 as 271905; # lacnic
   roa 2803:3210::/32 max 32 as 271913; # lacnic
   roa 2803:4a10::/32 max 32 as 271916; # lacnic
+  roa 2801:1d:e800::/48 max 48 as 271918; # lacnic
   roa 2c0f:f6d0::/32 max 32 as 327687; # afrinic
   roa 2c0f:f6d0::/32 max 48 as 327687; # afrinic
   roa 2c0f:f6d0:a::/48 max 48 as 327687; # afrinic
