@@ -39304,7 +39304,7 @@ roa table roa {
   roa 2c0f:e970::/32 max 32 as 327750; # afrinic
   roa 2c0f:e9c0::/32 max 32 as 327750; # afrinic
   roa 2c0f:f368::/32 max 32 as 327750; # afrinic
-  roa 2c0f:f4e8::/32 max 48 as 327750; # afrinic
+  roa 2c0f:f4e8::/32 max 32 as 327750; # afrinic
   roa 2c0f:f508::/32 max 36 as 327754; # afrinic
   roa 2c0f:ed08::/32 max 32 as 327764; # afrinic
   roa 2c0f:f720::/32 max 48 as 327767; # afrinic
