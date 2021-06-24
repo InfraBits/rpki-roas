@@ -6604,10 +6604,12 @@ protocol static roas6 {
   route 2400:cb00:386::/48 max 48 as 13335; # apnic
   route 2400:cb00:387::/48 max 48 as 13335; # apnic
   route 2400:cb00:388::/48 max 48 as 13335; # apnic
+  route 2400:cb00:391::/48 max 48 as 13335; # apnic
   route 2400:cb00:393::/48 max 48 as 13335; # apnic
   route 2400:cb00:394::/48 max 48 as 13335; # apnic
   route 2400:cb00:397::/48 max 48 as 13335; # apnic
   route 2400:cb00:398::/48 max 48 as 13335; # apnic
+  route 2400:cb00:403::/48 max 48 as 13335; # apnic
   route 2400:cb00:404::/48 max 48 as 13335; # apnic
   route 2400:cb00:407::/48 max 48 as 13335; # apnic
   route 2400:cb00:408::/48 max 48 as 13335; # apnic
