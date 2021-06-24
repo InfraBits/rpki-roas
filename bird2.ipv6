@@ -39289,7 +39289,7 @@ protocol static roas6 {
   route 2c0f:ea00::/32 max 32 as 327733; # afrinic
   route 2c0f:e8e8::/32 max 48 as 327750; # afrinic
   route 2c0f:e908::/32 max 48 as 327750; # afrinic
-  route 2c0f:e970::/32 max 48 as 327750; # afrinic
+  route 2c0f:e970::/32 max 32 as 327750; # afrinic
   route 2c0f:e9c0::/32 max 32 as 327750; # afrinic
   route 2c0f:f368::/32 max 48 as 327750; # afrinic
   route 2c0f:f4e8::/32 max 48 as 327750; # afrinic
