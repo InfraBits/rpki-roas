@@ -28002,14 +28002,30 @@ roa table roa {
   roa 2402:9d80:902::/48 max 48 as 131429; # apnic
   roa 2402:9d80:903::/48 max 48 as 131429; # apnic
   roa 2402:9d80:920::/43 max 43 as 131429; # apnic
+  roa 2402:9d80:920::/44 max 44 as 131429; # apnic
+  roa 2402:9d80:930::/44 max 44 as 131429; # apnic
   roa 2402:9d80:940::/43 max 43 as 131429; # apnic
+  roa 2402:9d80:940::/44 max 44 as 131429; # apnic
+  roa 2402:9d80:950::/44 max 44 as 131429; # apnic
   roa 2402:9d80:a00::/47 max 47 as 131429; # apnic
   roa 2402:9d80:a02::/47 max 47 as 131429; # apnic
   roa 2402:9d80:a04::/47 max 47 as 131429; # apnic
+  roa 2402:9d80:a04::/48 max 48 as 131429; # apnic
+  roa 2402:9d80:a05::/48 max 48 as 131429; # apnic
   roa 2402:9d80:a06::/47 max 47 as 131429; # apnic
+  roa 2402:9d80:a06::/48 max 48 as 131429; # apnic
+  roa 2402:9d80:a07::/48 max 48 as 131429; # apnic
   roa 2402:9d80:a20::/43 max 43 as 131429; # apnic
+  roa 2402:9d80:a20::/47 max 47 as 131429; # apnic
   roa 2402:9d80:a40::/43 max 43 as 131429; # apnic
+  roa 2402:9d80:a40::/44 max 44 as 131429; # apnic
+  roa 2402:9d80:a40::/48 max 48 as 131429; # apnic
+  roa 2402:9d80:a50::/44 max 44 as 131429; # apnic
+  roa 2402:9d80:a50::/48 max 48 as 131429; # apnic
   roa 2402:9d80:a60::/43 max 43 as 131429; # apnic
+  roa 2402:9d80:a60::/44 max 44 as 131429; # apnic
+  roa 2402:9d80:a60::/48 max 48 as 131429; # apnic
+  roa 2402:9d80:a70::/48 max 48 as 131429; # apnic
   roa 2001:44c8::/36 max 48 as 131445; # apnic
   roa 2001:44c8:4000::/36 max 48 as 131445; # apnic
   roa 2001:44c8:5000::/36 max 48 as 131445; # apnic
