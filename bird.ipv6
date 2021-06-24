@@ -11399,7 +11399,7 @@ roa table roa {
   roa 2400:9700:110::/48 max 48 as 24550; # apnic
   roa 2400:9700:120::/44 max 44 as 24550; # apnic
   roa 2400:9700:120::/48 max 48 as 24550; # apnic
-  roa 2001:df9::/32 max 48 as 24555; # apnic
+  roa 2001:df9::/32 max 32 as 24555; # apnic
   roa 2405:5000::/32 max 32 as 24557; # apnic
   roa 2401:4900:1c00::/41 max 48 as 24560; # apnic
   roa 2401:4900:1c80::/41 max 48 as 24560; # apnic
