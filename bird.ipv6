@@ -16714,6 +16714,7 @@ roa table roa {
   roa 2a0a:9302::/32 max 32 as 35196; # ripe
   roa 2a0d:6340::/29 max 29 as 35197; # ripe
   roa 2a0a:6400::/29 max 48 as 35202; # ripe
+  roa 2600:1419:c::/48 max 48 as 35204; # arin
   roa 2a03:ed00::/32 max 32 as 35205; # ripe
   roa 2001:678:31c::/48 max 48 as 35213; # ripe
   roa 2a03:5480::/32 max 32 as 35223; # ripe
