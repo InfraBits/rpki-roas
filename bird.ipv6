@@ -25443,6 +25443,7 @@ roa table roa {
   roa 2a05:9a00:1002::/48 max 48 as 59441; # ripe
   roa 2a05:9a00:1003::/48 max 48 as 59441; # ripe
   roa 2a07:e440::/29 max 29 as 59441; # ripe
+  roa 2a09:1180::/29 max 29 as 59441; # ripe
   roa 2a0d:7780::/29 max 29 as 59441; # ripe
   roa 2a10:4340::/29 max 29 as 59441; # ripe
   roa 2a10:5c40::/29 max 29 as 59441; # ripe
