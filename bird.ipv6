@@ -17063,6 +17063,7 @@ roa table roa {
   roa 2620:0:ccb::/48 max 48 as 36692; # arin
   roa 2620:0:ccc::/48 max 48 as 36692; # arin
   roa 2620:0:ccd::/48 max 48 as 36692; # arin
+  roa 2620:0:cce::/48 max 48 as 36692; # arin
   roa 2620:119:10::/48 max 48 as 36692; # arin
   roa 2620:119:11::/48 max 48 as 36692; # arin
   roa 2620:119:30::/48 max 48 as 36692; # arin
@@ -22663,6 +22664,7 @@ roa table roa {
   roa 2602:fed2:730a::/48 max 48 as 53356; # arin
   roa 2602:fed2:730c::/48 max 48 as 53356; # arin
   roa 2602:fed2:730f::/48 max 48 as 53356; # arin
+  roa 2602:fed2:7310::/48 max 48 as 53356; # arin
   roa 2602:fed2:7313::/48 max 48 as 53356; # arin
   roa 2602:fed2:7314::/48 max 48 as 53356; # arin
   roa 2602:fed2:7315::/48 max 48 as 53356; # arin
