@@ -3349,6 +3349,7 @@ protocol static roas6 {
   route 2001:1998:890::/44 max 44 as 8052; # arin
   route 2803:d480::/32 max 48 as 8053; # lacnic
   route 2803:d540::/32 max 32 as 8053; # lacnic
+  route 2804:4c::/32 max 48 as 8055; # lacnic
   route 2001:470:a5::/48 max 48 as 8059; # arin
   route 2620:1ec:4::/48 max 48 as 8068; # arin
   route 2620:1ec:5::/48 max 48 as 8068; # arin
@@ -7039,6 +7040,7 @@ protocol static roas6 {
   route 2620:13d:f000::/40 max 48 as 14157; # arin
   route 2001:470:95::/48 max 48 as 14160; # arin
   route 2800:1d0::/32 max 32 as 14187; # lacnic
+  route 2804:3a50::/32 max 48 as 14204; # lacnic
   route 2600:7d00::/28 max 28 as 14224; # arin
   route 2001:470:b8::/48 max 48 as 14228; # arin
   route 2800:2b0::/32 max 32 as 14232; # lacnic
@@ -38832,6 +38834,23 @@ protocol static roas6 {
   route 2804:5018::/32 max 48 as 268369; # lacnic
   route 2804:5060::/32 max 34 as 268385; # lacnic
   route 2804:5094::/32 max 32 as 268397; # lacnic
+  route 2804:50e8::/32 max 32 as 268418; # lacnic
+  route 2804:50e8::/36 max 36 as 268418; # lacnic
+  route 2804:50e8:1000::/36 max 36 as 268418; # lacnic
+  route 2804:50e8:2000::/36 max 36 as 268418; # lacnic
+  route 2804:50e8:3000::/36 max 36 as 268418; # lacnic
+  route 2804:50e8:4000::/36 max 36 as 268418; # lacnic
+  route 2804:50e8:5000::/36 max 36 as 268418; # lacnic
+  route 2804:50e8:6000::/36 max 36 as 268418; # lacnic
+  route 2804:50e8:7000::/36 max 36 as 268418; # lacnic
+  route 2804:50e8:8000::/36 max 36 as 268418; # lacnic
+  route 2804:50e8:9000::/36 max 36 as 268418; # lacnic
+  route 2804:50e8:a000::/36 max 36 as 268418; # lacnic
+  route 2804:50e8:b000::/36 max 36 as 268418; # lacnic
+  route 2804:50e8:c000::/36 max 36 as 268418; # lacnic
+  route 2804:50e8:d000::/36 max 36 as 268418; # lacnic
+  route 2804:50e8:e000::/36 max 36 as 268418; # lacnic
+  route 2804:50e8:f000::/36 max 36 as 268418; # lacnic
   route 2804:5100::/32 max 64 as 268424; # lacnic
   route 2804:5108::/32 max 32 as 268426; # lacnic
   route 2804:5118::/32 max 32 as 268430; # lacnic
