@@ -18877,7 +18877,6 @@ roa table roa {
   roa 2a00:a9c0::/32 max 32 as 43494; # ripe
   roa 2001:4860:4805::/48 max 48 as 43515; # arin
   roa 2620:11a:a000::/40 max 40 as 43515; # arin
-  roa 2001:470:38::/48 max 48 as 43531; # arin
   roa 2a02:27f0::/32 max 48 as 43531; # ripe
   roa 2a0a:1540::/29 max 29 as 43532; # ripe
   roa 2a00:1ed0::/32 max 32 as 43541; # ripe
