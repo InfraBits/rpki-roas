@@ -29150,6 +29150,14 @@ protocol static roas6 {
   route 2404:ca40::/32 max 32 as 134944; # apnic
   route 2401:52c0::/32 max 32 as 134968; # apnic
   route 2407:7380::/32 max 32 as 134970; # apnic
+  route 2407:7380::/36 max 36 as 134970; # apnic
+  route 2407:7380:1000::/36 max 36 as 134970; # apnic
+  route 2407:7380:2000::/36 max 36 as 134970; # apnic
+  route 2407:7380:3000::/36 max 36 as 134970; # apnic
+  route 2407:7380:4000::/36 max 36 as 134970; # apnic
+  route 2407:7380:5000::/36 max 36 as 134970; # apnic
+  route 2407:7380:6000::/36 max 36 as 134970; # apnic
+  route 2407:7380:7000::/36 max 36 as 134970; # apnic
   route 2401:7940::/32 max 36 as 134971; # apnic
   route 2001:df0:1600::/48 max 48 as 134980; # apnic
   route 2406:3d40::/32 max 32 as 134980; # apnic
