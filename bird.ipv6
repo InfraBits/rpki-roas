@@ -188,7 +188,6 @@ roa table roa {
   roa 2001:418:149d::/48 max 48 as 93; # arin
   roa 2001:504:b::/48 max 64 as 101; # arin
   roa 2001:1860::/32 max 48 as 101; # arin
-  roa 2610:168:f00::/40 max 48 as 101; # arin
   roa 2001:760::/32 max 32 as 137; # ripe
   roa 2602:fec5:1::/48 max 48 as 174; # arin
   roa 2606:3840::/32 max 48 as 174; # arin
