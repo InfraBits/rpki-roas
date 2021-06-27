@@ -22706,7 +22706,6 @@ protocol static roas6 {
   route 2a0f:9400:fa0::/44 max 45 as 53356; # ripe
   route 2a0f:9400:fb0::/44 max 44 as 53356; # ripe
   route 2a0f:9400:7350::/44 max 48 as 53356; # ripe
-  route 2a0f:9400:7700::/40 max 48 as 53356; # ripe
   route 2a0f:9400:770a::/48 max 48 as 53356; # ripe
   route 2a0f:9400:770c::/48 max 48 as 53356; # ripe
   route 2a0f:9400:771a::/48 max 48 as 53356; # ripe
