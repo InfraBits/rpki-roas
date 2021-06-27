@@ -29158,6 +29158,9 @@ protocol static roas6 {
   route 2407:7380:5000::/36 max 36 as 134970; # apnic
   route 2407:7380:6000::/36 max 36 as 134970; # apnic
   route 2407:7380:7000::/36 max 36 as 134970; # apnic
+  route 2407:7380:8000::/36 max 36 as 134970; # apnic
+  route 2407:7380:9000::/36 max 36 as 134970; # apnic
+  route 2407:7380:a000::/36 max 36 as 134970; # apnic
   route 2401:7940::/32 max 36 as 134971; # apnic
   route 2001:df0:1600::/48 max 48 as 134980; # apnic
   route 2406:3d40::/32 max 32 as 134980; # apnic
