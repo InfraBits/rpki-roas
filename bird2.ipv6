@@ -16998,6 +16998,7 @@ protocol static roas6 {
   route 2001:4878:4003::/48 max 48 as 35994; # arin
   route 2001:4878:4055::/48 max 48 as 35994; # arin
   route 2001:4878:41e0::/44 max 44 as 35994; # arin
+  route 2001:4878:81e0::/44 max 44 as 35994; # arin
   route 2600:1401:7::/48 max 48 as 35994; # arin
   route 2600:1402:3::/48 max 48 as 35994; # arin
   route 2600:1402:15::/48 max 48 as 35994; # arin
