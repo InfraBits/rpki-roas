@@ -5784,6 +5784,14 @@ protocol static roas6 {
   route 2001:4878:8008::/48 max 48 as 12222; # arin
   route 2001:4878:8010::/48 max 48 as 12222; # arin
   route 2001:4878:8027::/48 max 48 as 12222; # arin
+  route 2001:4878:8031::/48 max 48 as 12222; # arin
+  route 2001:4878:8037::/48 max 48 as 12222; # arin
+  route 2001:4878:8038::/48 max 48 as 12222; # arin
+  route 2001:4878:8048::/48 max 48 as 12222; # arin
+  route 2001:4878:8062::/48 max 48 as 12222; # arin
+  route 2001:4878:8063::/48 max 48 as 12222; # arin
+  route 2001:4878:8102::/48 max 48 as 12222; # arin
+  route 2001:4878:8136::/48 max 48 as 12222; # arin
   route 2001:470:2b::/48 max 48 as 12266; # arin
   route 2001:470:68::/48 max 48 as 12266; # arin
   route 2001:470:be::/48 max 48 as 12266; # arin
