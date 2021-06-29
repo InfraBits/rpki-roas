@@ -12670,7 +12670,31 @@ protocol static roas6 {
   route 2a0f:6a40::/29 max 128 as 29329; # ripe
   route 2a01:190:15e8::/48 max 48 as 29330; # ripe
   route 2a02:501::/32 max 32 as 29345; # ripe
+  route 2a00:1850:2a1::/48 max 48 as 29357; # ripe
+  route 2a00:1850:2e1::/48 max 48 as 29357; # ripe
+  route 2a00:1850:2e2::/48 max 48 as 29357; # ripe
+  route 2a00:1850:2e3::/48 max 48 as 29357; # ripe
+  route 2a00:1850:2e4::/48 max 48 as 29357; # ripe
+  route 2a00:1850:2e6::/48 max 48 as 29357; # ripe
+  route 2a00:1850:2e7::/48 max 48 as 29357; # ripe
+  route 2a00:1850:2e8::/48 max 48 as 29357; # ripe
+  route 2a00:1850:2ea::/48 max 48 as 29357; # ripe
+  route 2a00:1850:6a1::/48 max 48 as 29357; # ripe
+  route 2a00:1850:6e1::/48 max 48 as 29357; # ripe
+  route 2a00:1850:6e2::/48 max 48 as 29357; # ripe
+  route 2a00:1850:6e3::/48 max 48 as 29357; # ripe
+  route 2a00:1850:6e4::/48 max 48 as 29357; # ripe
+  route 2a00:1850:6e5::/48 max 48 as 29357; # ripe
+  route 2a00:1850:6e6::/48 max 48 as 29357; # ripe
+  route 2a00:1850:6ea::/48 max 48 as 29357; # ripe
   route 2a00:1851::/48 max 48 as 29357; # ripe
+  route 2a00:1851:1::/48 max 48 as 29357; # ripe
+  route 2a00:1851:2::/48 max 48 as 29357; # ripe
+  route 2a00:1851:3::/48 max 48 as 29357; # ripe
+  route 2a00:1851:4::/48 max 48 as 29357; # ripe
+  route 2a00:1851:5::/48 max 48 as 29357; # ripe
+  route 2a00:1851:6::/48 max 48 as 29357; # ripe
+  route 2a00:1851:7::/48 max 48 as 29357; # ripe
   route 2a00:1851:8::/48 max 48 as 29357; # ripe
   route 2a00:1851:9::/48 max 48 as 29357; # ripe
   route 2a00:1851:a::/48 max 48 as 29357; # ripe
@@ -12679,6 +12703,36 @@ protocol static roas6 {
   route 2a00:1851:d::/48 max 48 as 29357; # ripe
   route 2a00:1851:e::/48 max 48 as 29357; # ripe
   route 2a00:1851:f::/48 max 48 as 29357; # ripe
+  route 2a00:1851:10::/48 max 48 as 29357; # ripe
+  route 2a00:1851:11::/48 max 48 as 29357; # ripe
+  route 2a00:1851:12::/48 max 48 as 29357; # ripe
+  route 2a00:1851:13::/48 max 48 as 29357; # ripe
+  route 2a00:1851:14::/48 max 48 as 29357; # ripe
+  route 2a00:1851:15::/48 max 48 as 29357; # ripe
+  route 2a00:1851:16::/48 max 48 as 29357; # ripe
+  route 2a00:1851:3e20::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8000::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8001::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8002::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8003::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8004::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8005::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8006::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8007::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8008::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8009::/48 max 48 as 29357; # ripe
+  route 2a00:1851:800a::/48 max 48 as 29357; # ripe
+  route 2a00:1851:800b::/48 max 48 as 29357; # ripe
+  route 2a00:1851:800c::/48 max 48 as 29357; # ripe
+  route 2a00:1851:800d::/48 max 48 as 29357; # ripe
+  route 2a00:1851:800e::/48 max 48 as 29357; # ripe
+  route 2a00:1851:800f::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8010::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8011::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8012::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8013::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8014::/48 max 48 as 29357; # ripe
+  route 2a00:1851:8015::/48 max 48 as 29357; # ripe
   route 2a00:1851:8016::/48 max 48 as 29357; # ripe
   route 2a00:1851:bf03::/48 max 48 as 29357; # ripe
   route 2a01:5620::/29 max 48 as 29396; # ripe
