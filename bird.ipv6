@@ -4600,20 +4600,6 @@ roa table roa {
   roa 2403:fc00:30::/44 max 44 as 9482; # apnic
   roa 2403:fc00:40::/44 max 44 as 9482; # apnic
   roa 2407:6400::/32 max 48 as 9484; # apnic
-  roa 2407:6400::/56 max 56 as 9484; # apnic
-  roa 2407:6400:0:100::/56 max 56 as 9484; # apnic
-  roa 2407:6400:0:200::/56 max 56 as 9484; # apnic
-  roa 2407:6400:0:300::/56 max 56 as 9484; # apnic
-  roa 2407:6400:0:400::/56 max 56 as 9484; # apnic
-  roa 2407:6400:0:500::/56 max 56 as 9484; # apnic
-  roa 2407:6400:0:600::/56 max 56 as 9484; # apnic
-  roa 2407:6400:400::/56 max 56 as 9484; # apnic
-  roa 2407:6400:400:100::/56 max 56 as 9484; # apnic
-  roa 2407:6400:400:200::/56 max 56 as 9484; # apnic
-  roa 2407:6400:400:300::/56 max 56 as 9484; # apnic
-  roa 2407:6400:400:400::/56 max 56 as 9484; # apnic
-  roa 2407:6400:400:500::/56 max 56 as 9484; # apnic
-  roa 2407:6400:400:600::/56 max 56 as 9484; # apnic
   roa 2405:b800::/32 max 32 as 9497; # apnic
   roa 2001:4400::/30 max 30 as 9500; # apnic
   roa 2407:7000::/32 max 32 as 9500; # apnic
