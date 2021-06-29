@@ -1606,6 +1606,7 @@ roa table roa {
   roa 2403:ac80:b::/48 max 48 as 4785; # apnic
   roa 2403:ac80:c::/48 max 48 as 4785; # apnic
   roa 2403:ac80:d::/48 max 48 as 4785; # apnic
+  roa 2403:ac80:88::/48 max 48 as 4785; # apnic
   roa 2602:fd6f:1::/48 max 48 as 4785; # arin
   roa 2a06:5040:5::/48 max 48 as 4785; # ripe
   roa 2a06:5040:10::/48 max 48 as 4785; # ripe
