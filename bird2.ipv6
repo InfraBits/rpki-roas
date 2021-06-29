@@ -3334,6 +3334,7 @@ protocol static roas6 {
   route 2620:8d:4000::/48 max 48 as 7954; # arin
   route 2001:470:bb::/48 max 48 as 8003; # arin
   route 2001:470:11a::/48 max 48 as 8003; # arin
+  route 2610:180::/32 max 32 as 8014; # arin
   route 2607:fae0::/36 max 36 as 8038; # arin
   route 2607:fae0:2000::/36 max 36 as 8038; # arin
   route 2607:fae0:3000::/36 max 36 as 8038; # arin
