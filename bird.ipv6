@@ -22792,8 +22792,10 @@ roa table roa {
   roa 2602:fed2:ff3::/48 max 48 as 53356; # arin
   roa 2602:fed2:ff4::/48 max 48 as 53356; # arin
   roa 2602:fed2:7102::/48 max 48 as 53356; # arin
+  roa 2602:fed2:710a::/48 max 48 as 53356; # arin
   roa 2602:fed2:710d::/48 max 48 as 53356; # arin
   roa 2602:fed2:7113::/48 max 48 as 53356; # arin
+  roa 2602:fed2:7114::/48 max 48 as 53356; # arin
   roa 2602:fed2:7116::/48 max 48 as 53356; # arin
   roa 2602:fed2:7118::/48 max 48 as 53356; # arin
   roa 2602:fed2:711c::/48 max 48 as 53356; # arin
@@ -22807,9 +22809,11 @@ roa table roa {
   roa 2602:fed2:7305::/48 max 48 as 53356; # arin
   roa 2602:fed2:7307::/48 max 48 as 53356; # arin
   roa 2602:fed2:730a::/48 max 48 as 53356; # arin
+  roa 2602:fed2:730b::/48 max 48 as 53356; # arin
   roa 2602:fed2:730c::/48 max 48 as 53356; # arin
   roa 2602:fed2:730f::/48 max 48 as 53356; # arin
   roa 2602:fed2:7310::/48 max 48 as 53356; # arin
+  roa 2602:fed2:7311::/48 max 48 as 53356; # arin
   roa 2602:fed2:7313::/48 max 48 as 53356; # arin
   roa 2602:fed2:7314::/48 max 48 as 53356; # arin
   roa 2602:fed2:7315::/48 max 48 as 53356; # arin
