@@ -30745,6 +30745,7 @@ protocol static roas6 {
   route 2405:2500:65::/48 max 48 as 136565; # apnic
   route 2405:2500:5::/48 max 48 as 136566; # apnic
   route 2405:2500:11::/48 max 48 as 136566; # apnic
+  route 2401:20c0::/32 max 35 as 136573; # apnic
   route 2402:fb40::/32 max 32 as 136603; # apnic
   route 2401:31c0::/32 max 32 as 136608; # apnic
   route 2001:67c:17fc::/48 max 48 as 136620; # ripe
