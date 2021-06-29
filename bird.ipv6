@@ -17846,6 +17846,8 @@ roa table roa {
   roa 2a0b:bc7::/32 max 64 as 39122; # ripe
   roa 2a0d:1f00::/29 max 29 as 39122; # ripe
   roa 2a02:2100::/32 max 32 as 39134; # ripe
+  roa 2001:678:f8c::/48 max 48 as 39138; # ripe
+  roa 2001:678:f90::/48 max 48 as 39138; # ripe
   roa 2001:67c:194::/48 max 48 as 39138; # ripe
   roa 2a01:a700::/29 max 48 as 39138; # ripe
   roa 2a0a:dc07::/32 max 32 as 39142; # ripe
