@@ -22858,10 +22858,8 @@ protocol static roas6 {
   route 2602:fed2:ff3::/48 max 48 as 53356; # arin
   route 2602:fed2:ff4::/48 max 48 as 53356; # arin
   route 2602:fed2:7102::/48 max 48 as 53356; # arin
-  route 2602:fed2:710a::/48 max 48 as 53356; # arin
   route 2602:fed2:710d::/48 max 48 as 53356; # arin
   route 2602:fed2:7113::/48 max 48 as 53356; # arin
-  route 2602:fed2:7114::/48 max 48 as 53356; # arin
   route 2602:fed2:7116::/48 max 48 as 53356; # arin
   route 2602:fed2:7118::/48 max 48 as 53356; # arin
   route 2602:fed2:711c::/48 max 48 as 53356; # arin
@@ -22875,7 +22873,6 @@ protocol static roas6 {
   route 2602:fed2:7305::/48 max 48 as 53356; # arin
   route 2602:fed2:7307::/48 max 48 as 53356; # arin
   route 2602:fed2:730a::/48 max 48 as 53356; # arin
-  route 2602:fed2:730b::/48 max 48 as 53356; # arin
   route 2602:fed2:730c::/48 max 48 as 53356; # arin
   route 2602:fed2:730f::/48 max 48 as 53356; # arin
   route 2602:fed2:7310::/48 max 48 as 53356; # arin
@@ -39623,6 +39620,7 @@ protocol static roas6 {
   route 2803:3210::/32 max 32 as 271913; # lacnic
   route 2803:4a10::/32 max 32 as 271916; # lacnic
   route 2801:1d:e800::/48 max 48 as 271918; # lacnic
+  route 2803:ad60::/32 max 32 as 271920; # lacnic
   route 2803:87c0::/32 max 48 as 271923; # lacnic
   route 2c0f:f6d0::/32 max 32 as 327687; # afrinic
   route 2c0f:f6d0::/32 max 48 as 327687; # afrinic
