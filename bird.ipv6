@@ -5921,6 +5921,7 @@ roa table roa {
   roa 2a01:e01::/32 max 32 as 12322; # ripe
   roa 2a01:e02::/32 max 32 as 12322; # ripe
   roa 2a04:440::/32 max 32 as 12324; # ripe
+  roa 2001:7d8::/32 max 32 as 12329; # ripe
   roa 2a00:1840::/32 max 32 as 12333; # ripe
   roa 2001:67c:1933::/48 max 48 as 12337; # ripe
   roa 2001:780::/32 max 48 as 12337; # ripe
