@@ -26033,6 +26033,7 @@ roa table roa {
   roa 2a02:4f60::/32 max 32 as 60198; # ripe
   roa 2a00:6900:10::/48 max 48 as 60199; # ripe
   roa 2a00:61a0::/32 max 32 as 60205; # ripe
+  roa 2a00:61a1::/32 max 32 as 60205; # ripe
   roa 2001:67c:18d0::/48 max 48 as 60216; # ripe
   roa 2001:67c:1bc0::/48 max 48 as 60216; # ripe
   roa 2a00:1728:a::/48 max 48 as 60230; # ripe
