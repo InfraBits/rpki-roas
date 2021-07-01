@@ -12616,7 +12616,8 @@ roa table roa {
   roa 2001:67c:308::/48 max 48 as 29066; # ripe
   roa 2001:1520::/32 max 48 as 29066; # ripe
   roa 2001:4d08::/32 max 48 as 29066; # ripe
-  roa 2406:f380::/32 max 48 as 29066; # apnic
+  roa 2406:f380::/32 max 32 as 29066; # apnic
+  roa 2406:f380:1::/48 max 48 as 29066; # apnic
   roa 2604:bc80::/32 max 48 as 29066; # arin
   roa 2607:f208:d000::/43 max 43 as 29066; # arin
   roa 2607:f208:df00::/48 max 48 as 29066; # arin
