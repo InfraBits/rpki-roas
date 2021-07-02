@@ -22933,7 +22933,6 @@ protocol static roas6 {
   route 2a0f:9400:fa0::/44 max 45 as 53356; # ripe
   route 2a0f:9400:fb0::/44 max 44 as 53356; # ripe
   route 2a0f:9400:7350::/44 max 48 as 53356; # ripe
-  route 2a0f:9400:770a::/48 max 48 as 53356; # ripe
   route 2a0f:9400:770c::/48 max 48 as 53356; # ripe
   route 2a0f:9400:771a::/48 max 48 as 53356; # ripe
   route 2a0f:9400:771b::/48 max 48 as 53356; # ripe
@@ -23090,10 +23089,37 @@ protocol static roas6 {
   route 2607:fb30::/32 max 48 as 55293; # arin
   route 2406:2940::/32 max 32 as 55342; # apnic
   route 2401:c300::/32 max 32 as 55353; # apnic
+  route 2406:9c40::/36 max 36 as 55366; # apnic
+  route 2406:9c40:1000::/48 max 48 as 55366; # apnic
   route 2406:9c40:1001::/48 max 48 as 55366; # apnic
+  route 2406:9c40:1002::/47 max 47 as 55366; # apnic
+  route 2406:9c40:1004::/46 max 46 as 55366; # apnic
+  route 2406:9c40:1008::/45 max 45 as 55366; # apnic
+  route 2406:9c40:1010::/44 max 44 as 55366; # apnic
+  route 2406:9c40:1020::/43 max 43 as 55366; # apnic
+  route 2406:9c40:1040::/42 max 42 as 55366; # apnic
+  route 2406:9c40:1080::/41 max 41 as 55366; # apnic
   route 2406:9c40:1100::/40 max 40 as 55366; # apnic
   route 2406:9c40:1200::/40 max 40 as 55366; # apnic
+  route 2406:9c40:1300::/40 max 40 as 55366; # apnic
+  route 2406:9c40:1400::/38 max 38 as 55366; # apnic
+  route 2406:9c40:1800::/37 max 37 as 55366; # apnic
+  route 2406:9c40:2000::/48 max 48 as 55366; # apnic
   route 2406:9c40:2001::/48 max 48 as 55366; # apnic
+  route 2406:9c40:2002::/47 max 47 as 55366; # apnic
+  route 2406:9c40:2004::/46 max 46 as 55366; # apnic
+  route 2406:9c40:2008::/45 max 45 as 55366; # apnic
+  route 2406:9c40:2010::/44 max 44 as 55366; # apnic
+  route 2406:9c40:2020::/43 max 43 as 55366; # apnic
+  route 2406:9c40:2040::/42 max 42 as 55366; # apnic
+  route 2406:9c40:2080::/41 max 41 as 55366; # apnic
+  route 2406:9c40:2100::/40 max 40 as 55366; # apnic
+  route 2406:9c40:2200::/39 max 39 as 55366; # apnic
+  route 2406:9c40:2400::/38 max 38 as 55366; # apnic
+  route 2406:9c40:2800::/37 max 37 as 55366; # apnic
+  route 2406:9c40:3000::/36 max 36 as 55366; # apnic
+  route 2406:9c40:4000::/34 max 34 as 55366; # apnic
+  route 2406:9c40:8000::/33 max 33 as 55366; # apnic
   route 2404:8e00::/32 max 128 as 55391; # apnic
   route 2409:10::/28 max 128 as 55391; # apnic
   route 2404:8e01::/32 max 128 as 55392; # apnic
