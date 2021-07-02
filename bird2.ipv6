@@ -17560,6 +17560,7 @@ protocol static roas6 {
   route 2406:9dc0:1000::/44 max 48 as 38173; # apnic
   route 2406:9dc0:6660::/44 max 48 as 38173; # apnic
   route 2602:feda:be0::/44 max 48 as 38173; # arin
+  route 2a0f:9400:8022::/48 max 48 as 38173; # ripe
   route 2405:1400::/34 max 34 as 38176; # apnic
   route 2405:1400:4000::/34 max 34 as 38176; # apnic
   route 2405:1400:8000::/34 max 34 as 38176; # apnic
