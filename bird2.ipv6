@@ -38099,6 +38099,13 @@ protocol static roas6 {
   route 2804:f90::/32 max 36 as 263592; # lacnic
   route 2804:fb4::/32 max 48 as 263599; # lacnic
   route 2804:1010::/32 max 36 as 263617; # lacnic
+  route 2804:1044::/32 max 32 as 263627; # lacnic
+  route 2804:1044::/33 max 33 as 263627; # lacnic
+  route 2804:1044::/34 max 34 as 263627; # lacnic
+  route 2804:1044:4000::/34 max 34 as 263627; # lacnic
+  route 2804:1044:8000::/33 max 33 as 263627; # lacnic
+  route 2804:1044:8000::/34 max 34 as 263627; # lacnic
+  route 2804:1044:c000::/34 max 34 as 263627; # lacnic
   route 2804:10c8::/32 max 48 as 263649; # lacnic
   route 2804:10fc::/32 max 48 as 263656; # lacnic
   route 2804:1128::/32 max 32 as 263661; # lacnic
@@ -39552,7 +39559,7 @@ protocol static roas6 {
   route 2804:6e68::/32 max 34 as 270595; # lacnic
   route 2804:6e8c::/32 max 48 as 270604; # lacnic
   route 2804:6e9c::/32 max 32 as 270608; # lacnic
-  route 2804:6f54::/32 max 34 as 270653; # lacnic
+  route 2804:6eb4::/32 max 32 as 270614; # lacnic
   route 2804:6f84::/32 max 34 as 270665; # lacnic
   route 2804:6fc8::/32 max 48 as 270684; # lacnic
   route 2804:7044::/32 max 48 as 270716; # lacnic
@@ -39585,6 +39592,7 @@ protocol static roas6 {
   route 2804:74dc::/32 max 36 as 271008; # lacnic
   route 2804:74e4::/32 max 32 as 271010; # lacnic
   route 2804:74f4::/32 max 48 as 271014; # lacnic
+  route 2804:7508::/32 max 32 as 271019; # lacnic
   route 2804:7528::/32 max 34 as 271027; # lacnic
   route 2804:7560::/32 max 48 as 271042; # lacnic
   route 2804:7564::/32 max 64 as 271043; # lacnic
