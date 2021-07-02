@@ -36195,8 +36195,12 @@ protocol static roas6 {
   route 2406:840:f990::/44 max 48 as 208618; # apnic
   route 2a0e:aa06:470::/44 max 48 as 208618; # ripe
   route 2a0e:1bc0::/35 max 35 as 208621; # ripe
+  route 2a0e:1bc0:2000::/35 max 35 as 208621; # ripe
+  route 2a0e:1bc0:4000::/35 max 35 as 208621; # ripe
+  route 2a0e:1bc0:6000::/35 max 35 as 208621; # ripe
   route 2a0e:1bc1::/35 max 35 as 208621; # ripe
   route 2a0e:1bc4::/35 max 35 as 208621; # ripe
+  route 2a0e:1bc5::/35 max 35 as 208621; # ripe
   route 2a0e:1bc7::/35 max 35 as 208621; # ripe
   route 2a0e:fd45:c00::/40 max 48 as 208624; # ripe
   route 2a0e:f42::/32 max 48 as 208627; # ripe
