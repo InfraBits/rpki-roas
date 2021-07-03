@@ -36950,6 +36950,22 @@ roa table roa {
   roa 2a0e:97c0:330::/48 max 48 as 211481; # ripe
   roa 2a0e:b107:1420::/44 max 48 as 211481; # ripe
   roa 2a0e:b107:1430::/44 max 48 as 211481; # ripe
+  roa 2a0e:b107:1460::/48 max 48 as 211481; # ripe
+  roa 2a0e:b107:1461::/48 max 48 as 211481; # ripe
+  roa 2a0e:b107:1462::/48 max 48 as 211481; # ripe
+  roa 2a0e:b107:1463::/48 max 48 as 211481; # ripe
+  roa 2a0e:b107:1464::/48 max 48 as 211481; # ripe
+  roa 2a0e:b107:1465::/48 max 48 as 211481; # ripe
+  roa 2a0e:b107:1466::/48 max 48 as 211481; # ripe
+  roa 2a0e:b107:1467::/48 max 48 as 211481; # ripe
+  roa 2a0e:b107:1468::/48 max 48 as 211481; # ripe
+  roa 2a0e:b107:1469::/48 max 48 as 211481; # ripe
+  roa 2a0e:b107:146a::/48 max 48 as 211481; # ripe
+  roa 2a0e:b107:146b::/48 max 48 as 211481; # ripe
+  roa 2a0e:b107:146c::/48 max 48 as 211481; # ripe
+  roa 2a0e:b107:146d::/48 max 48 as 211481; # ripe
+  roa 2a0e:b107:146e::/48 max 48 as 211481; # ripe
+  roa 2a0e:b107:146f::/48 max 48 as 211481; # ripe
   roa 2a0f:9400:770a::/48 max 48 as 211481; # ripe
   roa 2a0e:97c0:360::/44 max 48 as 211484; # ripe
   roa 2a0e:97c0:360::/48 max 48 as 211484; # ripe
