@@ -27276,6 +27276,7 @@ protocol static roas6 {
   route 2605:2a40::/32 max 48 as 62809; # arin
   route 2605:2a40::/32 max 64 as 62809; # arin
   route 2605:8c40::/32 max 32 as 62809; # arin
+  route 2605:8c40::/32 max 64 as 62809; # arin
   route 2606:4bc0::/32 max 64 as 62814; # arin
   route 2620:52:4000::/48 max 48 as 62830; # arin
   route 2620:57:4000::/40 max 48 as 62831; # arin
