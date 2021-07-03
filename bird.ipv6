@@ -27272,6 +27272,7 @@ roa table roa {
   roa 2001:470:136::/48 max 48 as 62805; # arin
   roa 2604:e8c0::/32 max 48 as 62805; # arin
   roa 2605:2a40::/32 max 48 as 62809; # arin
+  roa 2605:2a40::/32 max 64 as 62809; # arin
   roa 2605:8c40::/32 max 32 as 62809; # arin
   roa 2606:4bc0::/32 max 64 as 62814; # arin
   roa 2620:52:4000::/48 max 48 as 62830; # arin
