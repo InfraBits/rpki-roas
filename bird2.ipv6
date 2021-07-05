@@ -36317,11 +36317,6 @@ protocol static roas6 {
   route 2a0c:ab07:3000::/36 max 36 as 208861; # ripe
   route 2a0c:ab07:c000::/36 max 36 as 208861; # ripe
   route 2a0d:60c1::/32 max 32 as 208861; # ripe
-  route 2a0d:6640::/32 max 32 as 208861; # ripe
-  route 2a0d:6641::/32 max 32 as 208861; # ripe
-  route 2a0d:6642::/32 max 32 as 208861; # ripe
-  route 2a0d:6643::/32 max 32 as 208861; # ripe
-  route 2a0d:6644::/32 max 32 as 208861; # ripe
   route 2a0d:6c40::/29 max 29 as 208861; # ripe
   route 2a0d:6cc0::/29 max 29 as 208861; # ripe
   route 2a0d:71c0::/29 max 29 as 208861; # ripe
