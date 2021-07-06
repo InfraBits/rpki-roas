@@ -17518,6 +17518,7 @@ roa table roa {
   roa 2c0f:f988::/32 max 64 as 37353; # afrinic
   roa 2001:43f8:390::/48 max 48 as 37383; # afrinic
   roa 2001:43f8:a80::/48 max 48 as 37384; # afrinic
+  roa 2001:43f8:1180::/48 max 48 as 37394; # afrinic
   roa 2c0f:faf8::/32 max 64 as 37403; # afrinic
   roa 2001:43f8:180::/48 max 48 as 37420; # afrinic
   roa 2804:3674::/32 max 48 as 37468; # lacnic

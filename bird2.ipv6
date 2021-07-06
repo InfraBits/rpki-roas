@@ -17520,6 +17520,7 @@ protocol static roas6 {
   route 2c0f:f988::/32 max 64 as 37353; # afrinic
   route 2001:43f8:390::/48 max 48 as 37383; # afrinic
   route 2001:43f8:a80::/48 max 48 as 37384; # afrinic
+  route 2001:43f8:1180::/48 max 48 as 37394; # afrinic
   route 2c0f:faf8::/32 max 64 as 37403; # afrinic
   route 2001:43f8:180::/48 max 48 as 37420; # afrinic
   route 2804:3674::/32 max 48 as 37468; # lacnic
