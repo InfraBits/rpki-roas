@@ -3133,6 +3133,7 @@ protocol static roas6 {
   route 2001:559:62::/48 max 48 as 7725; # arin
   route 2001:559:64::/48 max 48 as 7725; # arin
   route 2001:559:72::/48 max 48 as 7725; # arin
+  route 2001:559:79::/48 max 48 as 7725; # arin
   route 2001:559:90::/48 max 48 as 7725; # arin
   route 2001:559:fe::/48 max 48 as 7725; # arin
   route 2001:559:ff::/48 max 48 as 7725; # arin
@@ -3333,6 +3334,7 @@ protocol static roas6 {
   route 2620:16d:e000::/36 max 36 as 7862; # arin
   route 2620:16d:f000::/36 max 36 as 7862; # arin
   route 2602:fd78::/36 max 48 as 7883; # arin
+  route 2001:558::/29 max 29 as 7922; # arin
   route 2001:55c::/30 max 30 as 7922; # arin
   route 2601::/20 max 20 as 7922; # arin
   route 2603:2000::/20 max 20 as 7922; # arin
