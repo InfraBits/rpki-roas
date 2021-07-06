@@ -8089,6 +8089,7 @@ roa table roa {
   roa 2602:808:a000::/44 max 48 as 16509; # arin
   roa 2602:80a:2001::/48 max 48 as 16509; # arin
   roa 2602:80a:2002::/48 max 48 as 16509; # arin
+  roa 2602:fc5b::/36 max 36 as 16509; # arin
   roa 2602:fc7d:f2::/48 max 48 as 16509; # arin
   roa 2602:fcbc::/48 max 48 as 16509; # arin
   roa 2602:fcbc:2::/48 max 48 as 16509; # arin
@@ -13793,6 +13794,7 @@ roa table roa {
   roa 2a04:840:10::/44 max 44 as 33182; # ripe
   roa 2602:fd23::/36 max 48 as 33185; # arin
   roa 2602:fd78:ff9::/48 max 48 as 33185; # arin
+  roa 2620:10:a000::/48 max 64 as 33194; # arin
   roa 2602:fd2f:10::/44 max 44 as 33229; # arin
   roa 2606:6100::/32 max 32 as 33262; # arin
   roa 2001:558:20::/44 max 44 as 33287; # arin
