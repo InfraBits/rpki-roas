@@ -12587,6 +12587,18 @@ protocol static roas6 {
   route 2a07:cb82::/32 max 32 as 28878; # ripe
   route 2a07:cb84::/32 max 32 as 28878; # ripe
   route 2a00:1fa2:8000::/33 max 33 as 28884; # ripe
+  route 2001:1670::/32 max 32 as 28885; # ripe
+  route 2001:1670:0:500::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:5::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:c::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:d::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:e::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:f::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:10::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:13::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:14::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:15::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:16::/64 max 64 as 28885; # ripe
   route 2001:1670:1:17::/64 max 64 as 28885; # ripe
   route 2001:1670:1:18::/64 max 64 as 28885; # ripe
   route 2001:1670:1:1b::/64 max 64 as 28885; # ripe
@@ -12594,6 +12606,108 @@ protocol static roas6 {
   route 2001:1670:1:1d::/64 max 64 as 28885; # ripe
   route 2001:1670:1:1e::/64 max 64 as 28885; # ripe
   route 2001:1670:1:1f::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:20::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:21::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:22::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:23::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:24::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:25::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:26::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:27::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:28::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:29::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:2a::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:4e::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:4f::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:50::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:51::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:54::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:55::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:56::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:57::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:58::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:59::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:5c::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:5d::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:60::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:61::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:62::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:63::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:64::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:65::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:66::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:67::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:68::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:69::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:6a::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:6b::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:6f::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:70::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:71::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:72::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:73::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:74::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:75::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:76::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:77::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:78::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:79::/64 max 64 as 28885; # ripe
+  route 2001:1670:1:7a::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:8::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:9::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:b::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:c::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:d::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:e::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:10::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:11::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:16::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:17::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:18::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:1c::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:1f::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:20::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:21::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:22::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:24::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:25::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:26::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:27::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:28::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:29::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:2b::/64 max 64 as 28885; # ripe
+  route 2001:1670:2:2e::/64 max 64 as 28885; # ripe
+  route 2001:1670:6:2::/64 max 64 as 28885; # ripe
+  route 2001:1670:6:5::/64 max 64 as 28885; # ripe
+  route 2001:1670:6:144::/64 max 64 as 28885; # ripe
+  route 2001:1670:6:1c0::/64 max 64 as 28885; # ripe
+  route 2001:1670:6:268::/64 max 64 as 28885; # ripe
+  route 2001:1670:6:2c0::/64 max 64 as 28885; # ripe
+  route 2001:1670:8::/50 max 50 as 28885; # ripe
+  route 2001:1670:8:4000::/50 max 50 as 28885; # ripe
+  route 2001:1670:8:8000::/50 max 50 as 28885; # ripe
+  route 2001:1670:8:c000::/50 max 50 as 28885; # ripe
+  route 2001:1670:b::/64 max 64 as 28885; # ripe
+  route 2001:1670:c::/50 max 50 as 28885; # ripe
+  route 2001:1670:c:4000::/50 max 50 as 28885; # ripe
+  route 2001:1670:c:8000::/50 max 50 as 28885; # ripe
+  route 2001:1670:c:c000::/50 max 50 as 28885; # ripe
+  route 2001:1670:d::/50 max 50 as 28885; # ripe
+  route 2001:1670:d:4000::/50 max 50 as 28885; # ripe
+  route 2001:1670:d:8000::/50 max 50 as 28885; # ripe
+  route 2001:1670:d:c000::/50 max 50 as 28885; # ripe
+  route 2001:1670:f::/50 max 50 as 28885; # ripe
+  route 2001:1670:f:4000::/50 max 50 as 28885; # ripe
+  route 2001:1670:f:8000::/50 max 50 as 28885; # ripe
+  route 2001:1670:f:c000::/50 max 50 as 28885; # ripe
+  route 2001:1670:41::/64 max 64 as 28885; # ripe
+  route 2001:1670:42::/56 max 56 as 28885; # ripe
+  route 2001:1670:42:100::/56 max 56 as 28885; # ripe
+  route 2001:1670:42:200::/56 max 56 as 28885; # ripe
+  route 2001:1670:42:300::/56 max 56 as 28885; # ripe
+  route 2001:1670:1000::/64 max 64 as 28885; # ripe
+  route 2001:1670:1100::/64 max 64 as 28885; # ripe
+  route 2001:1670:1200::/64 max 64 as 28885; # ripe
   route 2a02:2880::/32 max 32 as 28886; # ripe
   route 2a00:eb40::/32 max 32 as 28889; # ripe
   route 2a02:2278::/32 max 48 as 28907; # ripe
