@@ -41148,6 +41148,7 @@ protocol static roas6 {
   route 2604:f440:1::/48 max 48 as 397423; # arin
   route 2604:f440:3::/48 max 48 as 397423; # arin
   route 2604:f440:4::/48 max 48 as 397423; # arin
+  route 2604:f440:5::/48 max 48 as 397423; # arin
   route 2604:f440:7::/48 max 48 as 397423; # arin
   route 2605:6c80:9::/48 max 48 as 397423; # arin
   route 2605:6c80:d::/48 max 48 as 397423; # arin
