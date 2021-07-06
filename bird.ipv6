@@ -9607,6 +9607,36 @@ roa table roa {
   roa 2001:470:2e::/48 max 48 as 18865; # arin
   roa 2607:d880::/32 max 32 as 18875; # arin
   roa 2607::/32 max 48 as 19016; # arin
+  roa 2001:559:0:2::/64 max 64 as 19047; # arin
+  roa 2001:559:0:3::/64 max 64 as 19047; # arin
+  roa 2001:559:0:4::/64 max 64 as 19047; # arin
+  roa 2001:559:0:5::/64 max 64 as 19047; # arin
+  roa 2001:559:0:7::/64 max 64 as 19047; # arin
+  roa 2001:559:0:d::/64 max 64 as 19047; # arin
+  roa 2001:559:0:e::/64 max 64 as 19047; # arin
+  roa 2001:559:0:f::/64 max 64 as 19047; # arin
+  roa 2001:559:0:10::/64 max 64 as 19047; # arin
+  roa 2001:559:0:12::/64 max 64 as 19047; # arin
+  roa 2001:559:0:13::/64 max 64 as 19047; # arin
+  roa 2001:559:0:14::/64 max 64 as 19047; # arin
+  roa 2001:559:0:15::/64 max 64 as 19047; # arin
+  roa 2001:559:0:17::/64 max 64 as 19047; # arin
+  roa 2001:559:0:1a::/64 max 64 as 19047; # arin
+  roa 2001:559:0:1d::/64 max 64 as 19047; # arin
+  roa 2001:559:0:2c::/64 max 64 as 19047; # arin
+  roa 2001:559:0:2f::/64 max 64 as 19047; # arin
+  roa 2001:559:0:37::/64 max 64 as 19047; # arin
+  roa 2001:559:0:43::/64 max 64 as 19047; # arin
+  roa 2001:559:0:46::/64 max 64 as 19047; # arin
+  roa 2001:559:0:47::/64 max 64 as 19047; # arin
+  roa 2001:559:0:4c::/64 max 64 as 19047; # arin
+  roa 2001:559:0:53::/64 max 64 as 19047; # arin
+  roa 2001:559:0:5e::/64 max 64 as 19047; # arin
+  roa 2001:559:0:67::/64 max 64 as 19047; # arin
+  roa 2001:559:0:6d::/64 max 64 as 19047; # arin
+  roa 2001:559:0:88::/64 max 64 as 19047; # arin
+  roa 2001:559:0:8c::/64 max 64 as 19047; # arin
+  roa 2001:559:0:8e::/64 max 64 as 19047; # arin
   roa 2001:fb0:109f:10::/64 max 64 as 19047; # apnic
   roa 2001:fb0:109f:8006::/64 max 64 as 19047; # apnic
   roa 2001:470:ef::/48 max 48 as 19054; # arin
