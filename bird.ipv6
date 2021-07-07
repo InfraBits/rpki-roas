@@ -26673,6 +26673,7 @@ roa table roa {
   roa 2606:18c0:3::/48 max 48 as 61317; # arin
   roa 2606:18c0:c::/48 max 48 as 61317; # arin
   roa 2606:18c0:d::/48 max 48 as 61317; # arin
+  roa 2606:18c0:e::/48 max 48 as 61317; # arin
   roa 2803:80::/32 max 64 as 61317; # lacnic
   roa 2803:7f20::/32 max 48 as 61317; # lacnic
   roa 2a00:d1a0::/32 max 64 as 61317; # ripe
