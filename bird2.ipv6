@@ -23093,26 +23093,6 @@ protocol static roas6 {
   route 2a0c:b642:1a0c::/48 max 48 as 53356; # ripe
   route 2a0e:b607:a6c9::/48 max 48 as 53356; # ripe
   route 2a0e:fd45:40ff::/48 max 48 as 53356; # ripe
-  route 2a0f:9400:5::/48 max 48 as 53356; # ripe
-  route 2a0f:9400:200::/48 max 48 as 53356; # ripe
-  route 2a0f:9400:fa0::/44 max 45 as 53356; # ripe
-  route 2a0f:9400:fb0::/44 max 44 as 53356; # ripe
-  route 2a0f:9400:7350::/44 max 48 as 53356; # ripe
-  route 2a0f:9400:770c::/48 max 48 as 53356; # ripe
-  route 2a0f:9400:771a::/48 max 48 as 53356; # ripe
-  route 2a0f:9400:771b::/48 max 48 as 53356; # ripe
-  route 2a0f:9400:771d::/48 max 48 as 53356; # ripe
-  route 2a0f:9400:7800::/40 max 48 as 53356; # ripe
-  route 2a0f:9400:7c00::/40 max 40 as 53356; # ripe
-  route 2a0f:9400:8002::/48 max 48 as 53356; # ripe
-  route 2a0f:9400:8021::/48 max 48 as 53356; # ripe
-  route 2a0f:9400:8024::/48 max 48 as 53356; # ripe
-  route 2a0f:9400:8025::/48 max 48 as 53356; # ripe
-  route 2a0f:9400:8027::/48 max 48 as 53356; # ripe
-  route 2a0f:9400:802b::/48 max 48 as 53356; # ripe
-  route 2a0f:9400:802d::/48 max 48 as 53356; # ripe
-  route 2a0f:9401::/32 max 32 as 53356; # ripe
-  route 2a0f:9404::/32 max 32 as 53356; # ripe
   route 2a0f:db80:ee37::/48 max 48 as 53356; # ripe
   route 2a0f:db85:388a::/48 max 48 as 53356; # ripe
   route 2a10:4102:f1ff::/48 max 48 as 53356; # ripe
@@ -36971,6 +36951,20 @@ protocol static roas6 {
   route 2a0f:607:1400::/44 max 48 as 211132; # ripe
   route 2a05:4140:500::/40 max 48 as 211138; # ripe
   route 2a0c:b641:160::/44 max 48 as 211139; # ripe
+  route 2a0f:9400:7000::/40 max 48 as 211144; # ripe
+  route 2a0f:9400:7000::/48 max 48 as 211144; # ripe
+  route 2a0f:9400:7001::/48 max 48 as 211144; # ripe
+  route 2a0f:9400:7002::/48 max 48 as 211144; # ripe
+  route 2a0f:9400:7003::/48 max 48 as 211144; # ripe
+  route 2a0f:9400:7004::/48 max 48 as 211144; # ripe
+  route 2a0f:9400:7005::/48 max 48 as 211144; # ripe
+  route 2a0f:9400:7007::/48 max 48 as 211144; # ripe
+  route 2a0f:9400:7008::/48 max 48 as 211144; # ripe
+  route 2a0f:9400:700a::/48 max 48 as 211144; # ripe
+  route 2a0f:9400:700b::/48 max 48 as 211144; # ripe
+  route 2a0f:9400:700c::/48 max 48 as 211144; # ripe
+  route 2a0f:9400:700e::/48 max 48 as 211144; # ripe
+  route 2a0f:9400:700f::/48 max 48 as 211144; # ripe
   route 2a0e:ec0::/29 max 48 as 211147; # ripe
   route 2a0e:8f02:f034::/48 max 48 as 211153; # ripe
   route 2a0e:aa07:e021::/48 max 48 as 211158; # ripe
