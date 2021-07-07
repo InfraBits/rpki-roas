@@ -18009,6 +18009,7 @@ protocol static roas6 {
   route 2001:df7:e800::/48 max 48 as 38830; # apnic
   route 2406:d7c0::/32 max 48 as 38839; # apnic
   route 2400:b380::/32 max 32 as 38843; # apnic
+  route 2407:a0c0::/32 max 32 as 38846; # apnic
   route 2407:9a40::/32 max 32 as 38853; # apnic
   route 2406:d040::/32 max 64 as 38856; # apnic
   route 2406:3000:4::/48 max 48 as 38861; # apnic
