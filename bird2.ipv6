@@ -41293,6 +41293,7 @@ protocol static roas6 {
   route 2a02:7080:1000::/48 max 48 as 398826; # ripe
   route 2620:138:3000::/40 max 48 as 398849; # arin
   route 2a0e:bbc0:8000::/40 max 48 as 398849; # ripe
+  route 2605:fec0::/32 max 32 as 398852; # arin
   route 2602:fcfc:1::/48 max 48 as 398868; # arin
   route 2602:fcfc:100::/48 max 48 as 398868; # arin
   route 2001:470:2f::/48 max 48 as 398872; # arin
