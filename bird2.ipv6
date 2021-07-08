@@ -4201,6 +4201,10 @@ protocol static roas6 {
   route 2a00:fb8:3200::/40 max 40 as 8881; # ripe
   route 2a00:fb8:3300::/40 max 40 as 8881; # ripe
   route 2a00:fb8:3400::/40 max 40 as 8881; # ripe
+  route 2a00:fb8:3500::/40 max 40 as 8881; # ripe
+  route 2a00:fb8:3600::/40 max 40 as 8881; # ripe
+  route 2a00:fb8:3700::/40 max 40 as 8881; # ripe
+  route 2a00:fb8:3800::/40 max 40 as 8881; # ripe
   route 2a00:fb8:4000::/35 max 35 as 8881; # ripe
   route 2a00:fb8:6000::/35 max 35 as 8881; # ripe
   route 2a02:45c0:6::/48 max 48 as 8881; # ripe
