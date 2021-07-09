@@ -8523,6 +8523,7 @@ protocol static roas6 {
   route 2001:df0:411::/48 max 48 as 17439; # apnic
   route 2001:df0:3a00::/48 max 48 as 17439; # apnic
   route 2001:df0:6e80::/48 max 48 as 17439; # apnic
+  route 2001:df2:f980::/48 max 48 as 17439; # apnic
   route 2001:df4:3500::/48 max 48 as 17439; # apnic
   route 2400:ffc0::/47 max 48 as 17439; # apnic
   route 2400:ffc0:13c::/47 max 48 as 17439; # apnic
