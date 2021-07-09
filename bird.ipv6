@@ -9684,6 +9684,7 @@ roa table roa {
   roa 2600:6c7f:93e0::/44 max 44 as 19115; # arin
   roa 2603:90fb::/44 max 44 as 19115; # arin
   roa 2603:90fb:20::/44 max 44 as 19115; # arin
+  roa 2603:90fb:30::/44 max 44 as 19115; # arin
   roa 2603:90fb:40::/44 max 44 as 19115; # arin
   roa 2603:90fc:20::/44 max 44 as 19115; # arin
   roa 2607:f098::/32 max 32 as 19115; # arin
