@@ -19104,6 +19104,9 @@ protocol static roas6 {
   route 2a01:6500::/32 max 32 as 42925; # ripe
   route 2a01:6500:3::/48 max 48 as 42925; # ripe
   route 2a01:6500:a040::/46 max 46 as 42925; # ripe
+  route 2a01:6500:a044::/46 max 46 as 42925; # ripe
+  route 2a01:6500:a048::/46 max 46 as 42925; # ripe
+  route 2a01:6500:a050::/46 max 46 as 42925; # ripe
   route 2a01:6501::/32 max 32 as 42925; # ripe
   route 2a01:6502::/32 max 32 as 42925; # ripe
   route 2a01:6503::/32 max 32 as 42925; # ripe
