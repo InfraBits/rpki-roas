@@ -10142,6 +10142,7 @@ protocol static roas6 {
   route 2403:9340::/32 max 32 as 20473; # apnic
   route 2403:a2c0::/32 max 48 as 20473; # apnic
   route 2406:48c0::/32 max 32 as 20473; # apnic
+  route 2602:fc5d::/36 max 36 as 20473; # arin
   route 2602:fd10:20::/44 max 48 as 20473; # arin
   route 2602:fd10:ccc::/48 max 48 as 20473; # arin
   route 2602:fd75::/36 max 48 as 20473; # arin
