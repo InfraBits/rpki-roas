@@ -29080,7 +29080,6 @@ protocol static roas6 {
   route 2401:d00::/32 max 32 as 133466; # apnic
   route 2401:d00::/36 max 36 as 133466; # apnic
   route 2407:5680::/32 max 32 as 133476; # apnic
-  route 2a0c:f200::/29 max 29 as 133476; # ripe
   route 2400:fa80::/32 max 32 as 133480; # apnic
   route 2400:fa80:1::/48 max 48 as 133480; # apnic
   route 2400:fa80:4::/48 max 48 as 133480; # apnic
