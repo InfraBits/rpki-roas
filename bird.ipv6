@@ -9748,6 +9748,7 @@ roa table roa {
   roa 2801:0:4d0::/48 max 48 as 19582; # lacnic
   roa 2803:8300::/32 max 32 as 19582; # lacnic
   roa 2803:8300::/32 max 48 as 19582; # lacnic
+  roa 2602:fc59::/40 max 48 as 19625; # arin
   roa 2605:1640::/32 max 32 as 19681; # arin
   roa 2620:136:4000::/44 max 48 as 19694; # arin
   roa 2001:559:80bb::/48 max 48 as 19704; # arin
