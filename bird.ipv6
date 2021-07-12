@@ -24245,6 +24245,7 @@ roa table roa {
   roa 2a0b:33c0:114::/48 max 48 as 57395; # ripe
   roa 2a0b:33c0:116::/48 max 48 as 57395; # ripe
   roa 2a0b:33c0:117::/48 max 48 as 57395; # ripe
+  roa 2a11:9400::/32 max 32 as 57395; # ripe
   roa 2403:7f40:e001::/48 max 64 as 57401; # apnic
   roa 2602:fcf6:100::/48 max 48 as 57401; # arin
   roa 2a0c:e640:1000::/44 max 48 as 57401; # ripe
