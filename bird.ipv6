@@ -26798,6 +26798,7 @@ roa table roa {
   roa 2a10:ca00:3::/48 max 48 as 61317; # ripe
   roa 2a10:ca00:4::/48 max 48 as 61317; # ripe
   roa 2a11:2800:1::/48 max 48 as 61317; # ripe
+  roa 2a11:2800:3::/48 max 48 as 61317; # ripe
   roa 2c0f:ee78:8002::/48 max 48 as 61317; # afrinic
   roa 2c0f:f738:2004::/48 max 48 as 61317; # afrinic
   roa 2c0f:f738:2100::/41 max 48 as 61317; # afrinic
