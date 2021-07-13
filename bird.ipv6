@@ -24796,6 +24796,7 @@ roa table roa {
   roa 2400:5380:8000::/33 max 33 as 58910; # apnic
   roa 2406:f100::/32 max 32 as 58923; # apnic
   roa 2407:7900:1000::/40 max 40 as 58955; # apnic
+  roa 2407:9c40::/32 max 32 as 58955; # apnic
   roa 2405:e5c0::/32 max 32 as 58971; # apnic
   roa 2406:c940::/32 max 32 as 58972; # apnic
   roa 2001:df7:6000::/48 max 48 as 58976; # apnic
