@@ -11993,6 +11993,7 @@ roa table roa {
   roa 2001:678:f::/48 max 64 as 25192; # ripe
   roa 2001:678:10::/47 max 64 as 25192; # ripe
   roa 2001:1488::/32 max 64 as 25192; # ripe
+  roa 2a03:1c80::/32 max 32 as 25222; # ripe
   roa 2a02:4a8::/32 max 32 as 25234; # ripe
   roa 2a02:a40::/32 max 32 as 25248; # ripe
   roa 2a02:f784:20::/48 max 48 as 25252; # ripe
@@ -31595,6 +31596,20 @@ roa table roa {
   roa 2001:df5:cf00::/48 max 48 as 137964; # apnic
   roa 2001:df5:cf00::/52 max 52 as 137964; # apnic
   roa 2001:df5:cf00:1000::/52 max 52 as 137964; # apnic
+  roa 2001:df5:cf00:2000::/52 max 52 as 137964; # apnic
+  roa 2001:df5:cf00:3000::/52 max 52 as 137964; # apnic
+  roa 2001:df5:cf00:4000::/52 max 52 as 137964; # apnic
+  roa 2001:df5:cf00:5000::/52 max 52 as 137964; # apnic
+  roa 2001:df5:cf00:6000::/52 max 52 as 137964; # apnic
+  roa 2001:df5:cf00:7000::/52 max 52 as 137964; # apnic
+  roa 2001:df5:cf00:8000::/52 max 52 as 137964; # apnic
+  roa 2001:df5:cf00:9000::/52 max 52 as 137964; # apnic
+  roa 2001:df5:cf00:a000::/52 max 52 as 137964; # apnic
+  roa 2001:df5:cf00:b000::/52 max 52 as 137964; # apnic
+  roa 2001:df5:cf00:c000::/52 max 52 as 137964; # apnic
+  roa 2001:df5:cf00:d000::/52 max 52 as 137964; # apnic
+  roa 2001:df5:cf00:e000::/52 max 52 as 137964; # apnic
+  roa 2001:df5:cf00:f000::/52 max 52 as 137964; # apnic
   roa 2403:1e40::/32 max 36 as 137967; # apnic
   roa 2403:3fc0::/32 max 36 as 137974; # apnic
   roa 2405:db40::/32 max 32 as 137987; # apnic
