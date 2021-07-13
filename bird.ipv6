@@ -37070,6 +37070,7 @@ roa table roa {
   roa 2a0d:3dc0::/29 max 29 as 210312; # ripe
   roa 2a0c:f780::/29 max 29 as 210321; # ripe
   roa 2a0b:b87:ffee::/48 max 48 as 210323; # ripe
+  roa 2a0e:97c0:490::/44 max 48 as 211044; # ripe
   roa 2a11:3400::/29 max 48 as 211055; # ripe
   roa 2a0e:b104:100::/44 max 48 as 211063; # ripe
   roa 2a0e:b104:100::/45 max 48 as 211063; # ripe
